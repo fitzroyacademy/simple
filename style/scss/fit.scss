@@ -1,0 +1,125 @@
+/* STYLE */
+
+$fff: #fff;
+
+$bg: #f5f7f8;
+$bg_grey: #f7f7f7;
+$bg_light: #f7f9fa;
+$bg_dark: #f1f4f5;
+$bg_blue: #ebf0f1;
+
+$bg_green: #e3f5b6;
+$bg_blue_md: #b6d8f2;
+
+$brand: #464749;
+$brand_light: #666a71;
+$brand_dark: #1c1f20;
+
+$blue: #2793f8;
+$blue_light: #378ff2;
+$blue_alt: #139ddd;
+
+$blue_dark: #0a6da2;
+$red: #e8151f;
+$green: #65ae48;
+$pink: #F42069;
+$fuscia: #e90bd7;
+$yellow: #f4b115;
+$aqua: #66b3b7;
+$aqua_80: rgba(102, 179, 183, .8);
+$aqua_50: rgba(102, 179, 183, .5);
+$black_50: rgba(0, 0, 0, .5);
+$black_80: rgba(0, 0, 0, .8);
+
+// $watermelon: #f21e55;
+
+$watermelon: #f21e55;
+$watermelon_light: #f73c6d;
+$watermelon_lighter: #fa7fa0;
+$watermelon_dark: #c7003c;
+$watermelon_darker: #a90033;
+$watermelon_vibrant: #e6033e;
+
+
+
+$text: #4f5153;
+$text_medium: #666c6f;
+$text_light: #717b81;
+$text_lightish: #8f989d;
+$text_lighter: #b0b4b7;
+$text_lightest: #d2d7da;
+
+$text_subtle: #b0b4b7;
+
+$border_light: #e1e4e5;
+$border_lighter: #eff1f1;
+$border_lightest: #f4f6f6;
+
+
+$border_medium: #d5d8d9;
+$border_dark: #c6cbcc;
+
+$google_red: #ea4335;
+$google_slide_yellow: #f6b424;
+$google_drawing_red: #dc4438;
+
+$pdf_red: #ff2016;
+$facebook_blue: #3b5998;
+$youtube_red: #ff0000;
+
+$white_fade: rgba(255,255,255,0.9);
+
+$box_shadow: rgba(82,63,105,0.1);
+$box_shadow_blue: rgba(8,53,99,0.2);
+
+
+// ------------------------------------------------------------------------------------
+// New palette?
+
+$new_cyan: #16b7ff;
+$new_teal: #08c9c2;
+$new_purple: #7f3eff;
+$new_pink: #ff0bba;
+$new_red: #f72555;
+$new_bergundy: #ae0e26;
+$new_apricot: #fcab05;
+$new_navy: #1927e4;
+$new_green: #16ba54;
+$new_blue: #2774f8;
+$new_watermelon: #f82a5f;
+$new_maroon: #7f0909;
+
+// pale and stale yo
+$old_blue: #0f7ff4;
+$old_blue_light: #21adf5;
+
+
+// ------------------------------------------------------------------------------------
+// colours!
+
+.black:not(.btn){color:$brand !important;}
+.cyan:not(.btn){color:$new_cyan !important;}
+.teal:not(.btn){color:$new_teal !important;}
+.purple:not(.btn){color:$new_purple !important;}
+.pink:not(.btn){color:$new_pink !important;}
+.red:not(.btn){color:$new_red !important;}
+.bergundy:not(.btn){color:$new_bergundy !important;}
+.apricot:not(.btn){color:$new_apricot !important;}
+.navy:not(.btn){color:$new_navy !important;}
+.green:not(.btn){color:$new_green !important;}
+.blue:not(.btn){color:$new_blue !important;}
+.watermelon:not(.btn){color:$new_watermelon !important;}
+.maroon:not(.btn){color:$new_maroon !important;}
+
+// -----------------------------------------------------------------------------------------
+
+// Google fonts
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,600,900');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+
+body{font-family: "Lato", Arial, san-serif;}
+
+h1, h2, h3{font-weight: 900;}
+
+
+

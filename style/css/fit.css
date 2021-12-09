@@ -1,0 +1,64 @@
+/* STYLE */
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,600,900");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap");
+.black:not(.btn) {
+  color: #464749 !important;
+}
+
+.cyan:not(.btn) {
+  color: #16b7ff !important;
+}
+
+.teal:not(.btn) {
+  color: #08c9c2 !important;
+}
+
+.purple:not(.btn) {
+  color: #7f3eff !important;
+}
+
+.pink:not(.btn) {
+  color: #ff0bba !important;
+}
+
+.red:not(.btn) {
+  color: #f72555 !important;
+}
+
+.bergundy:not(.btn) {
+  color: #ae0e26 !important;
+}
+
+.apricot:not(.btn) {
+  color: #fcab05 !important;
+}
+
+.navy:not(.btn) {
+  color: #1927e4 !important;
+}
+
+.green:not(.btn) {
+  color: #16ba54 !important;
+}
+
+.blue:not(.btn) {
+  color: #2774f8 !important;
+}
+
+.watermelon:not(.btn) {
+  color: #f82a5f !important;
+}
+
+.maroon:not(.btn) {
+  color: #7f0909 !important;
+}
+
+body {
+  font-family: "Lato", Arial, san-serif;
+}
+
+h1, h2, h3 {
+  font-weight: 900;
+}
+
+/*# sourceMappingURL=fit.css.map */
