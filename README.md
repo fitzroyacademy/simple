@@ -23,7 +23,7 @@ Now SCSS:
 
 * Make sure MAMP is running
 * open the main folder in terminal
-* `sass --watch style/scss/fit.scss style/css/fit.css` to make SCSS compile
+* `sass --watch assets/scss/fit.scss assets/css/fit.css` to make SCSS compile
 * `git pull` to get the latest codez
 * edit things!
 
