@@ -6,8 +6,10 @@ This is a simple version of putting our things on the internet yet. Code like it
 
 ## Installing:
 
-* Download MAMP: https://www.mamp.info/en/windows/
-* Grab the files with `git clone git@github.com:fitzroyacademy/simple.git`
+* Download MAMP: https://www.mamp.info
+* Install and run MAMP (not MAMP pro!)
+* Set ports to 80 + 3306
+* Grab the files from Github with `git clone git@github.com:fitzroyacademy/simple.git`
 * Set MAMP's settings to look at the above github directory
 * Turn MAMP on!
 
