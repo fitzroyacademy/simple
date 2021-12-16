@@ -28,11 +28,11 @@ Now SCSS:
 * edit things!
 
 
-## Sending code to the internet
+## Sending code to the internet as you work
 
 * `git status` to see what git thinks you've done
-* `git add .` to 'add' your changes
+* `git add .` to 'add' your changed code
 * `git commit -m "your message goes here"` to explain the mess you've made
-* `git pull` to get the latest from the server
-* If you get an error here we'll have to merge! Talk to Will
+* `git pull` to get the latest from the server before sending your own
+* If you get an error here we'll have to merge! Talk to Will.
 * `git push` to send your code to the internets
