@@ -122,8 +122,13 @@ body{font-family: "Lato", Arial, san-serif;}
 h1, h2, h3{font-weight: 900;}
 
 
+h1{font-size: 48px; color: $text_lighter;}
+h1 a{text-decoration: none; color: $brand;}
 
-body{color:$brand; background: $bg;}
+
+
+body{color:$brand; background: $bg; padding: 15px 0;}
+
 
 
 
@@ -133,7 +138,29 @@ body{color:$brand; background: $bg;}
 .container{max-width: 1024px; margin: 0 auto;}
 
 .segments{border:1px solid #ccc; border-radius: 10px; padding: 10px 20px; margin: 15px 0; background: #fff;}
-.segments .segment{border-radius: 10px; padding: 10px; margin: 10px;}
+.segments .segment{border-radius: 10px; padding: 20px 10px; margin: 10px; border-bottom: 1px solid $border_light;}
+.segments .segment:last-child{border-bottom: 0;}
 .segments .segment iframe{width: 100%;}
 
 
+.segments .segment h2 {padding-bottom: 10px;}
+.segments .segment h2 .no{color: $text_lighter; background: $bg; border-radius: 3px; margin-right: 10px; width: 50px; text-align: center; display: inline-block;}
+.segments .segment h2 .no i{font-size: 80%;}
+
+
+
+.segments .segment > * {display: none;}
+.segments .segment h2 {display: block;}
+
+// -----------------------------------------------------------------------------------------
+// Introduction
+.intro{border:1px solid #ccc; border-radius: 10px; padding: 10px 20px; margin: 15px 0; background: #fff;}
+
+// -----------------------------------------------------------------------------------------
+// Resources
+.resources{background: $bg; padding: 15px;}
+.resources .resource{background: #fff; margin: 10px 0; border-radius: 5px; padding: 10px 15px;}
+
+
+// -----------------------------------------------------------------------------------------
+// Segments
