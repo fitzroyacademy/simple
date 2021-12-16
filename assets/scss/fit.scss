@@ -140,7 +140,7 @@ body{color:$brand; background: $bg; padding: 15px 0;}
 .segments{border:1px solid #ccc; border-radius: 10px; padding: 10px 20px; margin: 15px 0; background: #fff;}
 .segments .segment{border-radius: 10px; padding: 20px 10px; margin: 10px; border-bottom: 1px solid $border_light;}
 .segments .segment:last-child{border-bottom: 0;}
-.segments .segment iframe{width: 100%;}
+// .segments .segment iframe{width: 100%;}
 
 
 .segments .segment h2 {padding-bottom: 10px;}
@@ -149,8 +149,8 @@ body{color:$brand; background: $bg; padding: 15px 0;}
 
 
 
-.segments .segment > * {display: none;}
-.segments .segment h2 {display: block;}
+// .segments .segment > * {display: none;}
+// .segments .segment h2 {display: block;}
 
 // -----------------------------------------------------------------------------------------
 // Introduction

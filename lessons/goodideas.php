@@ -31,7 +31,27 @@
 	<div class="segment segment_lesson">
 		<h2><span class="no">1</span> Drawing without words.</h2>
 		<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/tXUevnM5XF0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		<p>Drwaing without words is useful when you’re in a rut. Using drawings instead of words is a great way to get out of your own way and form some new ideas.</p>
+		<p>Drawing without words is useful when you’re in a rut. Using drawings instead of words is a great way to get out of your own way and form some new ideas.</p>
+		<h3>You will need:</h3>
+		<ul>
+			<li>Drawing tools of your choice e.g Tablet, pen and paper, pencil, whiteboard, chalk, post-it notes, construction paper.</li>
+			<li>A rubbish bin.</li>
+			<li>A drink of your choice, e.g. a beer, a glass of wine, a shot of whiskey, or maybe a gin and tonic.</li>
+			<li>To be alone.</li>
+		</ul>
+
+		<h3>Doing the activity:</h3>
+		<ol>
+			<li>Start drawing... anything. Stick figures or doodles are fine.</li>
+			<li>Don’t worry about it being any good. It’s just for you. Have a drink.  </li>
+			<li>Draw the problem you’re facing e.g literally, or a metaphorically.</li>
+			<li>Take a moment and just look at it. What else do you notice about the problem</li>
+			<li>Draw the end state, where you want to end up. </li>
+			<li>Draw the obstacles between you and the end state.</li>
+			<li>Draw the bridge between the two. The bridge is a possible solution. A good idea.</li>
+		</ol>
+
+
 	</div>
 	
 	<div class="segment segment_bonus">

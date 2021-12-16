@@ -101,10 +101,6 @@ body {
   border-bottom: 0;
 }
 
-.segments .segment iframe {
-  width: 100%;
-}
-
 .segments .segment h2 {
   padding-bottom: 10px;
 }
@@ -121,14 +117,6 @@ body {
 
 .segments .segment h2 .no i {
   font-size: 80%;
-}
-
-.segments .segment > * {
-  display: none;
-}
-
-.segments .segment h2 {
-  display: block;
 }
 
 .intro {
