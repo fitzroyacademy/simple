@@ -74,16 +74,19 @@ body {
 .segments {
   border: 1px solid #ccc;
   border-radius: 10px;
-  padding: 10px;
-  margin: 10px;
+  padding: 10px 20px;
+  margin: 15px 0;
   background: #fff;
 }
 
 .segments .segment {
-  border: 1px solid #ccc;
   border-radius: 10px;
   padding: 10px;
   margin: 10px;
+}
+
+.segments .segment iframe {
+  width: 100%;
 }
 
 /*# sourceMappingURL=fit.css.map */
