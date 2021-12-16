@@ -2,7 +2,7 @@
 
 <h1>Lean</h1>
 
-<p>This lessson is about X and will help you to Y</p>
+<p>This lessson is about lean methodology and will help you to quickly sketch out a new idea for a business</p>
 
 <div class="segments">
 	
