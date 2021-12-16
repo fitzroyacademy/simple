@@ -38,4 +38,8 @@ Now SCSS:
 * `git push` to send your code to the internets
 
 
+## Fixing merges:
+
+* If you `git pull` and get a new screen showing a bunch of merge conflict stuff, hit `:qa` to quit the editor
+* Once done go ahead and `git add .` and so on
 
