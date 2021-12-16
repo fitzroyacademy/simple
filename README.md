@@ -36,3 +36,6 @@ Now SCSS:
 * `git pull` to get the latest from the server before sending your own
 * If you get an error here we'll have to merge! Talk to Will.
 * `git push` to send your code to the internets
+
+
+
