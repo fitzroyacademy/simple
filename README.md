@@ -30,6 +30,8 @@ Now SCSS:
 
 ## Sending code to the internet as you work
 
+Do it pretty stricty in this order:
+
 * `git status` to see what git thinks you've done
 * `git add .` to 'add' your changed code
 * `git commit -m "your message goes here"` to explain the mess you've made
