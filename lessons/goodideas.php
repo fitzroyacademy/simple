@@ -30,7 +30,7 @@
 
 	<div class="segment segment_lesson">
 		<h2><span class="no">1</span> Drawing without words.</h2>
-		<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/tXUevnM5XF0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<div data-youtube="tXUevnM5XF0"></div>
 		<p>Drawing without words is useful when you’re in a rut. Using drawings instead of words is a great way to get out of your own way and form some new ideas.</p>
 		<h3>You will need:</h3>
 		<ul>
@@ -50,8 +50,6 @@
 			<li>Draw the obstacles between you and the end state.</li>
 			<li>Draw the bridge between the two. The bridge is a possible solution. A good idea.</li>
 		</ol>
-
-
 	</div>
 	
 	<div class="segment segment_bonus">
@@ -86,7 +84,7 @@
 	
 	<div class="segment segment_lesson">
 		<h2><span class="no">4</span> Literal change of perspective.</h2>
-		<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/HugldewVKSk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/HugldewVKSk" title="YouTube  video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		<p>This is a nice quite activity for basically any situation. All that is required is getting out of your stuck position, and try to move to a very different position.</p>
 	</div>
 
@@ -118,11 +116,11 @@
 		<h2><span class="no"><i class="fas fa-books"></i></span> Further reading</h2>
 		<div class="resources">
 				<div class="resource">
-					<a href="https://">The Net and the Butterfly by Olivia Fox Cabane and Judah Pollack</a>
-					<p>Some book</p>
+					<a href="https://" target="_blank">The Net and the Butterfly by Olivia Fox Cabane and Judah  Pollack</a>
+					<p>Some book</p> 
 				</div>
 				<div class="resource">
-					<a href="https://">Podcast title</a>
+					<a href="https://" target="_blank">Podcast title</a>
 					<p>Some podcast</p>
 				</div>
 		</div>

@@ -45,3 +45,6 @@ Do it pretty stricty in this order:
 * If you `git pull` and get a new screen showing a bunch of merge conflict stuff, hit `:qa` to quit the editor
 * Once done go ahead and `git add .` and so on
 
+## Other things:
+
+Use `<!-- todo -->` to mark things we need to fix. (command + ? on Sublime for comments)
