@@ -7,8 +7,8 @@ $( document ).ready(function() {
 
   $(function() {
       $(".youtube").each(function() {
-
-          if ($(this).data('bg').length > 0){
+          if ($(this).data('bg'))
+          {
             $(this).css('background-image', 'url(/assets/images/' + $(this).data('bg') + ')');
           } else {
             // Based on the YouTube ID, we can easily find the thumbnail image
