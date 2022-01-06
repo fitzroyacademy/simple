@@ -130,6 +130,7 @@ h1 a{text-decoration: none; color: $brand;}
 body{color:$brand; background: $bg; padding: 15px 0;}
 
 
+$ratio_169: 56.25%;
 
 
 
@@ -166,3 +167,17 @@ body{color:$brand; background: $bg; padding: 15px 0;}
 // Segments
 
 
+
+
+// -----------------------------------------------------------------------------------------
+// Youtube!
+
+.youtube{background-size:cover; position: relative;  outline:inset 2px solid #0f0; outline-offset: -2px;}
+.youtube:after{padding-top: $ratio_169; display: block; content: '';}
+
+.youtube i{font-size: 6rem; color: #fff; position: absolute; top:50%; left: 50%; margin: -3rem 0 0 -3rem; text-shadow: 0 0 10px rgba(0,0,0,0.1); transition: all .2s ease-in-out;}
+
+// hover
+.youtube:hover{cursor: pointer;}
+.youtube:hover::after{background: rgba(0,0,0,0.01);}
+.youtube:hover i{transform: scale(1.1); text-shadow: 0 0 15px rgba(0,0,0,0.05);}

@@ -6,7 +6,9 @@
 	<title>Fitzroy Academy</title>
 	<script src="https://kit.fontawesome.com/1f45a33999.js" crossorigin="anonymous"></script>
 	<link href="/node_modules/bootstrap/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
-	<link href="/assets/css/fit.css" rel="stylesheet">
+
+	<?php $currentDate = new DateTime(); ?>
+	<link href="/assets/css/fit.css<?php echo $currentDate>format('is'); ?>" rel="stylesheet">
 </head>
 <body>
 
