@@ -1,4 +1,8 @@
-<!DOCTYPE html>
+<?php
+
+opcache_reset();
+
+?><!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
@@ -9,5 +13,3 @@
 	<link href="/assets/css/fit.css?v=<?php echo rand(); ?>" rel="stylesheet">
 </head>
 <body>
-
-<div class="container">
