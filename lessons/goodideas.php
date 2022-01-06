@@ -5,7 +5,7 @@
 
 	<h1><a href="#">How to have good ideas,</a> with Judah Pollack</h1>
 
-	<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/suKckegB48U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<div class="youtube" id="suKckegB48U"></div>
 
 	<p>A grab-bag of activities that unlock creativity, even when you're feeling uncreative.</p>
 
@@ -17,7 +17,7 @@
 
 	<div class="resources">
 		<h2>Lesson resources</h2>
-		<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/9lJK1M6tD6U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<div class="youtube" id="9lJK1M6tD6U"></div>
 		<div class="resource">
 			<i class="far fa-file-alt"></i> <a href="https://docs.google.com/document/d/1rQkOtFhmFFHzEizFJXpdvU4M1YGez5jIsXUHWpKyif4/edit?usp=sharing">Good ideas activities reference sheet</a>
 			<p>A reference sheet for you to use to help when you are running the activities that Judah leads you through yourself.</p>
@@ -30,7 +30,7 @@
 
 	<div class="segment segment_lesson">
 		<h2><span class="no">1</span> Drawing without words.</h2>
-		<div data-youtube="tXUevnM5XF0"></div>
+		<div class="youtube" id="tXUevnM5XF0"></div>
 		<p>Drawing without words is useful when you’re in a rut. Using drawings instead of words is a great way to get out of your own way and form some new ideas.</p>
 		<h3>You will need:</h3>
 		<ul>
@@ -54,13 +54,13 @@
 	
 	<div class="segment segment_bonus">
 		<h2><span class="no"><i class="fas fa-star"></i></span> Five designers in a box.</h2>
-		<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/5B5ne6eOYqI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<div class="youtube" id="5B5ne6eOYqI"></div>
 		<p>Judah tells the story of one particurally tricky design situation, and how the designers uncovered some fresh ideas using the drawing wihtout words technique.</p>
 	</div>
 
 	<div class="segment segment_lesson">
 		<h2><span class="no">2</span> Quiet / loud brainstorming.</h2>
-		<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/pjAyj3yto6A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<<div class="youtube" id="pjAyj3yto6A"></div>
 		<p>Quiet / loud brainstorming is a way to get better ideas from a group of people who need to brainstorm. The activity moves through quiet and loud phases to allow people of all sorts to particiapte more fully in the conversation.</p>
 		<h3>You will need:</h3>
 		<ul>
@@ -81,13 +81,13 @@
 
 	<div class="segment segment_bonus">
 		<h2><span class="no"><i class="fas fa-star"></i></span> Party in the woods.</h2>
-		<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/UHxruW5B7D4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<div class="youtube" id="UHxruW5B7D4"></div>
 		<p>Judah tells the story of one particurally quiet / loud brainstorming situation involving a colourful bunch of rockers in the forest.</p>
 	</div>
 
 	<div class="segment segment_lesson">
 		<h2><span class="no">3</span> Finding your awe.</h2>
-		<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/eNF94SdstCQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<div class="youtube" id="eNF94SdstCQ"></div>
 		<p>Finding your awe is a way to help recover if you're feeling burnt out, apathethic or with no energy. This activity is about reconnecting to something that gives you the experience of awe.</p>
 		<h3>You will need:</h3>
 			<ul>
@@ -103,13 +103,13 @@
 
 	<div class="segment segment_bonus">
 		<h2><span class="no"><i class="fas fa-star"></i></span> Mulago fellow.</h2>
-		<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/TPJtsDz6bbI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<div class="youtube" id="TPJtsDz6bbI"></div>
 		<p>Judah tells the story of helping a participants of the Rainer Arnhold fellowship, run by the <a href="https://www.mulagofoundation.org/">Mulago Foundation</a>.</p>
 	</div>
 	
 	<div class="segment segment_lesson">
 		<h2><span class="no">4</span> Literal change of perspective.</h2>
-		<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/HugldewVKSk" title="YouTube  video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<div class="youtube" id="HugldewVKSk"></div>
 		<p>This is a nice quite activity for basically any situation. All that is required is getting out of your stuck position, and try to move to a very different position.</p>
 		<h3>Doing the activity:</h3>
 			<ol>
@@ -122,7 +122,7 @@
 
 	<div class="segment segment_lesson">
 		<h2><span class="no">5</span> Make your own movie soundtrack.</h2>
-		<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/BGB0ymLimHk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<div class="youtube" id="BGB0ymLimHk"></div>
 		<p>This is a fun little creative activity that can help when you need some inspiration.</p>
 		<h3>You will need:</h3>
 		<ul>
@@ -140,13 +140,13 @@
 
 	<div class="segment segment_bonus">
 		<h2><span class="no"><i class="fas fa-star"></i></span> Speedriding.</h2>
-		<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/e-4ThXZKt4s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<div class="youtube" id="e-4ThXZKt4s"></div>
 		<p>Judah tells the story of using this technique while working with the US military, and how it helped a breakthrough with particularly unemotional particpants.</p>
 	</div>
 
 	<div class="segment segment_lesson">
 		<h2><span class="no">6</span> Historical mirrors.</h2>
-		<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/owJW3rvCNmw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<div class="youtube" id="owJW3rvCNmw"></div>
 		<p>This activity can be useful when your brain is stuck in the present and you can't see a way to move through a problem.</p>
 		<h3>You will need:</h3>
 		<ul>
@@ -162,8 +162,8 @@
 
 	<div class="segment segment_lesson">
 		<h2><span class="no">7</span> Sleep.</h2>
-		<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/4rHyN_ObJIk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		<p>Always useful!</p>
+		<div class="youtube" id="4rHyN_ObJIk"></div>
+		<p>Let's be honest, sleep is always a useful and important activitiy. Use this technique to help you super charge your problem solving abilities during the night.</p>
 		<h3>You will need:</h3>
 		<ul>
 			<li>Something to take notes with, e.g. Pen and paper, a voice recorder.</li>
@@ -208,7 +208,7 @@
 
 <<!-- div class="Teaching guide">
 	<h2>Teaching guide</h2>
-	<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/B8mqcC6Z-b8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<div class="youtube" id="B8mqcC6Z-b8"></div>
 	<p>If you’re a teacher who’s teaching lean, Will shares a few ideas from how we uses it with his class.</p>
 </div>
  -->
