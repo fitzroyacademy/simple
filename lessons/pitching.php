@@ -19,15 +19,18 @@
 		<h2>Lesson resources</h2>
 		<div class="youtube" id="-ywQCdFYHdk"></div>
 		<div class="resource">
-			<i class="far fa-file-alt"></i> <a href="https://docs.google.com/document/d/1gqb99aLlzAMrvCAFNnzZNE4PTCvTo-kADiJnH3W8J8E/edit?usp=sharing"> Blank Early Stage Investment template</a>
+			<i class="far fa-file-alt"></i>
+			<a href="https://docs.google.com/document/d/1gqb99aLlzAMrvCAFNnzZNE4PTCvTo-kADiJnH3W8J8E/edit?usp=sharing"> Blank Early Stage Investment template</a>
 			<p>The blank template to help you start thinking about your pitch as you work through the lesson.</p>
 		</div>
 		<div class="resource">
-			<i class="fas fa-presentation"></i><a href="https://docs.google.com/presentation/d/1-YEQiyfnI6IurqADt-eDyytiFpw43Zg-pVfzquEaoPY/edit?usp=sharing"> Blank Pitch deck template</a>
+			<i class="fas fa-presentation"></i>
+			<a href="https://docs.google.com/presentation/d/1-YEQiyfnI6IurqADt-eDyytiFpw43Zg-pVfzquEaoPY/edit?usp=sharing"> Blank Pitch deck template</a>
 			<p>The blank slide deck for you to start structuring your pitch.</p>
 		</div>
 		<div class="resource">
-			<i class="fab fa-trello"></i><a href="https://trello.com/b/XzhgPvNF/example-prospect-list-fitzroy-academy-template"> Blank Prospect list example</a>
+			<i class="fab fa-trello"></i>
+			<a href="https://trello.com/b/XzhgPvNF/example-prospect-list-fitzroy-academy-template"> Blank Prospect list example</a>
 			<p>An example of how to use an online Kanban board as a way to track your prospects.</p>
 		</div>
 	</div>

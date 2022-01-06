@@ -21,7 +21,7 @@ $( document ).ready(function() {
               var iframe = $('<iframe/>', {'frameborder': '0', 'src': iframe_url, 'width': $(this).width(), 'height': $(this).height() })
       
               // Replace the YouTube thumbnail with YouTube HTML5 Player
-              $(this).replaceWith(iframe);
+              $(this).empty().append(iframe);
           });
       });
    });

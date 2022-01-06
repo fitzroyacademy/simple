@@ -73,79 +73,123 @@ h1 a {
 
 body {
   color: #464749;
-  background: #f5f7f8;
-  padding: 15px 0;
+  padding: 0;
+  margin: 0;
 }
 
+.intro > .segment,
 .container,
 .segments {
   max-width: 1024px;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 .segments {
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  padding: 10px 20px;
-  margin: 15px 0;
-  background: #fff;
+  padding: 1rem 0;
 }
 
-.segments .segment {
-  border-radius: 10px;
-  padding: 20px 10px;
-  margin: 10px;
-  border-bottom: 1px solid #e1e4e5;
+.segment {
+  padding: 1rem 0 2rem 3rem;
+  margin: 0;
+  border-left: 6px solid #eff1f1;
+  position: relative;
 }
 
-.segments .segment:last-child {
+.segment:last-child {
   border-bottom: 0;
 }
 
-.segments .segment h2 {
-  padding-bottom: 10px;
+.segment h2 {
+  padding: 0 0 2rem;
+  margin: 0;
+  font-size: 2rem;
 }
 
-.segments .segment h2 .no {
-  color: #b0b4b7;
-  background: #f5f7f8;
-  border-radius: 3px;
-  margin-right: 10px;
-  width: 50px;
+.segment h2 .no {
+  color: #d2d7da;
+  background: #fff;
   text-align: center;
-  display: inline-block;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -2rem;
+  width: 2rem;
+  padding: 1rem;
 }
 
-.segments .segment h2 .no i {
+.segment h2 .no i {
   font-size: 80%;
 }
 
 .intro {
-  border: 1px solid #ccc;
-  border-radius: 10px;
-  padding: 10px 20px;
-  margin: 15px 0;
-  background: #fff;
+  background: #f5f7f8;
+  padding: 6rem 0 4rem;
+}
+
+.intro .segment {
+  padding-left: 20rem;
+}
+
+.intro .segment .youtube {
+  width: 15rem;
+  position: absolute;
+  top: 0;
+  left: 3rem;
+  border-radius: 0;
+  height: 20rem;
+}
+
+.intro .segment .youtube i {
+  font-size: 2rem;
+}
+
+.intro h1 {
+  font-size: 2rem;
+  color: #717b81;
+}
+
+.intro h1 a {
+  color: #464749;
 }
 
 .resources {
   background: #f5f7f8;
-  padding: 15px;
+  padding: 1rem 0;
 }
 
 .resources .resource {
   background: #fff;
-  margin: 10px 0;
-  border-radius: 5px;
-  padding: 10px 15px;
+  margin: 1rem 0;
+  border-radius: 0.1rem;
+  padding: 1rem 1.5rem 1rem 3rem;
+  position: relative;
+}
+
+.resources .resource > i {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2rem;
+  font-size: 2rem;
+  color: #b0b4b7;
+}
+
+.resources .resource > a {
+  font-size: 1.5rem;
+}
+
+.resources .resource > p {
+  font-size: 1rem;
+  color: #717b81;
 }
 
 .youtube {
   background-size: cover;
   position: relative;
-  outline: 2px solid #fff;
-  outline-offset: -2px;
-  border-radius: 10px;
+  outline: 1px solid #fff;
+  outline-offset: -1px;
+  border-radius: 0.1rem;
 }
 
 .youtube:after {
@@ -176,6 +220,14 @@ body {
 .youtube:hover i {
   transform: scale(1.1);
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+}
+
+.youtube iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 /*# sourceMappingURL=fit.css.map */

@@ -3,11 +3,11 @@
 
 <div class="intro">
 
-	<div class="container">
+	<div class="segment">
 
 		<h1><a href="#">Lean</a> with Will Dayble</h1>
 
-		<div class="youtube" id="zlJshnVorEg"></div>
+		<div class="youtube" id="zlJshnVorEg" data-bg="lessons/willvert.jpg"></div>
 
 		<p>This lessson is about lean methodology and will help you to quickly sketch out a new idea for a business</p>
 

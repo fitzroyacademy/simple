@@ -112,7 +112,14 @@ $old_blue_light: #21adf5;
 .maroon:not(.btn){color:$new_maroon !important;}
 
 // -----------------------------------------------------------------------------------------
+// Radiuseses
 
+$border_rad_sm: .1rem;
+$border_rad_md: .5rem;
+$border_rad_lg: 1rem;
+
+
+// -----------------------------------------------------------------------------------------
 // Google fonts
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,600,900');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
@@ -127,7 +134,7 @@ h1 a{text-decoration: none; color: $brand;}
 
 
 
-body{color:$brand; background: $bg; padding: 15px 0;}
+body{color:$brand; padding: 0; margin: 0;}
 
 
 $ratio_169: 56.25%;
@@ -136,32 +143,43 @@ $ratio_169: 56.25%;
 
 // -----------------------------------------------------------------------------------------
 
+.intro > .segment,
 .container,
-.segments{max-width: 1024px; margin: 0 auto;}
+.segments{max-width: 1024px; margin: 0 auto; box-sizing: border-box;}
 
-.segments{border:1px solid #ccc; border-radius: 10px; padding: 10px 20px; margin: 15px 0; background: #fff;}
-.segments .segment{border-radius: 10px; padding: 20px 10px; margin: 10px; border-bottom: 1px solid $border_light;}
-.segments .segment:last-child{border-bottom: 0;}
-// .segments .segment iframe{width: 100%;}
-
-
-.segments .segment h2 {padding-bottom: 10px;}
-.segments .segment h2 .no{color: $text_lighter; background: $bg; border-radius: 3px; margin-right: 10px; width: 50px; text-align: center; display: inline-block;}
-.segments .segment h2 .no i{font-size: 80%;}
+.segments{padding: 1rem 0;}
+.segment{padding: 1rem 0 2rem 3rem; margin: 0; border-left: 6px solid $border_lighter; position: relative;}
+.segment:last-child{border-bottom: 0;}
+// .segment iframe{width: 100%;}
 
 
+.segment h2 {padding:0 0 2rem; margin: 0; font-size: 2rem;}
+.segment h2 .no{color: $text_lightest; background: #fff; text-align: center; display: block; position: absolute; top:0; left: -2rem; width:2rem; padding: 1rem; }
+.segment h2 .no i{font-size: 80%;}
 
-// .segments .segment > * {display: none;}
-// .segments .segment h2 {display: block;}
 
 // -----------------------------------------------------------------------------------------
 // Introduction
-.intro{border:1px solid #ccc; border-radius: 10px; padding: 10px 20px; margin: 15px 0; background: #fff;}
+
+.intro{ background: $bg; padding: 6rem 0 4rem;}
+
+.intro .segment {padding-left: 20rem;}
+.intro .segment .youtube{ width: 15rem; position: absolute; top:0; left: 3rem; border-radius: 0; height: 20rem; }
+.intro .segment .youtube i{font-size: 2rem;}
+
+.intro h1{font-size: 2rem; color: $text_light;}
+.intro h1 a{color: $brand;}
+
+// .segment > * {display: none;}
+// .segment h2 {display: block;}
 
 // -----------------------------------------------------------------------------------------
 // Resources
-.resources{background: $bg; padding: 15px;}
-.resources .resource{background: #fff; margin: 10px 0; border-radius: 5px; padding: 10px 15px;}
+.resources{background: $bg; padding:1rem 0;}
+.resources .resource{background: #fff; margin: 1rem 0; border-radius: $border_rad_sm; padding: 1rem 1.5rem 1rem 3rem; position: relative;}
+.resources .resource > i{position: absolute; top:0; left: 0; width: 2rem; font-size: 2rem; color: $text_lighter;}
+.resources .resource > a{font-size: 1.5rem;}
+.resources .resource > p{font-size: 1rem; color: $text_light;}
 
 
 // -----------------------------------------------------------------------------------------
@@ -173,7 +191,7 @@ $ratio_169: 56.25%;
 // -----------------------------------------------------------------------------------------
 // Youtube!
 
-.youtube{background-size:cover; position: relative;  outline:2px solid #fff; outline-offset: -2px; border-radius: 10px;}
+.youtube{background-size:cover; position: relative;  outline:1px solid #fff; outline-offset: -1px; border-radius: $border_rad_sm;}
 .youtube:after{padding-top: $ratio_169; display: block; content: '';}
 
 .youtube i{font-size: 6rem; color: #fff; position: absolute; top:50%; left: 50%; margin: -3rem 0 0 -3rem; text-shadow: 0 0 10px rgba(0,0,0,0.1); transition: all .2s ease-in-out;}
@@ -182,3 +200,6 @@ $ratio_169: 56.25%;
 .youtube:hover{cursor: pointer;}
 .youtube:hover::after{background: rgba(0,0,0,0.01);}
 .youtube:hover i{transform: scale(1.1); text-shadow: 0 0 15px rgba(0,0,0,0.05);}
+
+// when it has an iframe
+.youtube iframe{position: absolute; top:0; left: 0; right: 0; bottom: 0;}
