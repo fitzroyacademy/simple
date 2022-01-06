@@ -19,7 +19,8 @@
 		<h2>Lesson resources</h2>
 		<div class="youtube" id="9lJK1M6tD6U"></div>
 		<div class="resource">
-			<i class="far fa-file-alt"></i> <a href="https://docs.google.com/document/d/1rQkOtFhmFFHzEizFJXpdvU4M1YGez5jIsXUHWpKyif4/edit?usp=sharing">Good ideas activities reference sheet</a>
+			<i class="far fa-file-alt"></i>
+			<a href="https://docs.google.com/document/d/1rQkOtFhmFFHzEizFJXpdvU4M1YGez5jIsXUHWpKyif4/edit?usp=sharing"> Good ideas activities reference sheet</a>
 			<p>A reference sheet for you to use to help when you are running the activities that Judah leads you through yourself.</p>
 		</div>
 	</div>
@@ -194,12 +195,9 @@
 		<h2><span class="no"><i class="fas fa-books"></i></span> Further reading</h2>
 		<div class="resources">
 				<div class="resource">
+					<i class="far fa-book"></i>
 					<a href="https://https://www.penguinrandomhouse.com/books/316054/the-net-and-the-butterfly-by-olivia-fox-cabane-and-judah-pollack/" target="_blank">The Net and the Butterfly by Olivia Fox Cabane and Judah  Pollack</a>
-					<p>Some book</p> 
-				</div>
-				<div class="resource">
-					<a href="https://" target="_blank">Podcast title</a>
-					<p>Some podcast</p>
+					<p>Read more about Judah's research into breakthrough thinking.</p> 
 				</div>
 		</div>
 
