@@ -1,3 +1,4 @@
+<?php opcache_reset();?>
 <!DOCTYPE html>
 <html>
 <head>

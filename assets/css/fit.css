@@ -142,8 +142,9 @@ body {
 .youtube {
   background-size: cover;
   position: relative;
-  outline: inset 2px solid #0f0;
+  outline: 2px solid #fff;
   outline-offset: -2px;
+  border-radius: 10px;
 }
 
 .youtube:after {
