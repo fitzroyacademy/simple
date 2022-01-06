@@ -62,6 +62,21 @@
 		<h2><span class="no">2</span> Quiet / loud brainstorming.</h2>
 		<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/pjAyj3yto6A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		<p>Quiet / loud brainstorming is a way to get better ideas from a group of people who need to brainstorm. The activity moves through quiet and loud phases to allow people of all sorts to particiapte more fully in the conversation.</p>
+		<h3>You will need:</h3>
+		<ul>
+			<li>A whiteboard and markers.</li>
+			<li>Post-it notes and pencil.</li>
+			<li>A team.</li>
+		</ul>
+		<h3>Doing the activity:</h3>
+		<ol>
+			<li>Set a clear goal for the brainstorming session.</li>
+			<li>Spend 5 minutes individually writing ideas.</li>
+			<li>Spend 2-3 minutes sharing ideas in one-on-one conversations.</li>
+			<li>Spend 2 minutes quietly reflecting on what was learned.</li>
+			<li>Spend 10-15 having group discussion.</li>
+			<li>If group discussion gets out of hand, return to quiet reflection.</li> 
+		</ol>
 	</div>
 
 	<div class="segment segment_bonus">
@@ -74,6 +89,16 @@
 		<h2><span class="no">3</span> Finding your awe.</h2>
 		<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/eNF94SdstCQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		<p>Finding your awe is a way to help recover if you're feeling burnt out, apathethic or with no energy. This activity is about reconnecting to something that gives you the experience of awe.</p>
+		<h3>You will need:</h3>
+			<ul>
+				<li>Something that makes you feel part of a larger whole.</li>
+			</ul>
+		<h3>Doing the activity:</h3>
+			<ol>
+				<li>Spend some time experiencing the feeling of awe. (At least an afternoon)</li>
+				<li>Could be going to the ocean, sitting under a tree, staring at the stars, watching an inspiring movie or nature show, talking to your mentor, reading a book that was pivotal to you...</li>
+				<li>Reflect on why you do the work you do.</li>
+			</ol>
 	</div>
 
 	<div class="segment segment_bonus">
@@ -86,37 +111,90 @@
 		<h2><span class="no">4</span> Literal change of perspective.</h2>
 		<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/HugldewVKSk" title="YouTube  video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		<p>This is a nice quite activity for basically any situation. All that is required is getting out of your stuck position, and try to move to a very different position.</p>
+		<h3>Doing the activity:</h3>
+			<ol>
+				<li>Get up from your desk.</li>
+				<li>Go somewhere unusual eg the corner of the room, sit on the floor, lie on the roof.</li>
+				<li>Take in what you’re seeing. Notice what’s different.</li>
+				<li>Take in how it feels. How the floor feels different or the corner against your back.</li>
+			</ol>
 	</div>
 
 	<div class="segment segment_lesson">
 		<h2><span class="no">5</span> Make your own movie soundtrack.</h2>
 		<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/BGB0ymLimHk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		<p>Video description</p>
+		<p>This is a fun little creative activity that can help when you need some inspiration.</p>
+		<h3>You will need:</h3>
+		<ul>
+			<li>A laptop.</li>
+			<li>The internet.</li>
+		</ul>
+		<h3>Doing the activity:</h3>
+		<ol>
+			<li>Find a movie scene you like on youtube.</li>
+			<li>Mute the video (not your computer.)</li>
+			<li>Find a song that contrasts the scene.</li>
+			<li>Watch the scene, while listening to the song.</li>
+		</ol>
 	</div>
 
 	<div class="segment segment_bonus">
 		<h2><span class="no"><i class="fas fa-star"></i></span> Speedriding.</h2>
 		<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/e-4ThXZKt4s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		<p>Video description</p>
+		<p>Judah tells the story of using this technique while working with the US military, and how it helped a breakthrough with particularly unemotional particpants.</p>
 	</div>
 
 	<div class="segment segment_lesson">
 		<h2><span class="no">6</span> Historical mirrors.</h2>
 		<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/owJW3rvCNmw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		<p>Video description</p>
+		<p>This activity can be useful when your brain is stuck in the present and you can't see a way to move through a problem.</p>
+		<h3>You will need:</h3>
+		<ul>
+			<li>The internet.</li>
+		</ul>
+		<h3>Doing the activity:</h3>
+		<ol>
+			<li>Think about the situation you’re struggling with.</li>
+			<li>Find something that could be a corollary. Are you disrupting energy? Look at a time energy sources got disrupted, like whale oil. Ending poverty? Look at a time standards of living changed dramatically, like after WWII.</li>
+			<li>Read Wikipedia.</li>
+		</ol>
 	</div>
 
 	<div class="segment segment_lesson">
 		<h2><span class="no">7</span> Sleep.</h2>
 		<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/4rHyN_ObJIk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		<p>Video description</p>
+		<p>Always useful!</p>
+		<h3>You will need:</h3>
+		<ul>
+			<li>Something to take notes with, e.g. Pen and paper, a voice recorder.</li>
+		</ul>
+		<h3>Doing the activity:</h3>
+		<p>The nap:</p>
+		<ol>
+			<li>Before napping, spend 5 minutes focused on the problem you’re trying to solve.</li>
+			<li>Set your alarm for 20 minutes.</li>
+			<li>Lie back on a couch or bean bag. Don’t get wicked comfortable.</li>
+			<li>Place you note taking device by your hand.</li>
+			<li>Nap</li>
+			<li>Write down what you dream or think about when you get up</li>
+			<li>Spend 10 minutes working out what you wrote down.</li>
+		</ol>
+		<h3>The full night’s rest:</h3>
+		<ol>
+			<li>Before going to sleep, spend 5 minutes thinking about the problem you’re trying to solve.</li>
+			<li>Place your note taking device by the bed.</li>
+			<li>When you wake up, write down whatever is in your head.</li>
+			<li>Now spend some time focusing on it.</li>
+		</ol>
+
+
 	</div>
 
 	<div class="segment further_reading">
 		<h2><span class="no"><i class="fas fa-books"></i></span> Further reading</h2>
 		<div class="resources">
 				<div class="resource">
-					<a href="https://" target="_blank">The Net and the Butterfly by Olivia Fox Cabane and Judah  Pollack</a>
+					<a href="https://https://www.penguinrandomhouse.com/books/316054/the-net-and-the-butterfly-by-olivia-fox-cabane-and-judah-pollack/" target="_blank">The Net and the Butterfly by Olivia Fox Cabane and Judah  Pollack</a>
 					<p>Some book</p> 
 				</div>
 				<div class="resource">
@@ -128,12 +206,12 @@
 	</div>
 </div>
 
-<div class="Teaching guide">
+<<!-- div class="Teaching guide">
 	<h2>Teaching guide</h2>
 	<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/B8mqcC6Z-b8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	<p>If you’re a teacher who’s teaching lean, Will shares a few ideas from how we uses it with his class.</p>
 </div>
-
+ -->
 
 
 <?php include '../assets/templates/site_footer.php';?>
