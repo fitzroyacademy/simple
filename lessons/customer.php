@@ -3,31 +3,27 @@
 
 <div class="intro">
 
-	<h1><a href="#">Agile</a> with Clare Carmody</h1>
+	<h1><a href="#">Customer discovery interviews</a> with Victoria Cullen.</h1>
 
 	<div class="youtube" id="xKhHWC7Agdk"></div>
 
-	<p>This lesson will teach you the tools and methods to make your first Agile project work.</p>
+	<p>This lesson will teach a process to build a product by interviewing customers, and conquer social anxiety.</p>
 
 	<div class="meta">
-		<p><i class="far fa-play-circle"></i> ~50 minutes over 5 videos</p>
-		<p><i class="far fa-clock"></i> About 1 hour of work to do it solo</p>
+		<p><i class="far fa-play-circle"></i> ~25 minutes over 4 videos</p>
+		<p><i class="far fa-clock"></i> About 3 hour of work to do it solo</p>
 		<p><i class="far fa-users"></i> Run it as a workshop with a small team over 2-3 hours</p>
 	</div>
 
 	<div class="resources">
 		<h2>Lesson resources</h2>
 		<div class="resource">
-			<i class="far fa-file-alt"></i><a href="https://docs.google.com/document/d/1iyllT32_EjtVH_TmtPVNp4VZ6aVfWAU0enVGwq89mBM/edit?usp=sharing">Agile rituals reference sheet.</a>
-			<p>A quick recap of the important Agile rituals, and how to run them.</p>
+			<i class="far fa-file-alt"></i><a href="https://docs.google.com/document/d/1GX1iJX7GjnkksTRbtJUzaJkFhKvBcT_OQXcKDs_M9C0/edit?usp=sharing">Customer interview template - Blank.</a>
+			<p>The blank template used by Vic in the lesson.</p>
 		</div>
 		<div class="resource">
-			<i class="fab fa-trello"></i><a href="https://trello.com/b/NTRHQ3iH/example-reuniting-refugees-website">'Reuniting refugee families' Trello board</a>
-			<p>A fictional example online kanban board showing the tasks needed to create a website for a charity helping reunite refugee families.</p>
-		</div>
-		<div class="resource">
-			<i class="fab fa-trello"></i><a href="https://trello.com/b/5kDnFFeV/example-agile-board-charity-event">'Reuniting refugee families' Trello board</a>
-			<p>A second example project using Trello, this time for planning a charity event.</p>
+			<i class="far fa-file-alt"></i><a href="https://docs.google.com/document/d/1bbtBDVyZv9EAGHPn_H0OUxjNJ-UKZRTSsXQzoFy5EM0/edit?usp=sharing">Customer interview template - Garage sale app.</a>
+			<p>Fictional example of an interview as research for a garage sale app.</p>
 		</div>
 	</div>
 
@@ -122,21 +118,30 @@
 		<div class="resources">
 				<div class="resource">
 					<i class="fas fa-browser"></i>
-					<a href="https://medium.com/@devsociety_/good-cheap-fast-pick-two-and-how-ngos-can-play-the-triangle-like-a-pro-20d1380884a8">Good/Fast/Cheap project management triangle article</a>
-					<p>An article explaining how the project management triangle works, as Clare references in ‘Scoping the project’</p>
+					<a href="http://customerdevlabs.com/">Customer Development Labs - HOW to do Lean Startup</a>
+					<p>Consistent videos and posts around the nuts n bolts of customer interviews. Has a tech focus but do not be put off the mindset can be applied to anything.</p>
 				</div>
 				<div class="resource">
 					<i class="fas fa-browser"></i>
-					<a href="https://agilemanifesto.org/principles.html">Principles behind the Agile Manifesto.</a>
-					<p>The original explanation of the principles behind Agile, from the creators of agile.</p>
+					<a href="https://www.farnamstreetblog.com/">Farnam Street — A Signal in a World Full of Noise.</a>
+					<p>A blog on Behavioural Economics and insights on how people make decisions. This isn’t directly related to just Customer Experience but I have picked up a lot of fundamental ideas around cognitive biases and mental models that have helped my interview skills.</p>
+				</div>
+				<div class="resource">
+					<i class="fas fa-browser"></i>
+					<a href="https://www.jtbd.info/">Jobs to be Done.</a>
+					<p>Another Customer Experience framework based around conceptualising your product/service being used to achieve a ‘job’. For example, someone buys a toaster to do the job of breakfast. I find this framework useful for understanding and improving existing products/services better.</p>
+				</div>
+				<div class="resource">
+					<i class="fas fa-browser"></i>
+					<a href="https://www.groovehq.com/blog/customer-development">Startup Customer Development: What I Learned Talking to 500 Customers.</a>
+					<p> I find it helpful to get case studies from people who actually did the often time consuming and emotional stretching process of customer interviewing. Here is how one founder did 500 interviews in 4 weeks. Sneaky bonus he shares the Google spreadsheet he uses to record his interview data.</p>
 				</div>
 				<div class="resource">
 					<i class="fas fa-book"></i>
-					<a href="https://www.amazon.com/Scrum-Doing-Twice-Work-Half/dp/038534645X">Scrum: The Art of Doing Twice the Work in Half the Time.</a>
-					<p>The Ultimate book guide to working Agile if you’re excited to dive deep.</p>
+					<a href="http://momtestbook.com/">The Mom Test - a book by Rob Fitzpatrick.</a>
+					<p>I love this easy to read, giggle-inducing and actionable guide by Rob Fitz. He’s learnt the hard way how to NOT do customer research and turned that into exercises.</p>
 				</div>
 		</div>
-
 	</div>
 </div>
 
