@@ -180,21 +180,23 @@ body {
 }
 
 .intro .segment {
-  padding-left: 20rem;
+  padding-left: 18rem;
   margin-bottom: 3rem;
+  min-height: 20rem;
 }
 
 .intro .segment .youtube {
-  width: 15rem;
+  width: 13rem;
   position: absolute;
   top: 0;
   left: 3rem;
   border-radius: 0;
-  height: 20rem;
+  height: 18rem;
 }
 
 .intro .segment .youtube i {
-  font-size: 2rem;
+  font-size: 2.5rem;
+  margin: -1.25rem 0 0 -1.25rem;
 }
 
 .intro h1 {
@@ -221,21 +223,18 @@ body {
   text-align: center;
 }
 
-.resources {
-  background: #f5f7f8;
-  padding: 1rem 0;
-}
-
 .resources h2 {
   padding-bottom: 0;
 }
 
 .resources .resource {
-  background: #fff;
+  background: #f7f9fa;
   margin: 0.5rem 0;
   border-radius: 0.1rem;
   padding: 1rem 1.5rem 1rem 4rem;
   position: relative;
+  display: block;
+  text-decoration: none;
 }
 
 .resources .resource > i {
@@ -247,15 +246,20 @@ body {
   color: #b0b4b7;
 }
 
-.resources .resource > a {
+.resources .resource > h4 {
   font-size: 1.2rem;
   text-decoration: none;
   color: #2793f8;
+  font-weight: normal;
 }
 
 .resources .resource > p {
   font-size: 0.8rem;
   color: #717b81;
+}
+
+.resources .resource:hover {
+  outline: 1px solid #2793f8;
 }
 
 /*# sourceMappingURL=fit.css.map */
