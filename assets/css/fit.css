@@ -77,7 +77,8 @@ body {
   padding: 15px 0;
 }
 
-.container {
+.container,
+.segments {
   max-width: 1024px;
   margin: 0 auto;
 }

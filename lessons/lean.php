@@ -3,27 +3,30 @@
 
 <div class="intro">
 
-	<h1><a href="#">Lean</a> with Will Dayble</h1>
+	<div class="container">
 
-	<div class="youtube" id="zlJshnVorEg"></div>
+		<h1><a href="#">Lean</a> with Will Dayble</h1>
 
-	<p>This lessson is about lean methodology and will help you to quickly sketch out a new idea for a business</p>
+		<div class="youtube" id="zlJshnVorEg"></div>
 
-	<div class="meta">
-		<p><i class="far fa-play-circle"></i> ~1.5 hours over 10 videos</p>
-		<p><i class="far fa-clock"></i> About 2 hours of work to do it solo</p>
-		<p><i class="far fa-users"></i> Run it as a workshop with a small team over 2-3 hours</p>
-	</div>
+		<p>This lessson is about lean methodology and will help you to quickly sketch out a new idea for a business</p>
 
-	<div class="resources">
-		<h2>Lesson resources</h2>
-		<div class="resource">
-			<a href="https://docs.google.com/document/d/1ib8g46AdyaRoUDKzZkX-MzCp5WaZTD7akfSg06m04vA/edit?usp=sharing">Lean Canvas template - Blank</a>
-			<p>Blank lean canvas template to work along with this lesson.</p>
+		<div class="meta">
+			<p><i class="far fa-play-circle"></i> ~1.5 hours over 10 videos</p>
+			<p><i class="far fa-clock"></i> About 2 hours of work to do it solo</p>
+			<p><i class="far fa-users"></i> Run it as a workshop with a small team over 2-3 hours</p>
 		</div>
-		<div class="resource">
-			<a href="https://docs.google.com/document/d/1Od27ZzdX8LTvV3gAdJ5aW40QcFV2ZIDkY2CwYsxKNaE/edit?usp=sharing">'Coffee Cart' lean canvas completed example</a>
-			<p>The completed example that Will works through in this lesson.</p>
+
+		<div class="resources">
+			<h2>Lesson resources</h2>
+			<div class="resource">
+				<a href="https://docs.google.com/document/d/1ib8g46AdyaRoUDKzZkX-MzCp5WaZTD7akfSg06m04vA/edit?usp=sharing">Lean Canvas template - Blank</a>
+				<p>Blank lean canvas template to work along with this lesson.</p>
+			</div>
+			<div class="resource">
+				<a href="https://docs.google.com/document/d/1Od27ZzdX8LTvV3gAdJ5aW40QcFV2ZIDkY2CwYsxKNaE/edit?usp=sharing">'Coffee Cart' lean canvas completed example</a>
+				<p>The completed example that Will works through in this lesson.</p>
+			</div>
 		</div>
 	</div>
 
