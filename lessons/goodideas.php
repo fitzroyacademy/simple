@@ -137,5 +137,3 @@
 
 
 <?php include '../assets/templates/site_footer.php';?>
-
-
