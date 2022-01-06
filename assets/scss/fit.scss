@@ -186,9 +186,9 @@ $ratio_169: 56.25%;
 // -----------------------------------------------------------------------------------------
 // Introduction
 
-.intro{ background: $bg; padding: 6rem 0 4rem;}
+.intro{ background: $bg; padding: 3rem 0;}
 
-.intro .segment {padding-left: 20rem;}
+.intro .segment {padding-left: 20rem; margin-bottom: 3rem;}
 .intro .segment .youtube{ width: 15rem; position: absolute; top:0; left: 3rem; border-radius: 0; height: 20rem; }
 .intro .segment .youtube i{font-size: 2rem;}
 
@@ -206,8 +206,8 @@ $ratio_169: 56.25%;
 // Resources
 .resources{background: $bg; padding:1rem 0;}
 .resources h2{padding-bottom: 0;}
-.resources .resource{background: #fff; margin: 1rem 0; border-radius: $border_rad_sm; padding: 1rem 1.5rem 1rem 3rem; position: relative;}
-.resources .resource > i{position: absolute; top:.5rem; left: .5rem; width: 2rem; font-size: 2rem; color: $text_lighter;}
+.resources .resource{background: #fff; margin: .5rem 0; border-radius: $border_rad_sm; padding: 1rem 1.5rem 1rem 4rem; position: relative;}
+.resources .resource > i{position: absolute; top:1rem; left: 1.5rem; width: 2rem; font-size: 2rem; color: $text_lighter;}
 .resources .resource > a{font-size: 1.2rem; text-decoration: none; color:$blue}
 .resources .resource > p{font-size: .8rem; color: $text_light;}
 

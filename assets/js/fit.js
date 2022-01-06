@@ -7,8 +7,13 @@ $( document ).ready(function() {
 
   $(function() {
       $(".youtube").each(function() {
-          // Based on the YouTube ID, we can easily find the thumbnail image
-          $(this).css('background-image', 'url(http://i.ytimg.com/vi/' + this.id + '/maxresdefault.jpg)');
+
+          if ($(this).data('bg').length > 0){
+            $(this).css('background-image', 'url(/assets/images/' + $(this).data('bg') + ')');
+          } else {
+            // Based on the YouTube ID, we can easily find the thumbnail image
+            $(this).css('background-image', 'url(http://i.ytimg.com/vi/' + this.id + '/maxresdefault.jpg)');
+          }
       
           // Overlay the Play icon to make it look like a video player
           $(this).append($('<i/>', {'class': 'fas fa-play-circle'}));

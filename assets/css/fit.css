@@ -176,11 +176,12 @@ body {
 
 .intro {
   background: #f5f7f8;
-  padding: 6rem 0 4rem;
+  padding: 3rem 0;
 }
 
 .intro .segment {
   padding-left: 20rem;
+  margin-bottom: 3rem;
 }
 
 .intro .segment .youtube {
@@ -231,16 +232,16 @@ body {
 
 .resources .resource {
   background: #fff;
-  margin: 1rem 0;
+  margin: 0.5rem 0;
   border-radius: 0.1rem;
-  padding: 1rem 1.5rem 1rem 3rem;
+  padding: 1rem 1.5rem 1rem 4rem;
   position: relative;
 }
 
 .resources .resource > i {
   position: absolute;
-  top: 0.5rem;
-  left: 0.5rem;
+  top: 1rem;
+  left: 1.5rem;
   width: 2rem;
   font-size: 2rem;
   color: #b0b4b7;
