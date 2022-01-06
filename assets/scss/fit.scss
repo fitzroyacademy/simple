@@ -126,7 +126,7 @@ $border_rad_lg: 1rem;
 
 body{font-family: "Lato", Arial, san-serif;}
 
-h1, h2, h3{font-weight: 900;}
+h1, h2, h3, h4{font-weight: 900; margin: 0; padding: 0;}
 
 
 h1{font-size: 48px; color: $text_lighter;}
@@ -156,30 +156,8 @@ $ratio_169: 56.25%;
 .segment h2 {padding:0 0 2rem; margin: 0; font-size: 2rem;}
 .segment h2 .no{color: $text_lightest; background: #fff; text-align: center; display: block; position: absolute; top:0; left: -2rem; width:2rem; padding: 1rem; }
 .segment h2 .no i{font-size: 80%;}
+.segment p{font-size: 1.2rem;}
 
-
-// -----------------------------------------------------------------------------------------
-// Introduction
-
-.intro{ background: $bg; padding: 6rem 0 4rem;}
-
-.intro .segment {padding-left: 20rem;}
-.intro .segment .youtube{ width: 15rem; position: absolute; top:0; left: 3rem; border-radius: 0; height: 20rem; }
-.intro .segment .youtube i{font-size: 2rem;}
-
-.intro h1{font-size: 2rem; color: $text_light;}
-.intro h1 a{color: $brand;}
-
-// .segment > * {display: none;}
-// .segment h2 {display: block;}
-
-// -----------------------------------------------------------------------------------------
-// Resources
-.resources{background: $bg; padding:1rem 0;}
-.resources .resource{background: #fff; margin: 1rem 0; border-radius: $border_rad_sm; padding: 1rem 1.5rem 1rem 3rem; position: relative;}
-.resources .resource > i{position: absolute; top:0; left: 0; width: 2rem; font-size: 2rem; color: $text_lighter;}
-.resources .resource > a{font-size: 1.5rem;}
-.resources .resource > p{font-size: 1rem; color: $text_light;}
 
 
 // -----------------------------------------------------------------------------------------
@@ -203,3 +181,34 @@ $ratio_169: 56.25%;
 
 // when it has an iframe
 .youtube iframe{position: absolute; top:0; left: 0; right: 0; bottom: 0;}
+
+
+// -----------------------------------------------------------------------------------------
+// Introduction
+
+.intro{ background: $bg; padding: 6rem 0 4rem;}
+
+.intro .segment {padding-left: 20rem;}
+.intro .segment .youtube{ width: 15rem; position: absolute; top:0; left: 3rem; border-radius: 0; height: 20rem; }
+.intro .segment .youtube i{font-size: 2rem;}
+
+.intro h1{font-size: 2rem; color: $text_light;}
+.intro h1 a{color: $brand;}
+.intro h2{font-size: 1.4rem;}
+
+.intro .meta p{font-size: 1rem; color: $text_light;}
+.intro .meta p i{margin-right: .5rem; width: 1.5rem; text-align: center;}
+
+// .segment > * {display: none;}
+// .segment h2 {display: block;}
+
+// -----------------------------------------------------------------------------------------
+// Resources
+.resources{background: $bg; padding:1rem 0;}
+.resources h2{padding-bottom: 0;}
+.resources .resource{background: #fff; margin: 1rem 0; border-radius: $border_rad_sm; padding: 1rem 1.5rem 1rem 3rem; position: relative;}
+.resources .resource > i{position: absolute; top:.5rem; left: .5rem; width: 2rem; font-size: 2rem; color: $text_lighter;}
+.resources .resource > a{font-size: 1.2rem; text-decoration: none; color:$blue}
+.resources .resource > p{font-size: .8rem; color: $text_light;}
+
+

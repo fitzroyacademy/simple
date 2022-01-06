@@ -57,8 +57,10 @@ body {
   font-family: "Lato", Arial, san-serif;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-weight: 900;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -122,66 +124,8 @@ body {
   font-size: 80%;
 }
 
-.intro {
-  background: #f5f7f8;
-  padding: 6rem 0 4rem;
-}
-
-.intro .segment {
-  padding-left: 20rem;
-}
-
-.intro .segment .youtube {
-  width: 15rem;
-  position: absolute;
-  top: 0;
-  left: 3rem;
-  border-radius: 0;
-  height: 20rem;
-}
-
-.intro .segment .youtube i {
-  font-size: 2rem;
-}
-
-.intro h1 {
-  font-size: 2rem;
-  color: #717b81;
-}
-
-.intro h1 a {
-  color: #464749;
-}
-
-.resources {
-  background: #f5f7f8;
-  padding: 1rem 0;
-}
-
-.resources .resource {
-  background: #fff;
-  margin: 1rem 0;
-  border-radius: 0.1rem;
-  padding: 1rem 1.5rem 1rem 3rem;
-  position: relative;
-}
-
-.resources .resource > i {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 2rem;
-  font-size: 2rem;
-  color: #b0b4b7;
-}
-
-.resources .resource > a {
-  font-size: 1.5rem;
-}
-
-.resources .resource > p {
-  font-size: 1rem;
-  color: #717b81;
+.segment p {
+  font-size: 1.2rem;
 }
 
 .youtube {
@@ -228,6 +172,89 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
+}
+
+.intro {
+  background: #f5f7f8;
+  padding: 6rem 0 4rem;
+}
+
+.intro .segment {
+  padding-left: 20rem;
+}
+
+.intro .segment .youtube {
+  width: 15rem;
+  position: absolute;
+  top: 0;
+  left: 3rem;
+  border-radius: 0;
+  height: 20rem;
+}
+
+.intro .segment .youtube i {
+  font-size: 2rem;
+}
+
+.intro h1 {
+  font-size: 2rem;
+  color: #717b81;
+}
+
+.intro h1 a {
+  color: #464749;
+}
+
+.intro h2 {
+  font-size: 1.4rem;
+}
+
+.intro .meta p {
+  font-size: 1rem;
+  color: #717b81;
+}
+
+.intro .meta p i {
+  margin-right: 0.5rem;
+  width: 1.5rem;
+  text-align: center;
+}
+
+.resources {
+  background: #f5f7f8;
+  padding: 1rem 0;
+}
+
+.resources h2 {
+  padding-bottom: 0;
+}
+
+.resources .resource {
+  background: #fff;
+  margin: 1rem 0;
+  border-radius: 0.1rem;
+  padding: 1rem 1.5rem 1rem 3rem;
+  position: relative;
+}
+
+.resources .resource > i {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  width: 2rem;
+  font-size: 2rem;
+  color: #b0b4b7;
+}
+
+.resources .resource > a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #2793f8;
+}
+
+.resources .resource > p {
+  font-size: 0.8rem;
+  color: #717b81;
 }
 
 /*# sourceMappingURL=fit.css.map */
