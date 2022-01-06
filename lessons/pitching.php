@@ -109,11 +109,13 @@
 		<h2><span class="no"><i class="fas fa-books"></i></span> Further reading</h2>
 		<div class="resources">
 				<div class="resource">
-					<i class="fas fa-presentation"></i><a href="https://https://docs.google.com/presentation/d/15CoomN7wxhnzzD62fqdLbDQ3D4tq5hPcE7S3NVZidvU/edit?usp=sharing" target="_blank"> Square Peg's deck template</a>
+					<i class="fas fa-presentation"></i>
+					<a href="https://https://docs.google.com/presentation/d/15CoomN7wxhnzzD62fqdLbDQ3D4tq5hPcE7S3NVZidvU/edit?usp=sharing" target="_blank"> Square Peg's deck template</a>
 					<p>Square Peg's deck template is a template for a more standard startup venture capital deck.</p> 
 				</div>
 				<div class="resource">
-					<i class="fas fa-browser"></i><a href="https://https://medium.com/square-peg-capital/slides-to-put-in-your-pitch-deck-f648c3832b81?mc_cid=3e05e09440&mc_eid=621dd02193" target="_blank"> Square Peg's accompanying article</a>
+					<i class="fas fa-browser"></i>
+					<a href="https://https://medium.com/square-peg-capital/slides-to-put-in-your-pitch-deck-f648c3832b81?mc_cid=3e05e09440&mc_eid=621dd02193" target="_blank"> Square Peg's accompanying article</a>
 					<p>A great article on pitch deck's by Imogen to accompany Square Peg's template.</p>
 				</div>
 		</div>
