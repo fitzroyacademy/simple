@@ -143,9 +143,12 @@ $ratio_169: 56.25%;
 
 // -----------------------------------------------------------------------------------------
 
+$max_width: 1024px;
+
 .intro > .segment,
+.contain,
 .container,
-.segments{max-width: 1024px; margin: 0 auto; box-sizing: border-box;}
+.segments{max-width: $max_width; margin: 0 auto; box-sizing: border-box;}
 
 .segments{padding: 1rem 0;}
 .segment{padding: 1rem 0 2rem 3rem; margin: 0; border-left: 6px solid $border_lighter; position: relative;}
@@ -204,6 +207,7 @@ $ratio_169: 56.25%;
 
 // -----------------------------------------------------------------------------------------
 // Resources
+
 .resources{}
 .resources h2{padding-bottom: 0;}
 .resources .resource{background: $bg_light; margin: .5rem 0; border-radius: $border_rad_sm; padding: 1rem 1.5rem 1rem 4rem; position: relative; display: block; text-decoration: none;}
@@ -212,3 +216,55 @@ $ratio_169: 56.25%;
 .resources .resource > p{font-size: .8rem; color: $text_light;}
 .resources .resource:hover{outline:1px solid $blue;}
 
+
+// -----------------------------------------------------------------------------------------
+// The navigation thingy
+
+.fat_nav{z-index: 5000; top:-1px; background: #fff; margin-bottom: calc(50vh - 6rem); display: block;}
+.fat_nav.marginless{margin-bottom: 0}
+
+.fat_nav .contain{padding: 1rem; max-width: $max_width; margin: 0 auto; display: flex; flex-direction:row; }
+
+.fat_nav a{padding: .5rem 1rem; font-size: 1.3rem; margin: 0 .5rem 0 0; text-decoration: none; border-radius: $border_rad_lg; border-color: transparent; color: $text_lighter;}
+.fat_nav a.active{background: $bg; border-color: $border_lighter; color: $text_light;}
+
+// first one  gose to the top
+.fat_nav a.top{padding: .5rem 0; text-align: center; width: 0; overflow: hidden; margin: 0 0 0 -1.5rem; transition: all .25s ease-in-out; opacity: 0;}
+.fat_nav a.top i{margin-right: 0;}
+.fat_nav a.top:not(.active){width: 4rem; margin: 0 1rem 0 0; opacity: 1;}
+
+.fat_nav a .txt i{color: $text_lightest; font-size: 70%; margin: 0 0 0 .25rem;}
+.fat_nav a:hover .txt i{color: $text_light;}
+.fat_nav a .txt i:hover{color: $new_apricot;}
+
+.fat_nav a i{margin-right: .5rem;}
+
+.fat_nav a:hover{background: $bg;}
+
+// fat nav btn
+.fat_nav a.btn{color: #fff;}
+.fat_nav a.btn-watermelon:hover{background: darken($watermelon, 10%); color: #fff}
+
+.fat_nav a.right{float: right;}
+
+
+@media (max-width: 575px) {
+	.fat_nav .contain{flex-direction:column;}
+}
+
+
+.fat_nav.lefty{flex-direction:column; position: fixed; top:0; left: 0; bottom: 0; margin-bottom: 0; justify-content: center; background: transparent; width: 6rem; overflow: visible;}
+.fat_nav.lefty a{margin-right: 0 !important; white-space: nowrap; border: none;}
+.fat_nav.lefty a i{margin-right: 0; width: 2rem; text-align: center;}
+.fat_nav.lefty a .txt{display: none;}
+
+
+
+// weird solo enroller thing
+.fat_enroller{position: sticky; top:0; display: none;}
+.fat_enroller .fat_nav{}
+
+
+.fat_nav .enrol{margin: 0 0 0 auto;}
+
+.fat_nav .enrol{position: sticky; top:0;}
