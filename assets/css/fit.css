@@ -80,6 +80,7 @@ body {
 }
 
 .intro > .segment,
+.contain,
 .container,
 .segments {
   max-width: 1024px;
@@ -260,6 +261,146 @@ body {
 
 .resources .resource:hover {
   outline: 1px solid #2793f8;
+}
+
+.fat_nav {
+  z-index: 5000;
+  top: -1px;
+  background: #fff;
+  margin-bottom: calc(50vh - 6rem);
+  display: block;
+}
+
+.fat_nav.marginless {
+  margin-bottom: 0;
+}
+
+.fat_nav .contain {
+  padding: 1rem;
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.fat_nav a {
+  padding: 0.5rem 1rem;
+  font-size: 1.3rem;
+  margin: 0 0.5rem 0 0;
+  text-decoration: none;
+  border-radius: 1rem;
+  border-color: transparent;
+  color: #b0b4b7;
+}
+
+.fat_nav a.active {
+  background: #f5f7f8;
+  border-color: #eff1f1;
+  color: #717b81;
+}
+
+.fat_nav a.top {
+  padding: 0.5rem 0;
+  text-align: center;
+  width: 0;
+  overflow: hidden;
+  margin: 0 0 0 -1.5rem;
+  transition: all 0.25s ease-in-out;
+  opacity: 0;
+}
+
+.fat_nav a.top i {
+  margin-right: 0;
+}
+
+.fat_nav a.top:not(.active) {
+  width: 4rem;
+  margin: 0 1rem 0 0;
+  opacity: 1;
+}
+
+.fat_nav a .txt i {
+  color: #d2d7da;
+  font-size: 70%;
+  margin: 0 0 0 0.25rem;
+}
+
+.fat_nav a:hover .txt i {
+  color: #717b81;
+}
+
+.fat_nav a .txt i:hover {
+  color: #fcab05;
+}
+
+.fat_nav a i {
+  margin-right: 0.5rem;
+}
+
+.fat_nav a:hover {
+  background: #f5f7f8;
+}
+
+.fat_nav a.btn {
+  color: #fff;
+}
+
+.fat_nav a.btn-watermelon:hover {
+  background: #d10c3f;
+  color: #fff;
+}
+
+.fat_nav a.right {
+  float: right;
+}
+
+@media (max-width: 575px) {
+  .fat_nav .contain {
+    flex-direction: column;
+  }
+}
+.fat_nav.lefty {
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  margin-bottom: 0;
+  justify-content: center;
+  background: transparent;
+  width: 6rem;
+  overflow: visible;
+}
+
+.fat_nav.lefty a {
+  margin-right: 0 !important;
+  white-space: nowrap;
+  border: none;
+}
+
+.fat_nav.lefty a i {
+  margin-right: 0;
+  width: 2rem;
+  text-align: center;
+}
+
+.fat_nav.lefty a .txt {
+  display: none;
+}
+
+.fat_enroller {
+  position: sticky;
+  top: 0;
+  display: none;
+}
+
+.fat_nav .enrol {
+  margin: 0 0 0 auto;
+}
+
+.fat_nav .enrol {
+  position: sticky;
+  top: 0;
 }
 
 /*# sourceMappingURL=fit.css.map */

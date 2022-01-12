@@ -20,6 +20,25 @@
 
 </div>
 
+<div class="fat_nav list-group" id="scrollspy">
+	<div class="contain">
+		<a href="#top" class="list-group-item top active"><i class="fal fa-arrow-up" aria-hidden="true"></i></a>
+		<a href="#design" class="purple list-group-item"><i class="fal fa-laptop" aria-hidden="true"></i> <span class="txt">Design with us</span></a>
+		<a href="#capacity" class="blue list-group-item"><i class="fal fa-charging-station" aria-hidden="true"></i> <span class="txt">Capacity Building</span></a>	
+		<a href="#trailers" class="teal list-group-item"><i class="fal fa-play-circle" aria-hidden="true"></i> <span class="txt">Trailers</span></a>
+	<!-- 	<a href="#library" class="blue list-group-item"><i class="fal fa-books"></i> <span class="txt">Lesson library</span></a> -->
+		<a href="#hello" class="watermelon list-group-item"><i class="fal fa-comments-alt" aria-hidden="true"></i> <span class="txt">Contact us</span></a>
+	<!-- 
+		<a href="#workshops" class="green list-group-item"><i class="fal fa-book"></i> <span class="txt">Online workshops</span></a>
+		<a href="#gear" class="red list-group-item"><i class="fal fa-tools"></i> <span class="txt">Gear list</span></a>
+	 -->	
+	 	<a href="https://medium.com/fitzroy-academy/" target="_blank" class="apricot list-group-item">
+	 		<i class="fal fa-book" aria-hidden="true"></i> <span class="txt">Blog 
+	 		<i class="fal fa-external-link" data-toggle="tooltip" data-placement="bottom" title="" aria-hidden="true" data-original-title="Opens in a new window."></i><span class="sr-only">Opens in a new window.</span></span>
+	 	</a>
+	 </div>
+</div>
+
 <div class="segments">
 
 	<div class="segment segment_resources">
