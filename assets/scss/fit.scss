@@ -140,7 +140,7 @@ $ratio_169: 56.25%;
 
 body{color:$brand; padding: 0; margin: 0; position: relative;}
 
-$max_width: 1024px;
+$max_width: 768px;
 
 .intro > .segment,
 .contain,
@@ -155,6 +155,7 @@ $max_width: 1024px;
 
 .segment h2 {padding:0 0 2rem; margin: 0; font-size: 2rem;}
 .segment h2 .no{color: $text_lightest; background: #fff; text-align: center; display: block; position: absolute; top:0; left: -2rem; width:3.6rem; padding: 1rem 0; }
+
 .segment h2 .no i{font-size: 80%;}
 .segment p{font-size: 1.2rem;}
 
@@ -169,7 +170,7 @@ $max_width: 1024px;
 // -----------------------------------------------------------------------------------------
 // Youtube!
 
-.youtube{background-size:cover; position: relative;  outline:1px solid #fff; outline-offset: -1px; border-radius: $border_rad_sm;}
+.youtube{background-size:cover; position: relative;  outline:1px solid #fff; outline-offset: -1px; border-radius: $border_rad_sm; margin-bottom: 1.5rem;}
 .youtube:after{padding-top: $ratio_169; display: block; content: '';}
 
 .youtube i{font-size: 6rem; color: #fff; position: absolute; top:50%; left: 50%; margin: -3rem 0 0 -3rem; text-shadow: 0 0 10px rgba(0,0,0,0.1); transition: all .2s ease-in-out;}
@@ -186,13 +187,14 @@ $max_width: 1024px;
 // -----------------------------------------------------------------------------------------
 // Introduction
 
-.intro{ background: $bg; padding: 3rem 0;}
+.intro, .teaching_guide{ background: $bg; padding: 3rem 0;}
+.teaching_guide .segment h2 .no{background: $bg;}
 
 .intro .segment {padding-left: 18rem; margin-bottom: 3rem; min-height: 20rem;}
 .intro .segment .youtube{ width: 13rem; position: absolute; top:0; left: 3rem; border-radius: 0; height: 18rem; }
 .intro .segment .youtube i{font-size: 2.5rem; margin: -1.25rem 0 0 -1.25rem;}
 
-.intro h1{font-size: 2rem; color: $text_light;}
+.intro h1{font-size: 2rem; color: $text_light; padding-bottom: 1rem;}
 .intro h1 a{color: $brand;}
 .intro h2{font-size: 1.4rem;}
 
@@ -207,6 +209,7 @@ $max_width: 1024px;
 
 .intro .segment.video_playing{padding-left: 35rem;}
 .intro .segment.video_playing .youtube{width: 30rem;}
+.intro .segment.video_playing .meta{display: none;}
 
 
 
@@ -234,9 +237,9 @@ $max_width: 1024px;
 .fat_nav a.active{background: $bg; border-color: $border_lighter; color: $text_light;}
 
 // first one  gose to the top
-.fat_nav a.top{padding: .5rem 0; text-align: center; width: 0; overflow: hidden; margin: 0 0 0 -1.5rem; transition: all .25s ease-in-out; opacity: 0;}
+.fat_nav a.top{padding: .5rem 0; text-align: center; width: 0; overflow: hidden; margin: 0 0 0 -1.5rem; transition: all .25s ease-in-out; opacity: 0; color:$text_lightest;}
 .fat_nav a.top i{margin-right: 0;}
-.fat_nav a.top:not(.active){width: 4rem; margin: 0 1rem 0 0; opacity: 1;}
+.fat_nav a.top:not(.active){width: 3rem; margin: 0 .5rem 0 -1.5rem; opacity: 1;}
 
 .fat_nav a .txt i{color: $text_lightest; font-size: 70%; margin: 0 0 0 .25rem;}
 .fat_nav a:hover .txt i{color: $text_light;}
