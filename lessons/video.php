@@ -45,7 +45,7 @@ In many ways it’s more important than your gear, your presentations or your ed
 
 	<div class="segment segment_lesson">
 		<h2><span class="no">1</span> Challenge.</h2>
-		<div class="image"><img src="/assets/images/lessons/video/studentjourney_full.jpeg" alt="StudentJourney_challenge" /></div>
+		<div class="image"><img src="/assets/images/lessons/video/studentjourney_challenge.jpeg" alt="StudentJourney_challenge" /></div>
 		<p>Here’s where we are going to start all our video lectures — What is the challenge faced by students. Tempting as it is to explain all their short comings to them, we actually want to talk about the challenge from their <i>point of view.</i></p>
 		<p>Sentences like “People need to understand the important of X” won’t resonate because students don’t know what they don’t know. Try for sentences like “When I started doing this, I always felt overwhelmed.”</p>
 		<p>We want to be laying out the situation and challenge for the student using their language if possible, and certainly speaking from a place of empathy.</p>
