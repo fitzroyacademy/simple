@@ -33,22 +33,22 @@
 				<p>A quick recap of the various performance techniques Maria goes through in the lesson.</p>
 			</a>
 			<a class="resource" href="https://docs.google.com/presentation/d/1dQf5Z9IUFx3_ugNTTomAqZkz8NK1RHVbQZwxFOFql90/edit?usp=sharing">
-				<i class="far fa-file-alt"></i>
+				<i class="far fa-presentation"></i>
 				<h4>Slide deck - Blank</h4>
 				<p>This blank example slide deck will help you get started on your own presentation.</p>
 			</a>
-			<a class="resource" href="https://docs.google.com/presentation/d/1dQf5Z9IUFx3_ugNTTomAqZkz8NK1RHVbQZwxFOFql90/edit?usp=sharing">
-				<i class="far fa-file-alt"></i>
+			<a class="resource" href="https://docs.google.com/presentation/d/1Hw83Vwjk2IfFQOuaCPwO6LR2nlJ7MnxiqBGDGgH1qMU/edit?usp=sharing">
+				<i class="far fa-presentation"></i>
 				<h4>Earth Enable - Presentation Deck</h4>
 				<p>A great example of a real world pitch.</p>
 			</a>
-			<a class="resource" href="https://drive.google.com/presentation/d/1Hw83Vwjk2IfFQOuaCPwO6LR2nlJ7MnxiqBGDGgH1qMU/edit?usp=sharing">
+			<a class="resource" href="https://docs.google.com/document/d/1RV50495ZIu1Cl6zeaWSG9LpHOHtVYyR--cReMBTw3FQ/edit?usp=sharing">
 				<i class="far fa-file-alt"></i>
 				<h4>Gayatri's written notes</h4>
-				<p>These are Gayatri’s ( Earth Enable) notes that explain the presentation slides.</p>
+				<p>These are Gayatri’s (Earth Enable) notes that explain the presentation slides.</p>
 			</a>
-			<a class="resource" href="https://drive.google.com/presentation/d/1-9vCcQnc-y6NpqSFW_dyFfcnjCjwbAKpNCfygltpHCk/edit?usp=sharing">
-				<i class="far fa-file-alt"></i>
+			<a class="resource" href="https://docs.google.com/presentation/d/1-9vCcQnc-y6NpqSFW_dyFfcnjCjwbAKpNCfygltpHCk/edit?usp=sharing">
+				<i class="far fa-presentation"></i>
 				<h4>SAHA - Presentation deck</h4>
 				<p>This is another great realworld example of a presentation deck.</p>
 			</a>
@@ -56,64 +56,95 @@
 	</div>
 
 	<div class="segment segment_lesson" id="lesson">
-		<h2><span class="no">1</span> Your first canvas.</h2>
-		<div class="youtube" id="QiWXzo04e6s"></div>
-		<p>We’ll be starting with the VERY basics of your lean canvas. All you need to do is grab a pen, paper and post-it notes while Will takes you through some strategies to get your first canvas finished as fast as possible. Also, you’ll draw a few boxes.</p>
+		<h2><span class="no">1</span> Story.</h2>
+		<div class="youtube" id="wFMvikLISy0"></div>
+		<p>Video desciption.</p>
+		<h3>The activity</h3>
+		<ol>
+			<li>Brainstorm.</li>
+			<li>Distill into the important points.</li>
+			<li>Create a story with beginning, middle, and end.</li>
+			<li>The first and last sentences matter more than any other. Craft them. Memorize them.</li>
+		</ol>
+		<h3>Tips</h3>
+		<ul>
+			<li>The story should leave someone able to accurately share your idea with a friend and really want to.</li>
+			<li>Less is more: You can always say more later; you can never say less. </li>
+		</ul>
 	</div>
 	
 	<div class="segment segment_lesson">
-		<h2><span class="no">2</span> Customers & problems.</h2>
-		<div class="youtube" id="60_v2bNlNe4"></div>
-		<p>Hold up, a little more work to do before we start filling out the canvas: We need to look at our customers, and our problem and dig into all the ways that combo exists. “It really sucks for [customer] when they experience [problem].</p>
+		<h2><span class="no">2</span> Visual slides.</h2>
+		<div class="youtube" id="p1ncyFaj9wg"></div>
+		<p>Video desciption.</p>
+		<h3>The outline</h3>
+		<ol>
+			<li>Crisp statement (a sentence or two) on who you are and what you do.</li>
+			<li>Compelling presentation of the problem.</li>
+			<li>Big picture view of your solution and how it works with vivid examples.</li>
+			<li>What you’ve done so far (delivery numbers/early results)  and the meaningful impact.</li>
+			<li>Vision of big possibilities and what you want the person in the audience to do next.</li>
+		</ol>
+		<h3>Tips</h3>
+		<ul>
+			<li>Don’t bury the headline: Don’t be more than a minute into the presentation before you’re talking about your specific solution.</li>
+			<li>The slides may be cues, but they’re not your notes.</li>
+			<li>Keep your slides to one idea/few words per slide, 24-point font or bigger.</li>
+			<li>Use large, high quality images (one per slide, full frame)</li>
+			<li>Make your graphs so simple a 5th grader could understand it.</li>
+			<li>Remember people will forget almost everything you say, what’s the one thing you’d like them to remember?</li>
+		</ul>
 	</div>
 
 	<div class="segment segment_lesson">
-		<h2><span class="no">3</span> Testing the problem.</h2>
-		<div class="youtube" id="XO_cSktKaDA"></div>
-		<p>Now it’s time to officially start your canvas. You’ll take your customer / problem sentence and run it through a few tests to make it stronger. Then take what you’ve written and fill out your first two boxes: the customer and problem box.</p>
+		<h2><span class="no">3</span> Warm up.</h2>
+		<div class="youtube" id="gkjEoud-CDg"></div>
+		<p>Video desciption.</p>
+
+		<h3>Tips</h3>
+		<ul>
+			<li>Make it look easy, make it look natural: that means rehearse, rehearse, rehearse (10x at least)!</li>
+			<li>Record yourself presenting the idea.</li>
+			<li>Be embarrassed.</li>
+			<li>Work on the spots that trip you up consistently.</li>
+			<li>Work on the transitions between ideas.</li>
+			<li>Focus on your strong points - funny, warm quiet.</li>
+			<li>Think about how fast you speak: Too fast and people won’t be able to keep up, too slow and people will drift off.</li>
+			<li>Pick out jokes, ‘Ah-ha’ moments and learnings to focus on. </li>
+		</ul>
 	</div>
 
 	<div class="segment segment_lesson">
-		<h2><span class="no">4</span> Problem solution fit.</h2>
-		<div class="youtube" id="OP_mjxWwU1o"></div>
-		<p>You’ve got a problem, and someone who has that problem, it’s time to start finding a solution to that problem. You break the problem down into a few parts and work out some solutions for each of these problems. This is where you might find your great idea only solves one of those problems and you have the joy of working a whole bunch of new solutions to research.</p>
+		<h2><span class="no">4</span> Rehearsal.</h2>
+		<div class="youtube" id="UMBbEe0uK-A"></div>
+		<p>Video desciption.</p>
+		<h3>Warm up physically</h3>
+		<ol>
+			<li>Start by loosening up your legs.</li>
+			<li>Drop your shoulders</li>
+			<li>Shake out your hands.</li>
+			<li>Relax your face.</li>
+		</ol>
+		<h3>Warm up mentally</h3>
+		<ol>
+			<li>Take a deep breath.</li>
+			<li>Think about someone or something you want to embody in your performance..</li>
+		</ol>
 	</div>
 
 	<div class="segment segment_lesson">
-		<h2><span class="no">5</span> Early adopters & channels</h2>
-		<div class="youtube" id="letoo21qHtY"></div>
-		<p>We’re getting into the canvas now. its time to fill out the ‘Early adopters’ and ‘Channels’ boxes. As Will says ‘It’s working out who we’re going to hang out with for the next 3–5 years while building this business, and where to find them.’</p>
-	</div>
-
-	<div class="segment segment_lesson">
-		<h2><span class="no">6</span> Revenue streams.</h2>
-		<div class="youtube" id="uyetDHxT_R0"></div>
-		<p>Revenue streams is all about working out your ‘rivers of gold.’ It’s important to work out a few different possible ways you can get income for your project. Often there is the first idea you came in with, but thinking through 2 or 3 alternate streams might help you identify some income you didn’t think was possible.</p>
-	</div>
-	
-	<div class="segment segment_lesson">
-		<h2><span class="no">7</span> Cost structure.</h2>
-		<div class="youtube" id="Cx0lAIw0pIs"></div>
-		<p>Every business has costs: You list all the money coming in, and then all the money going out and if the money coming in is bigger than the money going out, you’ve got an idea that might work. Obviously its all a bit more complex than that, and Will takes you through a few exercises to think about how to best fill out your costs box.</p>
-	</div>
-
-	<div class="segment segment_lesson">
-		<h2><span class="no">8</span> Key Metrics.</h2>
-		<div class="youtube" id="P-D12ds30Is"></div>
-		<p>What does success look like and how will you know you’re on the right track? For most ideas, if you’re tracking money you’ll have a pretty sad time for the first few years. Picking something that is important to you and your team will help you stay motivated as your idea grows.</p>
-	</div>
-
-	<div class="segment segment_lesson">
-		<h2><span class="no">9</span> Unfair advantage.</h2>
-		<div class="youtube" id="TkivEsFCrEo"></div>
-		<p>Life is unfair: That is the unfortunate fact of business. The best way to make sure you have an unfair advantage over others is to start planning for it right from the start. What can you do now, that in a few years will create something that cannot be bought, copied or stolen by another business?</p>
-	</div>
-
-	<div class="segment segment_lesson">
-		<h2><span class="no">10</span> Unique value proposition</h2>
-		<div class="youtube" id="devw7dBbon8"></div>
-		<p>Finally we bring home your first canvas with the Unique value proposition. the ‘UVP’ is the one sentence that ties all the boxes your canvas together. We write this sentence with respect for the people we’re speaking to, in a way that they understand and gets them excited to help you.</p>
-		<p>And now you’ve finished your first canvas, congratulations. Its time to get to work testing out the areas you’ve totally made up, and replace them with some real evidence of what people actually want.</p>
+		<h2><span class="no">5</span> Performing.</h2>
+		<div class="youtube" id="wzQQLdTtdz4"></div>
+		<p>Video desciption.</p>
+		<h3>Tips</h3>
+		<ul>
+			<li>Own the stage. You’ve practiced and prepared, now you can be fully present in the moment on stage (or even in a meeting).</li>
+			<li>Be mindful of your nerves. It’s ok to be nervous but stand up straight and don't look at the ground.</li>
+			<li>Start strong, either introducing yourself or jumping straight in if you were introduced.</li>
+			<li>As you go, get a sense of the audience. Pick a few people to focus on. Safety and connection.</li>
+			<li>Modulate your voice. Go higher and lower, louder and softer.</li>
+			<li>Emotional support. Keep going!</li>
+		</ul>
 	</div>
 
 	<div class="segment further_reading" id="reading">
