@@ -27,27 +27,27 @@
 	<div class="segment segment_resources" id="resources">
 		<h2><span class="no"><i class="far fa-file-alt"></i></span> Lesson resources</h2>
 		<div class="resources">
-			<a class="resource" href="https://docs.google.com/document/d/1xEg5xp40q1s1k7E3Kw3uc-m8wWLeI-ttKU4NWwL4Q18/edit?usp=sharing">
+			<a class="resource" href="https://docs.google.com/document/d/1xEg5xp40q1s1k7E3Kw3uc-m8wWLeI-ttKU4NWwL4Q18/edit?usp=sharing" target="_blank">
 				<i class="far fa-file-alt"></i>
 				<h4>Art of performance reference sheet</h4>
 				<p>A quick recap of the various performance techniques Maria goes through in the lesson.</p>
 			</a>
-			<a class="resource" href="https://docs.google.com/presentation/d/1dQf5Z9IUFx3_ugNTTomAqZkz8NK1RHVbQZwxFOFql90/edit?usp=sharing">
+			<a class="resource" href="https://docs.google.com/presentation/d/1dQf5Z9IUFx3_ugNTTomAqZkz8NK1RHVbQZwxFOFql90/edit?usp=sharing" target="_blank">
 				<i class="far fa-presentation"></i>
 				<h4>Slide deck - Blank</h4>
 				<p>This blank example slide deck will help you get started on your own presentation.</p>
 			</a>
-			<a class="resource" href="https://docs.google.com/presentation/d/1Hw83Vwjk2IfFQOuaCPwO6LR2nlJ7MnxiqBGDGgH1qMU/edit?usp=sharing">
+			<a class="resource" href="https://docs.google.com/presentation/d/1Hw83Vwjk2IfFQOuaCPwO6LR2nlJ7MnxiqBGDGgH1qMU/edit?usp=sharing" target="_blank">
 				<i class="far fa-presentation"></i>
 				<h4>Earth Enable - Presentation Deck</h4>
 				<p>A great example of a real world pitch.</p>
 			</a>
-			<a class="resource" href="https://docs.google.com/document/d/1RV50495ZIu1Cl6zeaWSG9LpHOHtVYyR--cReMBTw3FQ/edit?usp=sharing">
+			<a class="resource" href="https://docs.google.com/document/d/1RV50495ZIu1Cl6zeaWSG9LpHOHtVYyR--cReMBTw3FQ/edit?usp=sharing" target="_blank">
 				<i class="far fa-file-alt"></i>
 				<h4>Gayatri's written notes</h4>
 				<p>These are Gayatri’s (Earth Enable) notes that explain the presentation slides.</p>
 			</a>
-			<a class="resource" href="https://docs.google.com/presentation/d/1-9vCcQnc-y6NpqSFW_dyFfcnjCjwbAKpNCfygltpHCk/edit?usp=sharing">
+			<a class="resource" href="https://docs.google.com/presentation/d/1-9vCcQnc-y6NpqSFW_dyFfcnjCjwbAKpNCfygltpHCk/edit?usp=sharing" target="_blank">
 				<i class="far fa-presentation"></i>
 				<h4>SAHA - Presentation deck</h4>
 				<p>This is another great realworld example of a presentation deck.</p>
