@@ -7,7 +7,7 @@
 
 		<h1><a href="#">Video lessons</a> with Avraham Vofsi</h1>
 
-		<div class="youtube" id="zlJshnVorEg"></div>
+		<div class="youtube" id="FMoKi98LLQY"></div>
 
 		<p>This lesson is about how to plan and create video lessons, focusing on the structuring and planning process. Creating good structure for a video lesson is the most important aspect to creating quality engaging video teaching.
 In many ways it’s more important than your gear, your presentations or your editing skills. Nailing this means better teaching with less work. NB: This is not a list of hacks. You’ll probably still need to practice a bunch and make all the classics mistakes.
@@ -22,14 +22,19 @@ In many ways it’s more important than your gear, your presentations or your ed
 			<h2>Lesson resources</h2>
 			<div class="resource">
 				<i class="far fa-file-alt"></i>
-				<a href="https://docs.google.com/document/d/1ib8g46AdyaRoUDKzZkX-MzCp5WaZTD7akfSg06m04vA/edit?usp=sharing">Lean Canvas template - Blank</a>
-				<p>Blank lean canvas template to work along with this lesson.</p>
+				<a href="https://docs.google.com/document/d/1gx2A2sO1ZlVn7xfoPeEQXHSG2DyfskcqLp2qqon2Dn4/edit?usp=sharing">Lesson plan - Blank</a>
+				<p>This is the full lesson planning template to help structure the video learning you want to do.</p>
 			</div>
 			<div class="resource">
 				<i class="far fa-file-alt"></i>
-				<a href="https://docs.google.com/document/d/1Od27ZzdX8LTvV3gAdJ5aW40QcFV2ZIDkY2CwYsxKNaE/edit?usp=sharing">'Coffee Cart' lean canvas completed example</a>
-				<p>The completed example that Will works through in this lesson.</p>
+				<a href="https://docs.google.com/document/d/1CYz0imn6EMGsgVrupSzXN73gACQlr4rBp6VY2Zy1Q1s/edit?usp=sharing">Lesson plan - Lean canvas</a>
+				<p>A completed example of how the lesson plan looks filled out.</p>
 			</div>
+			<h2>Before jumping into structuring the video there are 2 things you want to have ready to go:</h2>
+			<ul>
+				<li>The activity you want the students to do in order to cement the knowledge.</li>
+				<li>A “finished” example of the activity — This will help immensely as you write your video as you won’t need to scrabble to find an example.</li>
+			</ul>
 		</div>
 	</div>
 
@@ -39,8 +44,10 @@ In many ways it’s more important than your gear, your presentations or your ed
 
 	<div class="segment segment_lesson">
 		<h2><span class="no">1</span> Challenge.</h2>
-		<div class="image"><img src="/assets/images/lessons/video/mariavert.jpg" alt="Maria" /></div>
-		<p>We’ll be starting with the VERY basics of your lean canvas. All you need to do is grab a pen, paper and post-it notes while Will takes you through some strategies to get your first canvas finished as fast as possible. Also, you’ll draw a few boxes.</p>
+		<div class="image"><img src="/assets/images/lessons/video/studentjourney_full.jpeg" alt="StudentJourney_Full" /></div>
+		<p>Here’s where we are going to start all our video lectures — What is the challenge faced by students. Tempting as it is to explain all their short comings to them, we actually want to talk about the challenge from their <i>point of view.</i></p>
+		<p>Sentences like “People need to understand the important of X” won’t resonate because students don’t know what they don’t know. Try for sentences like “When I started doing this, I always felt overwhelmed.”</p>
+		<p>We want to be laying out the situation and challenge for the student using their language if possible, and certainly speaking from a place of empathy.</p>
 	</div>
 	
 	<div class="segment segment_lesson">
