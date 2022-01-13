@@ -17,7 +17,10 @@ $(function() {
           $(this).css('background-image', 'url(/assets/images/' + $(this).data('bg') + ')');
         } else {
           // Based on the YouTube ID, we can easily find the thumbnail image
-          $(this).css('background-image', 'url(http://i.ytimg.com/vi/' + this.id + '/1.jpg)');
+          // maxresdefault.jpg is the uploaded standard
+          // 0.jpg 1, 2, 3 for the defaults.
+          
+          $(this).css('background-image', 'url(http://i.ytimg.com/vi/' + this.id + '/maxresdefault.jpg)');
         }
     
         // Overlay the Play icon to make it look like a video player

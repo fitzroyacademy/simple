@@ -22,11 +22,11 @@
 
 <div class="fat_nav list-group" id="scrollspy">
 	<div class="contain">
-		<a href="#top" class="list-group-item top active"><i class="fal fa-arrow-up" aria-hidden="true"></i></a>
+		<a href="#top" class="list-group-item top active"><i class="fas fa-arrow-up" aria-hidden="true"></i></a>
 		<a href="#resources" class="purple list-group-item"><i class="fal fa-file-alt" aria-hidden="true"></i> <span class="txt">Resources</span></a>
 		<a href="#lesson" class="pink list-group-item"><i class="fab fa-youtube" aria-hidden="true"></i> <span class="txt">Lesson</span></a>	
 		<a href="#reading" class="teal list-group-item"><i class="fal fa-books" aria-hidden="true"></i> <span class="txt">Reading</span></a>
-		<a href="#guide" class="watermelon list-group-item"><i class="fal fa-chalkboard-teacher" aria-hidden="true"></i> <span class="txt">Teacher's guide</span></a>
+		<a href="#teaching" class="watermelon list-group-item"><i class="fal fa-chalkboard-teacher" aria-hidden="true"></i> <span class="txt">Teachers</span></a>
 <!-- 	 	
 	 	<a href="https://medium.com/fitzroy-academy/" target="_blank" class="apricot list-group-item">
 	 		<i class="fal fa-book" aria-hidden="true"></i> <span class="txt">Blog 
@@ -115,7 +115,7 @@
 		<p>And now you’ve finished your first canvas, congratulations. Its time to get to work testing out the areas you’ve totally made up, and replace them with some real evidence of what people actually want.</p>
 	</div>
 
-	<div class="segment further_reading" id="resources">
+	<div class="segment further_reading" id="reading">
 		<h2><span class="no"><i class="fas fa-books"></i></span> Further reading</h2>
 		<div class="resources">
 				<div class="resource">
@@ -133,12 +133,16 @@
 	</div>
 </div>
 
-<div class="Teaching guide" id="resources">
-	<h2>Teaching guide</h2>
-	<div class="youtube" id="B8mqcC6Z-b8"></div>
-	<p>If you’re a teacher who’s teaching lean, Will shares a few ideas from how we uses it with his class.</p>
-</div>
 
+<div class="teaching_guide">
+	<div class="segments" id="teaching">
+		<div class="segment further_reading" id="resources">
+			<h2><span class="no"><i class="far fa-chalkboard-teacher"></i></span>Teaching guide</h2>
+			<div class="youtube" id="B8mqcC6Z-b8"></div>
+			<p>If you’re a teacher who’s teaching lean, Will shares a few ideas from how we uses it with his class.</p>
+		</div>
+	</div>
+</div>
 
 
 <?php include '../assets/templates/site_footer.php';?>
