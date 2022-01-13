@@ -120,7 +120,7 @@ In many ways it’s more important than your gear, your presentations or your ed
 
 	<div class="segment segment_lesson">
 		<h2><span class="no">6</span> What’s next?</h2>
-		<div class="youtube" id="uyetDHxT_R0"></div>
+		<div class="image"><img src="/assets/images/lessons/video/studentjourney_full.jpeg" alt="studentjourney_full" /></div>
 		<p>You don’t need much to get yourself started:</p>
 		<ul>
 			<li>This <a href="https://www.youtube.com/watch?v=vAImXQgUPkU"> video </a> about some really basic lighting.</li>
