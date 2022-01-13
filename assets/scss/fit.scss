@@ -132,16 +132,13 @@ h1, h2, h3, h4{font-weight: 900; margin: 0; padding: 0;}
 h1{font-size: 48px; color: $text_lighter;}
 h1 a{text-decoration: none; color: $brand;}
 
-
-
-body{color:$brand; padding: 0; margin: 0;}
-
-
 $ratio_169: 56.25%;
 
 
 
 // -----------------------------------------------------------------------------------------
+
+body{color:$brand; padding: 0; margin: 0; position: relative;}
 
 $max_width: 1024px;
 
@@ -157,7 +154,7 @@ $max_width: 1024px;
 
 
 .segment h2 {padding:0 0 2rem; margin: 0; font-size: 2rem;}
-.segment h2 .no{color: $text_lightest; background: #fff; text-align: center; display: block; position: absolute; top:0; left: -2rem; width:2rem; padding: 1rem; }
+.segment h2 .no{color: $text_lightest; background: #fff; text-align: center; display: block; position: absolute; top:0; left: -2rem; width:3.6rem; padding: 1rem 0; }
 .segment h2 .no i{font-size: 80%;}
 .segment p{font-size: 1.2rem;}
 
@@ -205,6 +202,14 @@ $max_width: 1024px;
 // .segment > * {display: none;}
 // .segment h2 {display: block;}
 
+
+.intro .segment > .button{display: none;}
+
+.intro .segment.video_playing{padding-left: 35rem;}
+.intro .segment.video_playing .youtube{width: 30rem;}
+
+
+
 // -----------------------------------------------------------------------------------------
 // Resources
 
@@ -220,12 +225,12 @@ $max_width: 1024px;
 // -----------------------------------------------------------------------------------------
 // The navigation thingy
 
-.fat_nav{z-index: 5000; top:-1px; background: #fff; margin-bottom: calc(50vh - 6rem); display: block;}
+.fat_nav{z-index: 5000; top:-1px; background: #fff;  display: block; position: sticky;}
 .fat_nav.marginless{margin-bottom: 0}
 
-.fat_nav .contain{padding: 1rem; max-width: $max_width; margin: 0 auto; display: flex; flex-direction:row; }
+.fat_nav .contain{padding: .75rem .25rem; max-width: $max_width; margin: 0 auto; display: flex; flex-direction:row; }
 
-.fat_nav a{padding: .5rem 1rem; font-size: 1.3rem; margin: 0 .5rem 0 0; text-decoration: none; border-radius: $border_rad_lg; border-color: transparent; color: $text_lighter;}
+.fat_nav a{padding: .5rem 1rem; font-size: 1.2rem; margin: 0 .5rem 0 0; text-decoration: none; border-radius: $border_rad_md; border-color: transparent; color: $text_lighter;}
 .fat_nav a.active{background: $bg; border-color: $border_lighter; color: $text_light;}
 
 // first one  gose to the top

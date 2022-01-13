@@ -39,7 +39,7 @@ $(function() {
 $(function() {
     $(".intro .youtube").each(function() {
         $(this).on('click', function(){
-          console.log(this);
+          $(this).parent('.segment').addClass('video_playing');
         });
     });
  });
