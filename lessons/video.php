@@ -38,7 +38,7 @@
 
 	<div class="segment segment_lesson">
 		<h2><span class="no">1</span> Your first canvas.</h2>
-		<div class="youtube" id="QiWXzo04e6s"></div>
+		<div class="image"><img src="/assets/images/lessons/video/mariavert.jpg" alt="Maria" /></div>
 		<p>We’ll be starting with the VERY basics of your lean canvas. All you need to do is grab a pen, paper and post-it notes while Will takes you through some strategies to get your first canvas finished as fast as possible. Also, you’ll draw a few boxes.</p>
 	</div>
 	
