@@ -46,7 +46,7 @@
 			<a class="resource" href="https://docs.google.com/document/d/1_sfQyuXBLYda1bJqZrRNhmJfbWUCjjjgcH0VYPXFN44/edit?usp=sharing" target="_blank">
 				<i class="far fa-file-alt"></i>
 				<h4>Information for sessions</h4>
-				<p>THis is a recap of all the information you'll need to successfully run your card sorting sessiosn.</p>
+				<p>This is a recap of all the information you'll need to successfully run your card sorting sessiosn.</p>
 			</a>
 			<a class="resource" href="https://docs.google.com/document/d/15VPuvKazLauJAawcPkZhcnvj5LI9Oxj85AdvBcT7b1k/edit?usp=sharing" target="_blank">
 				<i class="far fa-file-alt"></i>
