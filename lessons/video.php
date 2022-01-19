@@ -86,7 +86,7 @@ In many ways it’s more important than your gear, your presentations or your ed
 	<div class="segment segment_lesson">
 		<h2><span class="no">4</span> Tips & mistakes.</h2>
 		<div class="image"><img src="/assets/images/lessons/video/studentjourney_process_2.jpeg" alt="studentjourney_process_2" /></div>
-		<p>YOnce they know what to do, we can start guiding them on how to do it well. This is one of the areas that pre-recorded video teaching departs quite dramatically from in person live teaching. When you’re in the room its very easy to help people along where ever they’re at, where as in a video that’s impossible. Instead we just need to be pretty explicate about what we want the students to do first, followed up by what the tips and tricks will help students excel. These can be tips or mistakes for the process as a whole, or for a specific step in the process. Just repeat as needed.</p>
+		<p>Once they know what to do, we can start guiding them on how to do it well. This is one of the areas that pre-recorded video teaching departs quite dramatically from in person live teaching. When you’re in the room its very easy to help people along where ever they’re at, where as in a video that’s impossible. Instead we just need to be pretty explicate about what we want the students to do first, followed up by what the tips and tricks will help students excel. These can be tips or mistakes for the process as a whole, or for a specific step in the process. Just repeat as needed.</p>
 		<p>I use these sort of sentences to prompt the teachers I work with:</p>
 		<ul>
 			<li>Make sure you…</li>
