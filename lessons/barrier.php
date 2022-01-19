@@ -9,7 +9,7 @@
 
 		<div class="youtube" id="4HMfaKGUjZk" data-bg="covers/arivert.jpg"></div>
 
-		<p>This lessson is teaches you a method of interview deep-reading to help you uncover all the barriers facing the people you interact with.</p>
+		<p>This lessson teaches you a method of interview deep-reading to help you uncover all the barriers facing the people you interact with.</p>
 
 		<div class="meta">
 			<p><i class="far fa-play-circle"></i> ~50 minutes over 8 videos</p>
@@ -36,7 +36,7 @@
 			<a class="resource" href="https://docs.google.com/document/d/1mYlvApp45YrY1dQoZXaxzLQAUkus1jHzhpwXxmfWIx0/edit?usp=sharing" target="_blank">
 				<i class="far fa-file-alt"></i>
 				<h4>Example interview transcripts</h4>
-				<p>These are the example interview transcripts that Ari uses in this lesson..</p>
+				<p>These are the example interview transcripts that Ari uses in this lesson.</p>
 			</a>
 		</div>
 	</div>
@@ -49,7 +49,7 @@
 	
 	<div class="segment segment_lesson">
 		<h2><span class="no">2</span> Define your patient.</h2>
-		<div class="youtube" id="p1ncyFaj9wg"></div>
+		<div class="youtube" id="vjgDmfPcQU8"></div>
 		<p>The first real step in this process is to ‘define your patient.’ This is the person who will form the center of your map. The ‘patient’ will change greatly depending on your context; you might also say ‘user’ or ‘customer.’ It’s the person you care about, and are trying to help.</p>
 	</div>
 

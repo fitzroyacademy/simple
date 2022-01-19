@@ -18,7 +18,6 @@
 	<div class="resources">
 		<h2>Lesson resources</h2>
 		<div class="youtube" id="-ywQCdFYHdk"></div>
-		e
 		<a class="resource" href="https://docs.google.com/document/d/1gqb99aLlzAMrvCAFNnzZNE4PTCvTo-kADiJnH3W8J8E/edit?usp=sharing">
 			<i class="far fa-file-alt"></i>
 			<h4> Blank Early Stage Investment template</h4>

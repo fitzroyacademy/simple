@@ -9,7 +9,7 @@
 
 		<div class="youtube" id="HovolNuT87s" data-bg="covers/mariavert.jpg"></div>
 
-		<p>This lessson is about will help you prepare, rehearse and deliver the best presentation of your life.</p>
+		<p>This lessson will help you prepare, rehearse and deliver the best presentation of your life.</p>
 
 		<div class="meta">
 			<p><i class="far fa-play-circle"></i> ~23 minutes over 5 videos</p>
@@ -58,7 +58,7 @@
 	<div class="segment segment_lesson" id="lesson">
 		<h2><span class="no">1</span> Story.</h2>
 		<div class="youtube" id="wFMvikLISy0"></div>
-		<p>Video desciption.</p>
+		<p>We're going to start with the most important part of any presentation - The story. Maria takes you through a process to get your ideas out and find a compelling start and end to your story.</p>
 		<h3>The activity</h3>
 		<ol>
 			<li>Brainstorm.</li>
@@ -76,7 +76,7 @@
 	<div class="segment segment_lesson">
 		<h2><span class="no">2</span> Visual slides.</h2>
 		<div class="youtube" id="p1ncyFaj9wg"></div>
-		<p>Video desciption.</p>
+		<p>Now, this lesson is about performance, not pitch decks, however if you feel like you want some guidances on your slides, Maria shows you a structure and some thoughts on the visuals of a good slide deck.</p>
 		<h3>The outline</h3>
 		<ol>
 			<li>Crisp statement (a sentence or two) on who you are and what you do.</li>
@@ -97,9 +97,9 @@
 	</div>
 
 	<div class="segment segment_lesson">
-		<h2><span class="no">3</span> Warm up.</h2>
-		<div class="youtube" id="gkjEoud-CDg"></div>
-		<p>Video desciption.</p>
+		<h2><span class="no">3</span> Rehearsal.</h2>
+		<div class="youtube" id="UMBbEe0uK-A"></div>
+		<p>You've got your story and your slides  ready to go, is it time to start pitching? No, first we need to rehearse. and rehearse, rehearse and rehearse. Maria shows you a method to make sure you're rehearsals are productive, but unfortunately there's no escaping how embarressed you'll feel.</p>
 
 		<h3>Tips</h3>
 		<ul>
@@ -115,17 +115,17 @@
 	</div>
 
 	<div class="segment segment_lesson">
-		<h2><span class="no">4</span> Rehearsal.</h2>
-		<div class="youtube" id="UMBbEe0uK-A"></div>
-		<p>Video desciption.</p>
-		<h3>Warm up physically</h3>
+		<h2><span class="no">4</span> Warm up .</h2>
+		<div class="youtube" id="gkjEoud-CDg"></div>
+		<p>Now that you've written you're story and made your slides, and rehearsed the presentation, it's show time. Maria takes you through a quick set of exercises to warm up physically and mentally. </p>
+		<h3>Warm up physically<./h3>
 		<ol>
 			<li>Start by loosening up your legs.</li>
 			<li>Drop your shoulders</li>
 			<li>Shake out your hands.</li>
 			<li>Relax your face.</li>
 		</ol>
-		<h3>Warm up mentally</h3>
+		<h3>Warm up mentally.</h3>
 		<ol>
 			<li>Take a deep breath.</li>
 			<li>Think about someone or something you want to embody in your performance..</li>
@@ -135,7 +135,7 @@
 	<div class="segment segment_lesson">
 		<h2><span class="no">5</span> Performing.</h2>
 		<div class="youtube" id="wzQQLdTtdz4"></div>
-		<p>Video desciption.</p>
+		<p>Making a fool of yourself in public is everyone's biggest fear, but don't worry Maria shows you how to stay comfortable and give a strong performance, each and everytime with your amazing new presentation.</p>
 		<h3>Tips</h3>
 		<ul>
 			<li>Own the stage. You’ve practiced and prepared, now you can be fully present in the moment on stage (or even in a meeting).</li>
