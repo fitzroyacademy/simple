@@ -5,7 +5,7 @@
 
 	<div class="segment"> <!-- video_playing class for playing mode -->
 
-		<h1><a href="#">Art of performance</a> with Maria Franco</h1>
+		<h1><a href="#">Business model canvas</a> with Issac Jeffries</h1>
 
 		<div class="youtube" id="_nJq8rFiaoA" data-bg="covers/issacvert.jpg"></div>
 
@@ -27,12 +27,12 @@
 	<div class="segment segment_resources" id="resources">
 		<h2><span class="no"><i class="far fa-file-alt"></i></span> Lesson resources</h2>
 		<div class="resources">
-			<a class="resource" href="https://docs.google.com/document/d/1g3VpBufpzDJqjm5itJpHV8_zbjgBkm_Dw3T97BAKOF0/edit?usp=sharing" target="_blank">
+			<a class="resource" href="https://docs.google.com/document/d/1EKvSGGwW1_TmuHJ1mB-u9eg4VUujzjld5wBpC1CbVa0/edit?usp=sharing" target="_blank">
 				<i class="far fa-file-alt"></i>
 				<h4>Business model canvas - Blank</h4>
 				<p>This is the blank business model canvas. Just make a copy and get started with your own business.</p>
 			</a>
-			<a class="resource" href="https://docs.google.com/document/d/1mYlvApp45YrY1dQoZXaxzLQAUkus1jHzhpwXxmfWIx0/edit?usp=sharing" target="_blank">
+			<a class="resource" href="https://docs.google.com/document/d/1c4dtBff6yEe0BIgzfilNfluSvsTXc0EIJDYkITjoj2w/edit?usp=sharing" target="_blank">
 				<i class="far fa-file-alt"></i>
 				<h4>'Social enterprise cafe' Business model canvas - Lesson example.</h4>
 				<p>This is one of the examples that Issac takes you through in this lesson - A cafe that also donates profits to charity.</p>
