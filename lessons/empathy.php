@@ -64,31 +64,31 @@
 		<div class="resources">
 				<div class="resource">
 					<i class="far fa-file-alt"></i>
-					<a href="https://http://thisisservicedesignthinking.com/">This is service design thinking.</a>
+					<a href="https://http://thisisservicedesignthinking.com/" target="_blank">This is service design thinking.</a>
 					<p>This is service design thinking is one of the first design thinking books. It’s a good mix of theory and practical tools that can help you apply design thinking in your own context.</p>
 				</div>
 
 				<div class="resource">
 					<i class="far fa-file-alt"></i>
-					<a href="hhttp://www.jonathonporritt.com/earlier-books-tv-series-and-media/">World we made.</a>
+					<a href="hhttp://www.jonathonporritt.com/earlier-books-tv-series-and-media/" target="_blank">World we made.</a>
 					<p>Jonathon Porritt’s book tries to illustrate how the world can look like if we apply human-centred design to all we do. It’s a fun read..</p>
 				</div>
 
 				<div class="resource">
 					<i class="far fa-file-alt"></i>
-					<a href="https://http://thisisservicedesignthinking.com/">The Design Way.</a>
+					<a href="https://http://thisisservicedesignthinking.com/" target="_blank">The Design Way.</a>
 					<p>The Design Way is probably not the first book you should read when you’re exploring human-centred design as it’s quite heavy. However, it does put some vital focus on mindset, knowledge set, skill set and toolset in design. Furthermore it focuses on the integration of the design practice across your whole life. We recommend this book when you feel you’re ready to take the next step in learning more in depth about human-centred design..</p>
 				</div>
 
 				<div class="resource">
 					<i class="far fa-headphones"></i>
-					<a href="https://soundcloud.com/wearehuddle">The Huddle Show</a>
+					<a href="https://soundcloud.com/wearehuddle" target="_blank">The Huddle Show</a>
 					<p>Huddle’s podcast is where we talk about anything from complex world problems, systems thinking, team dynamics, organisational change and how all of this can benefit from a design led approach by looking at the problem from many different perspectives.</p>
 				</div>
 
 				<div class="resource">
 					<i class="fas fa-browser"></i>
-					<a href="https://hbr.org/2015/09/design-thinking-comes-of-age">Design thinking comes of age</a>
+					<a href="https://hbr.org/2015/09/design-thinking-comes-of-age" target="_blank">Design thinking comes of age</a>
 					<p>This HBR article talks about the principles of design thinking and how there is a shift currently happening in large organisations. A shift that puts design and people much closer at the centre of their decision making processes. </p>
 				</div>
 		</div>
