@@ -46,69 +46,51 @@
 	</div>
 
 	<div class="segment segment_lesson" id="lesson">
-		<h2><span class="no">1</span> Unique value proposition.</h2>
-		<div class="youtube" id="XInuNhD9pOg"></div>
-		<p>Issac groups the 9 boxes of the business model canvas into 3 lenses. We start with thinking about the first lens desirability: What makes your organisation desirable to prospective doners and customers. This first box we table is UVP: What is unique and valuable that your org provides?</p>
+		<h2><span class="no">1</span> The project.</h2>
+		<div class="youtube" id="ehx5DC2n8XA"></div>
+		<p>Prash starts by taking us through some of the general overview information for your project. This is important to get right as it helps you set your campaign goals.</p>
 	</div>
 	
 	<div class="segment segment_lesson">
-		<h2><span class="no">2</span> Customer Segments.</h2>
-		<div class="youtube" id="4K-xWrgjlso"></div>
-		<p>Next in the desirability lens is customer segments: What are the groups of people, customers, that are willing to give you money, and what important to them.</p>
+		<h2><span class="no">2</span> Campaign page.</h2>
+		<div class="youtube" id="F9lOSl2SHu8"></div>
+		<p>Next, we flesh out the rest of the campaign page. Using the template, Prash shows us how to make sure we're giving potential donors the right information, in a way that's compelling.</p>
 	</div>
 
 	<div class="segment segment_lesson">
-		<h2><span class="no">3</span> Customer relationships.</h2>
-		<div class="youtube" id="gkjEoud-CDg"></div>
-		<p>The third box within the desirability lens: Customer relationships. Now we have a good idea who our customer is, the question now is 'How do we engage with them?'</p>
+		<h2><span class="no">3</span> Pre-launch.</h2>
+		<div class="youtube" id="9Rcd0S10kGA"></div>
+		<p>Now it's time to start planning the campaign comms. Using the marketing and communication plan, Prash helps us work out who we want to be contacting and when. We start to draft a few of the inital emails that we'll be using as well.</p>
 	</div>
 
 	<div class="segment segment_lesson">
-		<h2><span class="no">4</span> Channels.</h2>
-		<div class="youtube" id="t2CXrLsVt7w"></div>
-		<p>Finally for the desirability lens: Channels. Which existing channel to customers do you already have, and how can you manage it better?</p>
+		<h2><span class="no">4</span> Launch.</h2>
+		<div class="youtube" id="EI9vWzZGH8c"></div>
+		<p>It's time for the big launch of the campaign. Getting a lot of momentum is so important, so Prash helps us plan the communications we want to be engaging people with during this period.</p>
 	</div>
 
 	<div class="segment segment_lesson">
-		<h2><span class="no">5</span> Key resources.</h2>
-		<div class="youtube" id="tp7HHPHD73Q"></div>
-		<p>Now we start the second lens: Feasibility. This lens is about the operations of your org and how the magic is made. We start with the box on the canvas 'Key resources': What the main resources you have at your disposal for the org?</p>
+		<h2><span class="no">5</span> Lull.</h2>
+		<div class="youtube" id="dqODcAdxJ3I"></div>
+		<p>Once the campaign has begun, it's hard to maintain momentum. Prash shows us how to leveage some big donors and partners to keep the good news flowing.</p>
 	</div>
 
 	<div class="segment segment_lesson" id="lesson">
-		<h2><span class="no">6</span> Key activities.</h2>
-		<div class="youtube" id="PyArNpD_DSA"></div>
-		<p>Next for feasability: Key activities. What are the main operations that your org does, day to day?</p>
+		<h2><span class="no">6</span> The finish.</h2>
+		<div class="youtube" id="wZC076JGZSw"></div>
+		<p>Coming down to the finish line, Prash takes us through how to make sure we finish strong and reach that goal we've all been working for.</p>
 	</div>
 	
 	<div class="segment segment_lesson">
-		<h2><span class="no">7</span> Key partners.</h2>
-		<div class="youtube" id="hBTV5l2qw8Q"></div>
-		<p>Finally for feasability: Key partners. Partners are people who take things off our plate, it's important that we make sure to work with partners as our own resources will always be limited.</p>
-	</div>
-
-	<div class="segment segment_lesson">
-		<h2><span class="no">8</span> Costs</h2>
-		<div class="youtube" id="7yP8r80boNE"></div>
-		<p>The final lens is Viability: The finances of your organisation. We start with the costs box: What are the main areas of costs for the organisation.</p>
-	</div>
-
-	<div class="segment segment_lesson">
-		<h2><span class="no">9</span> Revenue.</h2>
-		<div class="youtube" id="WSvJ09dAksE"></div>
-		<p>The final box on the canvas: Revenue. What are the relable and repeatable streams of revenue that you can access for your organisation? How much and how often do people donate?</p>
-	</div>
-
-	<div class="segment segment_lesson">
-		<h2><span class="no">10</span> Innovating with your canvs.</h2>
-		<div class="youtube" id="etKdodQjRlM"></div>
-		<p>Finally, your canvas is done. Now is the time to step back, go for a walk around the block. Once you've refreshed yourself it's time to put the canvas to work. Issac takes you through a few ways you can use this completed canvas to begin to innovate within your organisation.</p>
+		<h2><span class="no">7</span> After campaign.</h2>
+		<div class="youtube" id="lBJ1rMxhJrw"></div>
+		<p>Just because the campaign is finsihed, doesn't mean your work is. Prash shows us what comms are important so your donors still feel like they're involved, and ideally will be excited for your next project.</p>
 	</div>
 
 	<div class="segment segment_practical">
-		<h2><span class="no"><i class="fas fa-flask"></i></span> Social enterprise cafe example canvas.</h2>
-		<div class="youtube" id="E9hhcVgnNoM"></div>
-		<p>Issac takes you through a completed canvas start to finish, thinking through how a social enterprise cafe could work using the canvas.</p>
+		<h2><span class="no"><i class="fas fa-flask"></i></span> Campaign page examples.</h2>
+		<div class="youtube" id="n5Wb130feV0"></div>
+		<p>Will takes us through a complete campaign page example using a real world crowdfunding campaign for a local cafe.</p>
 	</div>
 
 	<div class="segment further_reading" id="reading">
