@@ -20,7 +20,7 @@ In many ways it’s more important than your gear, your presentations or your ed
 		</div>
 
 		<div class="resources">
-			<h2>Lesson resources</h2>
+			<h2><span class="no"><i class="far fa-file-alt"></i></span> Lesson resources</h2>
 			<div class="resource">
 				<i class="far fa-file-alt"></i>
 				<a href="https://docs.google.com/document/d/1gx2A2sO1ZlVn7xfoPeEQXHSG2DyfskcqLp2qqon2Dn4/edit?usp=sharing">Lesson plan - Blank</a>

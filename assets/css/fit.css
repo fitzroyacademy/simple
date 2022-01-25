@@ -130,6 +130,11 @@ body {
   font-size: 1.2rem;
 }
 
+.segment img {
+  max-width: 100%;
+  margin-bottom: 1rem;
+}
+
 .youtube {
   background-size: cover;
   position: relative;

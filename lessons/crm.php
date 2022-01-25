@@ -16,7 +16,7 @@
 	</div>
 
 	<div class="resources">
-		<h2>Lesson resources</h2>
+		<h2><span class="no"><i class="far fa-file-alt"></i></span> Lesson resources</h2>
 		<div class="resource">
 			<i class="far fa-file-spreadsheet"></i><a href="https://docs.google.com/spreadsheets/d/1ea-sKLW2o0rdwzna-3Z5O8OltO2DuCS8DIz4cMkDysA/edit?usp=sharing">Page layout template - Blank.</a>
 			<p>The first template for this lesson, the page layout template to help you workout what information you’ll want to collect.</p>

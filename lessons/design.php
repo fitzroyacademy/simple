@@ -16,7 +16,7 @@
 	</div>
 
 	<div class="resources">
-		<h2>Lesson resources</h2>
+		<h2><span class="no"><i class="far fa-file-alt"></i></span> Lesson resources</h2>
 		<div class="youtube" id="fdY5SvS5Rms"></div>
 		<div class="resource">
 			<i class="far fa-file-alt"></i><a href="https://drive.google.com/open?id=1rts69HXxJvNV6C9XpyQwzieaOuPqSf3W62LOP3IhnRQ/edit?usp=sharing">DIF Template example, blank.</a>
