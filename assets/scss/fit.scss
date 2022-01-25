@@ -205,6 +205,8 @@ $max_width: 768px;
 
 .intro .segment > .button{display: none;}
 
+// This adds video_playing class via JS for playing mode
+
 .intro .segment.video_playing{padding-left: 35rem;}
 .intro .segment.video_playing .youtube{width: 30rem;}
 .intro .segment.video_playing .meta{display: none;}

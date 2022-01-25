@@ -18,7 +18,7 @@
 		</div>
 	</div>
 
-</div> <!-- intro -->
+</div>
 
 <?php include '../assets/templates/lesson_nav.php';?>
 
