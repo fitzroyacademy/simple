@@ -3,20 +3,29 @@
 
 <div class="intro">
 
-	<h1><a href="#">Agile</a> with Clare Carmody</h1>
+	<div class="segment"> <!-- video_playing class for playing mode -->
 
-	<div class="youtube" id="xKhHWC7Agdk"></div>
+		<h1><a href="#">Agile</a> with Clare Carmody</h1>
 
-	<p>This lesson will teach you the tools and methods to make your first Agile project work.</p>
+		<div class="youtube" id="xKhHWC7Agdk" data-bg="covers/clarevert.jpg"></div>
 
-	<div class="meta">
-		<p><i class="far fa-play-circle"></i> ~50 minutes over 5 videos</p>
-		<p><i class="far fa-clock"></i> About 1 hour of work to do it solo</p>
-		<p><i class="far fa-users"></i> Run it as a workshop with a small team over 2-3 hours</p>
+		<p>This lesson will teach you the tools and methods to make your first Agile project work.</p>
+
+		<div class="meta">
+			<p><i class="far fa-play-circle"></i> ~50 minutes over 5 videos</p>
+			<p><i class="far fa-clock"></i> About 1 hour of work to do it solo</p>
+			<p><i class="far fa-users"></i> Run it as a workshop with a small team over 2-3 hours</p>
+		</div>
 	</div>
 
-	<div class="resources">
-		<h2>Lesson resources</h2>
+</div> <!-- intro -->
+
+<?php include '../assets/templates/lesson_nav.php';?>
+
+<div class="segments">
+
+	<div class="segment segment_resources" id="resources">
+		<h2><span class="no"><i class="far fa-file-alt"></i></span> Lesson resources</h2>
 		<div class="resource">
 			<i class="far fa-file-alt"></i><a href="https://docs.google.com/document/d/1iyllT32_EjtVH_TmtPVNp4VZ6aVfWAU0enVGwq89mBM/edit?usp=sharing">Agile rituals reference sheet.</a>
 			<p>A quick recap of the important Agile rituals, and how to run them.</p>
@@ -31,11 +40,7 @@
 		</div>
 	</div>
 
-</div>
-
-<div class="segments">
-
-	<div class="segment segment_lesson">
+	<div class="segment segment_lesson" id="lesson">
 		<h2><span class="no">1</span> Scoping the project.</h2>
 		<div class="youtube" id="umWqry_jcpc"></div>
 		<p>To start, Clare introduces us to the rituals associatoed with planning a good agile project. The prep work is required to make sure the rest of the project runs smoothly</p>
@@ -117,7 +122,7 @@
 		<p>Finally, now that you have the basic tools and rituals needed to try your first Agile project. The only thing left to do is get started. Clare shares some tips on helping you get going fast.</p>
 	</div>	
 
-	<div class="segment further_reading">
+	<div class="segment further_reading" id="reading">
 		<h2><span class="no"><i class="fas fa-books"></i></span> Further reading</h2>
 		<div class="resources">
 				<div class="resource">
@@ -139,13 +144,6 @@
 
 	</div>
 </div>
-
-<!-- <div class="Teaching guide">
-	<h2>Teaching guide</h2>
-	<div class="youtube" id="B8mqcC6Z-b8"></div>
-	<p>If you’re a teacher who’s teaching lean, Will shares a few ideas from how we uses it with his class.</p>
-</div> -->
-
 
 
 <?php include '../assets/templates/site_footer.php';?>

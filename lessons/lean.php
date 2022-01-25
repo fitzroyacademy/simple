@@ -18,7 +18,7 @@
 		</div>
 	</div>
 
-</div>
+</div> <!-- intro -->
 
 <?php include '../assets/templates/lesson_nav.php';?>
 
@@ -132,5 +132,3 @@
 
 
 <?php include '../assets/templates/site_footer.php';?>
-
-

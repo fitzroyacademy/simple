@@ -16,7 +16,7 @@
 	</div>
 
 	<div class="resources">
-		<h2>Lesson resources</h2>
+		<h2><span class="no"><i class="far fa-file-alt"></i></span> Lesson resources</h2>
 		<div class="youtube" id="9lJK1M6tD6U"></div>
 		<div class="resource">
 			<i class="far fa-file-alt"></i>

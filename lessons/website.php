@@ -16,7 +16,7 @@
 	</div>
 
 	<div class="resources">
-		<h2>Lesson resources</h2>
+		<h2><span class="no"><i class="far fa-file-alt"></i></span> Lesson resources</h2>
 		<div class="resource">
 			<i class="far fa-file-alt"></i><a href="https://docs.google.com/document/d/13bsVt6-Hg1QE6RrfpKSzdhiG8h1ttBauj6lzg-Ar55w/edit?usp=sharing">One page site template - Blank.</a>
 			<p>The blank template used by Will in the lesson.</p>

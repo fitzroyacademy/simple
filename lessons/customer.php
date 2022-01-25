@@ -16,7 +16,7 @@
 	</div>
 
 	<div class="resources">
-		<h2>Lesson resources</h2>
+		<h2><span class="no"><i class="far fa-file-alt"></i></span> Lesson resources</h2>
 		<div class="resource">
 			<i class="far fa-file-alt"></i><a href="https://docs.google.com/document/d/1GX1iJX7GjnkksTRbtJUzaJkFhKvBcT_OQXcKDs_M9C0/edit?usp=sharing">Customer interview template - Blank.</a>
 			<p>The blank template used by Vic in the lesson.</p>
