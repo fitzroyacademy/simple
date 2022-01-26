@@ -39,6 +39,8 @@ $(function() {
     });
  });
 
+
+// play the intros
 $(function() {
     $(".intro .youtube").each(function() {
         $(this).on('click', function(){
@@ -47,6 +49,11 @@ $(function() {
     });
  });
 
+
+// colour the header
+if ($('.fat_hero h1').length > 0){
+  $('.fat_head .fat_device svg path').css('fill', $('.fat_hero h1').css('color'));
+}
 
 
 
