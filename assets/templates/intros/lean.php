@@ -2,7 +2,7 @@
 
 	<div class="segment">
 
-		<h1><a href="#">Lean</a> with Will Dayble</h1>
+		<h1><a href="/lessons/lean"><strong>Lean</strong> with Will Dayble</a></h1>
 
 		<div class="youtube" id="zlJshnVorEg" data-bg="covers/willvert.jpg"></div>
 

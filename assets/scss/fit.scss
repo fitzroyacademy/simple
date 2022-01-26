@@ -1,6 +1,4 @@
-/* STYLE */
-
-$fff: #fff;
+$fff: #fff; /* LOL I keep screwing this up so whatever, don't @ me. */
 
 $bg: #f5f7f8;
 $bg_grey: #f7f7f7;
@@ -112,40 +110,4162 @@ $old_blue_light: #21adf5;
 .maroon:not(.btn){color:$new_maroon !important;}
 
 // -----------------------------------------------------------------------------------------
-// Radiuseses
 
-$border_rad_sm: .1rem;
-$border_rad_md: .5rem;
-$border_rad_lg: 1rem;
-
-
-// -----------------------------------------------------------------------------------------
 // Google fonts
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,600,900');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
 
 body{font-family: "Lato", Arial, san-serif;}
 
-h1, h2, h3, h4{font-weight: 900; margin: 0; padding: 0;}
+h1, h2, h3{font-weight: 900;}
+
+// -----------------------------------------------------------------------------------------
+/* z */
+
+main, article, aside{z-index: 100;}
+nav{z-index: 150}
+
+.fit_subvidya{z-index: 200;}
+.fit_vidya{z-index: 250}
+
+// nb the bootstrap stuff starts at 1000.
+
+footer{z-index: 1500;}
+
+.fit_player{z-index: 2000;}
 
 
-h1{font-size: 48px; color: $text_lighter;}
-h1 a{text-decoration: none; color: $brand;}
+.fit_survey_responses{z-index: 2000;}
+
+.fit_survey_responses table tbody .response.truncated:after{z-index: 2100}
+.fit_survey_responses table tbody .response .expand{z-index: 2150}
+
+.fit_survey{z-index: 2200;}
+
+
+
+.fit_medium_rare{z-index: 2000;}
+.fit_medium_rare .fit_rare{z-index: 2100;}
+.fit_medium_rare .fit_medium{z-index: 2200;}
+
+.fit_medium_rare .fit_medium .breakbig:after{z-index: 2210;}
+.fit_medium_rare .fit_medium .breakbig > *{z-index: 2220;}
+
+.fit_fancyplace input,
+.fit_wysiwyg .medium-editor-element{z-index: 2300}
+
+.fit_fancyplace.labelled label,
+.fit_wysiwyg label{z-index: 2350;}
+
+
+// cropping
+.fit_cropper .fa-user{z-index: 2400;}
+.fit_cropper .placeholder{z-index: 2410;}
+.fit_cropper .fit_upload_dropzone{z-index: 2430;}
+
+
+
+header{z-index: 3000;}
+header .fit_device,
+header .fit_form_code_head{z-index: 3100}
+header .fit_mobile_menu{z-index: 3200;}
+
+header .fit_btn {z-index: 3300}
+header .fit_btn i{z-index: 3310}
+header .fit_btn > .fit_txt:after{z-index: 3330;}
+
+header .fit_mobile_menu_dropdown,
+header .fit_search_header{z-index: 3500;}
+
+header .fit_loading{z-index: 3600;}
+
+.fit_sidepanel{z-index: 4000;}
+.fit_sidepanel .panel .content{z-index: 4010;}
+.fit_sidepanel .panel .head{z-index: 4020;}
+
+
+
+
+.modal{z-index: 5000;}
+
+.tooltip,
+.fit_lesson_tooltip{z-index: 6000;}
+
+.fit_debug{z-index: 9999;}
+
+
+// -----------------------------------------------------------------------------------------
+/* header */
+
+// widths and toggles
+$nav_left_width_flex: 23%;
+$nav_left_width_min: 10rem;
+$nav_left_width_max: 20rem;
+$nav_left_width_collapsed: 4rem;
+
+$nav_right_width_flex: 30%;
+$nav_right_width_max: 25rem;
+
+$container_wide: 70rem;
+$medium_width: 40rem;
+$large_width: 60rem;
+$large_margin: ($large_width - $medium_width) / 2;
+$larger_margin: ($container_wide - $medium_width) / 2;
+$rare_width: 15rem;
+
+
+$header_height: 3.2rem;
+
 
 $ratio_169: 56.25%;
+
+// borders
+$border_rad_xs: .1rem;
+$border_rad_sm: .2rem;
+$border_rad_md: .3rem;
+$border_rad_lg: .4rem;
+$border_rad_xl: .6rem;
+$border_rad_r: 9999em;
+
+
 
 
 
 // -----------------------------------------------------------------------------------------
+/* header */
 
-body{color:$brand; padding: 0; margin: 0; position: relative;}
 
-$max_width: 768px;
+header{height: $header_height; background: #fff; position: relative;}
+
+header .container{display: flex; position: relative;}
+
+
+@media (min-width: 70rem) {
+	header .container{padding: 0;}
+}
+
+header .fit_link:hover,
+.fit_sidepanel .panel .head .fit_link:hover{background: none;}
+
+
+// this subheader appears below the main sticky nav sometimes
+.fit_subhead{background: #fff; padding: 1rem; margin: 0 -1rem; border-bottom: 1px solid $border_light;}
+.fit_subhead li a{text-decoration: none !important; font-size: 1rem;}
+.fit_subhead.sticky-top{top:0;}
+
+@media (max-width: 575px) {
+	.fit_subhead.sticky-top{position: relative;}
+}
+
+// alerts 
+.fit_alerts{max-width: $container_wide; margin: 0 auto; padding: 0 1rem; box-sizing:border-box;}
+.fit_alerts > div:first-child{margin-top: 1rem;}
+
+// loading spinner
+$spinner_size: 1.75rem;
+.fit_loading{position: absolute; top:0; left: 0; background: #fff; width: 2.5rem; height: $header_height; display: flex; align-items: center; justify-content: center; opacity: 0; transition: all .25s ease-in-out; display: none;}
+.fit_loading .circle{width: $spinner_size; height: $spinner_size; background: $bg_light; border-radius: $border_rad_r; position: relative; overflow: hidden;}
+.fit_loading .circle i{width: $spinner_size; height: $spinner_size; font-size: $spinner_size; color: $text_light; position: absolute; top:0; left: 0; animation-duration: 1s;}
+
+
+.fit_loading.spinner .circle i{}
+
+.fit_loading.check .circle{background: $new_green;}
+.fit_loading.check .circle i,
+.fit_loading.error .circle i{font-size:1rem; display: flex; align-items: center; justify-content: center; color:#fff;}
+
+.fit_loading.error .circle{background: $new_red;}
+.fit_loading.error .circle i{color:#fff;}
+
+html.loading_spinner .fit_loading.spinner{opacity: 1; display: flex;}
+html.loading_check .fit_loading.check{opacity: 1; display: flex;}
+html.loading_error .fit_loading.error{opacity: 1; display: flex;}
+
+// -----------------------------------------------------------------------------------------
+/* overall box */
+
+html{height: 100%;}
+body{min-height: 100%;}
+
+
+// Box shadows everywhere, with consistent box_shadow!
+
+body > header,
+body > .fit_player nav,
+.fit_sidepanel .panel,
+.fit_debug,
+.fit_snackbar,
+.medium-editor-toolbar,
+.fit_survey{box-shadow: 0 0 1.5rem $box_shadow;}
+
+@media (min-width: 576px){
+	.modal-content{box-shadow: 0 .5rem 1.5rem $box_shadow;}
+}
+
+// this is the main bit that holds the other bits, wowee
+main{display:flex; height:100%; align-items:stretch; padding-bottom: 5rem;}
+
+
+article{position: static;}
+
+nav, aside{flex: 0 0 $nav_left_width_flex; min-width: $nav_left_width_min; max-width: $nav_left_width_max;}
+aside{flex: 0 0 $nav_right_width_flex; max-width: $nav_right_width_max;}
+
+article{flex: 1;}
+
+// messing with scrollbars coz ugh
+// only happens on the player screen
+// not sure about this :/
+
+@media (min-width: 576px){
+	main.fit_player{position: absolute; top:$header_height; left: 0; right: 0; bottom: 0; height: auto; background: #fff;}
+
+	main.fit_player nav,
+	main.fit_player article{overscroll-behavior: contain; overflow: hidden; overflow-y: scroll;}
+
+	main.fit_player nav::-webkit-scrollbar,
+	main.fit_player article::-webkit-scrollbar{background: transparent; width: 0px;}
+
+	main.fit_player article::-webkit-scrollbar-thumb {border-radius: $border_rad_r;}
+}
+
+// -----------------------------------------------------------------------------------------
+/* minimise the left bar */
+html.fit_minleft{}
+
+
+// -----------------------------------------------------------------------------------------
+
+
+// -----------------------------------------------------------------------------------------
+/* mess with bootstrap standards */
+
+// margin on button bits
+// how do we deal with this when it's on the right?
+.btn [class^='fa']{margin: 0 0.3rem;}
+// .btn-sm [class^='fa']:first-child{margin: 0 0.1rem;}
+// .btn-lg [class^='fa']:first-child{margin: 0 0.5rem;}
+
+.container{max-width: $container_wide;}
+
+.input-group-text{background: #fff;}
+
+h4{font-weight: 900; font-size: 1.1rem; color:$brand; margin:1.5rem 0 1rem; padding:0;}
+
+
+
+// no tooltip arrows, ew.
+.tooltip .arrow{display: none;}
+.tooltip .tooltip-inner{background: $blue;}
+
+// tooltips on lessons
+.fit_lesson_tooltip{margin-left: $nav_left_width_collapsed; visibility: hidden}
+.fit_lesson_tooltip .tooltip-inner{background: $aqua; color: #fff; padding: 0.25rem 0.75rem; font-size: 0.9rem; border-radius: $border_rad_lg; text-align: left;}
+
+// only show the lesson tooltips in certain modes
+html.fit_minleft .fit_lesson_tooltip{visibility: visible;}
+
+@media (max-width: 900px){
+	html .fit_lesson_tooltip{visibility: visible;}
+}
+
+.alert-icond{padding-left: 3.2rem;}
+.alert-icond > i{position: absolute; top:1rem; left: 1rem;}
+.alert > i{font-size: 1.6rem; margin-right: 0.5rem;}
+
+.btn-google,
+.btn-google:hover {color: white; background-color: $google_red;}
+.btn-google:hover{background-color: darken($google_red, 15%);}
+
+.btn-facebook,
+.btn-facebook:hover {color: white; background-color: $facebook_blue;}
+.btn-facebook:hover{background-color: darken($facebook_blue, 15%);}
+
+.btn-watermelon,
+.btn-watermelon:hover {color: white; background-color: $watermelon;}
+.btn-watermelon:hover{background-color: darken($watermelon, 15%);}
+
+.btn-blue,
+.btn-blue:hover {color: white; background-color: $new_blue;}
+.btn-blue:hover{background-color: darken($new_blue, 15%);}
+
+// -----------------------------------------------------------------------------------------
+// the brand device up the top left
+
+.fit_device{display: block; }
+.fit_device svg{height: 2rem; margin: 0.5rem 0.35rem 0.5rem 0.65rem;}
+.fit_device svg > path{fill-rule: evenodd; fill: $watermelon;}
+
+.fit_device:hover svg > path{fill:$watermelon_vibrant;}
+
+// this hax makes the square logo work
+.fit_device svg{height: 1.75rem; margin: 0.75rem 0.35rem 0.75rem 0.85rem;}
+
+header .fit_device svg > path{fill:$brand;}
+
+// -----------------------------------------------------------------------------------------
+/* fablocks */
+
+.fit{}
+.fit_link{}
+.fit_body{}
+.fit_link.i{}
+.fit_link.i-l{}
+.fit_link.i-r{}
+.fit_link.i-t{}
+
+
+// this is a panel
+// .fit_collapse{font-size: 1rem; line-height: 1.2rem; display: block; font-weight: 400;}
+// .fit_overflow .fit_body{ max-height: 25rem; overflow-y: scroll;}
+
+
+
+// -----------------------------------------------------------------------------------------
+// -----------------------------------------------------------------------------------------
+// -----------------------------------------------------------------------------------------
+// The new, sexy way to do fitzroy linkies
+
+
+// remember this is how flex sets widths:
+// flex-grow: 0;      						/* do not grow   - initial value: 0 */
+// flex-shrink: 0;    						/* do not shrink - initial value: 1 */
+// flex-basis: 25em;  						/* width/height  - initial value: auto */
+// flex: grow shrink basis;				/* shorthand */
+// flex: 0 0 25em;    						/* means "set width to 25em", do not shrink or grow */
+
+// some standards:
+// icons are all 4rem wide, which is $nav_left_width_collapsed.
+
+
+
+.fit_btn .fa-chevron-down,
+.fit_btn .fa-chevron-left,
+.fit_btn .fa-chevron-right,
+.fit_btn .fa-chevron-up{transition: all .1s ease-in-out;}
+
+
+// the basics and mods:
+.fit_btn{display: flex; text-decoration: none; position: relative; font-size: 1rem; align-items:center;}
+
+.fit_btn > * {padding: 1rem 0;}
+
+nav .fit_btn,
+aside .fit_btn{color: $text;}
+
+a.fit_btn:hover,
+a.fit_btn.active{text-decoration: none; background: $bg;}
+a.fit_btn:hover{color:$blue;}
+
+// icons, fixed width
+.fit_btn > i{width: $nav_left_width_collapsed; justify-content: center; text-align: center;}
+
+// wee bits of text on the right
+.fit_btn > .fit_sub{flex: 0 0 4rem; justify-content: center; text-align: right; padding-right: 1.5rem; padding-left: 1rem; color: $text_lighter; font-size: 0.8rem; white-space: nowrap;}
+
+// if the sub has a href (is a link)
+.fit_btn > .fit_sub[href]{color: $text_light;}
+.fit_btn > .fit_sub[href]:hover{color: $blue;}
+
+// videos are weird
+.fit_btn > .fit_pic{padding: 0; height:2rem; width: 2rem; margin: 0.5rem 1rem; border-radius: $border_rad_sm; position: relative; overflow: hidden;}
+.fit_btn > .fit_pic img{height: 100%;}
+.fit_btn > .fit_pic.vid img{margin-left: -35%;} // this is super weird, but hopefully pushes it left enough to centre it.
+.fit_btn > .fit_pic.circle{border-radius: $border_rad_r; box-shadow: 0 0 5px #fff;}
+
+// icons that appear over images if needed:
+.fit_btn > .fit_pic i{position: absolute; padding: .5rem 0; display: flex; top:0; width: 100%; height: 100%; color: $blue; justify-content: center; text-align: center; opacity: 0;}
+
+// active classes
+.fit_lesson.active .fit_btn > .fit_pic i.fa-play{background: $aqua_80; opacity: 1; color: #fff;}
+// not needed because dropdown? .fit_lesson .fit_btn:hover > .fit_pic i.fa-play{background: $aqua_50; opacity: 1;}
+
+// close the circle
+.fit_btn > .fit_pic .fa-times{position: absolute; display: flex; align-items: center; justify-content: center; top:0; left: 0; height: 100%; width: 100%; color: $blue; font-size: 1.2rem; background: #fff}
+
+.fit_btn > .fit_txt{flex: 1; font-size: 0.95rem; line-height: 1.2rem;}
+.fit_btn > a.fit_txt{text-decoration: none;}
+
+
+// -----------------------------------------------------------------------------------------
+// some sub-stuff on the right
+// this is a bit weird honestly, but needed for aligned buttons on the right.
+.fit_btn .sub{}
+.fit_btn .sub.buttonset{padding:.5rem;}
+.fit_btn .sub.buttonset .btn{padding: .25rem .5rem; margin: 0 .25rem; min-width: 2.5rem; line-height: 1.5rem}
+
+.fit_btn .sub .dropdown{display: inline-block;}
+
+// showing the drag n drop just on hover
+.fit_btn .sub.buttonset .btn[data-fit-dragndrop]{position: absolute; top:.5rem; left: .5rem; background: #fff; opacity: 0; color: $text_light;}
+.fit_btn:hover .sub.buttonset .btn[data-fit-dragndrop]{opacity: 1}
+.fit_btn .sub.buttonset .btn[data-fit-dragndrop]:hover{color: $blue;}
+
+// make it taller for resources
+.fit_btn.resource_link .sub.buttonset .btn[data-fit-dragndrop]{padding: .75rem .5rem;}
+
+// and showing the time only on hover
+.fit_btn .sub.buttonset .subtle{opacity: 0;}
+.fit_btn:hover .sub.buttonset .subtle{opacity: 1;}
+
+// making the sub buttons simpler with no background
+.fit_btn .sub.buttonset .btn{background: #fff;}
+.fit_btn .sub.buttonset .btn:hover{color:$blue;}
+
+// not needed without dropdown-toggle on elem --> .fit_btn .sub .dropdown .dropdown-toggle::after{display: none;}
+.dropdown .dropdown-item i{margin-right: .25rem; width: 1.2rem}
+
+[data-fit-dragndrop]{cursor: move; cursor: grab; cursor: -moz-grab; cursor: -webkit-grab;}
+[data-fit-dragndrop]:active {cursor: grabbing; cursor: -moz-grabbing; cursor: -webkit-grabbing;}
+
+.fit_btn .subtle{font-size: 0.8rem; color:$text_light;}
+
+// weird solid buttons
+.fit_btn.solid{position: relative; border-radius: $border_rad_md; background: $bg;}
+.fit_btn.outline:before,
+.fit_btn.solid:after{display: block; content: ''; position: absolute; top:0; left: 0; bottom: 0; right: 0; border-radius: $border_rad_sm; border:5px solid #fff;}
+
+.fit_btn.solid:hover{background: $bg_dark}
+
+.fit_btn.outline:before{top:5px; left: 5px; right: 5px; bottom: 5px; border:1px solid $blue;}
+.fit_btn.secondary.outline:before{border-color: $border_medium;}
+
+
+// -----------------------------------------------------------------------------------------
+// sortables
+[data-fit-sortable-list] > .fit_btn{background: #fff;}
+
+.sortable-ghost{background: $bg;}
+.sortable-ghost > *{opacity: 0.5;}
+
+
+
+// wtf is happening here with white space and height aRRGHGHgh?!
+// okay so we need nowrap for the headers, but not elsewhere.
+
+// mess with the container, when it's there
+header .container > .fit_btn.left:first-child,
+header .container > .fit_device:first-child{margin-left: -.75rem;}
+header .container > .right:last-child {margin-right: -15px;}
+
+header .fit_btn{color:$text;}
+
+header .fit_btn > .fit_txt,
+.head .fit_btn > .fit_txt{ white-space: nowrap; font-size: 0.9rem;}
+header .fit_btn:hover,
+.head .fit_btn:hover{background: transparent;}
+
+// aaah argh okay fine, smaller icons on the headers bah
+header .fit_btn > .fit_txt{}
+header .fit_btn > i{width: 2.5rem}
+header .fit_btn > i:first-child{margin-left: .5rem;} // makes up for the weird width, ugh
+header .fit_btn > i:not(:first-child){margin-right: .5rem;} // not allows for two icons, ugh
+
+// freak the login friend to intimate the right-side fun:
+header .fit_btn.login .fa-chevron-right{display: none; position: absolute; top:0; right: 0; bottom: 0; background: #fff; align-items:center;}
+header .fit_btn.login:hover .fa-chevron-right{display: flex; opacity: 1;}
+
+
+// header underlines are weird
+header .fit_btn[href] > .fit_txt:after,
+.head .fit_btn[href] > .fit_txt:after{
+	transition: all .3s ease-in-out;
+	display:block; content:''; position: absolute; bottom:.45rem; left:1.25rem; right:1.25rem; height: 3px; background: $blue; border-radius: $border_rad_xl; opacity: 0;}
+
+// Okay super weird for just the circle image
+header .fit_btn[data-fit-userpanel] > .fit_txt:after{right: 3.75rem;}
+header .fit_btn[data-fit-userpanel]:after{content: ''; display: block; position: absolute; top:.35rem; right: .75rem; width: 2.5rem; height: 2.5rem; border-radius:$border_rad_r; border:.25rem solid $blue; opacity: 0; transition: all .3s ease-in-out; transform: scale(0.9); }
+header .fit_btn[data-fit-userpanel]:hover:after{opacity: 0.4; transform: scale(1); }
+
+
+// hide the user panel when editing
+html.section-edit header .fit_btn[data-fit-userpanel]{display: none} 
+
+
+
+header .fit_btn:hover > .fit_txt:after,
+.head .fit_btn:hover > .fit_txt:after{opacity: 0.4; bottom: .6rem;}
+
+.fit_btn > .fit_txt:first-child{padding-left: 1.5rem;}
+.fit_btn > .fit_txt:last-child{padding-right: 1.5rem;}
+
+
+// let's do weird limited ones
+.fit_btn.widthlimit .fit_txt{max-width: 10rem; overflow: hidden;}
+.fit_btn.widthlimit .fit_txt:before{content: ''; background: linear-gradient(270deg, #fff, rgba(255,0,255,0)); display: block; position: absolute; top:0; bottom:0; right: 0; width: 3rem; border-right:1.5rem solid #fff;}
+
+
+// BIG mode for large buttons!
+.fit_btn_lg{font-size: 1.5rem;}
+.fit_btn_lg > .fit_txt{font-size: 1.4rem;}
+
+// weird one in the panes
+.fit_pane > .fit{margin: -.5rem}
+.fit_pane > .fit_body{padding-top: 1.5rem}
+
+// weirdo collapsey boies
+.fit_pane .fit_btn[data-toggle="collapse"].collapsed{background: transparent; color:$blue}
+.fit_pane .fit_btn[data-toggle="collapse"]{background: #fff; color: $brand;}
+.fit_pane .fit_btn[data-toggle="collapse"]:hover{color: $blue;}
+
+.fit_pane .fit_btn[data-toggle="collapse"] .fa-chevron-down{padding: 1rem;}
+
+// move the content over a bit
+.fit_pane[data-fit_fail_type] .fit_summary_icons{margin: 1rem 0 0 1rem;}
+.fit_pane[data-fit_fail_type] .fit_summary_icons dt > i:first-child{left: 0.2rem;}
+
+
+// fade them out of the selector thing
+.fit_pane.faded{background: $bg_grey;}
+.fit_pane.faded .fit_btn[data-toggle="collapse"].collapsed{color: $text_lighter;}
+.fit_pane.faded .fit_btn[data-toggle="collapse"].collapsed:hover{color: $text;}
+
+// small screens
+@media (max-width: 767px) {
+	.fit_pane{margin: 0 -1rem 1rem !important;}
+}
+
+// DANGER PANE
+.fit_pane.danger{border-color: $red;}
+
+// Okay. This is the 'segment types' bit, where we use freaky stuff to display certain icons:
+.fit_btn > .fit_circle{}
+
+// weird stuff in resource links
+.fit_pane .fit_btn.resource_link{background: #fff; border-radius: $border_rad_md; flex-wrap:wrap;}
+
+.fit_btn > .fit_txt .fa-external-link{margin-left: .25rem; font-size: 80%;}
+
+.fit_btn.resource_link{align-items: flex-start;}
+.fit_btn.resource_link i.lg{font-size: 2rem;}
+.fit_txt small{display: block; color:$text_lighter;}
+.fit_pane .fit_btn.resource_link:hover small{color:$text;}
+
+.fit_btn.resource_link .fit_txt{}
+
+
+
+// adding to a list like lessons or resources
+.fit_btn_add{background: #fff;}
+.fit_btn_add .fa-plus{position: relative;}
+.fit_btn_add .fa-plus:after{position: absolute; content: ''; display: block; width: calc(2rem - 1px); height: calc(2rem - 1px); border: 1px solid transparent; position: absolute; top:50%; left: 50%; margin: -1rem 0 0 -1rem; border-radius: $border_rad_sm;}
+
+.fit_btn_add:hover{background: #fff}
+.fit_btn_add:hover .fa-plus:after{border-color: $blue;}
+
+.fit_btn_add:last-child{border-radius: 0 0 $border_rad_sm $border_rad_sm;}
+
+
+// the short text explainer
+.fit_btn.resource_link .explain{padding: 0 1rem 0 4rem; font-size: 0.8rem; height: 2rem; overflow: hidden; color:$text_light; position: relative; cursor: s-resize; width: 100%;}
+.fit_btn.resource_link .explain:after{background: linear-gradient(0deg, #fff, rgba(255,255,255,0)); display: block; position: absolute; content: ''; width: 100%; bottom:0; left: 0; height: 2rem;}
+
+.fit_btn.resource_link .explain:active,
+.fit_btn.resource_link .explain:focus{height: auto; overflow: auto}
+.fit_btn.resource_link .explain p{margin-bottom: .5rem;}
+
+
+// this stuff only appears when viewed by a student
+.fit_resource_link_wrap{border:1px solid transparent; border-radius: $border_rad_md;}
+
+.fit_resource_description{padding: .5rem 0 1rem 4rem; position: relative;}
+.fit_resource_description > i{color: $text_lighter; position: absolute; top:-.2rem; left: 0; width: 4rem; padding: 1rem; font-size: .8rem; text-align: center; display: block;}
+.fit_resource_description p{font-size: .95rem; margin-bottom: 0.25rem; color:$text_medium;}
+.fit_resource_description p:last-child{margin-bottom: 0rem;}
+
+.fit_resource_link_wrap:hover{border-color: $border_light;}
+.fit_resource_link_wrap:hover .fit_resource_description > i{transform: rotate(90deg);}
+
+// the standard stuff of 'types', most are just circles.
+.fit_btn.intro > [class*="fa-"]:before{content: "\f04b";}
+.fit_btn.video > [class*="fa-"]:before{content: "\f04b";}
+.fit_btn.practical > [class*="fa-"]:before{content: "\f15b";}
+
+// less common, but different:
+.fit_btn.html > [class*="fa-"]:before{content: "\f15b";}
+.fit_btn.interview > [class*="fa-"]:before{content: "\f086";}
+.fit_btn.story > [class*="fa-"]:before{content: "\f4b0";}
+.fit_btn.case > [class*="fa-"]:before{content: "\f0b1";}
+.fit_btn.bonus > [class*="fa-"]:before{content: "\f005";}
+
+// text:
+.fit_btn.text > [class*="fa-"]:before{content: "\f036";}
+// and surveys
+.fit_btn.survey > [class*="fa-"]:before{content: "\f075";}
+
+// but then there's 'state':
+// .fit_btn.locked > [class*="fa-"]:before{content: "\f023";}
+// .fit_btn.complete > [class*="fa-"]:before{content: "\f00c";}
+// .fit_btn.touched > [class*="fa-"]:before{content: "\f5d0";}
+
+
+// others for scrap
+// question mark in square = \f2fd
+
+// and some colours and things for status:
+.fit_btn.active > i{color: $blue;}
+.fit_btn.complete > i{color: $text_lighter;}
+.fit_btn.locked > .fit_txt,
+.fit_btn.locked > i,
+.fit_btn.locked{color: $text_lighter;}
+
+
+
+
+// underlines for showing things
+.fit_lesson > .fit_btn{border-top:1px solid $border_light;}
+.fit_btn.collapsed{border-top-color: #fff;}
+.fit_lesson > .collapse.show{border-bottom: 1px solid $border_light;}
+
+// weird hover thingy
+// removing display:none; for clarity
+.fit_hovermin{ position: absolute; top:0; width: 4rem; border-radius: 999rem; display: block;}
+
+// omg this is some hacky bullshit right here
+// we need the hover to go over the top of the _sub text, so we make a psuedoelement with the chevron in it.
+// it's a circle so it doesn't look weird when rotating. JAYSIS.
+.fit_sub + .fit_hovermin:after{display: block; content: "\f077"; display: flex; align-items: center; justify-content: center; background: #fff; height: 3rem; width: 3rem;  position: absolute; top:0rem; left: 0.5rem; border-radius: $border_rad_r; color:$text_lighter;}
+.fit_hovermin:last-child{right: 0;}
+.fit_hovermin:first-child{left: 0;}
+.fit_btn:hover .fit_hovermin{display: block;}
+
+// hover is weird
+a.fit_btn:hover .fit_sub + .fit_hovermin:after{background: $bg; color:$blue;}
+
+// make the text have a sneaky overflow
+aside .fit_btn .fit_txt{overflow: hidden; position: relative; white-space: nowrap;}
+aside .fit_btn .fit_txt:after{background: linear-gradient(90deg, rgba(255,255,255,0), #fff); display: block; position: absolute; content: ''; height: 100%; top:0; right: 0; width: 1.5rem;}
+
+// hiding the text gradient for now
+aside .fit_btn .fit_txt:after{display: none}
+
+aside .fit_btn:hover .fit_txt:after,
+aside .fit_btn.active .fit_txt:after{background: linear-gradient(90deg, rgba(255,255,255,0), $bg);}
+
+// aside .fit_btn[data-toggle="collapse"]{border-top:1px solid $border_light;}
+aside .fit_btn[data-toggle="collapse"] .badge-light{color: $text_lighter; text-transform: uppercase;}
+
+// rotate all the chevrons and things
+html.fit_minleft [data-fit-minleft] i{transform: rotate(180deg);}
+.fit_btn.collapsed .fa-chevron-down{transform: rotate(90deg);}
+
+.fit_btn > .fit_hovermin{transform: rotate(0deg);}
+.fit_btn.collapsed > .fit_hovermin{transform: rotate(-180deg);}
+
+.fit_lesson > .fit_btn{border-top: 1px solid $border_light; transition: border-top .2s ease-in-out;}
+.fit_lesson > .fit_btn.collapsed{border-top-color: transparent;}
+
+// remove for first
+.fit_lessons .fit_lesson:first-child > .fit_btn{border-top: none; border-radius: $border_rad_sm $border_rad_sm 0 0}
+.fit_lessons .fit_lesson:last-child > .fit_btn,
+.fit_lessons .fit_lesson:last-child > .collapse.show{border-bottom: none; border-radius: 0 0 $border_rad_sm $border_rad_sm}
+
+
+// subtler colours sometimes
+.fit_btn.subtle{color: $text_subtle;}
+
+
+// weird in the header
+header{}
+header .fit_btn > .fit_txt{white-space:nowrap;}
+
+header .left,
+header .right,
+.head .left,
+.head .right{display: flex;}
+header .left,
+.head .left{margin-right: auto;}
+header .right,
+.head .right{margin-left: auto;}
+
+header .fit_btn:first-child{margin-left: -1rem;}
+
+// margins in the sidebar within a content thingo
+.fit_body_content > .fit_btn{margin: 0 -1.5rem 0;}
+.fit_body_content > .fit_btn:first-child{margin-top: -.5rem;}
+.fit_body_content > .fit_btn:last-child{margin-bottom: -.5rem;}
+
+
+
+
+// -----------------------------------------------------------------------------------------
+/* fit body */
+.fit_body{padding:0;}
+.fit_body_content{padding: 0.5rem 1.5rem 0.3rem;}
+
+/* another head right in a body? */
+.fit_body_content > .fit_link{margin: 0 -1.5rem }
+.fit_body_content > form{margin: 0 -0.5rem;}
+
+/*link AFTER another link, within an fit body */
+.fit_body_content > .fit_link + .fit_link{margin-top: -0.25rem}
+.fit_body_content > .fit_link:last-child{margin-bottom: -0.3rem}  /*padding-bottom: 1.5rem; */
+
+
+/*some playing / active stuff*/
+.fit_link.active{background: $bg}
+.fit_link.completed{}
+
+.fit_link small{display: block; color: #ccc;}
+
+// no wrap on the main text
+.fit_link .fit_txt{white-space: nowrap; overflow: hidden;position: relative;}
+.fit_link .fit_txt:after{background: linear-gradient(90deg, rgba(255,255,255,0), #fff); display: block; position: absolute; content: ''; height: 100%; top:0; right: 0; width: 1.5rem;}
+.fit_link:hover .fit_txt:after,
+.fit_link.active .fit_txt:after{background: linear-gradient(90deg, rgba(255,255,255,0), $bg);}
+
+
+
+/* icon colours */
+.resource_link .fa-file,
+.resource_link .fa-file-alt,
+.fit_radio_icons input:checked + label > i.fa-file,
+.fit_radio_icons input:checked + label > i.fa-file-alt{color: $blue;}
+.resource_link .fa-file-spreadsheet,
+.fit_radio_icons input:checked + label > i.fa-file-spreadsheet{color: $green;}
+.resource_link .fa-presentation,
+.fit_radio_icons input:checked + label > i.fa-presentation{color: $google_slide_yellow;}
+.resource_link .fa-image,
+.fit_radio_icons input:checked + label > i.fa-image{color: $google_drawing_red;}
+.resource_link .fa-youtube,
+.fit_radio_icons input:checked + label > i.fa-youtube{color: $youtube_red;}
+.resource_link .fa-file-pdf,
+.fit_radio_icons input:checked + label > i.fa-file-pdf{color: $pdf_red;}
+.resource_link .fa-camera,
+.fit_radio_icons input:checked + label > i.fa-camera{color: $pink;}
+
+
+
+
+
+/* hovers */
+.fit_link:hover{background: $bg; text-decoration: none;}
+.fit_link:hover .fit_video .fa-check{background: #6ad91f}
+.fit_link:hover .fit_video .fa-play{background: #139ddd}
+
+
+.fit_body_content h5{font-size: 1rem; font-weight: 600;}
+
+// -----------------------------------------------------------------------------------------
+/* segments */
+
+.fit_lesson{}
+.fit_lesson_min{}
+.fit_lesson > .fit_link{border-top: 1px solid #e1e4e5;}
+.fit_lesson > .fit_link.collapsed{border-top: 1px solid #fff;}
+
+.fit_body .fit_segments{margin:-0.25rem 0 0rem;}
+.fit_segments .fit_link{padding-top: 0.75rem; padding-bottom: 0.75rem; min-height: 2.75rem; font-size: 0.9rem; color: #464749;}
+
+.fit_segments .fit_link.complete{color: #aaa;}
+.fit_segments .fit_link.active{}
+
+.fit_segments .fa-circle,
+.fit_segments .fa-poll-h,
+.fit_segments .fa-file,
+.fit_segments .fa-dot-circle{color: $aqua;}
+
+// make them less aggressive for the intro
+.fit_course.intro .fit_segments .fa-circle{color: $text_lightest;}
+
+.fit_segments .fa-check{color: #aaa;}
+.fit_segments .fa-play{color: $aqua;}
+
+
+.fit_segments_title{padding: 1.5rem 1.5rem 1rem;}
+.fit_segments_title h4,
+.fit_segments_title p{ margin: 0; padding: 0 0 .5rem;}
+
+.fit_segments_title h4{font-weight: normal; font-size: 1.3rem; color: $text_light;}
+.fit_segments_title p{color:$text_light; font-size: 0.8rem;}
+
+.fit_lesson_manage{box-sizing:border-box;margin:0.5rem; border-radius: $border_rad_sm; background: $bg; overflow: hidden; border:0.15rem solid $bg; }
+
+.fit_btn.subtitle > .fit_txt{font-size: 0.7rem; text-transform: uppercase; color:$text_light; font-weight: 900; padding-top:.5rem;  padding-bottom:.5rem; }
+
+.fit_lesson_manage .fit_btn{margin:0 -0.5rem;}
+.fit_lesson_manage .fit_btn > .fit_txt{margin:0 -0.5rem; font-size: 0.8rem; padding-top: 0.85rem;}
+.fit_lesson_manage .fit_btn > i{font-size: 0.9rem;}
+.fit_lesson_manage .fit_btn:hover{background: #fff;}
+
+.fit_lesson_manage .fit_btn.subtitle:hover{background: none;}
+
+// the icons for text and comments and whatnot
+.fit_btn > i.fa-align-left{color:$new_purple}
+.fit_btn > i.fa-comment-smile{color:$watermelon}
+
+// -----------------------------------------------------------------------------------------
+/* video */
+
+.fit_vidya{position: relative; background: $blue;}
+.fit_vidya:after{padding-top: $ratio_169; display: block; content: '';}
+.fit_vidya .placeholder{width: 100%; position: absolute; top:0; left: 0; border-radius: $border_rad_sm;}
+
+.fit_subvidya{padding:1rem; position: relative;}
+@media (min-width: 768px) {
+  .fit_subvidya{padding: 2rem;}
+}
+
+// for the close button if he's there
+.fit_subvidya h2{margin-right: 4rem;}
+
+.fit_closepanel{font-size: 2rem; position: absolute; top:.75rem; right: .75rem; width: 3rem; height: 3rem;  display: flex; align-items: center; justify-content: center; color: $text_lighter; border-radius: $border_rad_sm;}
+.fit_closepanel:hover{background: $bg; text-decoration: none; color:$blue;}
+
+@media (min-width: 768px) {
+  .fit_closepanel{top: 1.5rem; right: .5rem;}
+}
+
+.fit_closepanel.reverse{color: #fff;}
+.fit_closepanel.reverse:hover{background: $box_shadow_blue;}
+
+.fit_vidya_play{position: absolute;top:0; left: 0; width: 100%; height: 100%; display: flex; flex-direction:column; align-items: center; justify-content: center;}
+.fit_vidya_play i{font-size: 4rem; color: #fff; transition: all .2s ease-in-out;}
+.fit_vidya_play .txt{display: block; color:#fff; padding: 0.25rem 0.75rem; border-radius: $border_rad_sm; margin: 1rem 0 0;}
+
+.fit_vidya_play:hover{background: rgba(0,0,0,0.1); text-decoration: none;}
+.fit_vidya_play:hover i{color: #fff; transform: scale(1.1); }
+.fit_vidya_play:hover .txt{opacity: 1; background: $black_50;}
+
+
+// shrink the video if you want, only on big screens
+
+@media (min-width: 576px){
+	.fit_vidya_shrink{position: absolute; top:0; right: 0; width: 4rem; height: 4rem; display: flex; align-items:center; justify-content: center; color: #fff; border-radius: $border_rad_lg;}
+	.fit_vidya_shrink i{font-size: 2rem; position: absolute;}
+	.fit_vidya_shrink .fa-expand-alt{opacity: 0;}
+	.fit_vidya_shrink .fa-compress-alt{opacity: 1;}
+
+	.fit_vidya_shrink:hover{background: $black_50; color:#fff; transform: scale(1.1); }
+
+	// squish!
+	.fit_vidya.squished .fit_vidya_shrink .fa-expand-alt{opacity: 1;}
+	.fit_vidya.squished .fit_vidya_shrink .fa-compress-alt{opacity: 0;}
+}
+
+// ---------------------------------------------------------------------------------
+// hide it up the top!
+.fit_vidya.hideup,
+.fit_vidya.squished,
+.fit_vidya.squished .placeholder{
+  -webkit-transition: all .15s ease-in-out;
+  -moz-transition: all .15s ease-in-out;
+  -o-transition: all .15s ease-in-out;
+  transition: all .15s ease-in-out;
+}
+
+.fit_vidya.hideup{margin: -35rem 0 2rem;}
+.fit_vidya.hideup:hover{margin-top: -34.5rem;}
+
+@media (min-width: 576px){
+	.fit_vidya.squished{height: 15rem; margin-bottom: 2rem;}
+	.fit_vidya.squished .placeholder{top: -45%}
+}
+
+// @media (max-width: 767px){
+// 	.fit_vidya.squished .placeholder{top: -25%}
+// }
+
+// @media (max-width: 755px){
+// 	.fit_vidya.squished .placeholder{top: -15%}
+// }
+
+.fit_vidya_controls{position: absolute; top:100%; left: 0; right: 0; padding-left: 1rem; background: $bg; padding: 0.25rem;}
+
+
+// wistia embed
+.wistia_embed{width:100%; position: absolute; top:0; left: 0; height: 100%}
+.wistia_swatch{height:100%; left:0; opacity:0; overflow:hidden; position:absolute; top:0; transition:opacity 200ms; width:100%;}
+.wistia_swatch > img{filter:blur(15px); height:100%; object-fit:contain; width:100%;}
+
+
+
+// -----------------------------------------------------------------------------------------
+// html free text stuff
+.fit_html_slab{}
+
+.fit_html_slab h2{padding-bottom: 1.5rem;}
+.fit_html_slab img{max-width: 100%; margin: 1rem 0; border-radius: $border_rad_md;}
+
+.fit_html_slab_complete{background: $blue; border-radius: $border_rad_lg; padding: 1.5rem; margin-top: 2rem;}
+.fit_html_slab_complete small{color: #fff; display: block; padding: 1rem 0 0;}
+
+
+
+
+
+
+
+// -----------------------------------------------------------------------------------------
+/* cards */
+
+a.card{margin-bottom: 2rem;}
+a.card p{color:#4f5153;}
+a.card:hover{text-decoration: none;}
+
+
+.card .cardtop{display: flex; width: 100%; align-items:center; justify-content: center; background: #eee; border-radius: 3px 3px 0 0; height: 3rem; font-size: 1.5rem;}
+
+@media  (min-width: 768px){
+  .card .cardtop{ height: 7rem; font-size: 4rem;}
+}
+
+/*colors and hovers*/
+a.card.resources:hover{border-color: #139ddd;}
+a.card.transcripts:hover{border-color: #65ae48;}
+a.card.faqs:hover{border-color: #e809db;}
+a.card.rating:hover{border-color: #f4b115;}
+
+
+
+a.card:hover .cardtop{color: #fff;}
+a.card.resources:hover .cardtop{background: #139ddd;}
+a.card.transcripts:hover .cardtop{background: #65ae48;}
+a.card.faqs:hover .cardtop{background:  #e809db;}
+a.card.rating:hover .cardtop{background:  #f4b115;}
+
+a.card.resources h5{color: #139ddd;}
+a.card.transcripts h5{color: #65ae48;}
+a.card.faqs h5{color: #e809db;}
+a.card.rating h5{color: #f4b115;}
+
+
+.card.resources .cardtop{color: #139ddd;}
+.card.transcripts .cardtop{color: #65ae48;}
+.card.faqs .cardtop{color: #e809db;}
+.card.rating .cardtop{color: #f4b115;}
+
+
+
+// this is also weirdly used for chunks of text and similar, with a max-width!
+
+.fit_course{max-width: $container_wide; margin: 2rem auto; border-radius: 0.3rem; padding: 0 1rem; position: relative;}
+
+@media (min-width: 70rem) {
+	.fit_course{padding: 0;}
+}
+
+.fit_course.fill{max-width: none;}
+.fit_course .fit_vidya{border-radius: 0.5rem; overflow: hidden;}
+
+.fit_course .fit_lessons{border: 1px solid #e1e4e5; border-radius: 0.3rem; margin-top: 1rem} 
+
+.fit_course h1,
+.fit_course h3{padding-top: 1rem; margin-top: 1rem; line-height: 2.5rem; display: flex; align-items: initial;}
+
+.fit_course h3 .txt{}
+.fit_course .subtxt{margin-left: auto;}
+.fit_course small.subtxt{color: #717b81; font-size: 0.9rem;}
+.fit_course small.subtxt i{margin-right: 0.2rem; color: inherit;}
+
+
+// course intro page for enrollment
+.fit_course.intro{}
+
+.fit_badge{background: $bg; border:1px solid $bg; border-radius: $border_rad_sm; color: $text_lighter; text-transform: uppercase; font-size: 0.9rem; font-weight: bold; padding: 0.25rem 0.5rem;}
+.fit_badge:hover{border-color: $border_medium; color:$text;}
+
+.fit_badge:first-child:not(:only-child){margin-right: .5rem;}
+
+.fit_badge i{font-size: 0.8rem; margin-left: 0.25rem; margin-right: -0.1rem;}
+.fit_badge i:hover{color:$blue; cursor: pointer;}
+
+@media (max-width: 575px) {
+	.fit_course h3{display: block;}
+	.fit_course .subtxt{margin: 0; display: block;}
+
+	.fit_course.intro .fit_vidya{border-radius: 0; margin: 0 -1rem 0;}
+	.fit_course.intro .fit_vidya .placeholder{border-radius: 0;}
+}
+
+
+// fit_seduce makes people want to gobble it up and enrol oh yes...
+.fit_seduce{padding: 3rem 0 1rem; margin-bottom: 1rem; text-align: center; display: block; border-bottom: 3px solid $border_lightest;}
+
+.fit_seduce [class^='col']{position: relative;}
+.fit_seduce [class^='col']:after{content: ''; width: 3px; top:1rem; right:0; bottom: 2rem; display: block; position: absolute; background: $border_lightest;}
+.fit_seduce [class^='col']:last-child:after{background: none;}
+
+@media (max-width: 575px) {
+	.fit_seduce [class^='col']:after{display: none;}
+}
+
+.fit_seduce i.big{font-size: 4.5rem; height: 6rem;}
+.fit_seduce i.green{color: $new_green;}
+.fit_seduce i.blue{color: $blue;}
+.fit_seduce i.watermelon{color: $watermelon;}
+
+.fit_seduce h4{font-size: 1.4rem; font-weight: 900; margin: 0; padding-bottom: .5rem}
+.fit_seduce p{font-size: 0.9rem; color: $text_light; margin: 0 auto 2rem; max-width: 240px;}
+
+.fit_seduce .btn-block{height: 3rem; margin: 1rem auto 2rem; max-width: 260px;}
+
+// mess with the headers
+
+.fit_course h1{display: flex; align-items: initial; padding-bottom: 1rem;}
+.fit_course h1 small{display: block; font-size: 1rem; color:$text_lighter;}
+// .fit_course h1 a i.fa-edit{font-size: 1.5rem; color: $text_light;}
+// .fit_course h1 a:hover i.fa-edit{color: $blue;}
+
+.fit_course h1 .btn{margin-left: 1rem; display: flex; margin-left: auto;}
+
+// responsive for tucking subtext under things
+@media (max-width: 767px) {
+	.fit_course h1{display: block;}
+	.fit_course h1 .subtxt{display:block; margin: .5rem 0;}
+}
+
+.fit_txt.spacer,
+.fit_txt.secondary{font-size: 0.8rem;}
+
+.fit_txt.spacer{color: #eee; margin: 0 0.2rem; display: none;}
+.fit_txt.secondary{display: block; color: #717b81;}
+
+
+.fit_pane{background: $bg; padding: 1rem; border-radius: 0.3rem; margin: 1rem 0;}
+.fit_pane.fat{padding:2rem;}
+.fit_pane.slim{padding: 0.1rem;}
+.fit_pane.slimmest{padding: 0rem;}
+.fit_pane.bordered{border: 1px solid $border_medium}
+.fit_pane.white{background: #fff;}
+
+
+// weird radius when in another thingo like a pane
+.fit_course .fit_lessons .fit_link,
+.fit_pane .fit_link{border-radius: 0.3rem;}
+
+.fit_pane .fit_video,
+.fit_pane .fit_avatar{background: #fff}
+
+.fit_pane .fit_link:hover{background: #fff;}
+.fit_pane .fit_link:hover .fit_video,
+.fit_pane .fit_link:hover .fit_avatar{background: $bg;}
+
+// weirdo collapsey friends
+// .fit_pane .fit_summary_icons{margin-top: .5rem;}
+
+
+
+/* summary icons */
+.fit_summary_icons{}
+.fit_summary_icons dt{}
+.fit_summary_icons dd{}
+
+/*
+Bleh:;
+.fit_summary_icons:after{content: ''; display: block; clear: both;}
+.fit_summary_icons dt{width: 2rem; height: 2rem; float: left; clear: both; color: #b0b4b7; font-size: 1.5rem; display: flex; align-items:center; justify-content: center;}
+.fit_summary_icons dd{margin: 0 0 0 -2rem; padding:0.1rem 0.1rem 0.7rem 2.7rem; float: left; font-size: 1.2rem;  display: block;}
+*/
+
+
+.fit_summary_icons{padding: 0.5rem 0 0 ;}
+.fit_summary_icons:after{content: ''; display: block; clear: both; overflow:hidden; height: 0;}
+.fit_summary_icons dt{padding:0.1rem 0 1rem 3.2rem; position: relative; font-size: 1.2rem;}
+.fit_summary_icons dt > i:first-child{position: absolute; top:.25rem; left: 0.5rem; font-size: 1.5rem; color: #b0b4b7;}
+
+.fit_summary_icons.lite dt{font-weight: normal;}
+
+// sub icons
+.fit_summary_icons dt a > i{color: $text_lighter;}
+.fit_summary_icons dt a:hover > i{color: $blue;}
+
+.fit_summary_icons dd{padding: 0 0 0rem 3.2rem; margin-top: -0.4rem;}
+.fit_summary_icons dd:last-child{margin-bottom: 1.5rem;}
+.fit_summary_icons dd .badge{font-size: 0.9rem;}
+
+.fit_pane .fit_summary_icons{margin-bottom: -1rem;}
+
+// move it around if we're 2 deep
+.fit_summary_icons dd .form-group .form-group{padding-left: 4rem;}
+
+// naked means it has no title{}
+.fit_summary_icons dd.naked{margin-top: -1.1rem;}
+
+// crop saving thing
+
+.fit_cropper {
+	.fit_save_crop{display:none;}
+	&.fit_upload_cropping {
+		.fit_save_crop{position: absolute; top:1rem; right: 1rem; color:#fff !important; display:block; }
+		.fit_upload_dropzone { display: none; }
+	}
+}
+
+.fit_cropper{background: $bg;}
+.fit_pane .fit_cropper{background: #fff;}
+.fit_cropper .fit_upload_dropzone .fa-upload{position: absolute; top:0; right:0; font-size:1.5rem; padding: 1rem; background: rgba(0,0,0,0.1); border-bottom-left-radius: $border_rad_lg;}
+.fit_cropper .fit_upload_dropzone:hover .fa-upload{background: $blue;}
+
+.fit_cropper .fa-user{font-size: 5rem; position: absolute; top:50%; left: 50%; margin: -2.5rem 0 0 -2.5rem; color:$text_lightest;}
+
+.fit_cropper input[type="file"]{display: none;}
+
+.fit_paneless .fit_cropper{margin: 1rem 0 1rem 0;}
+
+// Square upload thing
+.fit_squarelogo{margin-bottom: 1rem; width: 300px; height: 300px; border:1px solid $border_light; border-radius: $border_rad_lg; position: relative; overflow: hidden;}
+.fit_squarelogo img{max-width: 100%; border-radius: $border_rad_lg; position: relative;}
+
+.fit_cta{background: $watermelon; padding: 2rem 0 5rem; margin-top: 3rem;}
+.fit_cta .fit_course h3{color: #fff;}
+
+.btn-hg{font-size: 2rem; padding: 1rem 1.5rem; font-weight: 900;}
+.btn-hg:hover{color: $brand_dark;}
+.btn-hg i:first-child{margin-right: 0.5rem;}
+
+.fit_cta .btn-hg:hover{color: $watermelon_dark;}
+
+.btn-drop{box-shadow: 0 0.3rem 0 rgba(0,0,0,0.15);}
+.btn-drop:hover{box-shadow: 0 0.25rem 0.1rem rgba(0,0,0,0.3); background: #fff;}
+
+.fit_cta .btn-hg{margin: 1rem 0 2rem;}
+
+@media (max-width: 767px) {
+	.fit_summary_icons dt,
+	.fit_summary_icons dd{padding-left: 2.2rem;}
+	.fit_summary_icons dt > i:first-child{font-size: 1.2rem; left: 0.25rem; top: .25rem;}
+}
+
+
+@media (max-width: 575px) {
+	.fit_cta{margin-top: 1rem; padding: 0 0 2rem;}
+}
+
+
+// ------------------------------------------------------------------------------------
+// user stuff, defaulting for h1
+
+.fit_avatared{position: relative; padding-left: 4rem;}
+.fit_avatar,
+.fit_avatar img{width: 2.5rem; height: 2.5rem; border-radius: 999rem; overflow: hidden; position: absolute; top:0; left: 0; background: $bg_dark; display: flex; align-items:center; justify-content: center;}
+.fit_avatar{top:1rem;}
+
+h1.fit_avatared,
+h2.fit_avatared{padding-left: 3.5rem;}
+h1.fit_avatared .fit_avatar img,
+h2.fit_avatared .fit_avatar img{width:2.5rem; height: 2.5rem;}
+
+h1.fit_avatared .fit_avatar .fa-user,
+h2.fit_avatared .fit_avatar .fa-user{font-size: 1.3rem; color:#fff;}
+
+// edit form
+form.fit_user_edit{max-width: 30rem;}
+
+// within the edit panel
+dd form.fit_user_edit{margin: 2rem 0 1rem;}
+
+// mess with styles for the toggle thingos
+// ------------------------------------------------------------------------------------
+// WD: Figure where this is used lol -->. .fit_summary_icons dd .form-group:first-child{margin-top: 1rem;}
+
+
+.toggle.simple{border-radius: 999rem;}
+
+.toggle.simple label{text-indent: -999rem;}
+
+.toggle.simple{width: 100px}
+.toggle.simple .toggle-handle{border-radius: 999em; width: 25px; height: 25px; margin-left: -25px}
+.toggle.simple.off .toggle-handle{margin-left: 25px;}
+
+// colours
+.toggle.simple,
+.toggle.simple .toggle-on,
+.toggle.simple .toggle-off{background: none;}
+
+.toggle.simple,
+.toggle.simple:active,
+.toggle.simple:focus,
+.toggle.simple:active:focus{border:3px solid $blue; background: $blue;}
+
+.toggle.simple .toggle-handle,
+.toggle.simple:hover .toggle-handle:hover{background: #fff;}
+
+.toggle.simple.off{background: $text_lighter; border-color: $text_lighter}
+
+
+// labels
+.toggle.simple + label{margin-left: 0.75rem;}
+
+
+
+// weird forms
+// ------------------------------------------------------------------------------------
+
+.form-control.fit_coursecode{max-width: 15rem}
+
+
+
+// ------------------------------------------------------------------------------------
+// chart stuff
+.fit_chart{min-height: 20rem; background: $bg;}
+
+
+// in the sidebar
+aside .fit_chart{margin: 1rem;}
+
+// hax the chart svg
+.fit_chart_svg{width: 100%;}
+
+// the bit below the chart
+.fit_chart_x{height: 2rem; display: flex; flex-wrap: nowrap; justify-content: space-between;}
+
+// hax padding booo: margin: -1rem -1rem 0 -1rem; padding:0 10px 0 22px;
+.fit_chart_x{padding:0 10px 0 22px; margin-top: -1rem;} 
+.fit_chart_x .tick:first-child{margin-right: -1rem}
+.fit_chart_x .tick:last-child{margin-left:-1rem}
+
+.fit_chart_x .tick{width: 2rem; height: 2rem; background: $bg; display: flex; align-items:center; justify-content: center; overflow: hidden;}
+.fit_chart_x .tick i{color: $aqua;}
+.fit_chart_x .tick img{height: 100%; margin-left: -25%;}
+
+// mess with the sidebar thingo
+.fit_body.person_active .fit_link{color: $text_lighter;}
+.fit_body.person_active .fit_link .fit_avatar img{
+  opacity: 0.3;
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(0.9); /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+}
+.fit_body.person_active .fit_btn:not(.active) .progress-bar,
+.fit_body.person_active .fit_btn:not(.active) .badge{background: $text_lighter !important;}
+
+// active user
+.fit_body.person_active .fit_btn.active{color: $pink;}
+.fit_body.person_active .fit_btn.active .progress-bar{background: $pink;}
+.fit_body.person_active .fit_btn.active .fit_avatar img{opacity: 1; -webkit-filter: grayscale(0); filter: none;}
+
+
+// a pane with students in it
+.fit_chartselect{}
+.fit_pane-students{}
+.fit_pane-students{}
+
+@media (min-width: 768px) {
+  .fit_chartselect{display: flex;}
+  .fit_chartselect .fit_chart{flex: 70%;}
+  .fit_chartselect .fit_body{flex: 30%;}
+}
+
+.fit_chartselect .fit_body form{margin: 0 -1rem 0 -1rem;}
+
+.fit_chartselect .fit_body{height: 380px; overflow-x:scroll;}
+
+// hax the apex
+.apexcharts-tooltip{border:1px solid #0f0;}
+.apexcharts-xaxistooltip.active{display:none;}
+.apexcharts-xaxistooltip-text{}
+.apexcharts-tooltip-title{display: none;}
+
+
+// ------------------------------------------------------------------------------------
+// Tables for analytics
+
+table.fit_stats{}
+
+table.fit_stats th[scope=row]{width:22rem;}
+
+table.fit_stats th > .fit_video{position: relative; top: auto; left: auto; display: block; margin: 0 auto}
+table.fit_stats td > .badge-pill{font-size: 0.9rem; margin-top: 0.3rem}
+table.fit_stats td > .fit_link,
+table.fit_stats th > .fit_link{margin: -0.75rem;}
+
+table.fit_stats .progress{margin-top: 0.25rem}
+
+
+
+table.fit_stats tr:hover td,
+table.fit_stats tr:hover th,
+table.fit_stats tr:hover .fit_link{background: $bg;}
+
+
+table.fit_stats th .fit_link .fit_time{}
+
+
+// ------------------------------------------------------------
+// 2nd level tables
+table.fit_stats tr.collapse > td,
+table.fit_stats tr.collapsing > td{padding:0; border-top-color: transparent;}
+
+
+// 2nd level table
+table.fit_stats tr td table{width: 100%}
+table.fit_stats tr td table th,
+table.fit_stats tr td table td{border-top-color: transparent;}
+
+table.fit_stats tr td table th .fit_link{margin-left: 0.25rem;}
+
+
+// ------------------------------------------------------------
+// vertical hovering for tables
+table.fit_colhover{overflow: hidden;}
+table.fit_colhover td,
+table.fit_colhover th {position: relative;}
+table.fit_colhover td:hover::after,
+table.fit_colhover th:hover::after {content: ""; position: absolute; background-color: $bg; left: 0; top: -5000px; height: 10000px; width: 100%; z-index: -1;}
+table.fit_colhover td:hover{cursor: default;}
+
+
+
+// ------------------------------------------------------------------------------------
+// table for happiness edit
+
+.fit_label_table{border: 1px solid $border_light;}
+
+.fit_label_table thead th small{color:$text_light;}
+.fit_label_table tbody tr th:first-child{width: 1rem; font-size: 1.5rem;}
+
+.fit_label_table tbody tr th:first-child
+
+// ------------------------------------------------------------------------------------
+// flag
+
+.fit_flag_group{margin-bottom: 2rem;}
+
+.flag{ display: inline-block; box-shadow: 0 1px 5px rgba(82,63,105,0.3);}
+.caption .flag{width: 1rem; height:.75rem; border-radius: $border_rad_xs; margin-right: .35rem}
+
+.btn .flag,
+.nav-link .flag{width: 1.2rem; height: 0.9rem; margin-right: 0.25rem; display: inline-block;}
+
+.nav-link i{margin-right: .5rem;}
+
+// ------------------------------------------------------------------------------------
+// All the hiding and mobile and crap
+
+/* medium boye small sidebar */
+@media (min-width: 576px) and (max-width: 900px){
+  nav{max-width: $nav_left_width_collapsed; min-width: 0;}
+  nav .fit_txt,
+  nav .fit_sub,
+  nav .fit_hider{display: none;}
+  nav .fit_link{padding-left: 0;}
+}
+
+.fit_mobilenav_trigger{display: none;}
+
+/*  small boye  */
+@media (max-width: 575px){
+  header{position: relative;}
+  main{display: block; height: auto;padding-top: 0;}  
+  nav, article, aside{width: 100%; flex: none; min-width: 0; max-width: none;}
+  .fit_hider{display: none !important;}
+  .fit_vidya{position: -webkit-sticky !important; position: sticky !important; top:0;}
+
+	// fit player mobile nav
+	main.fit_player .fit_mobilenav_trigger{display: block;}
+  main.fit_player nav {max-width: none;}
+  main.fit_player nav .fits {display: none;}
+  html.fit_mobilenav main.fit_player nav .fits{display: block;}
+  html.fit_mobilenav [fit-course_mobilenav_trigger] i{transform: rotate(-180deg);}
+}
+
+// ------------------------------------------------------------------------------------
+// the version of the site with the aside below...
+
+@media (min-width: 576px){
+
+	main.fit_player{display: block; padding-left: 4rem; height: auto; overflow-y: scroll;}
+
+	main.fit_player nav{position: fixed; top: $header_height; left: 0; bottom: 0; flex:none; max-width: none; border-right: 1px solid $border_light;}
+	main.fit_player article,
+	main.fit_player aside{flex:none; display: block; max-width: none;}
+
+}
+
+@media (min-width: 900px){
+	main.fit_player{padding-left: 25%}
+	main.fit_player nav{width: 25%}
+
+	html.fit_minleft main.fit_player{padding-left: 4rem}
+	html.fit_minleft main.fit_player nav{width: 4rem}
+}
+
+// and again html
+html.fit_minleft nav{max-width: $nav_left_width_collapsed; min-width: 0;}
+html.fit_minleft nav .fit_txt,
+html.fit_minleft nav .fit_sub{display: none;}
+html.fit_minleft nav .fit_link{padding-left: 0;}
+html.fit_minleft nav .fit_time{display: none}
+
+// ... unless in small mode
+@media (max-width: 575px){
+	html.fit_minleft nav{max-width: none}
+	html.fit_minleft nav .fit_txt,
+	html.fit_minleft nav .fit_sub{display: block;}
+}
+
+// and the rotation
+html.fit_minleft [data-fit-minleft] i{transform: rotate(-180deg);}
+
+
+// and again for the right
+html.fit_minright aside{max-width: $nav_left_width_collapsed; min-width: 0;}
+html.fit_minright aside .fit,
+html.fit_minright aside .fit_txt{display: none; border-bottom-color: transparent;}
+html.fit_minright aside .fit_hider{display: block;}
+
+// and the rotation
+html.fit_minright [data-fit-minright] i{transform: rotate(-180deg);}
+
+
+// ------------------------------------------------------------------------------------
+// modals
+
+.modal{background: $white_fade;}
+.modal-header,
+.modal-content,
+.modal-footer{border:1px solid #fff; padding: 1rem;}
+
+@media (max-width: 575px) {
+	.modal-header,
+	.modal-content,
+	.modal-footer{padding:.5rem;}
+}
+
+.modal-header .close{font-size: 2.5rem;}
+
+// make our modals a bit roomier...
+@media (min-width: 576px) {
+	// .modal-dialog{max-width: 650px;}
+	.fit_modal_single .modal-dialog{max-width: 350px;}
+}
+
+// weird single thing
+.fit_modal_single .fit_iconselects.high_sub .fit_iconselect, 
+.fit_modal_single .fit_iconselects.high_sub .fit_iconselect:hover{width: 100%}
+
+// lessons in modal
+.modal .modal-body .fit_lessons{margin: -1rem -1rem 0;}
+
+.modal-title{font-weight: 900; font-size: 1.75rem; color:$text;}
+
+.modal-backdrop{background: none !important;}
+
+@media (max-width: 991px) {
+	.modal-dialog{max-width: none !important; margin: 1.75rem !important;}
+}
+
+//weird right hand side modal mode
+@media (min-width: 768px) {
+
+	body.fit_rhs_modal_active{overflow:auto;}
+	
+	.fit_modal_rhs{ position: absolute; background: transparent;} 
+	// ^-- give this a background?
+
+	.fit_modal_rhs .modal-dialog{max-width: $container_wide;}
+	.fit_modal_rhs .modal-content{margin-left: 50%; box-shadow: none; margin-top: 10rem; width: auto;}
+
+	// fullwidth for text edit
+	// margin-top of -1.75rem resets
+	.fit_modal_rhs.fullwidth {background: #fff;}
+	.fit_modal_rhs.fullwidth .modal-content{margin:5rem -1rem 0; padding: 0;}
+
+	body.fit_rhs_modal_active .fit_coledit_lhs{}
+	body.fit_rhs_modal_active .fit_coledit_rhs{opacity: 0;}
+}
+
+
+// the image when it's being edited
+.fit_lessons .fit_vidya.fit_cropper,
+.fit_lessons .fit_vidya .placeholder{border-radius: $border_rad_sm; margin:0;}
+
+.fit_lessons .fit_vidya.fit_cropper{margin: 1rem;}
+
+// ------------------------------------------------------------------------------------
+// Iconselect: Sets of icons that can be selected!
+.fit_iconselects{display: flex; align-items:center; justify-content:space-between; text-align: center;margin-bottom: 2rem;}
+
+.fit_iconselect{text-align: center; padding:1rem; border:0.15rem solid #fff; border-radius: $border_rad_r; width: 5rem; height: 5rem; display: flex; align-items:center; justify-content:center; position: relative; cursor: pointer; text-decoration: none;}
+
+.fit_iconselect i{font-size: 4rem; display: block; color: $text_light; text-decoration: none;}
+.fit_iconselect .sub{color:$text_lighter; font-weight: 400; font-size: 0.9rem; position: absolute; top:100%; left: 0; width: 100%; padding: 0.5rem;}
+
+
+// ------------------------------------------------------------
+// when it's a number
+.fit_iconselects.numbers .fit_iconselect{background: $bg; border-radius: 0; border-color: $bg; height: 3rem; width: auto; padding: 0 0.5rem; flex-grow:1;}
+.fit_iconselects.numbers .fit_iconselect:first-child{border-radius: $border_rad_md 0 0 $border_rad_md;}
+.fit_iconselects.numbers .fit_iconselect:last-child{border-radius: 0 $border_rad_md $border_rad_md 0;}
+
+.fit_iconselects.numbers .fit_iconselect i{font-style: normal; font-size: 1.5rem; font-weight: 900;}
+
+.fit_iconselects.numbers .fit_iconselect .sub{width: 6rem}
+.fit_iconselects.numbers .fit_iconselect:first-child .sub{text-align: left;}
+.fit_iconselects.numbers .fit_iconselect:last-child .sub{text-align: right; left: auto; right: 0;}
+
+
+// active
+.fit_iconselects.numbers .fit_iconselect.active{background: #fff; border-color: $border_light; margin: -0.15rem 0; border-radius: $border_rad_md;}
+
+// hovers
+.fit_iconselects.numbers .fit_iconselect:hover:not(.active) i{color: $blue;}
+
+// ------------------------------------------------------------
+// smaller mode
+
+@media (max-width: 575px) {
+	.fit_iconselect{width: 3rem; height: 3rem;}
+	.fit_iconselect i{font-size: 2.5rem}
+	.fit_iconselects.numbers .fit_iconselect i{font-size: 1.2rem;}
+}
+
+.fit_iconselect:hover{}
+.fit_iconselect:hover i,
+.fit_iconselect:hover .sub{color:$brand;}
+
+
+// active
+.fit_iconselect.active{}
+.fit_iconselect.active i,
+.fit_iconselect.active .sub{color:$brand;}
+
+
+// colors!
+
+.fit_iconselect.active .fa-grin-stars,
+.fit_iconselect.active .fa-thumbs-up,
+.fit_iconselect:hover .fa-grin-stars,
+.fit_iconselect:hover .fa-thumbs-up{color:#d34df3;}
+.fit_iconselect.active .fa-grin,
+.fit_iconselect:hover .fa-grin{color:#e47192;}
+.fit_iconselect.active .fa-smile,
+.fit_iconselect:hover .fa-smile{color:#f0a385;}
+.fit_iconselect.active .fa-meh,
+.fit_iconselect:hover .fa-meh{color:#ce8b44;}
+.fit_iconselect.active .fa-frown,
+.fit_iconselect:hover .fa-frown{color:#e4bc4b;}
+.fit_iconselect.active .fa-angry,
+.fit_iconselect.active .fa-times-octagon,
+.fit_iconselect:hover .fa-angry,
+.fit_iconselect:hover .fa-times-octagon{color:#7c9c48;}
+
+// hide text
+.fit_iconselect.inactive i,
+.fit_iconselect.inactive .sub{color:$text_lightest;}
+
+.fit_iconselect.active .sub{color:$text_light;}
+
+
+// the why thing
+.modal .modal-body .collapse.show .form-group:first-child,
+.modal .modal-body .collapsing .form-group:first-child{padding-top: 1.5rem;}
+
+
+// for creating new things, higher amount of text
+
+.fit_iconselects.high_sub .fit_iconselect,
+.fit_iconselects.high_sub .fit_iconselect:hover{height: 5rem; width: 50%; margin-bottom: 5rem; border:none; text-decoration: none;}
+.fit_iconselects.high_sub .fit_iconselect .sub h4{display: block; font-size:1.1rem; font-weight: bold; color:$brand;}
+
+.fit_iconselects.high_sub .watermelon i{color:$watermelon;}
+.fit_iconselects.high_sub .blue i{color:$blue;}
+
+
+// Freakin weird colour thing
+.btn[data-fit_iconselects_submit="fit_gather"]{border-width: 0 !important;}
+.btn[data-fit_iconselects_submit="fit_gather"]:disabled{background: $text_light !important;}
+.btn[data-fit_iconselects_submit="fit_gather"]:not(:disabled):hover{box-shadow: inset 0 0 5rem rgba(0,0,0,0.1);}
+
+
+// -----------------------------------------------------------------------------------------
+// user panel from the right
+
+// the detail
+.fit_sidepanel,
+.fit_sidepanel .whiteout{position: fixed; top:0; right: 0; height: 100%; width: 100%; overflow: hidden;}
+
+.fit_sidepanel .whiteout{background: $white_fade;}
+
+
+.fit_sidepanel{top:-9999rem;}
+.fit_sidepanel .panel{position: fixed; background: #fff; top:0; bottom: 0; height: 100%; padding: $header_height 2rem 2rem; overflow-y: scroll;}
+
+.fit_sidepanel .panel .head{height: $header_height; background: #fff; position: fixed; top:0; right: 0; display: flex;}
+
+// widths
+.fit_sidepanel .panel,
+.fit_sidepanel .panel .head{width: 50%;} /* min-width: 600px; this messes with stuff when it's closed */
+
+.fit_sidepanel .panel .content{position: relative;}
+
+// the course list:
+.fit_sidepanel .fit_course{padding: 0;}
+.fit_sidepanel .fit_course .fit_lessons,
+.fit_user_edit .fit_course .fit_lessons{margin-bottom: 1rem;}
+
+// ------------------------------------------------------------
+// hide and reveals
+
+// anim
+.fit_sidepanel,
+.fit_sidepanel .whiteout{top: -9999rem; transition: top 0s, opacity .5s ease-in-out;}
+.fit_sidepanel .panel{transition: all .15s ease-in-out;}
+
+// the hide
+.fit_sidepanel{}
+.fit_sidepanel .whiteout{opacity: 0;}
+.fit_sidepanel .panel,
+.fit_sidepanel .panel .head{opacity:0; right:-100%;}
+
+// the reveal
+html.fit_revealuserpanel {overflow: hidden; height: 100%;}
+html.fit_revealuserpanel .fit_sidepanel{top:0;}
+
+html.fit_revealuserpanel .fit_sidepanel,
+html.fit_revealuserpanel .fit_sidepanel .whiteout{opacity: 1; top:0;}
+html.fit_revealuserpanel .fit_sidepanel .panel,
+html.fit_revealuserpanel .fit_sidepanel .panel .head{opacity: 1; right:0; min-width: 600px;}
+
+
+
+@media (max-width: 575px) {
+	.fit_sidepanel .panel,
+	html.fit_revealuserpanel .fit_sidepanel .panel{width: 100%; min-width: 100%}
+
+	.fit_sidepanel .panel{right: -100%;}
+}
+
+
+
+
+
+// ------------------------------------------------------------------------------------
+// heroic introductio big texty friend
+
+.fit_hero{padding: 4rem 2rem; position: relative; text-align: center;}
+.fit_hero > h1,
+.fit_hero > p,
+.fit_hero > img{max-width: 768px; margin: 0 auto;}
+
+
+
+
+.fit_hero h1{line-height: 130%; font-size: 4.5rem; padding-bottom: 1rem; color:$brand_dark;}
+.fit_hero h1 strong{color:$blue; position: relative; display: inline-block;}
+.fit_hero h1 strong:after{content: ''; display: block; background: url(../assets/images/svg/underline_1_blue.svg) no-repeat top; background-size: contain; position: absolute; width: 108%; top:115%; left: 0; padding: 25% 0 0; margin: -7% 0 0 -5%;}
+
+.fit_hero h1 small{display: block; font-size: 1.5rem; line-height: 2rem; color:$text_light;}
+
+.fit_hero p{font-size: 1.5rem; color: $text_light;}
+.fit_hero p a{color:inherit; border-bottom: 0.15rem solid $border_light;}
+.fit_hero p a:hover{color: $blue; text-decoration: none; border-color: $border_medium;}
+
+.fit_heartplay{position: relative; height: 10rem; width: 15rem; margin: 0 auto; display: block; text-decoration: none;}
+.fit_heartplay i{ height: 10rem; position: absolute; top:0; left: 0; width: 100%;}
+
+.fit_heartplay .bigboy{color:$brand_dark; font-size: 10rem; transition: all .45s ease-in-out;}
+.fit_heartplay .smallboy{color:#fff; font-size: 3.75rem; padding: 2.25rem 0 0 .5rem; transition: all .15s ease-in-out;}
+
+
+// hover
+.fit_heartplay.hover .fa-heart{ transform: scale(1.04); }
+.fit_heartplay.hover .fa-play{transform: scale(1.07); }
+
+.fit_hero.pink_line .bigboy,
+.fit_hero.pink_line h1 strong{color:$pink;}
+.fit_hero.pink_line h1 strong:after{background-image: url(../assets/images/svg/underline_1_pink.svg);}
+
+.fit_hero.fuscia_line .bigboy,
+.fit_hero.fuscia_line h1 strong{color:$fuscia;}
+.fit_hero.fuscia_line h1 strong:after{background-image: url(../assets/images/svg/underline_1_pink.svg);}
+
+
+@media (max-width: 767px) {
+	.fit_hero{padding: 2rem 1rem 1rem;}
+	.fit_hero h1{font-size: 2.5rem;}
+	.fit_hero p{font-size: 1.3rem;}
+}
+
+
+// front page course code
+.fit_hero .fit_code.no_tnc .fit_cta_tnc{display: none}
+.fit_hero .fit_code.no_tnc .form-group{margin-bottom: 0;}
+
+.fit_hero .fit_code .fit_entry_buttons{display: flex; justify-content: space-between;}
+.fit_hero .fit_code .fit_entry_buttons .btn{margin: 0;}
+
+
+// ------------------------------------------------------------------------------------
+// some sales stuff like big images and whatever
+
+.fit_hero .fit_picture{max-width: 900px; margin: 0 auto;}
+.fit_hero .fit_picture img{max-width: 100%; border-radius: $border_rad_xl; box-shadow: 0 0 1.5rem $box_shadow;}
+
+.fit_code + .fit_picture{margin-top: -6rem}
+
+@media (max-width: 575px){
+	.fit_code + .fit_picture{margin-top: -2rem;}
+}
+
+
+.fit_entry_buttons{margin: 2rem 0;}
+.fit_entry_buttons .btn{margin: 0 .5rem;}
+
+
+
+
+
+
+// ------------------------------------------------------------------------------------
+// the window for pictures and courses.
+
+.fit_window{border-radius: $border_rad_lg; margin:0 auto; overflow: hidden; position: relative;}
+// skipping the auto 16:9 for now...
+// .fit_window:after{padding-top: $ratio_169; display: block; content: '';}
+
+.fit_window img{width: 100%;}
+.fit_window img{border-radius: $border_rad_lg;}
+
+.fit_window .butts{position: absolute; top:0; left: 0; padding: 1.2rem;}
+.fit_window .butts a{border-radius: $border_rad_r; width: .8rem; height: .8rem; margin-right: .7rem; float: left; background: #ffbf3d;}
+.fit_window .butts a:first-child{background: #ff6259;}
+.fit_window .butts a:last-child{background: #1eca4d;}
+
+.fit_window .play{position: absolute; top:0; left: 0; width: 100%; height: 100%; display: flex; align-items:center; justify-content: center; font-size: 4rem; color: #fff; text-decoration: none;
+transition: all .1s ease-in-out;}
+.fit_window .play i{opacity: 0; transition: all .15s ease-in-out;}
+
+.fit_window .play:hover{transform: scale(1.2); background: rgba(0,0,0,0.05);}
+.fit_window .play:hover i{opacity: 1;}
+
+// label the pic if that's a thing.
+.fit_picture{margin: 0 0 2rem;}
+.fit_picture img{width: 100%;}
+.caption{display: block; padding: 0.5rem 1rem 2rem; text-align: center; font-size: 0.8rem; color: $text_light; }
+.caption a{color:inherit; text-decoration: underline;}
+
+
+.fit_picture.lefty{padding-left: 10rem; position: relative;}
+.fit_picture.lefty > img{position: absolute; top:0; left: 0; width: 8rem;}
+
+.fit_course_sell{padding: 0 0 2rem; background: #fff;}
+.fit_course_sell h3 {padding: 1rem 0 0;}
+.fit_course_sell h3 a{color: inherit;}
+.fit_course_sell h3 a:hover{color: $blue;}
+
+p.tagline{color: $text_light; margin-bottom: 2rem;}
+p.tagline .tag{display: block; position: relative; font-size: 1rem; padding-bottom: 0.25rem; padding-left: 1.5rem; max-width: 400px;}
+p.tagline .tag i{position: absolute; top:.25rem; left: 0;}
+
+@media (min-width: 768px) {
+
+	// featured is a bit weird
+	.fit_course_sell.featured {max-width: 768px; margin:0 auto 2rem;}
+	.fit_course_sell.featured h3{font-size: 2.5rem; padding: 1.5rem 0 .5rem;}
+	.fit_course_sell.featured p.tagline .tag{display: inline-block; font-size: 1.1rem; margin-right: 1rem; max-width: none;}
+	.fit_course_sell.featured p.tagline .tag:first-child{display: block;padding-bottom: 0.5rem;}
+}
+
+// the wee tab
+.fit_tabbydiv{border-bottom: 0.15rem solid $border_lighter; height: 3.25rem; position: relative; margin-bottom: 6rem;}
+.fit_tabby{border-radius: 0 0 $border_rad_md $border_rad_md; padding:0.5rem 0.75rem; font-size: 0.7rem; display:block; width: 10rem; color:$text_lighter; text-align: center; text-transform: uppercase; letter-spacing: 0.1rem; font-weight: 900; margin: 0 auto;  text-shadow: inset 0 -1px 0 rgba(255,255,255,0.8); position: absolute; top:100%; left: 50%; margin-left: -5rem; background: $border_lighter;}
+
+
+// small mode for the course sell on mobile
+@media (max-width: 575px) {
+	.fit_tabbydiv{margin-bottom: 0;}
+	.fit_tabby{background: #fff; box-shadow: 0 1px 1px $border_light;}
+
+	.fit_course_sells{background: $bg; padding-top: 4rem; padding-bottom: .1rem; margin-top: -.1rem;}
+
+	.fit_course_sell{border-radius: $border_rad_xl; border:1px solid $border_light; padding: 1rem; margin-bottom: 1rem;}
+	.fit_course_sell p.tagline{margin-bottom: 0;}
+}
+
+// ------------------------------------------------------------------------------------
+// Keep watching, bucko! Get back on that horse, get on track, get it done ya hear.
+
+.fit_keep_watching{background: $blue; padding: 2rem 0; border-radius: 0 !important;}
+
+.fit_keep_watching .fit_course{margin: 0 auto;}
+
+.fit_keep_watching .vid{display:block; position: relative; border-radius: $border_rad_sm; background: #fff;}
+.fit_keep_watching .vid:after{display: block; padding-top: $ratio_169; content: '';}
+
+.fit_keep_watching .vid img{position: absolute; top:0; left: 0; width: 100%; border-radius: $border_rad_sm; }
+
+.fit_keep_watching .vid .bar,
+.fit_keep_watching .vid .bar .far{height: 0.5rem; position: absolute; bottom: 0; left: 0; width: 100%; background: $blue_dark; border-radius: 0 0 $border_rad_sm $border_rad_sm}
+.fit_keep_watching .vid .bar .far{width: auto; background: #fff;}
+.fit_keep_watching .vid .bar .far:after{content: ''; display: block; position: absolute; top:-0.25rem; right: -0.4rem; height: 1rem; width: 1rem; border-radius: $border_rad_r; background: #fff;}
+
+.fit_keep_watching h3{color: #fff; padding:1.5rem 0 0 0;}
+.fit_keep_watching h3 a{color:#fff; text-decoration: none;}
+.fit_keep_watching h3 a:hover{}
+.fit_keep_watching p{color: #fff; padding: 0 0 .5rem;}
+.fit_keep_watching p a{color:#fff; border-bottom: 0.15rem solid rgba(255,255,255,0.6); text-decoration: none;}
+.fit_keep_watching p a:hover{border-bottom-color: #fff;}
+
+.fit_keep_watching .vid:hover{box-shadow: 0 .5rem 1.5rem $box_shadow_blue;}
+
+.fit_keep_watching .fit_closepanel{top: -.5rem;}
+
+@media (max-width: 567px) {
+	.fit_keep_watching{padding:1rem 4rem 2rem 0;}
+	.fit_keep_watching .fit_closepanel{top: 0; right:-3rem}
+}
+
+// large stuff padding
+@media (min-width: 992px) {
+	.fit_keep_watching h3,
+	.fit_keep_watching p,
+	.fit_keep_watching .btn{margin-left: 1rem;}
+}
+
+
+
+
+
+
+// ------------------------------------------------------------------------------------
+// Long form text style
+// This is quite literally us copying what we like about Medium for our own long-form content. LOL. Hilarious.
+
+.fit_bg{padding: 1rem 0; margin: 1rem 0;}
+
+@media (min-width: $medium_width) {
+	.fit_bg{padding: 3rem 0; margin: 3rem 0;}
+}
+.fit_bg.alt{background:$bg;}
+
+.fit_medium{max-width: $medium_width; margin: 0 auto; padding:0 1rem; position: relative;}
+.fit_medium.large{max-width: $large_width;}
+
+@media (min-width: calc(760px + 2rem)) {
+	.fit_medium{padding: 0;}
+}
+
+.fit_medium .fit_window{margin-top:1rem; margin-bottom: 2rem;}
+.fit_medium .fit_window:first-child{margin-top: 0;}
+.fit_medium p + .fit_window{margin-top: 2rem;}
+
+.fit_medium img{width: 100%; border-radius: $border_rad_sm;}
+.fit_medium .fit_picture img{border-radius: $border_rad_lg;}
+@media (min-width: calc(760px + 2rem)) {
+	.fit_medium .fit_picture img{border-radius: $border_rad_xl;}
+}
+
+.fit_medium h1,
+.fit_medium h2,
+.fit_medium h3,
+.fit_medium h4{margin-bottom: 1rem; max-width: 600px; position: relative;}
+
+.fit_medium h4{font-weight: 900; font-size: 1.5rem;}
+
+.fit_medium h1.roomy{padding: 2rem 0;}
+
+.fit_medium h1:first-child{margin-top: 3rem;}
+
+// iconz
+.fit_medium > h1 > i:first-child,
+.fit_medium > h2 > i:first-child,
+.fit_medium > h3 > i:first-child,
+.fit_medium > h4 > i:first-child{margin-right: .5rem;}
+
+@media (min-width: 992px) {
+	.fit_medium > h1 > i:first-child,
+	.fit_medium > h2 > i:first-child,
+	.fit_medium > h3 > i:first-child,
+	.fit_medium > h4 > i:first-child{position: absolute; top:.25rem; right: 100%; margin-right: 1.5rem; font-size: 110%; color:$text_lighter;}
+}
+
+.fit_medium p,
+.fit_medium li{font-size: 1.2rem; line-height: 1.7rem;}
+.fit_medium p a:not(.btn),
+.fit_medium li a:not(.btn),
+.fit_medium li a:not(.nav-link){text-decoration: underline; color:inherit;}
+
+.fit_medium li a.nav-link.active:hover{color: #fff;}
+
+.fit_medium p a:not(.btn):hover,
+.fit_medium li a:not(.btn):hover,
+.fit_medium li a:not(.nav-link):hover{color:$blue;}
+
+.fit_medium p .fa-external-link,
+.fit_medium li .fa-external-link{font-size: 70%; color:$text_light;}
+
+.fit_medium hr{margin: 3.5rem 0; height: 0; background: transparent; border-color: transparent;}
+.fit_medium hr.dots:after{display: block; content: '...'; letter-spacing: 2rem; font-size: 2rem; color: $text_light; text-align: center; position: relative; top: -2rem;}
+
+hr.blunt{border-bottom:0.25rem solid $border_light; max-width: 12rem; margin: 2rem auto 4rem;}
+hr.spacer{margin: 1.5rem 0; border:none; margin: 3rem 0;}
+
+.fit_medium dd,
+.fit_medium dd p{font-size: 1.05rem;}
+
+.fit_medium .breakbig,
+.fit_medium .breakbigger{margin: 0 0 2rem;}
+.fit_medium .breakbig .row img,
+.fit_medium .breakbigger .row img{margin-bottom: 1rem;}
+
+@media (min-width: 992px) {
+	.fit_medium .breakbig{width: $large_width; margin-left: -$large_margin; position: relative;}
+	.fit_medium .breakbigger{width: $container_wide; margin-left: -$larger_margin; background: #fff; position: relative; margin-bottom: 3rem}
+
+
+	// breaking big on a small medium rare friend
+	.fit_medium_rare .fit_medium .breakbig{margin-left: -$rare_width; background: #fff; box-shadow: 0 0 50px #fff; position: relative;}
+
+	.fit_medium_rare .fit_medium .breakbig > *{position: relative;}
+
+	// this is some hacky bullshit for making a shadow hide the left nav
+	
+	.fit_medium_rare .fit_medium .breakbig > *,
+	.fit_medium_rare .fit_medium .breakbigger  > *{z-index: 2250; position: relative; }
+	.fit_medium_rare .fit_medium .breakbig:after,
+	.fit_medium_rare .fit_medium .breakbigger:after,
+	.fit_medium_rare .fit_medium .breakbig:before,
+	.fit_medium_rare .fit_medium .breakbigger:before{z-index: 2200; display: block; content: ''; position: absolute; top:-4rem; left: -20px; bottom: -4rem; box-shadow: 0 0 50px #fff; width: $rare_width; background: #fff; box-shadow: 0 40px 30px #fff;}
+	.fit_medium_rare .fit_medium .breakbig:before,
+	.fit_medium_rare .fit_medium .breakbigger:before{box-shadow: 0 -40px 30px #fff;}
+}
+
+.fit_spicy{color:$red; font-size: 2rem;}
+.fit_spicy .fal{color: $text_light;}
+.fit_spicy .fa-plus{margin-left: .5rem}
+
+
+// medium large is full size
+
+.fit_medium.large{max-width: $container_wide;}
+@media (min-width: $container_wide) {
+	.fit_medium.large{padding: 0;}
+}
+
+.fit_medium.pricing .row .pane{}
+
+// and now the two-bar thing with floaty menu
+
+.fit_medium_rare .fit_rare{margin: 0 auto 2rem; max-width: 740px; padding: 1rem 1rem 2rem}
+
+.fit_medium_rare .fit_rare a{font-size:1.1rem; color: $text; border-bottom: 3px solid transparent; text-decoration: none; display: table; padding: 0.1rem .5rem; margin: 0 0 0.25rem;}
+.fit_medium_rare .fit_rare a:hover{color:$blue; border-bottom-color: $border_light;}
+.fit_medium_rare .fit_rare a.active{background: $bg; border-radius: $border_rad_sm}
+
+.fit_medium_rare .fit_rare a .fa-external-link{font-size: 0.9rem; margin-left: .25rem; color:$text_lighter;}
+.fit_medium_rare .fit_rare a:hover .fa-external-link{color:$blue;}
+
+// big version
+
+@media (min-width: 992px) {
+	.fit_medium_rare{display: flex; align-items:stretch; max-width: $container_wide; position: relative; padding: 0 0 0 .5rem; margin: 0 auto;}
+	.fit_medium_rare .fit_medium{margin: 0; padding: 0; max-width: none}
+	.fit_medium_rare .fit_rare{ flex: 0 0 $rare_width; top:($header_height+2rem); margin:0; padding: 0 3rem 2rem 0; position: sticky; align-self: flex-start;}
+
+	.fit_medium_rare .fit_rare .fit_rare_dropdown_trigger{display: none;}
+
+}
+
+@media (max-width: 991px) {
+
+
+	.fit_medium_rare .fit_rare{background: $bg; padding: .5rem; border-radius: $border_rad_lg;}
+
+	.fit_medium_rare .fit_rare .fit_rare_dropdown_trigger{color: $text; font-size: 0.9rem; margin: 0; display: block; }
+	.fit_medium_rare .fit_rare .fit_rare_dropdown_trigger:hover{border-color: transparent;}
+	.fit_medium_rare .fit_rare .fit_rare_dropdown_trigger:hover i{ transform: rotate(-90deg);}
+	.fit_medium_rare .fit_rare .fit_rare_dropdown{display: none;}
+	.fit_medium_rare .fit_rare.active .fit_rare_dropdown{display: block; padding: .5rem;}
+
+	.fit_medium_rare .fit_rare.active .fit_rare_dropdown_trigger i{border-color: transparent; transform: rotate(-90deg);}
+
+
+	// .fit_medium_rare .fit_rare a.active{background: $bg; color:$blue;}
+
+}
+
+@media (max-width: 750px) {
+	.fit_medium_rare .fit_rare{margin: 0 1rem 1rem;}
+}
+
+.fit_medium_nav{display: flex; border-top:0.25rem solid $border_light; margin-top: 4rem; padding: 2rem 0;}
+.fit_medium_nav .btn:last-child{margin-left: auto;}
+
+.fit_iconrow {text-align: center; font-weight: 900;}
+.fit_iconrow i{display: block; font-size: 5rem; text-align: center; padding:2rem 0 .75rem;}
+.fit_iconrow small{color:$text_light; font-size: 0.8rem; display: block; margin: .5rem 0; font-weight: 400;}
+
+// colour
+.fit_iconrow i.fa-table{color:$new_apricot;}
+.fit_iconrow i.fa-file-spreadsheet{color:$new_green;}
+.fit_iconrow i.fa-file-image{color:$new_pink;}
+.fit_iconrow i.fa-file-chart-pie{color:$new_teal;}
+
+.fit_iconrow i.apricot{color:$new_apricot;}
+.fit_iconrow i.pink{color:$pink;}
+.fit_iconrow i.teal{color:$new_teal;}
+.fit_iconrow i.blue{color:$blue;}
+
+@media (min-width: 992px) {
+	.fit_iconrow {margin-top: 2rem; margin-bottom: 3rem;}
+}
+
+// square images embedded in medium posts
+$square_size: 22rem;
+
+.fit_squarefeat{position: relative; padding:.5rem 0 0 16rem; margin: 2rem 0;}
+.fit_squarefeat .square{overflow: hidden; min-height: $square_size; width: $square_size; display: block; position: absolute; top:0; left: 0; margin-left: -8rem; border-radius: $border_rad_lg;}
+.fit_squarefeat .square > img{height: 100%;}
+
+
+.fit_partner_logos {margin: 3rem 0;}
+.fit_partner_logos .tile{height: 11rem;}
+.fit_partner_logos img{max-height: 5rem; max-width: 15rem; margin:1.5rem; width: auto;}
+
+.fit_partner_logos .tile{border-radius: 1rem; background: #fff; padding:1.5rem;}
+.fit_partner_logos .tile h4{font-size: 1.5rem;}
+
+.fit_medium .fit_summary_icons dd{padding-bottom: 1rem;}
+
+// advisory:
+.fit_advisors{margin-top: 2.5rem;}
+.fit_advisor{display: block; margin:0 0 1.75rem; padding-left: 4rem; position: relative;}
+.fit_advisor .flag{display: block; position: absolute; top:.4rem; left: 0; width: 2.75rem; height: 2rem;}
+.fit_advisor small{display: block; color: $text_light;}
+
+
+// give the rows a bit more room in general
+.fit_medium > p + .row{margin-top: 2rem;}
+
+
+
+.fit_mistake_categories img{max-width: 100%; border-radius: $border_rad_lg;}
+.fit_mistake_categories h4{font-size: 1.5rem;}
+.fit_mistake_categories p{font-size: 1.3rem;}
+
+// the mistakes list stuff
+@media (min-width: 575px) {
+	.fit_mistake_categories{margin:3rem auto;}
+	.fit_mistake_categories p{font-size: 1.2rem;}
+}
+
+.fit_mistakes_list{background: #fff; border-radius: $border_rad_lg; padding: 0 1rem 0.1rem;}
+.fit_mistakes_list .fit_pane{border-bottom:1px solid $border_light;}
+.fit_mistakes_list .fit_pane:last-child{border-bottom: none;}
+.fit_mistakes_list .fit_subhead{border-radius: $border_rad_lg $border_rad_lg 0 0;}
+
+@media (max-width: 575px) {
+.fit_mistakes_list{margin: 0 -1rem;}
+}
+
+// ----------------------------------------------------------------------------------------------------------------
+// Login and sign up and whatnot
+
+html.section-register footer,
+html.section-login footer{display: none;}
+html.section-register .fit_mobile_menu_dropdown .fit_btn.login,
+html.section-login .fit_mobile_menu_dropdown .fit_btn.login{display: none;}
+
+
+.fit_auth{max-width: 25rem; margin:0 auto; padding: 2rem;}
+
+@media (max-width: 575px) {
+	.fit_auth{padding: 1rem 0;}
+}
+
+// fancy placeholders for inputs
+.form-control::placeholder{color: $text_lighter;}
+
+.fit_fancyplace{position: relative; margin-bottom: 1rem;}
+.fit_fancyplace label{position: absolute; top:0; left: 0; padding: .75rem 1rem; color:$text_lighter; cursor: text; transition: all .1s ease-in-out;}
+.fit_fancyplace .form-control{padding: .75rem 1rem; height: calc(2em + .75rem + 2px);}
+
+// when the label is shown:
+.fit_fancyplace.labelled label,
+.fit_wysiwyg label{position:absolute; opacity: 1; padding: .25rem .5rem; top:-.75rem; left: .5rem; color:$text_light; background: #fff; font-size: 0.75rem; font-weight: 400; letter-spacing: 0.02rem;}
+
+
+// when it's active
+.fit_fancyplace.active .form-control{border-color: $blue;}
+.fit_fancyplace.active.labelled label{color:$text;}
+
+// transparent the placeholder
+.fit_fancyplace .form-control::-webkit-input-placeholder { color:transparent; text-transform: none;}
+.fit_fancyplace .form-control:-moz-placeholder { color:transparent;  text-transform: none;} /* FF 4-18 */
+.fit_fancyplace .form-control::-moz-placeholder { color:transparent;  text-transform: none;} /* FF 19+ */
+.fit_fancyplace .form-control:-ms-input-placeholder { color:transparent;  text-transform: none;} /* IE 10+ */
+
+// when active
+.fit_fancyplace.active .form-control:empty::-webkit-input-placeholder { color:$text_light; }
+.fit_fancyplace.active .form-control:empty:-moz-placeholder { color:$text_light; } /* FF 4-18 */
+.fit_fancyplace.active .form-control:empty::-moz-placeholder { color:$text_light; } /* FF 19+ */
+.fit_fancyplace.active .form-control:empty:-ms-input-placeholder { color:$text_light; } /* IE 10+ */
+
+
+// when watermelon
+.fit_form_code.fit_fancyplace.active .form-control:empty::-webkit-input-placeholder { color:$watermelon_light; }
+.fit_form_code.fit_fancyplace.active .form-control:empty:-moz-placeholder { color:$watermelon_light; } /* FF 4-18 */
+.fit_form_code.fit_fancyplace.active .form-control:empty::-moz-placeholder { color:$watermelon_light; } /* FF 19+ */
+.fit_form_code.fit_fancyplace.active .form-control:empty:-ms-input-placeholder { color:$watermelon_light; } /* IE 10+ */
+
+
+// Fancy big h2
+.fit_fancyplace.fancyh2{margin-left: -0.75rem; margin-bottom: 0;}
+.fit_fancyplace.fancyh2:not(.active) label,
+.fit_fancyplace.fancyh2 .form-control{border:none; font-size: 2rem; border:1px solid transparent; font-weight: 900; color:$text; padding: 1rem; border-radius: $border_rad_lg;}
+.fit_fancyplace.fancyh2 .form-control:focus,
+.fit_fancyplace.fancyh2 .form-control:hover:focus{outline:none !important; box-shadow: none !important; border-color:$border_light;}
+.fit_fancyplace.fancyh2.labelled label{display: none;}
+
+.fit_fancyplace.fancyh2 i{color:$text_light; position: absolute; top:50%; right: 0; margin: -.5rem 1.5rem 0 0; font-size: 1rem;}
+// @media (min-width: 768px){
+// 	.fit_fancyplace.fancyh2 i{right:auto; left: 0;}
+// }
+
+.fit_fancyplace.fancyh2 i{opacity: 0;}
+.fit_fancyplace.fancyh2 .form-control:hover{border-color:$border_light;}
+.fit_fancyplace.fancyh2:hover i{opacity: 1;}
+
+
+
+// let's do the weird h2 size thing
+form .form-control-lg{}
+
+
+// login on its own
+body > .fit_auth{padding-top: 8rem; /* border:0.1rem solid $border_light; border-radius: $border_rad_xl; */}
+
+
+// ------------------------------------------------------------------------------------
+/* the thing that makes big course code entry thing */
+/* NB this builds upon fit_fancyplace */
+
+$fit_code_width: 25rem;
+
+.fit_code{max-width: $fit_code_width; margin: 0 auto;}
+
+// on its own
+body > .fit_code {margin-top:10rem;}
+
+.fit_form_code{position: relative; background: $watermelon; padding: 1.75rem; border-radius: $border_rad_xl; max-width: $fit_code_width;}
+.fit_form_code .form-group{position: relative;}
+
+.fit_form_code .form-control{border:3px solid $watermelon_dark; height: 2em; -webkit-appearance: none;}
+.fit_form_code .form-control,
+.fit_form_code .form-control:focus{font-size: 2rem; color: #fff; background: $watermelon_dark; color: #fff; box-shadow: none; text-transform: uppercase;}
+
+.fit_form_code.active .form-control,
+.fit_form_code.labelled .form-control{border:3px solid $watermelon_dark;}
+
+
+// weird label
+.fit_form_code label{font-size: 2em; color:$watermelon_lighter; opacity: 1; padding-top: 0.5rem}
+
+.fit_form_code.active label,
+.fit_form_code.labelled label{position: absolute; top:-0.75rem; left: 0.65rem; color: #fff; background: $watermelon_dark; padding: 0 0.5rem; font-size: 0.85rem; border-radius: $border_rad_md;}
+
+.fit_form_code.active label,
+.fit_form_code.labelled label,
+.fit_form_code.active.labelled label{background: $watermelon_dark; color:#fff;}
+
+.fit_form_code .btn{position: absolute; top:0; right: 0; height: 4rem; width: 4rem; color: #fff; font-size: 1.5rem;}
+.fit_form_code .btn:focus{box-shadow: none;}
+
+.fit_cta_tnc{color: #fff; font-size: 0.85rem; text-align: center; padding: 0;}
+.fit_cta_tnc a{color: inherit; text-decoration: none; border-bottom: 3px solid lighten($watermelon, 20%);}
+.fit_cta_tnc a:hover{text-decoration: none; border-bottom-color: #fff;}
+
+
+// in the hero block
+.fit_hero .fit_code{margin: 3rem auto;}
+
+// in the bottom of a cousre page:
+.fit_cta .fit_form_code {padding-left: 0;}
+.fit_cta .fit_cta_tnc{text-align: left;}
+
+// smaller screens for the code and hero mode
+@media (max-width: 575px){
+	.fit_form_code{padding: 1rem;}
+	.fit_form_code label,
+	.fit_form_code .form-control,
+	.fit_form_code .form-control:focus{font-size: 1.5rem;}
+	.fit_form_code .btn{height: 3rem; width: 4rem;}
+
+	.fit_hero .fit_code{margin: 2rem auto 0; max-width: 100%}
+}
+
+// some colours
+.fit_hero.watermelon h1,
+.fit_hero.watermelon .fit_heartplay .bigboy{color: $watermelon;}
+
+.fit_hero.teal h1,
+.fit_hero.teal .fit_heartplay .bigboy{color:$new_teal}
+
+.fit_hero.pink h1,
+.fit_hero.pink .fit_heartplay .bigboy{color:$new_pink}
+
+.fit_hero.apricot h1,
+.fit_hero.apricot .fit_heartplay .bigboy{color:$new_apricot}
+
+.fit_hero.green h1,
+.fit_hero.green .fit_heartplay .bigboy{color:$new_green}
+
+.fit_hero.purple h1,
+.fit_hero.purple .fit_heartplay .bigboy{color:$new_purple}
+
+.fit_hero.cyan h1,
+.fit_hero.cyan .fit_heartplay .bigboy{color:$new_cyan}
+
+
+// leftie mode for more boring pages
+.fit_hero.leftie{text-align: left; padding-left: $rare_width; position: relative; max-width: $container_wide; margin: 2rem auto; padding-top:2.5rem;}
+.fit_hero.leftie .fit_heartplay{position: absolute; top:2rem; left: 0; width: $rare_width;}
+.fit_hero.leftie h1{max-width: none;}
+
+.fit_lawyermode p,
+.fit_lawyermode li{font-size: 1rem; line-height: 1.1rem;}
+
+@media (max-width: 991px){
+	.fit_hero.leftie{max-width: 740px; margin: 0 auto; padding: 0 0 1rem 4.5rem;}
+	.fit_hero.leftie .fit_heartplay{top: 1rem}
+	.fit_hero.leftie .fit_heartplay .bigboy{font-size: 4rem;}
+	.fit_hero.leftie .fit_heartplay,
+	.fit_heartplay i{height: auto}
+}
+
+@media (max-width: 750px){
+	.fit_hero.leftie{margin: 0 1rem;}
+}
+
+// -----------------------------------------------------------------------------------------
+/* fit header code */
+
+.fit_form_code_head{float: left; padding: 0.5rem;}
+.fit_form_code_head .form-control,
+.fit_form_code_head .btn,
+.fit_form_code_head .btn.disabled, 
+.fit_form_code_head .btn:disabled{background: $watermelon; border-color: $watermelon; color:#fff; opacity: 1; font-size: 1.0rem; position: relative; border:3px solid $watermelon; border-radius: $border_rad_md;}
+
+// weird button
+.fit_form_code_head .btn{display: flex; align-items:center; justify-content: center; border-radius: 0 $border_rad_md $border_rad_md 0 !important;  padding: 0.15rem !important;}
+.fit_form_code_head .btn i{font-size: 1.2rem;}
+
+.fit_form_code_head .btn:hover{cursor: pointer;}
+
+.fit_form_code_head .form-control::placeholder{color:transparent;}
+
+
+// mess with widths using fancyplace
+.fit_form_code_head .form-control,
+.fit_form_code_head .form-control:focus{padding:0.25rem 0.75rem; width: 4rem; transition: all .1s ease-in-out; -webkit-appearance: none; text-transform: uppercase;}
+
+.fit_form_code_head .form-control::placeholder,
+.fit_form_code_head .form-control:focus::placeholder{text-transform: none !important;}
+
+
+.fit_form_code_head .input-group-append{ width: 2.5rem;}
+
+.fit_form_code_head label,
+.fit_form_code_head.active label,
+.fit_form_code_head.labelled label{padding: 0.35rem 0.75rem; color: #fff; width: 100%; overflow: hidden; white-space: nowrap; background: transparent;}
+.fit_form_code_head label .course{display: none;}
+
+// active
+.fit_form_code_head.active .form-control,
+.fit_form_code_head.labelled .form-control,
+.fit_form_code_head.labelled .form-control:active{border-color: $watermelon; box-shadow: none; width: 8rem;}
+.fit_form_code_head .form-control:focus{background: $watermelon;}
+.fit_form_code_head.active .form-control::placeholder{opacity: 0.6; color:#fff;}
+
+.fit_form_code_head.active label,
+.fit_form_code_head.labelled label{display: none;}
+
+
+// make the header code less aggressive!
+
+.fit_form_code_head .input-group{background: $bg_dark; border-radius: $border_rad_lg;}
+
+.fit_form_code_head .form-control, 
+.fit_form_code_head .btn,
+.fit_form_code_head .btn:disabled,
+.fit_form_code_head label{background: transparent; border-color: transparent; color:$text_light;}
+
+
+.fit_form_code_head.active .input-group,
+.fit_form_code_head.labelled .input-group{background: $watermelon; border-color: $watermelon;}
+
+.fit_form_code_head.active .form-control:empty::-webkit-input-placeholder,
+.fit_form_code_head.active .form-control,
+.fit_form_code_head.active .btn,
+.fit_form_code_head.active label,
+.fit_form_code_head.labelled .form-control, 
+.fit_form_code_head.labelled .btn,
+.fit_form_code_head.labelled label{color: #fff;}
+
+
+// search in the top bar
+header .fit_search_header{display: none; position: absolute; top:0; left:0; right: 0; background: #fff; padding: 0.5rem; height: $header_height;}
+header .fit_search_header .form-control,
+header .fit_search_header .btn{height: 2.2rem;}
+header .fit_search_header button{margin-left: -2.7rem; color:$text_light;}
+
+header .fit_search_header .results{position: fixed; display: flex; flex-direction:column; top:$header_height; left: 0; right: 0; bottom: 0; background: $bg;}
+
+html.fit_search_header_active .fit_search_header{display: flex;}
+
+
+// ------------------------------------------------------------------------------------
+// Mobile menu fun
+
+.fit_mobile_menu{}
+.fit_mobile_menu_trigger{}
+.fit_mobile_menu_dropdown{position:relative;}
+
+.fit_mobile_menu_trigger .fa-times{display: none;}
+
+// mobile mode for the menu!
+// NB the mobile menu is an arbitrary width!!! Number of items matters.
+
+@media (max-width: 675px) {
+
+	// hide desktop nav
+	.fit_mobile_menu_dropdown{position:relative; display: none !important; position: fixed; top: $header_height; left: 0; right: 0; bottom: 0; background:rgba(255,255,255,1); padding:1.5rem; justify-content: space-between; align-items:center; justify-content: center; flex-direction:column;}
+
+	.fit_mobile_menu_dropdown .fit_btn{padding: .5rem 0;}
+	.fit_mobile_menu_dropdown .fit_btn .fit_txt{font-size: 1.3rem;}
+	.fit_mobile_menu_dropdown .fit_btn i{font-size: 1.5rem;}
+
+	// active mode
+	html.fit_mobile_menu_active{height: 100%; overflow: hidden; position: fixed; }
+	html.fit_mobile_menu_active .fit_mobile_menu_dropdown{display: flex !important;}
+	html.fit_mobile_menu_active .fit_mobile_menu_trigger .fa-times{display: flex;}
+	html.fit_mobile_menu_active .fit_mobile_menu_trigger .fa-chevron-down{display: none;}
+
+
+	header .fit_search_header{position: fixed; border-bottom: 1px solid $border_light;}
+
+}
+
+// larger mode
+@media (min-width: 676px) {
+
+	.fit_mobile_menu_trigger{display: none;}
+
+	// buttons in the non-mobile mode
+	.fit_mobile_menu_dropdown .fit_btn{margin-left: -1rem;}
+	// .fit_mobile_menu_dropdown .fit_btn i:first-child{display: none;}
+	// .fit_mobile_menu_dropdown .fit_btn .fit_txt:last-child{padding-left: 1.5rem;}
+}
+
+
+
+// footer navs
+
+footer{padding: 5rem 0 7rem; position: relative;}
+
+.fit_footer_nav a{font-size:0.95rem; color: $text_light; border-bottom: 3px solid transparent; text-decoration: none; font-weight: 400; display: table; padding: 0.1rem 0; margin: 0 0 0.25rem;}
+
+footer .fit_device{width: 3rem;}
+footer .fit_device svg > path{fill: $watermelon;}
+
+
+.fit_footer_nav a small{display:block; color: $text_lighter;}
+.fit_footer_nav a i{font-size: 0.7rem; margin-left: .25rem;}
+
+.fit_footer_nav a.note{color: $blue; margin-bottom: 1rem;}
+
+.fit_footer_nav a:hover{color:$brand; border-bottom-color: $border_light;}
+
+@media (max-width: 575px) {
+	footer{padding:  0;}
+	footer [class^='col']{padding-bottom: 1.5rem; width: 50%;}
+
+}
+
+
+
+.fit_michael .fit_hero > img{max-width: 600px; margin-bottom: 2rem;}
+.fit_michael .fit_medium {text-align: center; max-width: 450px; margin: 0 auto; font-size: 1.2rem; background: $bg; border-radius: $border_rad_xl; padding: 2rem 2rem 1rem; margin-bottom: 10rem;}
+
+
+// ------------------------------------------------------------------------------------
+// DEBUG the BUG, squish squish
+
+.fit_debug{position: fixed; bottom: 2rem; right:2rem; right: 2rem; background: #fff; padding: 0; box-sizing:border-box; width: 4rem; height: 4rem; opacity: 0.25; overflow: hidden; transition: all .1s ease-in-out;}
+
+.fit_debug .clicky{font-size: 2rem; position: absolute; top: 0; right:0; color: $blue; background: #fff; display: flex; width: 4rem; height: 4rem; align-items: center; justify-content: center;}
+.fit_debug .clicky:hover{background: $blue !important; color: #fff !important;}
+
+.fit_debug:hover{opacity: 1;}
+
+html.fit_debug_on .fit_debug{height: 50%; left: 2rem; width: auto; padding: 2rem 6rem 1rem 2rem; opacity: 1;}
+html .fit_debug ul{width: 100%; height: 100%; overflow: none; overflow-y: scroll; }
+
+html.fit_debug_on .fit_debug .clicky{background: $bg; cursor: s-resize;}
+
+
+.fit_quote{border-radius: 9px; background: #fff; padding: 30px 30px 15px;  text-align: left; margin: 2rem 0 7rem; border:2px solid $border_medium; position: relative;}
+.fit_quote p,
+.plaintext .fit_quote p{font-size: 1.3rem; line-height: 1.7rem; color: $text; margin-bottom: 15px; font-family: 'Merriweather', serif;}
+.fit_quote p em{font-size: 1rem; display: block; color: $text; padding-bottom: 10px;}
+.fit_quote p strong{color: $text; padding: 0 3px; font-weight: inherit;}
+
+.fit_quote cite{font-size: 0.9rem; position: absolute; top: 100%; left: 0; padding: 35px 0 0 85px; color: $text_lighter;}
+.fit_quote cite img{display: block; position: absolute; top:30px; left: 20px; border-radius: 9999em; width: 50px; height: 50px;}
+.fit_quote cite:after,
+.fit_quote cite:before{display: block; position: absolute; top:0; left: 30px; border: 15px solid transparent; border-top-color: #fff; content: '';}
+.fit_quote cite:after{border-top-color: $border_medium}
+
+.fit_quote cite a{color: inherit; text-decoration: underline;}
+.fit_quote cite a:hover{color: $blue;}
+
+.fit_quote.md{max-width: 45rem;}
+
+// ------------------------------------------------------------------------------------
+// course edit stuff:
+[data-fit-perm-detail]{display: none}
+[data-fit-perm-detail].active{display: block;}
+[data-fit-pane-detail]{display: none}
+[data-fit-pane-detail].active{display: block;}
+
+// forms within the summary
+.fit_summary_icons{padding-right: 1rem;}
+
+.fit_live_course_btn:hover,
+.fit_live_course_btn.active{background: $red !important; border-color: $red !important;}
+
+
+// teacher quick search
+.fit_quicksearch{background: #fff; border:1px solid $border_medium; border-radius: $border_rad_sm; margin-bottom: 1rem;}
+
+.fit_quicksearch > .input-group.searchy{border-bottom: 1px solid $border_medium;}
+.fit_quicksearch > .input-group.searchy .input-group-text,
+.fit_quicksearch > .input-group.searchy .form-control{border:none; border-radius: $border_rad_sm $border_rad_sm 0 0; background: #fff;}
+
+.fit_quicksearch > .input-group.searchy .input-group-prepend{}
+ 
+
+.fit_quicksearch .results:empty{background: $bg_dark;}
+
+
+// spinny saver button
+.fit_btn_saver > i{animation-duration: 1s;}
+.fit_btn_saver > *{display: none;}
+.fit_btn_saver > .saved{display: flex;}
+.fit_btn_saver > .saving{}
+.fit_btn_saver > .error{}
+
+html.loading_spinner .fit_btn_saver > span{display: none;}
+html.loading_spinner .fit_btn_saver > .saving{display: flex;}
+
+html.loading_check .fit_btn_saver > span{display: none;}
+html.loading_check .fit_btn_saver > .saved{display: flex;}
+
+html.loading_error .fit_btn_saver > span{display: none;}
+html.loading_error .fit_btn_saver > .error{display: flex;}
+
+header .fit_btn_saver .error{color: $red;}
+header .fit_btn_saver .saving{color: $new_green;}
+header .fit_btn_saver .saved{color: $text_light;}
+
+// ------------------------------------------------------------------------------------
+// Edit FAQs
+
+.fit_faq_edits{padding-left: 0;}
+
+.fit_faq_edit{position: relative; padding: 1rem 4.5rem 1rem 1rem; margin: -1rem; border-radius: $border_rad_md;}
+
+
+.fit_faq_edit .form-control{border-left: none;}
+.fit_faq_edit .input-group-text{align-items:start; width: 2.5rem; }
+.fit_faq_edit .input-group-text i{padding-top: .35rem; color: $text_light;}
+
+.fit_faq_edit .input-group.primo .input-group-text{border-radius: $border_rad_sm 0 0 0;}
+.fit_faq_edit .input-group.primo .form-control{border-radius: 0 $border_rad_sm 0 0;}
+
+.fit_faq_edit .input-group.secondi{}
+.fit_faq_edit .input-group.secondi .input-group-text{border-radius: 0 0 0 $border_rad_sm; border-top:none}
+.fit_faq_edit .input-group.secondi textarea.form-control{border-radius: 0 0 $border_rad_sm 0; border-top:none; min-height: 6.2rem;}
+
+
+
+// controls
+.fit_faq_controls{position: absolute; top:1rem; right:1rem; bottom:1rem; padding: .5rem; width: 3.5rem; text-align: center; background: $bg_light; border-radius: 0 $border_rad_md $border_rad_md 0;}
+.fit_faq_drag{padding:.5rem; color: $text_light;}
+.fit_faq_drag:hover{color:$brand;}
+.fit_faq_edit .btn-remove:hover{color:$red; background: #fff; border-color: $red;}
+.fit_faq_controls .btn-outline-primary{border-color: transparent; color:$text_light;}
+.fit_faq_controls .btn-outline-primary:hover{color:#fff;}
+
+// bordered mode for faq controls
+.fit_faq_controls{background: #fff; border:1px solid $border_light; width: 3.6rem;}
+
+// last one is the adder
+.fit_faq_add{border: none; margin: 1rem -1rem -1rem -1rem; padding: 1rem; border-radius: 0 0 $border_rad_md $border_rad_md;}
+.fit_faq_add .deserto{margin: 1rem 0 0;}
+
+.fit_pane.white .fit_faq_edit{background: #fff;}
+
+// ------------------------------------------------------------------------------------
+// Custom radios for permissions and things
+.fit_radio_icons{}
+.fit_radio_icons.columned{column-count:2;}
+
+.fit_radio_icons.columned > * {
+	-webkit-column-break-inside: avoid;
+	          page-break-inside: avoid;
+	               break-inside: avoid;
+}
+
+.fit_radio_icons input[type="radio"] {visibility: hidden; position: absolute; top:0; left: 0;}
+.fit_radio_icons label {padding: 0 0 .75rem 1.5rem; display: block; cursor: pointer; color:$text_lighter; font-weight: normal;}
+.fit_radio_icons label:hover{color:$text;}
+.fit_radio_icons label > i{font-size: 1.3rem; position: absolute; top:.25rem; left: 0; width: 2rem; text-align: center;}
+.fit_radio_icons label .form-text{margin-top: 0; color:$text_lighter !important;}
+
+.fit_radio_icons input:checked + label{color: $brand;}
+// .fit_radio_icons input:checked + label .form-text{color: $blue  !important;}
+
+// some colours
+.fit_radio_icons input:checked + label.cyan{color: $new_cyan;}
+.fit_radio_icons input:checked + label.teal{color: $new_teal;}
+.fit_radio_icons input:checked + label.purple{color: $new_purple;}
+.fit_radio_icons input:checked + label.pink{color: $new_pink;}
+.fit_radio_icons input:checked + label.red{color: $new_red;}
+.fit_radio_icons input:checked + label.apricot{color: $new_apricot;}
+.fit_radio_icons input:checked + label.green{color: $new_green;}
+.fit_radio_icons input:checked + label.blue{color: $new_blue;}
+.fit_radio_icons input:checked + label.watermelon{color: $new_watermelon;}
+
+
+
+// ------------------------------------------------------------------------------------
+// snackbar!
+.fit_snackbar{border:1px solid $border_light; border-radius: $border_rad_md;}
+
+
+// ------------------------------------------------------------------------------------
+// Institute mode uses normal hero as much as possible!
+
+.fit_hero .logo{max-width: 14rem; display: block; margin: 0 auto 1rem; text-align: center;}
+
+
+
+
+// ----------------------------------------------------------------------------------------------------------------
+// breezy mode for lessons
+
+
+
+html:not(.fit_breezy_player) header .container{max-width: none; padding: 0 1rem;}
+
+html.fit_breezy_player main.fit_player,
+html.fit_breezy_player main.fit_player article{overscroll-behavior:auto; overflow: visible; overflow-y:visible;}
+
+html.fit_breezy_player main.fit_player aside .fits
+html.fit_dispref-breezy .fit_player aside .fits{}
+
+// turning dropdown toggle things into tabs
+@media (min-width: 768px) {
+	.fit_player aside{border-top:1px solid $border_light; margin-top: 2rem;}
+	.fit_player aside .fits{border-bottom: none;}
+	.fit_player aside .fits .fit_body.show{border-bottom: 1px solid $border_light;}
+	html.fit_breezy_player main.fit_player aside .fits {padding: 1rem; display: flex; flex-wrap:wrap; justify-content: flex-start;  align-items :flex-start;}
+	html.fit_breezy_player main.fit_player aside .fits > .fit_btn[data-toggle="collapse"]{border-top-color:transparent;}
+	html.fit_breezy_player main.fit_player aside .fits > .fit_btn[data-toggle="collapse"] > *{}
+	html.fit_breezy_player main.fit_player aside .fits > .fit_btn[data-toggle="collapse"] .fit_txt{padding-right: 1.5rem;}
+	html.fit_breezy_player main.fit_player aside .fits > .fit_btn[data-toggle="collapse"] .fa-chevron-down{display: none;}
+}
+
+// on / off
+html.fit_breezy_player main.fit_player aside .fits > .fit_btn[data-toggle="collapse"]{color:$blue;}
+html.fit_breezy_player main.fit_player aside .fits > .fit_btn[data-toggle="collapse"].collapsed{color:$text;}
+
+// re-order buttons:
+html.fit_breezy_player main.fit_player aside .fits > .fit_btn.resources{order:1;}
+html.fit_breezy_player main.fit_player aside .fits > .fit_btn.teacher{order:2;}
+html.fit_breezy_player main.fit_player aside .fits > .fit_btn.manage{order:3;}
+
+html.fit_breezy_player main.fit_player aside .fits > .fit_body{order:10; border-top:1px solid $border_light; width: 100%}
+
+html.section-course footer{display: none;}
+
+
+html.fit_breezy_player main.fit_player{position: relative; max-width: $container_wide; top:auto; left: auto; bottom: auto; padding: 0;}
+html.fit_breezy_player main.fit_player nav{display: none;}
+
+@media (max-width: 575px) {
+	html.fit_breezy_player main.fit_player > article{position: sticky; top:0;}
+}
+
+.fit_lesson_asider{border:1px solid $border_light; border-radius: $border_rad_md; background: #fff;}
+
+@media (max-width: 899px) {
+	html.fit_breezy_player main.fit_player aside .fits .fit_body.courselist{padding: .5rem; background: $bg;}
+}
+
+@media (max-width: 575px) {
+	html.fit_breezy_player main.fit_player aside .fits .fit_btn[data-toggle="collapse"].courselist,
+	html.fit_breezy_player main.fit_player aside .fits .fit_body.courselist{background: $bg;}
+	html.fit_breezy_player main.fit_player aside .fits .fit_btn[data-toggle="collapse"].courselist.collapsed{background: #fff;}
+
+}
+
+@media (min-width: 900px) {
+	html.fit_breezy_player main.fit_player{margin: 1rem;}
+
+
+	html.fit_breezy_player main.fit_player .fit_vidya{border-radius: $border_rad_lg; background: #fff; overflow: hidden;}
+
+
+	html.fit_breezy_player main.fit_player aside{}
+
+	
+	html.fit_breezy_player main.fit_player aside > .fits > .fit_btn[data-toggle=collapse]:first-child{border-top:none;}
+
+	html.fit_breezy_player main.fit_player aside > .fits {padding: 1rem 0; display: flex; flex-wrap:wrap; justify-content: flex-start;  align-items :flex-start;}
+	html.fit_breezy_player main.fit_player aside > .fits > .fit_btn[data-toggle="collapse"]{border-top-color:transparent;}
+	html.fit_breezy_player main.fit_player aside > .fits > .fit_btn[data-toggle="collapse"] > *{}
+	html.fit_breezy_player main.fit_player aside > .fits > .fit_btn[data-toggle="collapse"] >i:first-child{width: 3rem;}
+	html.fit_breezy_player main.fit_player aside > .fits > .fit_btn[data-toggle="collapse"] .fit_txt{padding-right: 1.5rem;}
+	html.fit_breezy_player main.fit_player aside > .fits > .fit_btn[data-toggle="collapse"] .fa-chevron-down{display: none;}
+
+	// on / off
+	html.fit_breezy_player main.fit_player aside > .fits > .fit_btn[data-toggle="collapse"]{color:$blue;}
+	html.fit_breezy_player main.fit_player aside > .fits > .fit_btn[data-toggle="collapse"].collapsed{color:$text;}
+
+	// re-order buttons:
+	html.fit_breezy_player main.fit_player aside .fits > .fit_btn.resources{order:1;}
+	html.fit_breezy_player main.fit_player aside .fits > .fit_btn.teacher{order:2;}
+	html.fit_breezy_player main.fit_player aside .fits > .fit_btn.manage{order:3;}
+
+	html.fit_breezy_player main.fit_player aside .fits > .fit_body{order:100; border-top:1px solid $border_light; width: 100%; margin-top: -1px; padding-top:1rem;}
+
+
+
+	// logic for latest and actives
+	html.fit_breezy_player main.fit_player aside > .fits > .fit_btn[data-toggle="collapse"].collapsed,
+	html.fit_breezy_player main.fit_player aside > .fits > .fit_btn[data-toggle="collapse"]{color:$text; height: 3rem;}
+	html.fit_breezy_player main.fit_player aside > .fits > .fit_btn[data-toggle="collapse"] .fit_txt:after{display: none;} // weird grad thing
+
+	html.fit_breezy_player main.fit_player aside > .fits > .fit_btn[data-toggle="collapse"]:hover{background: transparent; color:$blue;}
+
+	html.fit_breezy_player main.fit_player aside > .fits > .fit_btn[data-toggle="collapse"].active_latest{color:$blue; border-bottom:1px solid $blue;  margin-bottom: -1px;}
+
+
+	// collapsed bodies
+	html.fit_breezy_player main.fit_player aside > .fits > .fit_body.collapse,
+	html.fit_breezy_player main.fit_player aside > .fits > .fit_body.collapsing,
+	html.fit_breezy_player main.fit_player aside > .fits > .fit_body.show{display: none; -webkit-transition: none;transition: none;}
+
+	html.fit_breezy_player main.fit_player aside > .fits > .fit_body > .fit_body_content{padding: 1rem 1.5rem;}
+
+	html.fit_breezy_player main.fit_player aside > .fits > .fit_body.active_latest{display: block;}
+
+}
+
+@media (min-width: $container_wide) {
+	html.fit_breezy_player main.fit_player{margin: 3rem auto 1rem;}
+}
+
+
+// turning the reveals into tabs for the player
+
+html.fit_tabby_player .fit_player {}
+
+
+// locked survey
+.fit_segment_locked{text-align: center; padding: 8rem 0;}
+.fit_segment_locked > i{font-size: 4rem; padding-bottom: 1rem;}
+.fit_segment_locked h1{font-size: 3rem; padding-bottom: 1rem; color:$brand_dark;}
+.fit_segment_locked .btn:hover{color: $blue;}
+
+@media (max-height: 700px) {
+	.fit_segment_locked{padding: 4rem 0;}
+}
+
+
+// ------------------------------------------------------------------------------------
+// Surveys within lessons
+
+.fit_survey{}
+.fit_survey h2{}
+.fit_survey .fit_iconselects{}
+.fit_survey .fit_iconselect{}
+.fit_survey .fit_survey_why{}
+.fit_survey_submit{}
+
+
+.fit_survey{position:relative; border-radius: $border_rad_xl; padding: 3rem; border:1px solid $border_light; background: #fff;}
+
+.fit_survey h2{padding-bottom: 3rem; position: relative;}
+
+.fit_survey .fit_iconselects{justify-content:space-around;}
+
+.fit_survey .fit_survey_why label{padding: 2rem 0 0; font-size: 1.5rem; font-weight: 900; position: relative; display: block;}
+.fit_survey .fit_why_count{position: absolute; bottom:0; right:0;font-size: 0.9rem; color: $text_light; font-weight: normal;}
+
+.fit_survey_submit{padding: 2rem 0 0; display: flex; justify-content:space-between;}
+
+// ------------------------------------------------------------------------------------
+// Survey responses table.
+
+.fit_survey + .fit_survey_responses{margin-top: -2rem; padding-top: 3rem;}
+
+.fit_survey_responses{position:relative; border:1px solid $border_light; border-top:0; border-radius: 0 0 $border_rad_lg $border_rad_lg; padding: 2rem; background: linear-gradient(to bottom, $border_light 0, #ffffff 35px, #ffffff 100%); background-color: #fff;}
+
+.fit_survey_responses h3{padding: 1.5rem 0 1rem; color:$text_light;}
+
+.fit_survey_responses table{margin:0 -.75rem;}
+.fit_survey_responses table thead th{border-top:none;}
+.fit_survey_responses table tbody th .fit_btn{margin: -.75rem; font-weight: normal; white-space: nowrap;}
+.fit_survey_responses table tbody th .fit_btn .badge-pill{clear: left; float: left; margin-top: .2rem;}
+
+.fit_survey_responses table tbody tr:first-child th,
+.fit_survey_responses table tbody tr:first-child td{border-top:none;}
+
+.fit_survey_responses table tbody .response.truncated{height: 180px; overflow: hidden; position: relative;}
+.fit_survey_responses table tbody .response.truncated:after{background: linear-gradient(0deg, #fff, rgba(255,255,255,0)); display: block; position: absolute; content: ''; width: 100%; bottom:0; left: 0; height: 4rem;}
+
+.fit_survey_responses table tbody .response .expand{position: absolute; bottom: 0; left: 0; width: 100%; font-size: 0.9rem; color:$blue; text-decoration: none; cursor: pointer; background: #fff;}
+.fit_survey_responses table tbody .response .expand:hover{color:$blue_dark;}
+.fit_survey_responses table tbody .response .expand i{margin-right: .25rem;}
+.fit_survey_responses table tbody .response.expanded .expand{display: none;}
+
+.fit_survey_responses table tbody .response p:last-child{margin-bottom: 0;}
+
+.fit_survey_responses table tbody .response_num{font-weight: bold; background: $bg_dark; padding: 0.25rem .75rem; margin: -.25rem -.5rem; border-radius: $border_rad_sm;}
+.fit_survey_responses table tbody .response_num_1,
+.fit_survey_responses table tbody .response_num_2{background-color: $new_red; color:#fff;}
+.fit_survey_responses table tbody .response_num_3,
+.fit_survey_responses table tbody .response_num_4,
+.fit_survey_responses table tbody .response_num_5,
+.fit_survey_responses table tbody .response_num_6,
+.fit_survey_responses table tbody .response_num_7{background-color: $new_apricot; color:#fff;}
+.fit_survey_responses table tbody .response_num_8,
+.fit_survey_responses table tbody .response_num_9,
+.fit_survey_responses table tbody .response_num_10{background-color: $new_green; color:#fff;}
+
+
+// ------------------------------------------------------------------------------------
+// get yo wiggle on!
+
+.fit_wiggle_daddy:hover .fit_wiggle,
+.fit_wiggle:hover {
+  -webkit-animation-name: wiggle;
+  -ms-animation-name: wiggle;
+  -ms-animation-duration: 1000ms;
+  -webkit-animation-duration: 1000ms;
+  -webkit-animation-iteration-count: 1;
+  -ms-animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-in-out;
+  -ms-animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes wiggle {
+  0% {-webkit-transform: rotate(10deg);}
+  25% {-webkit-transform: rotate(-10deg);}
+  50% {-webkit-transform: rotate(20deg);}
+  75% {-webkit-transform: rotate(-5deg);}
+  100% {-webkit-transform: rotate(0deg);}
+}
+
+@-ms-keyframes wiggle {
+  0% {-ms-transform: rotate(1deg);}
+  25% {-ms-transform: rotate(-1deg);}
+  50% {-ms-transform: rotate(1.5deg);}
+  75% {-ms-transform: rotate(-5deg);}
+  100% {-ms-transform: rotate(0deg);}
+}
+
+@keyframes wiggle {
+  0% {transform: rotate(10deg);}
+  25% {transform: rotate(-10deg);}
+  50% {transform: rotate(20deg);}
+  75% {transform: rotate(-5deg);}
+  100% {transform: rotate(0deg);}
+}
+
+
+// ------------------------------------------------------------------------------------
+// Other ideas!
+// Pulse thing: https://codepen.io/igorsheg/pen/MBpwGw
+
+
+// ------------------------------------------------------------------------------------
+// pricing column
+
+.fit_pricecol{background: $bg; text-align: center; padding: 1rem; font-size: 1rem;}
+.fit_pricecol_label{text-align: left; font-size: 0.9rem; background: #fff;}
+
+.fit_pricecol_header{padding-top: 2.5rem; border-radius: 1rem 1rem 0 0;}
+.fit_pricecol_header i{font-size: 2.5rem; display: block; padding-bottom: 1rem;}
+.fit_pricecol_header h4{}
+
+.fit_pricecol_student{background: #e3f5b6}
+.fit_pricecol_teacher{background: #b6d8f2;}
+.fit_pricecol_institute{background: $brand; color: #fff;}
+
+
+
+// ------------------------------------------------------------------------------------
+// pricing table
+
+.fit_table_price{margin-top: 8rem;}
+.fit_table_price th,
+.fit_table_price td{text-align: center; padding:.2rem; border-bottom:none !important; border-top:none !important; border-left: 10px solid #fff; border-right: 10px solid #fff; font-size: 1rem; border-spacing: 1rem;}
+
+.fit_table_price thead td{text-align: left;}
+.fit_table_price thead th{width:10rem;}
+
+.fit_table_price thead th{position: relative;}
+.fit_table_price thead th:after{content:''; display: block; position: absolute; height: 1.5rem; top:-1.5rem; left: 0; right: 0; border-radius: $border_rad_xl $border_rad_xl 0 0;}
+
+.fit_table_price thead th i{font-size: 2.5rem; display: block; padding-bottom: 1rem;}
+.fit_table_price thead th h4{padding: 1rem 0 .5rem; margin: 0;}
+.fit_table_price thead th small a{color:$blue_dark; display: inline-block; padding: .2rem .4rem; text-decoration: none; font-weight: bold; background: rgba(255,255,255,0.2); border-radius: $border_rad_sm;}
+.fit_table_price thead th small a:hover{background: rgba(255,255,255,0.4);}
+
+.fit_table_price thead th.institute small a{color:#fff; background: rgba(0,0,0,0.2);}
+.fit_table_price thead th.institute small a:hover{background: rgba(0,0,0,0.5);}
+
+.fit_table_price tbody th{text-align: left; font-weight: normal; position: relative;}
+.fit_table_price tbody small{color: $text_light; display: table;}
+.fit_table_price tbody th h4{margin-bottom: 0; padding: 1.5rem 0 .5rem; font-size: 1.3rem;}
+.fit_table_price tbody td{text-align: center; position: relative;}
+
+// weird h1
+.fit_table_price thead h1{margin: 0; padding: 3.5rem 0 0; text-align: left;}
+
+// colours
+.fit_table_price .free,
+.fit_table_price thead th.free:after,
+.fit_table_price tbody tr:last-child td.free:after{background: $bg_light}
+
+.fit_table_price .student,
+.fit_table_price thead th.student:after,
+.fit_table_price tbody tr:last-child td.student:after{background: $bg_green}
+
+.fit_table_price .teacher,
+.fit_table_price thead th.teacher:after,
+.fit_table_price tbody tr:last-child td.teacher:after{background: $bg_blue_md}
+
+.fit_table_price .institute,
+.fit_table_price thead th.institute:after,
+.fit_table_price tbody tr:last-child td.institute:after{background: $brand; color:#fff;}
+
+.fit_table_price thead th.institute h4{color:#fff;}
+
+// fancy tooltippy boiez
+
+.fit_table_price tbody [data-toggle="tooltip"]{border-bottom: 2px dotted $border_light;}
+
+// ----
+.fit_table_price tbody tr:not(.title):hover th{background: $bg;}
+.fit_table_price tbody tr:not(.title):hover td.free{background: $bg;}
+.fit_table_price tbody tr:not(.title):hover td.student{background: darken(#e3f5b6, 10%);}
+.fit_table_price tbody tr:not(.title):hover td.teacher{background: darken(#b6d8f2, 10%);}
+.fit_table_price tbody tr:not(.title):hover td.institute{background: lighten($brand, 5%);}
+
+// add some weird stuff
+.fit_table_price tbody tr:not(.title):hover th:after{content:''; display: block; position: absolute; top:0; right: 100%; bottom: 0; width: 1rem; border-radius: $border_rad_lg 0 0 $border_rad_lg; background: $bg;}
+.fit_table_price tbody tr:not(.title):hover td:after{content:''; display: block; position: absolute; top:0; right: 100%; bottom: 0; width: 10px; background: $bg_dark;}
+.fit_table_price tbody tr:not(.title):hover td.institute:after{content:''; display: block; position: absolute; top:0; left: 100%; bottom: 0; width: 1rem; border-radius: 0 $border_rad_lg $border_rad_lg 0; background: $bg_dark;}
+
+// and the end
+.fit_table_price tbody tr:last-child td:after{content:''; display: block; position: absolute; height: .5rem; top:100%; left: 0; right: 0; border-radius: 0 0 $border_rad_xl $border_rad_xl;}
+
+
+
+
+// ------------------------------------------------------------------------------------
+// Medium wysiwyg editor
+
+.fit_further_reading{background: #fff; padding: 0rem 1rem 1rem; border-radius: $border_rad_sm;}
+.fit_further_reading .fit_wysiwyg{min-height: 3rem;}
+
+.fit_further_reading [data-fit-wysiwyg-preview]{border: 1px solid $border_light; background: #fff; border-radius: $border_rad_lg; cursor: text; padding: 1rem;}
+
+.fit_wysiwyg{position: relative;}
+.fit_wysiwyg.further{margin-top: 2rem;}
+
+.fit_wysiwyg .medium-editor-element{outline: none !important; border: 1px solid $border_medium; border-radius: $border_rad_md; padding: 1rem; background: #fff; min-height: 8rem;}
+
+.fit_wysiwyg .medium-editor-element[data-medium-focused="true"]{border-color: $blue; box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);}
+
+.fit_wysiwyg .medium-editor-placeholder-relative:after,
+.fit_wysiwyg .medium-editor-placeholder:after{font-style: normal; color: $text_light;}
+
+.medium-toolbar-arrow-under:after{}
+
+.fit_wysiwyg blockquote{display: block; font-size: 1.3rem; border-left: 3px solid $border_light; padding: .25rem .5rem .25rem calc(1rem - 3px); margin-left: -1rem;}
+
+
+.medium-editor-toolbar,
+.medium-editor-toolbar-form{border-radius: $border_rad_xl; border:1px solid $border_light; overflow: hidden; height: 3.2rem; background: #fff;}
+.medium-editor-toolbar ul{}
+
+.medium-editor-toolbar ul li button{border: none; font-size: 1rem;}
+.medium-editor-toolbar ul li button:hover{color:$blue;}
+.medium-editor-toolbar ul li button.medium-editor-button-active{background: $bg;}
+
+.medium-editor-toolbar .medium-editor-toolbar-input{font-size: 1rem; padding: .75rem 1rem;}
+.medium-editor-toolbar-form a{margin: 0; padding: 0.5rem 1rem;}
+
+.medium-editor-toolbar ul li:first-child button{border-radius: $border_rad_xl 0 0 $border_rad_xl;}
+.medium-editor-toolbar ul li:last-child button{border-radius: 0 $border_rad_xl $border_rad_xl 0;}
+
+.medium-editor-toolbar {
+	// to make it visible in modals
+	z-index: 6000!important;
+}
+
+
+// full height modal for wysiwyg edita:
+.modal-wysiwyg{height: 100%; max-width: $container_wide;}
+.modal-wysiwyg .modal-content{}
+
+
+
+
+
+.fit_welcome{padding: 0; text-align: center; height: 100vh; display: flex; align-items: center; justify-content: center; flex-direction:column;}
+
+.fit_welcome .fit_window{max-width: 40rem;}
+
+.fit_welcome h1{font-weight: 300; font-size: 1.75rem; padding: 3rem 0; max-width: 500px; margin: 0 auto;}
+
+
+
+
+
+
+
+
+
+
+// Let's disable some stuff for testing to make everything simpler
+.fit_form_code_head{display: none !important;}
+
+
+
+
+
+
+
+
+// ------------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------------
+
+
+
+// Let's try again!
+
+body{transition: padding .25s ease-in-out;}
+
+$black: #1c1f20;
+
+$fat_sidepad: 6rem;
+
+$max_width: 80rem;
+
+html.section-play .fit_debug{display: none;}
+
+
+dfn{position: relative; font-style: inherit; border-bottom: 2px dashed $border_lightest}
+dfn i{position: absolute; top:0rem; right: -0.9rem; font-size: 40%; color: $black; opacity: 0;}
+dfn:hover{border-color: $border_light;}
+dfn:hover i{color: $black; opacity: 0.5}
+dfn i:hover{color: $blue; opacity: 1;}
+
+// ------------------------------------------------------------------------------------
+// weird new fat header type
+
+.btn-xl{font-size: 1.6rem; padding: .75rem 1.5rem;}
+
+.fat_head{z-index: 6000; position: absolute; top:2rem; left: 2rem; right: 2rem;}
+
+.fat_device{width: 2rem; height: 4rem; display: block; position: absolute; top:0; left: 0;}
+.fat_device svg > path{fill-rule: evenodd; fill: $black;}
+
+.fat_device:hover svg > path{fill:$watermelon_vibrant;}
+
+
+.fat_user{position: absolute; top:0; right: 0; font-size: 1.5rem; border-radius: $border_rad_r; width: 4rem; height: 4rem; background: #fff; display: flex; align-items: center; justify-content: center; transition: all .25s ease-in-out; }
+
+// hide the user with this!
+// display: none !important;
+
+.fat_user i,
+.fat_user:hover .down,
+.fat_device i,
+.fat_device:hover .down{color:$black;}
+
+.fat_device .down,
+.fat_user .down{position:absolute; left: -2.95rem; color: $black; opacity: 0; transition: all .25s ease-in-out; top:0rem; font-size: 1.5rem; padding: 1rem;}
+
+.fat_device .down{left: 100%; margin-left: 0rem; opacity: 0.25}
+
+.fat_user:hover{background: $black}
+.fat_user:hover i{color: #fff;}
+.fat_user:hover .down,
+.fat_device:hover .down{opacity: 1; top:.2rem;}
+
+// ---------------------------------
+// culaz of hedda
+
+// purple
+.fat_head.purple .fat_device svg > path{fill:$new_purple;}
+.fat_head.purple .fat_user i,
+.fat_head.purple .fat_user .down,
+.fat_head.purple .fat_user:hover .down{color: $new_purple}
+.fat_head.purple .fat_user:hover{background: $new_purple}
+.fat_head.purple .fat_user:hover i{color: #fff;}
+
+// blue
+.fat_head.blue .fat_device svg > path{fill:$new_blue;}
+.fat_head.blue .fat_user i,
+.fat_head.blue .fat_user .down,
+.fat_head.blue .fat_user:hover .down{color: $new_blue}
+.fat_head.blue .fat_user:hover{background: $new_blue}
+.fat_head.blue .fat_user:hover i{color: #fff;}
+
+// teal
+.fat_head.teal .fat_device svg > path{fill:$new_teal;}
+.fat_head.teal .fat_user i,
+.fat_head.teal .fat_user .down,
+.fat_head.teal .fat_user:hover .down{color: $new_teal}
+.fat_head.teal .fat_user:hover{background: $new_teal}
+.fat_head.teal .fat_user:hover i{color: #fff;}
+
+// cyan
+.fat_head.cyan .fat_device svg > path{fill:$new_cyan;}
+.fat_head.cyan .fat_user i,
+.fat_head.cyan .fat_user .down,
+.fat_head.cyan .fat_user:hover .down{color: $new_cyan}
+.fat_head.cyan .fat_user:hover{background: $new_cyan}
+.fat_head.cyan .fat_user:hover i{color: #fff;}
+
+// watermelon
+.fat_head.watermelon .fat_device svg > path{fill:$new_watermelon;}
+.fat_head.watermelon .fat_user i,
+.fat_head.watermelon .fat_user .down,
+.fat_head.watermelon .fat_user:hover .down{color: $new_watermelon}
+.fat_head.watermelon .fat_user:hover{background: $new_watermelon}
+.fat_head.watermelon .fat_user:hover i{color: #fff;}
+
+// green
+.fat_head.green .fat_device svg > path{fill:$new_green;}
+.fat_head.green .fat_user i,
+.fat_head.green .fat_user .down,
+.fat_head.green .fat_user:hover .down{color: $new_green}
+.fat_head.green .fat_user:hover{background: $new_green}
+.fat_head.green .fat_user:hover i{color: #fff;}
+
+
+// ------------------------------------------------------------------------------------
+// footer hax
+
+.fat_footer .fit_footer_nav a{font-size: 1.2rem;}
+.fat_footer .fit_course{max-width: none; padding: .5rem;}
+.fat_footer .fit_device svg{height: 3rem}
+.fat_footer .fit_device svg > path{fill:$text_lighter;}
+
+
+
+// ------------------------------------------------------------------------------------
+// course view
+
+
+.fat_course_back{ min-height: 100%; margin: -6rem -3rem 0;}
+
+.fat_course{padding: .5rem 0 5rem;margin: 0 auto; max-width: $container_wide;}
+
+.fat_course .prior,
+.fat_course .soon{}
+
+.fat_course .lessons{margin: 0 12px;}
+.fat_course .lessons .lesson{height: 6px; background: #fff; margin: 4px 0; overflow: hidden; transition: all .25s ease-in-out;}
+
+// now
+.fat_course > .now{background: #fff; padding: 2rem;}
+
+.fat_course > .now h2{font-size: 2.5rem; line-height: 3rem; padding: 0 0 2rem; position: relative; display: flex;}
+.fat_course > .now h2 .txt{color: $black;}
+.fat_course > .now h2 .no{height: 3rem; min-width: 3rem; background: $bg; color: $text_lighter; display: flex; align-items: center; justify-content: center; border: 1px solid transparent; text-decoration: none; padding: 0 .5rem; margin-right: 1rem; position: relative;}
+.fat_course > .now h2 .no:hover{color:$blue; border-color: $border_light;}
+.fat_course > .now h2 .no .fa-chevron-left{position: absolute; left: -2rem; top:.75rem; font-size: 1.5rem; opacity: 1; color: $text_lighter; transition: all .2s ease-in-out; }
+.fat_course > .now h2 .no:hover .fa-chevron-left{color: $blue; left: -2.2rem;}
+
+// black hover
+.fat_course > .now h2 .no:hover{background: $black; color: #fff;}
+.fat_course > .now h2 .no:hover .fa-chevron-left{color: $black}
+
+@media (max-width: 1300px) {
+	.fat_course > .now h2 .no{padding-left: 2.2rem;}
+	.fat_course > .now h2 .no .fa-chevron-left{color: $text_lighter; opacity: 1; left: .75rem;}
+	.fat_course > .now h2 .no:hover .fa-chevron-left{color: #fff; left: .5rem;}
+}
+
+// wacky card thingy
+// .fat_course > .now h2 .no:before,
+// .fat_course > .now h2 .no:after{display: block; content: ''; position: absolute;  width: 100%; height: 100%;  border: 1px solid transparent; border-right: 0; border-bottom: 0; transition: all .3s ease-in-out;}
+// .fat_course > .now h2 .no:hover::before{top:-5px; left: -5px;transform: rotate(-3deg); border-color: $border_lighter;}
+// .fat_course > .now h2 .no:hover::after{left: -10px; top: -9px;  transform: rotate(-6deg); border-color: $border_lighter;}
+
+// the focus is what the student is focussing on now
+.fat_course > .now .focus{}
+
+// video
+.fat_course .focus > .video{background: $bg_blue; border-radius: $border_rad_lg; overflow: hidden; border-radius: $border_rad_sm;}
+
+// text
+.fat_course .focus > .html{ padding: 2rem 0;}
+.fat_course .focus > .video + .html{margin-top:2rem;}
+
+.fat_course .focus > .html p{font-size: 1.1rem; color: $text;}
+
+.fat_course .focus > .nav{display: flex; justify-content: space-between; padding-bottom: 3rem;}
+
+// sidebar chunks
+.fat_course > .now > .sidebar{border-top:3px solid $bg; display: flex; align-items:stretch; min-height: 10rem; padding: 3rem 0 0;}
+
+.fat_course > .now > .sidebar .chunk{border-right: 3px solid $bg; flex: 1; padding: 0 1.5rem;}
+.fat_course > .now > .sidebar .chunk:first-child{padding-left: 0;}
+.fat_course > .now > .sidebar .chunk:last-child{border-right: none; padding-right: 0;}
+
+.fat_course > .now > .sidebar .chunk h4{font-size: 1.2rem; position: relative; margin: 0; padding: 0 0 1rem;}
+.fat_course > .now > .sidebar .chunk h4 i{position: absolute; top:.15rem; right:0; color:$text_lighter; opacity: 0;}
+
+.fat_course > .now > .sidebar .fit_segments{max-height: 25rem; overflow-y: scroll; overscroll-behaviour:contain;}
+
+.fat_course > .now > .sidebar .chunk .more {color: $text_light; padding-top: .5rem;}
+.fat_course > .now > .sidebar .chunk .more a{color:$text_light; text-decoration: underline;}
+.fat_course > .now > .sidebar .chunk .more a:hover{color: $blue;}
+
+
+
+//neg margins
+.fat_course > .now > .sidebar .fit_btn.resource_link,
+.fat_course > .now > .sidebar .fit_segments{margin: 0 -1.5rem;}
+
+
+
+// resources links
+.fat_course > .now > .sidebar .fit_btn.resource_link > i{width: 4.25rem; text-align: right; padding-right: 1rem;}
+
+
+// FAQs
+.fat_faqs{padding: .5rem 0;}
+.fat_faqs.none p{color:$text_light;}
+
+
+
+
+
+// course intro page
+
+.fat_course_sell{display: flex; flex-direction:row; padding: 3rem 0;}
+.fat_course_sell h3{font-size: 2rem; padding: 0 5rem 0 0}
+.fat_course_sell .enrol{width: 25rem;}
+.fat_course_sell .enrol:hover{color: #fff;}
+
+
+// ------------------------------------------------------------------------------------
+// the course bar comes in and does stuff
+
+$fat_coursebar_width: 50rem;
+
+html.section-play{overflow-x:hidden;}
+html.section-play body{padding-top: 0;}
+
+.fat_coursebar{z-index: 7000; position: fixed; top:0; left: -$fat_coursebar_width; bottom: 0; width: $fat_coursebar_width; padding: 2rem; background: #fff; overflow:hidden; overflow-y:scroll; overscroll-behavior: contain; }
+
+.fat_coursebar_head{padding: 0 1rem 1.5rem; position: relative;}
+.fat_coursebar_head h2 a{font-size: 1.8rem; padding: 0 10rem 0 0; display: flex; text-decoration: none; color: $black; align-items:baseline;}
+.fat_coursebar_head h2 a:hover{color: $blue;}
+.fat_coursebar_head h2 i{ margin-right: 1rem;}
+
+.fat_coursebar_head .x{position: absolute; top:-.5rem; right: 2rem; font-size: 2rem; height: 3rem; width: 3rem; display: flex; align-items: center; justify-content: center; text-decoration: none; color:$text_light;}
+.fat_coursebar_head .x:hover{background: #fff; color: $black;}
+
+// well this is wacky, using a psuedo on the X to do a closey friend. WACK
+.fat_coursebar_head .x:after{position: fixed; display: none; content: ''; top:0; right: 0; left: 50rem; bottom: 0;}
+
+.fat_lessons{}
+
+.fat_lessons > h3:first-child{color: $text_lighter; padding: 1rem 1rem .5rem; font-weight: normal; font-size: 1.5rem;}
+
+.fat_lesson{position: relative; padding: 1.5rem 1.5rem 1.5rem 13rem; min-height: 7.5rem; border: 1px solid transparent;}
+
+.fat_lesson .fit_window{position: absolute; top:1rem; left: 1rem; width: 10rem;}
+
+.fat_lesson a{text-decoration: none;}
+.fat_lesson > h4{font-size:1.3rem; padding:0 5rem .5rem 0; margin: 0; color:$black;}
+.fat_lesson > p,
+.fat_lesson > ol li,
+.fat_lesson > ul li{font-size: 0.95rem; padding:0 5rem 0 0; margin: 0; color:$text;}
+
+.fat_lesson > ol,
+.fat_lesson > ul{margin: .5rem 0;}
+
+.fat_lesson .person {padding: 1rem 0 0; font-size: 1.1rem; font-weight: bold;}
+.fat_lesson .person i{margin-right: .25rem;}
+
+.fat_lesson a:hover h4{color: $blue;}
+
+.fat_lesson .fit_window img{border-radius: $border_rad_sm;}
+.fat_lesson .fit_window .play {font-size: 2rem;}
+
+.fat_lesson > .status{position: absolute; top:2.5rem; right: 2.5rem; width: 2rem; height: 2rem; border-radius: $border_rad_r; border: 1px solid transparent; display: flex; align-items: center; justify-content: center; flex-direction:column; text-align: center; font-size: 0.9rem; color:$text_lightest; }
+//  add background: #fff; to .status for white backer?
+
+.fat_lesson > .status i{color: $text_lighter;}
+
+.fat_lesson > .status .fa-play{color: $blue;}
+
+// progress ring
+.progress_ring{	transform: rotate(-90deg);}
+.progress_ring .progress_meter,
+.progress_ring .progress_value{fill:none;}
+
+.progress_ring .progress_meter{stroke:$bg_dark;}
+.progress_ring .progress_value{stroke: $border_dark; stroke-linecap: round;}
+
+.fit_btn.active > .fit_status .progress_ring .progress_meter{stroke: $text_lightest;}
+.fit_btn.active > .fit_status .progress_ring .progress_value{stroke: $blue;}
+
+// check goes over the time
+.fit_btn > .fit_status{ position: absolute; top:0; right: 0; background: #fff; display: flex; align-items: center; justify-content: center; width: 4.5rem; height: 100%; color: $text_lighter;}
+.fit_btn:hover > .fit_status{background: $bg;}
+.fit_btn:hover > .fit_status .fa-check{color: $new_green;}
+
+.fit_btn.active > .fit_status{background: $bg;}
+
+
+.fat_lesson:hover .status{color: $text_light;}
+.fat_lesson:hover .status .fa-check{color: $new_green;}
+
+.fat_lesson[aria-expanded]:hover{background: $bg; cursor: pointer;}
+.fat_lesson[aria-expanded="true"]{background: $bg;}
+
+.fat_lesson .fit_segments{background: #fff; margin: 1.5rem 0 0; border-radius: $border_rad_sm;}
+
+
+.fat_lesson .embed{padding: 1rem 0 0; display: flex; justify-content: flex-end}
+
+// .fat_lesson:hover{background: $bg;}
+
+// animate the coursebar shit
+.fat_coursebar,
+.fat_course{transition: all .25s ease-in-out;}
+
+
+html.fat_coursebar_active body{overflow: hidden; padding-left: 2rem;}
+html.fat_coursebar_active .fat_course{ }
+html.fat_coursebar_active .fat_coursebar{left: 0;}
+html.fat_coursebar_active .fat_coursebar_head .x:after{display: block;}
+
+html.fat_coursebar_active .fat_course > .now h2 .no i{display: none;}
+
+
+
+// ------------------------------------------------------------------------------------
+// hero
+
+.fat_hero{min-height: 100vh; margin-top: 0rem; display: flex; align-items: center; justify-content: center; flex-direction:column; text-align: center;}
+.fat_hero.peeker{min-height: 93vh;}
+
+// wtf?
+// .fat_hero *:first-child{margin-top: -1rem;}
+
+.fat_hero h1,
+.fat_hero h2{font-size: 6rem; color:$black;}
+.fat_hero h2{font-size: 4rem;}
+
+@media (max-width: 575px) {
+	.fat_hero h2 br{display: none;}
+}
+
+.fat_hero h1 a{text-decoration: none; color: inherit; transition: all .25s ease-in-out; }
+.fat_hero h1 a .hinter{display:block; position: absolute; bottom: 6rem; left: 0; width: 100%; font-size: 3rem; color: $text_lighter;  transition: all .25s ease-in-out;}
+.fat_hero h1 a:hover{opacity: 0.9; }
+.fat_hero h1 a:hover .hinter{color: inherit; margin-bottom: -.5rem;}
+
+.fat_tease_btns{flex-direction: row; padding: 2rem 0; max-width: 50rem;}
+
+.fat_tease_btns .btn{margin: 0 .5rem;}
+.fat_tease_btns .btn:hover{background: $bg;}
+
+.fat_tease_btns .btn.course{color:$blue;}
+.fat_tease_btns .btn.educators{color:$watermelon;}
+
+.fat_tease_btns .btn.course{color:$blue;}
+.fat_tease_btns .btn.educators,
+.fat_tease_btns .btn.educators:hover{color:$watermelon;}
+
+@media (max-width: 575px) {
+	.fat_tease_btns .btn{display: block;}
+}
+
+.fat_hero.left{text-align: left; align-items:normal;}
+.fat_hero.left h1{}
+
+.fat_hero.halfy{min-height: 55vh; justify-content:flex-end; padding: 0 $fat_sidepad}
+.fat_hero.quartery{min-height: 25vh;}
+
+.fat_hero.header{min-height: 0;}
+
+.fat_hero > p{font-size: 1.4rem; color: $text;}
+
+.fat_hero.purple > * {color: $new_purple;}
+.fat_hero.teal > *{color: $new_teal;}
+.fat_hero.blue > *{color: $new_blue;}
+.fat_hero.watermelon > *{color: $new_watermelon;}
+.fat_hero.green > *{color: $new_green;}
+
+.fat_hero .blue{color: $new_blue;}
+.fat_hero .purple{color: $new_purple;}
+.fat_hero .watermelon{color: $new_watermelon;}
+.fat_hero .cyan{color: $new_cyan;}
+.fat_hero .green{color: $new_green;}
+
+
+// welcome / home page hero
+.fat_hero.welcome .fat_video{width: 35rem; background: $bg; margin-bottom: 2rem;}
+.fat_hero.welcome h1{font-size: 4rem;}
+.fat_hero.welcome .fat_tease_btns .btn-xl{font-size: 1.3rem;}
+
+@media (max-width: 575px) {
+	.fat_hero.welcome .fat_video{width: 90%;}
+	.fat_hero.welcome h1{font-size: 2.5rem;}
+}
+
+// ------------------------------------------------------------------------------------
+// window
+
+.fat_window {max-width:90rem; }
+.fat_window img{border-radius: $border_rad_lg; max-width: 100%; box-shadow: 0 0 1rem rgba(0,0,0,0.1);}
+
+
+// ------------------------------------------------------------------------------------
+// nav
+
+h1 + .fat_nav{margin-top: 2rem}
+
+.fat_nav{z-index: 5000; top:-1px; background: #fff; margin-bottom: 6rem; display: block;}
+.fat_nav.marginless{margin-bottom: 0}
+
+.fat_nav .contain{padding: 1rem; max-width: $max_width; margin: 0 auto; display: flex; flex-direction:row; }
+
+.fat_nav a{padding: .5rem 1rem; font-size: 1.3rem; margin: 0 .5rem 0 0; text-decoration: none; border-radius: $border_rad_lg; border-color: transparent; color: $text_lighter;}
+.fat_nav a.active{background: $bg; border-color: $border_lighter; color: $text_light;}
+
+// first one  gose to the top
+.fat_nav a.top{padding: .5rem 0; text-align: center; width: 0; overflow: hidden; margin: 0 0 0 -1.5rem; transition: all .25s ease-in-out; opacity: 0;}
+.fat_nav a.top i{margin-right: 0;}
+.fat_nav a.top:not(.active){width: 4rem; margin: 0 1rem 0 0; opacity: 1;}
+
+.fat_nav a .txt i{color: $text_lightest; font-size: 70%; margin: 0 0 0 .25rem;}
+.fat_nav a:hover .txt i{color: $text_light;}
+.fat_nav a .txt i:hover{color: $new_apricot;}
+
+// .fat_nav .purple{color: $new_purple;}
+// .fat_nav .blue{color: $new_blue;}
+// .fat_nav .green{color: $new_green;}
+// .fat_nav .red{color: $new_red;}
+// .fat_nav .bergundy{color: $new_bergundy;}
+// .fat_nav .apricot{color: $new_apricot;}
+// .fat_nav .teal{color: $new_teal;}
+// .fat_nav .navy{color: $new_navy;}
+// .fat_nav .watermelon{color: $new_watermelon;}
+
+.fat_nav a i{margin-right: .5rem;}
+
+.fat_nav a:hover{background: $bg;}
+
+// fat nav btn
+.fat_nav a.btn{color: #fff;}
+.fat_nav a.btn-watermelon:hover{background: darken($watermelon, 10%); color: #fff}
+
+.fat_nav a.right{float: right;}
+
+
+@media (max-width: 575px) {
+	.fat_nav .contain{flex-direction:column;}
+}
+
+
+.fat_nav.lefty{flex-direction:column; position: fixed; top:0; left: 0; bottom: 0; margin-bottom: 0; justify-content: center; background: transparent; width: 6rem; overflow: visible;}
+.fat_nav.lefty a{margin-right: 0 !important; white-space: nowrap; border: none;}
+.fat_nav.lefty a i{margin-right: 0; width: 2rem; text-align: center;}
+.fat_nav.lefty a .txt{display: none;}
+
+
+
+// weird solo enroller thing
+.fat_enroller{position: sticky; top:0; display: none;}
+.fat_enroller .fat_nav{}
+
+
+.fat_nav .enrol{margin: 0 0 0 auto;}
+
+.fat_nav .enrol{position: sticky; top:0;}
+
+
+// edit the user
+.fat_user_avatar{height: 18rem; border-radius: $border_rad_r; overflow: hidden; margin-bottom: 2rem;}
+
+@media (max-width: 991px) {
+	.fat_user_avatar{height: 10rem;}
+}
+
+// ------------------------------------------------------------------------------------
+// sections in the sales pages
+
+.fat_section{padding: $fat_sidepad/2 $fat_sidepad}
+
+.bg{background: $bg;}
+
+.grad_fff_bg{background: linear-gradient(180deg, rgba(255,255,255,0), $bg); }
+.grad_bg_fff{background: linear-gradient(180deg, $bg, rgba(255,255,255,0)); }
+
+.fat_section h2{font-size: 4rem; margin-bottom: 4rem;}
+.fat_section h2 small,
+.fat_hero h1 small{font-size: 1rem; text-transform: uppercase; display: block; color: $text_lighter; letter-spacing: 1px; padding-bottom: 1rem;}
+.fat_section h2 small i,
+.fat_hero h1 small i{width: 1rem; margin-right: .5rem;}
+
+.fat_searchline{max-width: 30rem; position: relative;}
+.fat_searchline .form-control{background: transparent; border: none; border-bottom: 3px solid $border_light; padding: 2.5rem; padding-left: 4.5rem; font-size: 2rem; color: $black; border-radius: 0; margin-bottom: 2rem;}
+.fat_searchline .form-control:focus{box-shadow: none; border-bottom-color:$border_medium; }
+.fat_searchline i{color: $text_lighter; position: absolute; top:0; left: 0; font-size: 2rem; padding: 1.5rem 0 0 1rem;}
+
+.fat_section .fat_lessons{padding: 1rem; background: #fff;}
+.fat_section .fat_lessons.peeps .collapse,
+.fat_section .fat_lessons.peeps .collapsing{background: #fff; padding: .5rem 1.5rem 1rem; margin: 1rem 0 0;}
+
+.fit_segments.hoverstatus .fit_btn > .fit_status{opacity: 0;}
+.fit_segments.hoverstatus .fit_btn:hover > .fit_status{opacity: 1;}
+.fat_video_modal .fit_btn > .fit_status{display: none;}
+
+
+.fat_section .fat_lesson[aria-expanded="true"] .status .fa-chevron-down{transform: rotate(180deg);}
+
+
+.fat_section .caption{font-size: 0.9rem; padding: 1.5rem 0;}
+
+// ------------------------------------------------------------------------------------
+// the LIBRARY OF DOOM
+
+.fat_library{margin-bottom: 2rem;}
+
+
+.fat_library_explainer{background: #fff;}
+
+.fat_library_explainer .vid{display: block; position: relative; overflow: hidden; background: $bg_blue; margin-bottom: 1.5rem; padding: 0;}
+// .fat_library_explainer .vid.active{padding-top: $ratio_169;}
+// .fat_library_explainer .vid .holder{position: absolute; top:0; left: 0; right: 0; bottom: 0;}
+.fat_library_explainer .vid i{font-size: 3rem; color: #fff; position: absolute; top:50%; left: 50%; width: 4rem; height: 4rem; margin: -2rem 0 0 -2rem; display: flex; align-items: center; justify-content: center; }
+
+.fat_library_explainer .explain{padding: 2rem; margin-top: -2rem;}
+.fat_library_explainer .explain:first-child{margin-top: 0;}
+.fat_library_explainer .explain h4{font-size: 1.2rem; padding: 0; margin: 2rem 0 .5rem;}
+.fat_library_explainer .explain h4 i{width: 1rem; margin-right: .5rem;}
+.fat_library_explainer .explain p{font-size: 1rem; color: $text_light;}
+
+// pad mode
+.fat_library_explainer .explain h4,
+.fat_library_explainer .explain p{position: relative; padding-left: 2.5rem; margin:0;}
+.fat_library_explainer .explain h4 i{position: absolute; top:0; left: 0; font-size: 1.5rem;}
+
+.fat_library_explainer .explain h4:first-child{margin-top: .5rem;}
+
+@media (min-width: 992px) {
+	.fat_library_explainer.sticky{position: sticky; top: 2rem;}
+}
+@media (min-width: 1140px) {
+	.fat_library_explainer.sticky{top:7rem;}
+}
+
+
+
+// ------------------------------------------------------------------------------------
+// leo list
+// max-width: 120rem; nah?
+// overflow: hidden;
+.fat_leo_list{ position: relative;}
+.fat_leo_list h2{font-size: 4rem; margin: 0 0 4rem 0rem;}
+.fat_leo_list h3{font-size: 2.5rem; margin: 0 0 2rem 0;}
+.fat_leo_list h2 .purple{color: $new_purple;}
+
+.fat_leo_list dl{margin: 0 0 1rem 7rem; position: relative;}
+
+.fat_leo_list dt{color: $black; font-size: 1.6rem; padding-bottom: 1rem; position: relative; display: flex; align-items: center;}
+.fat_leo_list dt i{color: $text_lightest; font-size: 4rem; position: absolute; top:.5rem; left: -7rem; width: 5rem; text-align: center; display: block;}
+.fat_leo_list dt .no{background: $bg; border-radius: $border_rad_sm; margin-right: .75rem; align-items: center; justify-content: center; display: flex; font-size: 1.2rem; color: $text_light; width: 1.5rem; height: 1.5rem;}
+
+.fat_leo_list dd {padding-bottom: 2.5em; max-width: 22rem;}
+.fat_leo_list dd p{color: $black; font-size: 1.2rem; padding-bottom: .75rem; margin: 0;}
+.fat_leo_list dd p a{display: inline-block; color: $new_purple; text-decoration: none; position: relative;}
+.fat_leo_list dd p a i{margin-right: 0.5rem; width: 1rem;}
+.fat_leo_list dd p a:hover::after{display: block; content: ''; position: absolute;bottom: -2px; left: 1.75rem; right: 0; border-bottom: 1px solid $new_purple;}
+
+.fat_leo_list dd .fit_window{width: 20rem; margin: 0 0 1rem;}
+
+.fat_leo_list dd .timing{color: $text_lighter; font-size: 80%;}
+
+.fat_leo_list .btn{color: $new_purple; border-color: $new_purple;}
+
+.fat_arrow_button{position: relative; margin-bottom: 3rem;}
+.fat_arrow_button  .btn{margin-top: 1rem; border: 1px solid $new_purple}
+.fat_arrow_button  .btn:hover{background: $new_purple; color:#fff;}
+.fat_arrow_button svg{transform: scaleY(-1) rotate(295deg); position: absolute; top:-4rem; left: 22rem; }
+.fat_arrow_button svg > path{fill: $text_lighter; fill-rule: evenodd;}
+
+// leo SLINGIN
+.leo_slingin{position: absolute; bottom: 0; right: 15%; width:30%; z-index: 3600; max-width: 600px}
+
+// the gradient
+// nah not for now
+// .fat_leo_list:after{z-index: 3650;  display: block; height: 19rem; content: ''; position: absolute; bottom: -9rem; left: 0; right: -6rem; background: linear-gradient(180deg, rgba(255,255,255,0), rgba(0, 0, 0, 0.1)); transform: rotate(-10deg);}
+// .fat_leo_list{box-shadow: inset 0rem -1rem 1rem rgba(0,0,0,0.1);}
+
+
+// plain old video
+.fat_video{border-radius: $border_rad_lg; overflow: hidden;}
+
+.fat_video.conspicuously_absent{background:$bg_dark; border:5px solid $border_lighter; display: flex; align-items: center; justify-content: center; }
+.fat_video.conspicuously_absent i{color: $text_lightest; font-size:4rem;}
+.fat_video.conspicuously_absent:after{padding-top: $ratio_169; display: block; content: '';}
+
+// video with some sidenav
+
+.fat_video_sidenav{z-index: 3500; display: flex; flex-direction:column; position: relative; margin-bottom: 3rem; border-radius: $border_rad_lg; overflow: hidden;}
+.fat_video_sidenav .side{background: $bg;}
+.fat_video_sidenav .side .fit_btn .fit_status{background: $bg;}
+.fat_video_sidenav .side .fit_btn:hover,
+.fat_video_sidenav .side .fit_btn:hover .fit_status{background: #fff;}
+
+
+.fat_video_sidenav .side .fit_btn.active,
+.fat_video_sidenav .side .fit_btn.active .fit_status{background: #fff;}
+
+@media (max-width: 575px) {
+		.fat_video_sidenav{flex-direction:row; flex-wrap:wrap;}
+		.fat_video_sidenav .viddy,
+		.fat_video_sidenav .side{width: 100%; position: relative;}
+}
+
+@media (min-width: 576px) {
+	.fat_video_sidenav .viddy{width: 70%;}
+	.fat_video_sidenav .side{width: 30%; position: absolute; top:0; right: 0; bottom: 0; background: $bg; overflow: hidden; overflow-y: scroll;}
+}
+
+// ------------------------------------------------------------------------------------
+// video modal
+.fat_video_full{border-radius: $border_rad_lg; overflow: hidden; margin: 0 0 4rem;}
+
+
+// ------------------------------------------------------------------------------------
+// video modal
+
+.fat_video_modal .modal-content{box-shadow: none;}
+
+.fat_video_modal .modal-body p{font-size: 1.2rem;}
+
+.fat_video_modal .wistia_responsive_padding{margin-bottom: 2rem;}
+
+
+// ------------------------------------------------------------------------------------
+// the menu that is just basically full screen lol
+.fat_menu_modal .modal-dialog{margin: 0 !important; max-width: none;}
+
+@media (min-width: 576px) {
+	.fat_menu_modal .modal-dialog{margin: 0 !important; max-width: none;}	
+}
+
+
+
+.fat_menu_modal .x{position: absolute; top:1.5rem; left: 4rem; width: 4rem; height: 4rem; font-size: 2rem; color: $text_lighter; border: none; background: transparent; display: flex; align-items: center; justify-content: center; z-index: 6000; outline: none !important; display: none;}
+.fat_menu_modal .x:hover{color: $text}
+
+
+
+
+
+// ------------------------------------------------------------------------------------
+// grid of beautiful people
+
+.fat_pic_grid{display: flex; height: 98vh; align-items: center; justify-content: center; flex-direction:row; overflow: hidden; padding:0;}
+.fat_pic_grid .pic{position: relative; width: 100%; height: 100%;}
+.fat_pic_grid .pic img{object-fit: cover; object-position: 50% 30%; height: 100%; width: 100%;}
+
+
+.fat_pic_grid img{}
+.fat_pic_grid .portrait{height: 100%; width: 50%;}
+.fat_pic_grid .portrait .landscape{height: 50%;}
+
+
+.fat_pic_grid .play{position: absolute; top:0; right: 0; left: 0; bottom: 0; display: flex; align-items: center; justify-content: center; text-decoration: none; flex-direction:column; transition: all .15s ease-in-out;}
+.fat_pic_grid .play i{font-size: 3rem; line-height: 7rem; color: #fff; transition: all .15s ease-in-out; margin-top: 2rem;}
+.fat_pic_grid .play small{display: block; font-size: .9rem; color: $black; transition: all .15s ease-in-out; background: rgba(255,255,255,0.9); padding: .5rem 1rem; border-radius: $border_rad_sm; opacity: 0.95;}
+.fat_pic_grid .play small .timing{font-size: 70%; opacity: 0.5; margin-left: .5rem}
+
+// move the portrait ones down a bti
+.fat_pic_grid > .portrait.pic .play i{margin-top: 25%;}
+
+
+.fat_pic_grid .play:hover{background: rgba(0,0,0,0.2);}
+.fat_pic_grid .play:hover i{transform: scale(1.25);}
+.fat_pic_grid .play:hover small{opacity: 1;}
+ // nah: transform: scale(1.0.5);
+
+.fat_pic_grid .portrait.text{padding:2rem;display: flex; align-items:flex-start; flex-direction:column; justify-content: center; }
+.fat_pic_grid .portrait.text h2{font-size:2.5rem; padding-bottom: 2rem; color: $new_teal; margin: 0;}
+.fat_pic_grid .portrait.text h2 a{color: inherit;}
+.fat_pic_grid .portrait.text p{font-size: 1.2rem;}
+.fat_pic_grid .portrait.text p > i{color: $new_teal;}
+.fat_pic_grid .portrait.text .btn-outline-primary{border-color: $new_teal; color: $new_teal; margin-right: 1rem;}
+.fat_pic_grid .portrait.text .btn-outline-primary:hover{background: $new_teal; color: #fff;}
+
+.fat_pic_grid .portrait.text .btn-pink{border-color: $new_pink; color: $new_pink; margin-right: 1rem;}
+.fat_pic_grid .portrait.text .btn-pink:hover{background: $new_pink; color: #fff;}
+
+// icons n shit
+.fat_pic_grid .text .meta{margin-bottom: 2rem}
+.fat_pic_grid .text .meta .deet{padding: 0 0 0 1.75rem; font-size: 1rem; position: relative;}
+.fat_pic_grid .text .meta .deet i{display:block; text-align: center; font-size: 1rem; width: 1.5rem; position: absolute; top:.3rem; left: -.25rem; color: $text_light; color: $text_light;}
+.fat_pic_grid .text .meta .deet strong{display: block; font-size: 0.8rem; text-transform: uppercase; line-height: 1.5rem; font-weight: normal;}
+.fat_pic_grid .text .meta .deet i,
+.fat_pic_grid .text .meta .deet strong{opacity: .5;}
+.fat_pic_grid .text .meta .deet p{max-width: 25rem;}
+
+
+// some weird widths
+.fat_pic_grid.threeup .portrait{width: 33.333333%}
+.fat_pic_grid.threeup .portrait > .landscape{height: 33.3333%}
+
+// course teasers
+.fat_pic_grid.coursetease .portrait.text{width: 40%}
+.fat_pic_grid.coursetease .portrait.pic{width: 60%;}
+
+
+@media (min-width: 992px) {
+	.fat_pic_grid.coursetease.left .pic{order:2;}
+	.fat_pic_grid.coursetease{margin: 1.5rem;}
+}
+
+
+// different sized images for these ones
+.fat_pic_grid.coursetease .pic .hori{display: none;}
+
+@media (max-width: 991px) {
+	
+	.fat_pic_grid.coursetease {flex-direction:column}
+	.fat_pic_grid.coursetease .portrait,
+	.fat_pic_grid.coursetease .portrait.text{width: 100%; height: auto;}
+	.fat_pic_grid.coursetease .pic{height: auto}
+	.fat_pic_grid.coursetease .portrait.pic{width: 100%}
+	.fat_pic_grid.coursetease .pic .vert{display: none;}
+	.fat_pic_grid.coursetease .pic .hori{display: block;}
+}
+
+// coloured backer
+.fat_pic_grid .portrait.text{background: $black; box-shadow: inset 0 0 200px #191b20;}
+.fat_pic_grid .portrait.text p{color: #fff;}
+.fat_pic_grid .portrait.text p a{color: inherit; text-decoration: underline;}
+.fat_pic_grid .portrait.text p a:hover{}
+.fat_pic_grid .portrait.text h2 small{color: $text;}
+
+// watermelon
+.fat_pic_grid .text.watermelon{color:darken($new_watermelon, 70%); box-shadow: inset 0 0 200px #20191b;}
+.fat_pic_grid .text.watermelon h2{color: $new_watermelon;}
+.fat_pic_grid .text.watermelon h2 small{color: #fff; opacity: 0.3;}
+.fat_pic_grid .text.watermelon .btn-outline-primary{border-color: $new_watermelon; color: $new_watermelon;}
+.fat_pic_grid .text.watermelon .btn-outline-primary:hover{background: $new_watermelon; color: #fff;}
+
+// blue
+.fat_pic_grid .text.blue{color:darken($new_blue, 70%); box-shadow: inset 0 0 200px #13161d;}
+.fat_pic_grid .text.blue h2{color: $new_blue;}
+.fat_pic_grid .text.blue h2 small{color: #fff; opacity: 0.3;}
+.fat_pic_grid .text.blue .btn-outline-primary{border-color: $new_blue; color: $new_blue;}
+.fat_pic_grid .text.blue .btn-outline-primary:hover{background: $new_blue; color: #fff;}
+
+// reverse text
+.fat_pic_grid .text.reverse{background: $bg; box-shadow: none;}
+.fat_pic_grid .text.reverse h2{color: $new_blue;}
+.fat_pic_grid .text.reverse h2 small{color: $text_lighter;}
+.fat_pic_grid .text.reverse .meta .deet p{color:$black;}
+.fat_pic_grid .text.reverse .meta .deet p strong{color: $black;}
+.fat_pic_grid .text.reverse .btn-outline-primary{border-color: $new_blue; color: $new_blue;}
+.fat_pic_grid .text.reverse .btn-outline-primary:hover{background: $new_blue; color: #fff;}
+
+.fat_pic_grid .text.reverse.white{background: #fff;}
+
+.fat_pic_grid .text.reverse.pink h2{color: $new_pink;}
+.fat_pic_grid .text.reverse.pink .btn-outline-primary{border-color: $new_pink; color: $new_pink;}
+.fat_pic_grid .text.reverse.pink .btn-outline-primary:hover{background: $new_pink; color: #fff;}
+
+
+
+body .fat_pic_grid > .landscape .play i{margin-top: 10rem; font-size: 5rem;}
+body .fat_pic_grid.threeup .portrait .landscape .play small{font-size: .9rem;}
+
+
+// mash it down for mobile
+@media (max-width: 991px) {
+	.fat_pic_grid{flex-wrap: wrap; height: auto;}
+	.fat_pic_grid .portrait{width: 100%; height: 100vh;}
+	.fat_pic_grid.threeup .portrait{width: 50%; height: 100%;}
+	.fat_pic_grid.threeup .portrait:last-child{width: 100%}
+}
+
+@media (max-width: 575px) {
+	.fat_pic_grid .play small{opacity: 1;}
+	.fat_pic_grid.threeup .portrait{width: 100%; height: 100%;}
+	.fat_pic_grid.threeup .portrait:first-child{height: auto;}
+}
+
+
+
+.propaganda_academy{}
+
+.propaganda_academy{border:10px solid $new_pink;}
+.propaganda_academy .portrait.text h2{color: $new_pink}
+
+
+// ------------------------------------------------------------------------------------
+// smaller teaser thingo
+
+.fit_teasergrids{display: flex; display: flex; align-items: flex-start; justify-content: center; flex-direction:row; flex-wrap:wrap;}
+
+.fit_teasergrid{ height: 28rem; width: 62rem; display: flex; flex-direction:row; background:#fff; margin:3rem; border:3px solid $bg; border-radius: $border_rad_xl;}
+.fit_teasergrid .pic{display: flex; width: 50%; height: 100%; display: flex; align-items: center; justify-content: center; overflow: hidden; border-radius: $border_rad_lg 0 0 $border_rad_lg;}
+.fit_teasergrid .pic img{height:100%; transition: all .3s ease-in-out;}
+
+.fit_teasergrid .text{height: 100%; width: 50%; padding: 2rem 3rem;}
+.fit_teasergrid .text h3{color: inherit; font-size: 2.2rem; font-weight: 900; padding: 0 0 0.25rem; margin: 0;}
+.fit_teasergrid .text small{color: $text_lighter; display: block; font-family: 'Merriweather', serif; font-size:0.9rem;}
+.fit_teasergrid .text p{color: $text; font-size: 1rem; padding:.75rem 0 .5rem;}
+
+// hovers
+.fit_teasergrid:hover{text-decoration: none; cursor: pointer;}
+.fit_teasergrid:hover .pic img{ transform: scale(1.02); }
+
+// colours
+.fit_teasergrid.pink:hover{border-color: $new_pink}
+.fit_teasergrid.teal:hover{border-color: $new_teal}
+.fit_teasergrid.purple:hover{border-color: $new_purple}
+.fit_teasergrid.navy:hover{border-color: $new_navy}
+.fit_teasergrid.watermelon:hover{border-color: $new_watermelon}
+.fit_teasergrid.cyan:hover{border-color: $new_cyan}
+.fit_teasergrid.black:hover{border-color: $brand}
+
+
+.fit_teasergrid .text .btn{color: inherit; text-align: left; font-size: 1.2rem; margin-left: -1rem;}
+.fit_teasergrid .text .btn small{padding-top: .15rem;}
+.fit_teasergrid .text .btn:hover{color: $brand; text-decoration: none; background:$bg;}
+
+
+// the hero one
+.fit_teasergrid.hero .pic .vert{display: none;}
+
+@media (min-width: 1200px) {
+	.fit_teasergrid.hero{width: 130rem}
+	
+}
+
+
+
+@media (max-width: 800px) {
+
+	.fit_teasergrids{flex-direction: column;}
+	.fit_teasergrid{flex-direction: column; height: auto; width: auto; margin-bottom: 0;}
+	.fit_teasergrid:last-child{border-bottom-width:3rem;}
+	.fit_teasergrid .pic,
+	.fit_teasergrid .text{width: 100%}
+	.fit_teasergrid .pic{height: auto;}
+	.fit_teasergrid .pic img{height: auto; width: 100%}
+	.fit_teasergrid .pic{width: 100%; height: auto;}
+
+}
+
+@media (max-width: 600px) {
+	.fit_teasergrid{margin-bottom: 1.5rem;}
+}
+
+@media (min-width: 1300px) {
+	.fit_teasergrid{ height: 28rem; width: 62rem; margin: 3rem}
+}
+
+
+
+
+
+// ------------------------------------------------------------------------------------
+// video modal
+
+.fat_video_modal{background: rgba(0,0,0,0.5);}
+.fat_video_modal .modal-dialog{max-width: none; margin: 0;}
+.fat_video_modal .modal-dialog .modal-content{max-width: none !important; margin: 5rem 0 0; background: #fff; width: auto; border-radius: 0;}
+
+.fat_video_modal .modal-dialog .modal-header{position: fixed; top:-5rem; right: 0; border: none;}
+.fat_video_modal .modal-dialog .modal-header .modal-title{display: none;}
+.fat_video_modal .modal-dialog .modal-header .close{color: #fff; padding: 1rem 1rem;}
+
+.fat_video_modal .modal-dialog .modal-body{max-width: 900px; margin: 0 auto;}
+
+// this modal comes from underneath
+.fat_video_modal.fade .modal-dialog {transform: translate3d(0, 25%, 0);  transition: all 0.1s ease-out;}
+.fat_video_modal.show   .modal-dialog {transform: translate3d(0, 0, 0);}
+
+
+.fat_quote{z-index: 4000; background: $bg; border-radius: $border_rad_xl; position: relative; max-width: 30rem; margin: 2rem 0 6rem; min-height: 15rem; }
+.fat_quote:last-child{margin-bottom: 4rem;}
+
+.fat_quote:after{display: block; content: ''; position: absolute; top: 100%; left: 2.25rem; border:.75rem solid transparent; border-top-color: $bg; }
+
+.fat_quote .ldquo{ position: absolute; top:-1.5rem; left: -2.5rem; font-size: 7rem; color: $text_lighter; font-family: "Times New Roman", times, serif; display: block;}
+
+.fat_quote .friend{padding:1.5rem 2rem 0.5rem; display: none;  opacity: 0; transition: all .25s ease-in-out; cursor: pointer;}
+.fat_quote .friend.active{display: block; opacity: 1}
+.fat_quote .friend p{font-size: 1.5rem; font-family: 'Merriweather', serif;}
+
+.fat_quote .dots{position: absolute; top:100%; right:.5rem; margin: 1rem 0 0; display: block; text-align: right;}
+.fat_quote .dots .dot{border-radius: $border_rad_r; background: $text_lightest; height: 1.75rem; width: 1.75rem; border: .4rem solid #fff; display: inline-block; text-decoration: none;}
+.fat_quote .dots .dot.active{background: $text_light;}
+.fat_quote .dots .dot:hover{background: $text; cursor: pointer;}
+
+.fat_quote cite{position: absolute; top:100%; font-size: 0.9rem; left: 1.5rem; margin: 1.2rem 10rem 0 0; color: $text_light; font-style: normal; content: '';  width: 90%}
+.fat_quote cite a{color: inherit; text-decoration: underline;}
+.fat_quote cite a:hover{color: $blue;}
+
+.fat_quote cite img{width: 2.8rem; height: 2.8rem; border-radius: $border_rad_r; overflow: hidden; float: left; margin: 0 1rem 2rem 0; }
+
+.fat_quote p a{color: inherit;}
+
+@media (min-width: 1450px) {
+	.fat_quote{max-width: 40rem; min-height: 13rem;}
+}
+
+
+.fat_whitejab .fat_quote{max-width: none; margin-left: 2.5rem;}
+
+@media (max-width: 575px) {
+	.fat_quote{min-height: 0; margin-bottom: 6rem;}
+	.fat_whitejab .fat_quote{margin-left: 0;}
+}
+
+// the BIG ASS QUOTES
+
+.fat_quote.fattest{background: transparent; max-width: 50rem; margin: 2rem auto 6rem;}
+.fat_quote.fattest .friend p:first-child{font-size: 2rem; padding-bottom:1.5rem;}
+.fat_quote.fattest cite{margin: 0; right: 0; font-size: 1rem;}
+
+.fat_quote.dotless cite{margin-right: 0;}
+
+@media (max-width: 575px) {
+	.fat_quote.fattest .friend p{font-size: 1.4rem;}
+	.fat_quote.fattest .friend p br{display: none;}
+	.fat_quote.fattest .friend p:first-child{font-size: 1.5rem;}
+}
+
+
+
+.fat_quote.left{margin-left: 0;}
+
+
+
+.fat_section .centered{text-align: center;}
+
+// ------------------------------------------------------------------------------------
+// icons in a row
+
+.fat_iconrow h3{font-size: 2.5rem;}
+.fat_iconrow h3 i{font-size: 7rem; padding: 2rem 0 1rem; display: block;}
+.fat_iconrow p,
+.fat_iconrow li{font-size: 1.3rem; max-width: 16rem; margin: 0 auto; margin-bottom: 1rem;}
+
+.fat_whitejab{padding: 3rem 3rem 2rem;  border-radius: $border_rad_xl; background: #fff; max-width: 50rem; margin: 5rem auto 3rem;}
+
+.fat_whitejab h3{padding-bottom: 2rem;}
+.fat_whitejab h4{font-size: 1.6rem; padding-bottom: 1rem;}
+.fat_whitejab p,
+.fat_whitejab li{max-width: none;}
+
+.fat_whitejab hr{max-width: 10rem; border-top: .25rem solid $border_light; margin: 4rem auto;}
+
+.fat_whitejab .morethings p{font-size: 1.1rem; padding-bottom: 1.5rem;}
+
+@media (max-width: 575px) {
+	.fat_whitejab{padding: 2rem; margin: 1rem 0;}
+	.fat_iconrow h3{font-size: 2rem;}
+	.fat_iconrow h3 i{font-size: 5rem;}
+}
+
+
+.fat_spotify{margin: 0 auto; text-align: center; padding:2rem; width: 23rem; border-radius: $border_rad_xl;}
+.fat_spotify h3{color: #1DB954; padding: 0 0 2rem; font-size: 2.2rem;}
+.fat_spotify h3 i{font-size: 4rem; display: block; margin-bottom: 1.5rem}
+
+
+.fat_polaroid{padding: 1.5rem; box-shadow: 10px 10px 30px rgba(0,0,0,0.15); transform: rotate(2deg); border-radius: $border_rad_sm; text-align: center; background: #fff; margin-bottom: -5rem;}
+.fat_polaroid img{max-width: 100%;}
+.fat_polaroid .caption{padding: 1rem;}
+
+@media (min-width: 992px) {
+	.fat_polaroid {margin-bottom: -7rem;}
+}
+
+@media (max-width: 575px) {
+	.fat_polaroid {margin-bottom: 1rem;}
+}
+
+// ------------------------------------------------------------------------------------
+// why, hello there
+
+#hello.fat_section h1{color: $new_watermelon;}
+#hello.fat_section .bigly{min-height: calc(80vh - 20rem); display: flex; align-items: flex-start; justify-content: center; flex-direction:column;}
+
+
+
+// ABSURDLY BIG BUTTON
+.btn-absurd{font-size: 2.5rem; background: $new_blue; padding:1rem 2rem; position: relative; text-decoration: none; color:#fff;}
+.btn-absurd i{margin-right: 1rem;}
+.btn-absurd:hover{color: #fff; background: darken($new_blue, 5%);}
+.btn-absurd .party{position: absolute; top:50%; left: 100%; height:4rem; margin: -2rem 0 0 2rem; display: flex; align-items: center; justify-content: center; text-decoration: none; font-size: 200%;}
+
+
+.btn-absurd.watermelon{background: $new_watermelon;}
+.btn-absurd.watermelon:hover{background: darken($new_watermelon, 5%);}
+
+.btn-absurd.purple{background: $new_purple;}
+.btn-absurd.purple:hover{background: darken($new_purple, 5%);}
+
+
+#hello.fat_section .nb{font-size: 1.1rem; font-weight: 300; color: $text_light; max-width: 20rem; padding: 2rem 0;}
+
+
+
+
+
+
+// ------------------------------------------------------------------------------------
+// plain text should work
+
+
+.plaintext h3{font-size: 2.2rem; margin: 1.5rem 0 1.5rem;}
+.plaintext h3 i{margin-right: .5rem;}
+.plaintext p,
+.plaintext li{font-size: 1.2rem; }
+
+.plaintext [class^='col']{margin-bottom: 1rem}
+
+.plaintext .points .col-sm-4 p{max-width: 20rem;}
+.plaintext .points .col-sm-4 li{max-width: 18rem;}
+
+.plaintext p img{max-width: 100%; border-radius: $border_rad_lg;}
+
+
+
+// for michael
+.fat_hero.for_michael img{max-width: 800px; width: 100%;}
+.fat_hero.for_michael h1{font-size: 3rem; margin: 3rem auto;}
+.fat_hero.for_michael h1 small{display: block;font-size: 1.5rem; font-family: 'Merriweather', serif; padding-top: 1rem; text-transform: none;}
+
+
+$fat_storyline_width: 9rem;
+
+dl.fat_storyline {padding: 2rem 0;}
+
+dl.fat_storyline dt,
+dl.fat_storyline dd{font-size: 1.2rem;}
+
+dl.fat_storyline dt{float: left; width:$fat_storyline_width; position: relative; color: $new_green; padding-left: 2.5rem;}
+dl.fat_storyline dt:after{display: block; content: ''; width: 1.75rem; height: 1.75rem; background:lighten($new_green, 45%); border-radius:$border_rad_r; position: absolute; top:0; left: 0; }
+dl.fat_storyline dd{padding-left: $fat_storyline_width; padding-bottom: 1.5rem; position: relative;}
+dl.fat_storyline dd:after{display: block; content: ''; width:.25rem; background:lighten($new_green, 45%); position: absolute; top:1rem; left: .75rem; bottom: -1rem;}
+
+dl.fat_storyline dd:last-child::after{display: none;}
+
+// ------------------------------------------------------------------------------------
+// Genreric Vertical spacing
+.fat_vertspace{margin: 4rem 0;}
+
+@media (max-height: 1000px) {
+	.fat_vertspace{margin-top: 2rem; margin-bottom: 2rem}
+}
+
+@media (max-height: 750px) {
+	.fat_vertspace{margin-top: 1rem; margin-bottom: 1rem}
+}
+
+
+.fat_section.notop,
+.fat_section.nopad{padding-top: 0 !important; margin-top: 0 !important;}
+.fat_section.nobot,
+.fat_section.nopad{padding-bottom: 0 !important; margin-bottom: 0 !important;}
+
+
+
+// board reports
+.fat_board_reports{}
+
+// .fat_board_report{border-bottom: 3px solid $border_light; padding-bottom: 3rem; margin-bottom: 3rem;}
+
+.fat_board_report{padding: .5rem 2rem 0.01rem; background:#fff; margin: 3rem 0; border-radius: $border_rad_lg; border-bottom: 6px solid $border_lighter;}
+
+.fat_board_report .fat_video{margin-bottom: 1rem;}
+
+.fat_board_report h4,
+.fat_board_report p{padding-left: 1rem;}
+
+.fat_board_report h4{color: $text;}
+
+
+.fat_board_report ol,
+.fat_board_report ul{}
+
+.fat_board_report p,
+.fat_board_report li{padding-bottom: .5rem; font-size: 1rem; color: $text_light;}
+
+.fat_board_report.yearsprior p{font-size: 1.2rem; padding: 0 0 1rem;}
+
+
+.wistia_responsive_wrapper label{margin-bottom: 0 !important;}
+
+// ------------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------------
+// Some big ol mobile styles LOL should have done it the other way around IDK
+
+@media (min-width: 1140px) {
+	.fat_nav {position: sticky; padding: 0 4rem;}
+	.fat_section:not(.fat_pic_grid){padding-top: 6rem;}
+
+	.fat_quote.left{margin-left: -2rem;}
+}
+
+@media (min-width: 1450px) {
+
+	// sizing:
+	.fat_hero,
+	.fat_hero.halfy,
+	.fat_nav .contain,
+	.fat_section:not(.fat_pic_grid){max-width: $max_width; margin-left: auto; margin-right: auto; padding-left: 0; padding-right: 0;}
+
+	.fat_section:not(.fat_pic_grid){padding-top: 8rem; padding-bottom: 8rem;}
+}
+
+
+@media (max-width: 991px) {
+
+	// nav
+	.fat_nav a.top{display: none;}
+
+	// sections
+	.fat_hero.halfy,
+	.fat_nav .contain{padding: 0 $fat_sidepad/2}
+	.fat_section:not(.fat_pic_grid){padding: $fat_sidepad/2}
+	.fat_hero h1{font-size: 4rem;}
+	.fat_section h2{font-size: 3rem; margin-bottom: 2rem;}
+
+	// leo
+	.leo_slingin{right: -5%; height: 55%; width: auto;}
+	
+	// lessons
+	.fat_lesson > h4,
+	.fat_lesson > p{padding-right: 2rem;}
+	.fat_lesson > .status{right: 0.5rem;}
+
+	.fat_lesson .fit_segments{margin-left: -12rem;}
+
+	.btn-absurd{font-size: 1.5rem}
+	
+
+}
+
+@media (max-width: 830px) {
+	.leo_slingin{right: -5%; height: auto; width: 30%;}
+}
+
+
+// Phonesz
+
+@media (max-width: 575px) {
+
+	body{padding-top: 7rem;}
+
+	// nav
+	.fat_nav .contain{padding: 1rem;}
+	.fat_nav .enrol{margin-left: 0;}
+
+	// sections
+	.fat_section:not(.fat_pic_grid){padding: 1rem}
+	.fat_hero.halfy{padding: 0 1rem}
+
+	.fat_section h2{margin-bottom: 1rem;}
+	.fat_leo_list dt{font-size: 1.3rem;}
+	.fat_leo_list dd p{font-size: 1rem;}
+
+	// library
+	.fat_searchline{max-width: none;}
+	.fat_searchline i{font-size: 1.4rem; top:.4rem;}
+	.fat_searchline .form-control{margin-bottom: 1rem; font-size: 1.2rem; padding:2.5rem 2rem 1.5rem 3.5rem;} 
+	.fat_section .fat_lessons{margin: 0 -2.5rem;}
+
+	// leo
+	.fat_leo_list {padding-bottom: 25rem !important;}
+	.leo_slingin{right: 50%; margin-right: -12.5rem; width: 25rem; bottom: -25rem;}
+	.fat_leo_list dl{margin-left: 4.5rem;}
+	.fat_leo_list dt i{font-size: 3rem; width: 3rem; left: -4.5rem; top:0;}
+
+	// quotes
+	.fat_quote .ldquo{left: 1.5rem; top: -4rem;}
+
+	// lessons
+	.fat_lesson{margin: 0 -.5rem;}
+	.fat_lesson{padding-left: 9rem;}
+	.fat_lesson .fit_window{width: 7rem;}
+	.fat_lesson .fit_segments{margin-left: -8rem;}
+
+	.btn-absurd{font-size: 1.2rem; padding: 1rem 1.5rem;}
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// -----------------------------------------------------------------------------------------
+// -----------------------------------------------------------------------------------------
+// -----------------------------------------------------------------------------------------
+// -----------------------------------------------------------------------------------------
+// -----------------------------------------------------------------------------------------
+// -----------------------------------------------------------------------------------------
+
+// Below here is v2 simple mode lol
+
+$max_narrow_width: 768px;
+
+
+// -----------------------------------------------------------------------------------------
+// intro segments
 
 .intro > .segment,
 .contain,
 .container,
-.segments{max-width: $max_width; margin: 0 auto; box-sizing: border-box;}
+.segments{max-width: $max_narrow_width; margin: 0 auto; box-sizing: border-box;}
 
 .segments{padding: 1rem 0;}
 .segment{padding: 1rem 0 2rem 3rem; margin: 0; border-left: 6px solid $border_lighter; position: relative;}
@@ -192,9 +4312,13 @@ $max_width: 768px;
 .intro .segment .youtube{ width: 13rem; position: absolute; top:0; left: 3rem; border-radius: 0; height: 18rem; }
 .intro .segment .youtube i{font-size: 2.5rem; margin: -1.25rem 0 0 -1.25rem;}
 
-.intro h1{font-size: 2rem; color: $text_light; padding-bottom: 1rem;}
-.intro h1 a{color: $brand;}
+.intro h1{font-size: 2rem; color: $text_lighter; padding-bottom: 1rem;}
+.intro h1 a{text-decoration: none; color: inherit;}
+.intro h1 strong{color: $brand;}
 .intro h2{font-size: 1.4rem;}
+
+.intro h1 a:hover{}
+.intro h1 a:hover strong{border-bottom: 3px solid $text_lighter;}
 
 .intro .meta p{font-size: 1rem; color: $text_light;}
 .intro .meta p i{margin-right: .5rem; width: 1.5rem; text-align: center;}
@@ -224,55 +4348,3 @@ $max_width: 768px;
 .resources .resource > p{font-size: .8rem; color: $text_light;}
 .resources .resource:hover{outline:1px solid $blue;}
 
-
-// -----------------------------------------------------------------------------------------
-// The navigation thingy
-
-.fat_nav{z-index: 5000; top:-1px; background: #fff;  display: block; position: sticky;}
-.fat_nav.marginless{margin-bottom: 0}
-
-.fat_nav .contain{padding: .75rem .25rem; max-width: $max_width; margin: 0 auto; display: flex; flex-direction:row; }
-
-.fat_nav a{padding: .5rem 1rem; font-size: 1.2rem; margin: 0 .5rem 0 0; text-decoration: none; border-radius: $border_rad_md; border-color: transparent; color: $text_lighter;}
-.fat_nav a.active{background: $bg; border-color: $border_lighter; color: $text_light;}
-
-// first one  gose to the top
-.fat_nav a.top{padding: .5rem 0; text-align: center; width: 0; overflow: hidden; margin: 0 0 0 -1.5rem; transition: all .25s ease-in-out; opacity: 0; color:$text_lightest;}
-.fat_nav a.top i{margin-right: 0;}
-.fat_nav a.top:not(.active){width: 3rem; margin: 0 .5rem 0 -1.5rem; opacity: 1;}
-
-.fat_nav a .txt i{color: $text_lightest; font-size: 70%; margin: 0 0 0 .25rem;}
-.fat_nav a:hover .txt i{color: $text_light;}
-.fat_nav a .txt i:hover{color: $new_apricot;}
-
-.fat_nav a i{margin-right: .5rem;}
-
-.fat_nav a:hover{background: $bg;}
-
-// fat nav btn
-.fat_nav a.btn{color: #fff;}
-.fat_nav a.btn-watermelon:hover{background: darken($watermelon, 10%); color: #fff}
-
-.fat_nav a.right{float: right;}
-
-
-@media (max-width: 575px) {
-	.fat_nav .contain{flex-direction:column;}
-}
-
-
-.fat_nav.lefty{flex-direction:column; position: fixed; top:0; left: 0; bottom: 0; margin-bottom: 0; justify-content: center; background: transparent; width: 6rem; overflow: visible;}
-.fat_nav.lefty a{margin-right: 0 !important; white-space: nowrap; border: none;}
-.fat_nav.lefty a i{margin-right: 0; width: 2rem; text-align: center;}
-.fat_nav.lefty a .txt{display: none;}
-
-
-
-// weird solo enroller thing
-.fat_enroller{position: sticky; top:0; display: none;}
-.fat_enroller .fat_nav{}
-
-
-.fat_nav .enrol{margin: 0 0 0 auto;}
-
-.fat_nav .enrol{position: sticky; top:0;}

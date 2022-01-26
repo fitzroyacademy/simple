@@ -1,0 +1,595 @@
+/* STYLE */
+
+$fff: #fff;
+
+$bg: #f5f7f8;
+$bg_grey: #f7f7f7;
+$bg_light: #f7f9fa;
+$bg_dark: #f1f4f5;
+$bg_blue: #ebf0f1;
+
+$bg_green: #e3f5b6;
+$bg_blue_md: #b6d8f2;
+
+$brand: #464749;
+$brand_light: #666a71;
+$brand_dark: #1c1f20;
+
+$blue: #2793f8;
+$blue_light: #378ff2;
+$blue_alt: #139ddd;
+
+$blue_dark: #0a6da2;
+$red: #e8151f;
+$green: #65ae48;
+$pink: #F42069;
+$fuscia: #e90bd7;
+$yellow: #f4b115;
+$aqua: #66b3b7;
+$aqua_80: rgba(102, 179, 183, .8);
+$aqua_50: rgba(102, 179, 183, .5);
+$black: #1c1f20;
+$black_50: rgba(0, 0, 0, .5);
+$black_80: rgba(0, 0, 0, .8);
+
+// $watermelon: #f21e55;
+
+$watermelon: #f21e55;
+$watermelon_light: #f73c6d;
+$watermelon_lighter: #fa7fa0;
+$watermelon_dark: #c7003c;
+$watermelon_darker: #a90033;
+$watermelon_vibrant: #e6033e;
+
+
+
+$text: #4f5153;
+$text_medium: #666c6f;
+$text_light: #717b81;
+$text_lightish: #8f989d;
+$text_lighter: #b0b4b7;
+$text_lightest: #d2d7da;
+
+$text_subtle: #b0b4b7;
+
+$border_light: #e1e4e5;
+$border_lighter: #eff1f1;
+$border_lightest: #f4f6f6;
+
+
+$border_medium: #d5d8d9;
+$border_dark: #c6cbcc;
+
+$google_red: #ea4335;
+$google_slide_yellow: #f6b424;
+$google_drawing_red: #dc4438;
+
+$pdf_red: #ff2016;
+$facebook_blue: #3b5998;
+$youtube_red: #ff0000;
+
+$white_fade: rgba(255,255,255,0.9);
+
+$box_shadow: rgba(82,63,105,0.1);
+$box_shadow_blue: rgba(8,53,99,0.2);
+
+
+// ------------------------------------------------------------------------------------
+// New palette?
+
+$new_cyan: #16b7ff;
+$new_teal: #08c9c2;
+$new_purple: #7f3eff;
+$new_pink: #ff0bba;
+$new_red: #f72555;
+$new_bergundy: #ae0e26;
+$new_apricot: #fcab05;
+$new_navy: #1927e4;
+$new_green: #16ba54;
+$new_blue: #2774f8;
+$new_watermelon: #f82a5f;
+$new_maroon: #7f0909;
+
+// pale and stale yo
+$old_blue: #0f7ff4;
+$old_blue_light: #21adf5;
+
+
+// ------------------------------------------------------------------------------------
+// colours!
+
+.black:not(.btn){color:$brand !important;}
+.cyan:not(.btn){color:$new_cyan !important;}
+.teal:not(.btn){color:$new_teal !important;}
+.purple:not(.btn){color:$new_purple !important;}
+.pink:not(.btn){color:$new_pink !important;}
+.red:not(.btn){color:$new_red !important;}
+.bergundy:not(.btn){color:$new_bergundy !important;}
+.apricot:not(.btn){color:$new_apricot !important;}
+.navy:not(.btn){color:$new_navy !important;}
+.green:not(.btn){color:$new_green !important;}
+.blue:not(.btn){color:$new_blue !important;}
+.watermelon:not(.btn){color:$new_watermelon !important;}
+.maroon:not(.btn){color:$new_maroon !important;}
+
+
+// buttons
+
+.btn-xl{font-size: 1.6rem; padding: .75rem 1.5rem;}
+
+// -----------------------------------------------------------------------------------------
+// Radiuseses
+
+$border_rad_sm: .1rem;
+$border_rad_md: .5rem;
+$border_rad_lg: 1rem;
+$border_rad_r: 999rem;
+
+// -----------------------------------------------------------------------------------------
+// padding and spacing:
+
+$fat_sidepad: 6rem;
+
+// -----------------------------------------------------------------------------------------
+// Google fonts
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,600,900');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+
+body{font-family: "Lato", Arial, san-serif; transition: padding .25s ease-in-out;}
+
+h1, h2, h3, h4{font-weight: 900; margin: 0; padding: 0;}
+
+
+h1{font-size: 48px; color: $text_lighter;}
+h1 a{text-decoration: none; color: $brand;}
+
+$ratio_169: 56.25%;
+
+
+
+// -----------------------------------------------------------------------------------------
+
+body{color:$brand; padding: 0; margin: 0; position: relative;}
+
+$max_width: 768px;
+
+
+
+// -----------------------------------------------------------------------------------------
+// header
+
+.fat_head{z-index: 6000; position: absolute; top:2rem; left: 2rem; right: 2rem;}
+
+.fat_device{width: 2rem; height: 4rem; display: block; position: absolute; top:0; left: 0;}
+.fat_device svg > path{fill-rule: evenodd; fill: $black;}
+
+.fat_device:hover svg > path{fill:$watermelon_vibrant;}
+
+
+.fat_user{position: absolute; top:0; right: 0; font-size: 1.5rem; border-radius: $border_rad_r; width: 4rem; height: 4rem; background: #fff; display: flex; align-items: center; justify-content: center; transition: all .25s ease-in-out; }
+
+// hide the user with this!
+// display: none !important;
+
+.fat_user i,
+.fat_user:hover .down,
+.fat_device i,
+.fat_device:hover .down{color:$black;}
+
+.fat_device .down,
+.fat_user .down{position:absolute; left: -2.95rem; color: $black; opacity: 0; transition: all .25s ease-in-out; top:0rem; font-size: 1.5rem; padding: 1rem;}
+
+.fat_device .down{left: 100%; margin-left: 0rem; opacity: 0.25}
+
+
+
+
+
+// -----------------------------------------------------------------------------------------
+// intro segments
+
+.intro > .segment,
+.contain,
+.container,
+.segments{max-width: $max_width; margin: 0 auto; box-sizing: border-box;}
+
+.segments{padding: 1rem 0;}
+.segment{padding: 1rem 0 2rem 3rem; margin: 0; border-left: 6px solid $border_lighter; position: relative;}
+.segment:last-child{border-bottom: 0;}
+// .segment iframe{width: 100%;}
+
+
+// -----------------------------------------------------------------------------------------
+// Text stuff
+
+.segment h2 {padding:0 0 2rem; margin: 0; font-size: 2rem;}
+.segment h2 .no{color: $text_lightest; background: #fff; text-align: center; display: block; position: absolute; top:0; left: -2rem; width:3.6rem; padding: 1rem 0; }
+
+.segment h2 .no i{font-size: 80%;}
+.segment p{font-size: 1.2rem;}
+
+
+.segment img{max-width: 100%; margin-bottom: 1rem;}
+
+// -----------------------------------------------------------------------------------------
+// Youtube!
+
+.youtube{background-size:cover; position: relative;  outline:1px solid #fff; outline-offset: -1px; border-radius: $border_rad_sm; margin-bottom: 1.5rem;}
+.youtube:after{padding-top: $ratio_169; display: block; content: '';}
+
+.youtube i{font-size: 6rem; color: #fff; position: absolute; top:50%; left: 50%; margin: -3rem 0 0 -3rem; text-shadow: 0 0 10px rgba(0,0,0,0.1); transition: all .2s ease-in-out;}
+
+// hover
+.youtube:hover{cursor: pointer;}
+.youtube:hover::after{background: rgba(0,0,0,0.01);}
+.youtube:hover i{transform: scale(1.1); text-shadow: 0 0 15px rgba(0,0,0,0.05);}
+
+// when it has an iframe
+.youtube iframe{position: absolute; top:0; left: 0; right: 0; bottom: 0;}
+
+
+// -----------------------------------------------------------------------------------------
+// Introduction
+
+.intro, .teaching_guide{ background: $bg; padding: 3rem 0;}
+.teaching_guide .segment h2 .no{background: $bg;}
+
+.intro .segment {padding-left: 18rem; margin-bottom: 3rem; min-height: 20rem;}
+.intro .segment .youtube{ width: 13rem; position: absolute; top:0; left: 3rem; border-radius: 0; height: 18rem; }
+.intro .segment .youtube i{font-size: 2.5rem; margin: -1.25rem 0 0 -1.25rem;}
+
+.intro h1{font-size: 2rem; color: $text_light; padding-bottom: 1rem;}
+.intro h1 a{color: $brand;}
+.intro h2{font-size: 1.4rem;}
+
+.intro .meta p{font-size: 1rem; color: $text_light;}
+.intro .meta p i{margin-right: .5rem; width: 1.5rem; text-align: center;}
+
+// .segment > * {display: none;}
+// .segment h2 {display: block;}
+
+
+.intro .segment > .button{display: none;}
+
+// This adds video_playing class via JS for playing mode
+
+.intro .segment.video_playing{padding-left: 35rem;}
+.intro .segment.video_playing .youtube{width: 30rem;}
+.intro .segment.video_playing .meta{display: none;}
+
+
+
+// -----------------------------------------------------------------------------------------
+// Resources
+
+.resources{}
+.resources h2{padding-bottom: 0;}
+.resources .resource{background: $bg_light; margin: .5rem 0; border-radius: $border_rad_sm; padding: 1rem 1.5rem 1rem 4rem; position: relative; display: block; text-decoration: none;}
+.resources .resource > i{position: absolute; top:1rem; left: 1.5rem; width: 2rem; font-size: 2rem; color: $text_lighter;}
+.resources .resource > h4{font-size: 1.2rem; text-decoration: none; color:$blue; font-weight: normal;}
+.resources .resource > p{font-size: .8rem; color: $text_light;}
+.resources .resource:hover{outline:1px solid $blue;}
+
+
+// ------------------------------------------------------------------------------------
+// nav
+
+h1 + .fat_nav{margin-top: 2rem}
+
+.fat_nav{z-index: 5000; top:-1px; background: #fff; margin-bottom: calc(6rem); display: block;}
+.fat_nav.marginless{margin-bottom: 0}
+
+.fat_nav .contain{padding: 1rem; max-width: $max_width; margin: 0 auto; display: flex; flex-direction:row; }
+
+.fat_nav a{padding: .5rem 1rem; font-size: 1.3rem; margin: 0 .5rem 0 0; text-decoration: none; border-radius: $border_rad_lg; border-color: transparent; color: $text_lighter;}
+.fat_nav a.active{background: $bg; border-color: $border_lighter; color: $text_light;}
+
+// first one  gose to the top
+.fat_nav a.top{padding: .5rem 0; text-align: center; width: 0; overflow: hidden; margin: 0 0 0 -1.5rem; transition: all .25s ease-in-out; opacity: 0;}
+.fat_nav a.top i{margin-right: 0;}
+.fat_nav a.top:not(.active){width: 4rem; margin: 0 1rem 0 0; opacity: 1;}
+
+.fat_nav a .txt i{color: $text_lightest; font-size: 70%; margin: 0 0 0 .25rem;}
+.fat_nav a:hover .txt i{color: $text_light;}
+.fat_nav a .txt i:hover{color: $new_apricot;}
+
+// .fat_nav .purple{color: $new_purple;}
+// .fat_nav .blue{color: $new_blue;}
+// .fat_nav .green{color: $new_green;}
+// .fat_nav .red{color: $new_red;}
+// .fat_nav .bergundy{color: $new_bergundy;}
+// .fat_nav .apricot{color: $new_apricot;}
+// .fat_nav .teal{color: $new_teal;}
+// .fat_nav .navy{color: $new_navy;}
+// .fat_nav .watermelon{color: $new_watermelon;}
+
+.fat_nav a i{margin-right: .5rem;}
+
+.fat_nav a:hover{background: $bg;}
+
+// fat nav btn
+.fat_nav a.btn{color: #fff;}
+.fat_nav a.btn-watermelon:hover{background: darken($watermelon, 10%); color: #fff}
+
+.fat_nav a.right{float: right;}
+
+
+@media (max-width: 575px) {
+	.fat_nav .contain{flex-direction:column;}
+}
+
+
+.fat_nav.lefty{flex-direction:column; position: fixed; top:0; left: 0; bottom: 0; margin-bottom: 0; justify-content: center; background: transparent; width: 6rem; overflow: visible;}
+.fat_nav.lefty a{margin-right: 0 !important; white-space: nowrap; border: none;}
+.fat_nav.lefty a i{margin-right: 0; width: 2rem; text-align: center;}
+.fat_nav.lefty a .txt{display: none;}
+
+
+
+// weird solo enroller thing
+.fat_enroller{position: sticky; top:0; display: none;}
+.fat_enroller .fat_nav{}
+
+
+.fat_nav .enrol{margin: 0 0 0 auto;}
+
+.fat_nav .enrol{position: sticky; top:0;}
+
+
+// ------------------------------------------------------------------------------------
+// hero
+
+.fat_hero{min-height: 100vh; margin-top: 0rem; display: flex; align-items: center; justify-content: center; flex-direction:column; text-align: center;}
+.fat_hero.peeker{min-height: 93vh;}
+
+// wtf?
+// .fat_hero *:first-child{margin-top: -1rem;}
+
+.fat_hero h1,
+.fat_hero h2{font-size: 6rem; color:$black;}
+.fat_hero h2{font-size: 4rem;}
+
+@media (max-width: 575px) {
+	.fat_hero h2 br{display: none;}
+}
+
+
+.fat_hero h1 a{text-decoration: none; color: inherit; transition: all .25s ease-in-out; }
+.fat_hero h1 a .hinter{display:block; position: absolute; bottom: 6rem; left: 0; width: 100%; font-size: 3rem; color: $text_lighter;  transition: all .25s ease-in-out;}
+.fat_hero h1 a:hover{opacity: 0.9; }
+.fat_hero h1 a:hover .hinter{color: inherit; margin-bottom: -.5rem;}
+
+.fat_tease_btns{flex-direction: row; padding: 2rem 0; max-width: 50rem;}
+
+.fat_tease_btns .btn{margin: 0 .5rem;}
+.fat_tease_btns .btn:hover{background: $bg;}
+
+.fat_tease_btns .btn.course{color:$blue;}
+.fat_tease_btns .btn.educators{color:$watermelon;}
+
+.fat_tease_btns .btn.course{color:$blue;}
+.fat_tease_btns .btn.educators,
+.fat_tease_btns .btn.educators:hover{color:$watermelon;}
+
+@media (max-width: 575px) {
+	.fat_tease_btns .btn{display: block;}
+}
+
+.fat_hero.left{text-align: left; align-items:normal;}
+.fat_hero.left h1{}
+
+.fat_hero.halfy{min-height: 55vh; justify-content:flex-end; padding: 0 $fat_sidepad}
+.fat_hero.quartery{min-height: 25vh;}
+
+.fat_hero.header{min-height: 0;}
+
+.fat_hero > p{font-size: 1.4rem; color: $text;}
+
+.fat_hero.purple > * {color: $new_purple;}
+.fat_hero.teal > *{color: $new_teal;}
+.fat_hero.blue > *{color: $new_blue;}
+.fat_hero.watermelon > *{color: $new_watermelon;}
+.fat_hero.green > *{color: $new_green;}
+
+.fat_hero .blue{color: $new_blue;}
+.fat_hero .purple{color: $new_purple;}
+.fat_hero .watermelon{color: $new_watermelon;}
+.fat_hero .cyan{color: $new_cyan;}
+.fat_hero .green{color: $new_green;}
+
+
+// welcome / home page hero
+.fat_hero.welcome .fat_video{width: 35rem; background: $bg; margin-bottom: 2rem;}
+.fat_hero.welcome h1{font-size: 4rem;}
+.fat_hero.welcome .fat_tease_btns .btn-xl{font-size: 1.3rem;}
+
+@media (max-width: 575px) {
+	.fat_hero.welcome .fat_video{width: 90%;}
+	.fat_hero.welcome h1{font-size: 2.5rem;}
+}
+
+
+// ------------------------------------------------------------------------------------
+// sections in the sales pages
+
+small{font-weight: 400;}
+
+.fat_section{padding: $fat_sidepad/2 $fat_sidepad}
+
+.bg{background: $bg;}
+
+.grad_fff_bg{background: linear-gradient(180deg, rgba(255,255,255,0), $bg); }
+.grad_bg_fff{background: linear-gradient(180deg, $bg, rgba(255,255,255,0)); }
+
+.fat_section h2{font-size: 4rem; margin-bottom: 4rem;}
+.fat_section h2 small,
+.fat_hero h1 small{font-size: 1rem; text-transform: uppercase; display: block; color: $text_lighter; letter-spacing: 1px; padding-bottom: 1rem;}
+.fat_section h2 small i,
+.fat_hero h1 small i{width: 1rem; margin-right: .5rem;}
+
+.fat_searchline{max-width: 30rem; position: relative;}
+.fat_searchline .form-control{background: transparent; border: none; border-bottom: 3px solid $border_light; padding: 2.5rem; padding-left: 4.5rem; font-size: 2rem; color: $black; border-radius: 0; margin-bottom: 2rem;}
+.fat_searchline .form-control:focus{box-shadow: none; border-bottom-color:$border_medium; }
+.fat_searchline i{color: $text_lighter; position: absolute; top:0; left: 0; font-size: 2rem; padding: 1.5rem 0 0 1rem;}
+
+.fat_section .fat_lessons{padding: 1rem; background: #fff;}
+.fat_section .fat_lessons.peeps .collapse,
+.fat_section .fat_lessons.peeps .collapsing{background: #fff; padding: .5rem 1.5rem 1rem; margin: 1rem 0 0;}
+
+.fit_segments.hoverstatus .fit_btn > .fit_status{opacity: 0;}
+.fit_segments.hoverstatus .fit_btn:hover > .fit_status{opacity: 1;}
+.fat_video_modal .fit_btn > .fit_status{display: none;}
+
+
+.fat_section .fat_lesson[aria-expanded="true"] .status .fa-chevron-down{transform: rotate(180deg);}
+
+
+.fat_section .caption{font-size: 0.9rem; padding: 1.5rem 0;}
+
+
+
+// ------------------------------------------------------------------------------------
+// modals
+
+
+.modal{background: $white_fade;}
+.modal-header,
+.modal-content,
+.modal-footer{border:1px solid #fff; padding: 1rem;}
+
+@media (max-width: 575px) {
+	.modal-header,
+	.modal-content,
+	.modal-footer{padding:.5rem;}
+}
+
+.modal-header .close{font-size: 2.5rem;}
+
+// make our modals a bit roomier...
+@media (min-width: 576px) {
+	// .modal-dialog{max-width: 650px;}
+	.fit_modal_single .modal-dialog{max-width: 350px;}
+}
+
+// lessons in modal
+
+.modal-title{font-weight: 900; font-size: 1.75rem; color:$text;}
+
+.modal-backdrop{background: none !important;}
+
+@media (max-width: 991px) {
+	.modal-dialog{max-width: none !important; margin: 1.75rem !important;}
+}
+
+
+
+// ------------------------------------------------------------------------------------
+// the menu that is just basically full screen lol
+.fat_menu_modal .modal-dialog{margin: 0 !important; max-width: none;}
+
+@media (min-width: 576px) {
+	.fat_menu_modal .modal-dialog{margin: 0 !important; max-width: none;}	
+}
+
+.fat_menu_modal .x{position: absolute; top:1.5rem; left: 4rem; width: 4rem; height: 4rem; font-size: 2rem; color: $text_lighter; border: none; background: transparent; display: flex; align-items: center; justify-content: center; z-index: 6000; outline: none !important; display: none;}
+.fat_menu_modal .x:hover{color: $text}
+
+
+
+
+// ------------------
+
+// ------------------------------------------------------------------------------------
+// Some big ol mobile styles LOL should have done it the other way around IDK
+
+@media (min-width: 1140px) {
+	.fat_nav {position: sticky; padding: 0 4rem;}
+	.fat_section:not(.fat_pic_grid){padding-top: 6rem;}
+}
+
+@media (min-width: 1450px) {
+
+	// sizing:
+	.fat_hero,
+	.fat_hero.halfy,
+	.fat_nav .contain,
+	.fat_section:not(.fat_pic_grid){max-width: $max_width; margin-left: auto; margin-right: auto; padding-left: 0; padding-right: 0;}
+
+	.fat_section:not(.fat_pic_grid){padding-top: 8rem; padding-bottom: 8rem;}
+}
+
+
+@media (max-width: 991px) {
+
+	// nav
+	.fat_nav a.top{display: none;}
+
+	// sections
+	.fat_hero.halfy,
+	.fat_nav .contain{padding: 0 $fat_sidepad/2}
+	.fat_section:not(.fat_pic_grid){padding: $fat_sidepad/2}
+	.fat_hero h1{font-size: 4rem;}
+	.fat_section h2{font-size: 3rem; margin-bottom: 2rem;}
+
+	// leo
+	.leo_slingin{right: -5%; height: 55%; width: auto;}
+	
+	// lessons
+	.fat_lesson > h4,
+	.fat_lesson > p{padding-right: 2rem;}
+	.fat_lesson > .status{right: 0.5rem;}
+
+	.fat_lesson .fit_segments{margin-left: -12rem;}
+
+	.btn-absurd{font-size: 1.5rem}
+	
+}
+
+@media (max-width: 830px) {
+	.leo_slingin{right: -5%; height: auto; width: 30%;}
+}
+
+
+// Phonesz
+
+@media (max-width: 575px) {
+
+	body{padding-top: 7rem;}
+
+	// nav
+	.fat_nav .contain{padding: 1rem;}
+	.fat_nav .enrol{margin-left: 0;}
+
+	// sections
+	.fat_section:not(.fat_pic_grid){padding: 1rem}
+	.fat_hero.halfy{padding: 0 1rem}
+
+	.fat_section h2{margin-bottom: 1rem;}
+	.fat_leo_list dt{font-size: 1.3rem;}
+	.fat_leo_list dd p{font-size: 1rem;}
+
+	// library
+	.fat_searchline{max-width: none;}
+	.fat_searchline i{font-size: 1.4rem; top:.4rem;}
+	.fat_searchline .form-control{margin-bottom: 1rem; font-size: 1.2rem; padding:2.5rem 2rem 1.5rem 3.5rem;} 
+	.fat_section .fat_lessons{margin: 0 -2.5rem;}
+
+	// leo
+	.fat_leo_list {padding-bottom: 25rem !important;}
+	.leo_slingin{right: 50%; margin-right: -12.5rem; width: 25rem; bottom: -25rem;}
+	.fat_leo_list dl{margin-left: 4.5rem;}
+	.fat_leo_list dt i{font-size: 3rem; width: 3rem; left: -4.5rem; top:0;}
+
+	// quotes
+	.fat_quote .ldquo{left: 1.5rem; top: -4rem;}
+
+	// lessons
+	.fat_lesson{margin: 0 -.5rem;}
+	.fat_lesson{padding-left: 9rem;}
+	.fat_lesson .fit_window{width: 7rem;}
+	.fat_lesson .fit_segments{margin-left: -8rem;}
+
+	.btn-absurd{font-size: 1.2rem; padding: 1rem 1.5rem;}
+
+	
+}
