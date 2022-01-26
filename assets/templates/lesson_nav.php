@@ -1,6 +1,6 @@
-<div class="fat_nav list-group" id="scrollspy">
+<div class="fat_nav fat_nav_lesson list-group" id="scrollspy">
 	<div class="contain">
-		<a href="#top" class="list-group-item top active"><i class="fas fa-arrow-up" aria-hidden="true"></i></a>
+		<a href="#" class="list-group-item top active"><i class="fas fa-arrow-up" aria-hidden="true"></i></a>
 		<a href="#resources" class="purple list-group-item"><i class="fal fa-file-alt" aria-hidden="true"></i> <span class="txt">Resources</span></a>
 		<a href="#lesson" class="pink list-group-item"><i class="fab fa-youtube" aria-hidden="true"></i> <span class="txt">Lesson</span></a>	
 		<a href="#reading" class="teal list-group-item"><i class="fal fa-books" aria-hidden="true"></i> <span class="txt">Reading</span></a>

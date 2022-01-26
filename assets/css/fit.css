@@ -7234,7 +7234,7 @@ h1 + .fat_nav {
   text-decoration: none;
   border-radius: 0.4rem;
   border-color: transparent;
-  color: #b0b4b7;
+  color: #d2d7da;
 }
 
 .fat_nav a.active {
@@ -9139,34 +9139,50 @@ dl.fat_storyline dd:last-child::after {
     padding: 1rem 1.5rem;
   }
 }
+.fat_nav_lesson {
+  padding: 0.5rem 0;
+  margin: 0;
+}
+
+.fat_nav_lesson .contain {
+  max-width: 60rem;
+  margin: 0 auto 0;
+  padding: 0;
+}
+
+.fat_nav_lesson .contain a.top {
+  margin: 0 0.25rem 0 -1.75rem;
+}
+
 .intro > .segment,
 .contain,
 .container,
 .segments {
-  max-width: 768px;
+  max-width: 60rem;
   margin: 0 auto;
   box-sizing: border-box;
 }
 
 .segments {
-  padding: 1rem 0;
+  padding: 1rem 0 4rem;
 }
 
 .segment {
-  padding: 1rem 0 2rem 3rem;
-  margin: 0;
+  padding: 5rem 0 3rem 3rem;
+  margin-top: -5rem;
   border-left: 6px solid #eff1f1;
   position: relative;
 }
 
 .segment:last-child {
-  border-bottom: 0;
+  padding-bottom: 0;
 }
 
 .segment h2 {
   padding: 0 0 2rem;
   margin: 0;
   font-size: 2rem;
+  position: relative;
 }
 
 .segment h2 .no {
@@ -9175,10 +9191,10 @@ dl.fat_storyline dd:last-child::after {
   text-align: center;
   display: block;
   position: absolute;
-  top: 0;
-  left: -2rem;
+  top: -2rem;
+  left: -5rem;
   width: 3.6rem;
-  padding: 1rem 0;
+  padding: 2rem 0;
 }
 
 .segment h2 .no i {
@@ -9272,6 +9288,12 @@ dl.fat_storyline dd:last-child::after {
 
 .teaching_guide .segment h2 .no {
   background: #f5f7f8;
+}
+
+.teaching_guide .segment {
+  border-left-color: transparent;
+  padding-top: 0;
+  margin-top: 0;
 }
 
 .intro .segment {
