@@ -2,7 +2,7 @@
 
 <div class="js_quicksearch_parent">
 
-	<div class="fat_hero left halfy" id="top">
+	<div class="fat_hero left halfy lesshalfy" id="top">
 
 		<h1 class="pink">Online learning for <br>the social sector.</h1>
 
@@ -16,17 +16,15 @@
 			    <strong class="pink">literally everything</strong> <i class="fal fa-chevron-down"></i>
 			  </button>
 		    <ul class="dropdown-menu" aria-labelledby="ineed" data-ineedselect="">
-		    	<li>
-		    		<form>
-					    <div class="input-group mb-3">
-							  <input type="text" class="form-control" id="quicksearch" placeholder="Filter lessons..."> 
-							</div>
-					</form>
-		    	</li>
 		      <li><a class="dropdown-item cyan" href="#">our project management issues</a></li>
 		      <li><a class="dropdown-item red" href="#">business and startup stuff</a></li>
 		      <li><a class="dropdown-item purple" href="#">digital and internet fun</a></li>
 		    </ul>
+	    	<form class="quicksearch_form">
+			    <div class="input-group mb-3">
+					  <input type="text" class="form-control" id="quicksearch" placeholder="whatever I search for..."> 
+					</div>
+				</form>
 			</div>
 
 			

@@ -9139,6 +9139,10 @@ dl.fat_storyline dd:last-child::after {
     padding: 1rem 1.5rem;
   }
 }
+.fat_hero.lesshalfy {
+  min-height: 40vh;
+}
+
 .fat_nav_lesson {
   padding: 0.5rem 0;
   margin: 0;
@@ -9482,6 +9486,43 @@ dl.fat_storyline dd:last-child::after {
 
 .i_need .dropdown-toggle.show i {
   transform: rotate(180deg);
+}
+
+.i_need .dropdown-menu {
+  padding-top: 45px;
+  background: none;
+}
+
+.i_need .quicksearch_form {
+  position: absolute;
+  width: 25rem;
+  z-index: 2000;
+}
+
+.i_need .quicksearch_form .form-control {
+  font-size: 2rem;
+  font-weight: bold;
+  border: none;
+}
+
+body .i_need .quicksearch_form {
+  display: none;
+}
+
+body.ineedshow .i_need .quicksearch_form {
+  display: block;
+  top: 57px;
+  left: 322px;
+}
+
+body.ineedshow_search .i_need .quicksearch_form {
+  display: block;
+  top: 3px;
+  left: 334px;
+}
+
+body.ineedshow_search .i_need .quicksearch_form input {
+  background: #f5f7f8;
 }
 
 body.ineedshow .fat_head,
