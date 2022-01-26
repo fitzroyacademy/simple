@@ -9206,6 +9206,18 @@ dl.fat_storyline dd:last-child::after {
   color: #afe6ff;
 }
 
+.segment_bonus {
+  border-left-color: #fdf2d8;
+}
+
+.segment_bonus h2 {
+  color: #f4b115;
+}
+
+.segment_bonus h2 .no i {
+  color: #fbe2a7;
+}
+
 .youtube {
   background-size: cover;
   position: relative;
