@@ -1,40 +1,38 @@
 <?php include '../assets/templates/site_header.php';?>
 
+<?php include '../assets/templates/intros/impact.php';?>
 
-<div class="intro">
+<?php include '../assets/templates/lesson_nav.php';?>
 
-	<h1><a href="#">Design for impact at scale</a> with Kevin Starr of Mulago.</h1>
+<div class="segments">
 
-	<div class="youtube" id="xKhHWC7Agdk"></div>
-
-	<p>This lesson will teach a process to design for lasting impact at scale with <a href="https://www.mulagofoundation.org/">Mulago</a>, using their key tool, the DIF.</p>
-
-	<div class="meta">
-		<p><i class="far fa-play-circle"></i> ~45 minutes over 4 videos</p>
-		<p><i class="far fa-clock"></i> About 3 hour of work to do it solo</p>
-		<p><i class="far fa-users"></i> Run it as a workshop with a small team over 2-3 hours</p>
-	</div>
-
-	<div class="resources">
+	<div class="segment segment_resources" id="resources">
 		<h2><span class="no"><i class="far fa-file-alt"></i></span> Lesson resources</h2>
 		<div class="youtube" id="fdY5SvS5Rms"></div>
-		<div class="resource">
-			<i class="far fa-file-alt"></i><a href="https://drive.google.com/open?id=1rts69HXxJvNV6C9XpyQwzieaOuPqSf3W62LOP3IhnRQ/edit?usp=sharing">DIF Template example, blank.</a>
-			<p>Blank template of the Design iteration form.</p>
-		</div>
-		<div class="resource">
-			<i class="far fa-file-alt"></i><a href="hhttps://drive.google.com/open?id=112wtiEuHfOh8iBhOOJPWYnMmxoXWxNt6I5n3l7AQoAc/edit?usp=sharing">DIF Template example - Inyenyeri's Clean Cookstove (Kevin's).</a>
-			<p>Completed example DIF using the Inyenyeri Clean cookstove idea. This was created by Kevin Starr.</p>
-		</div>
-		<div class="resource">
-			<i class="far fa-file-alt"></i><a href="https://drive.google.com/open?id=1E8iKqObLOZcCHz8sevefJhqLgfCKt7rO-895IAuKueU/edit?usp=sharing">DIF Template example - Inyenyeri's Clean Cookstove (Ross).</a>
-			<p>Completed example DIF using the Inyenyeri Clean cookstove idea. This was created by Ross, a member of the Inyenyeri team.</p>
-		</div>
+		<div class="resources">
+			<a class="resource" href="https://docs.google.com/document/d/1rts69HXxJvNV6C9XpyQwzieaOuPqSf3W62LOP3IhnRQ/edit?usp=sharing" target="_blank">
+			<i class="far fa-file-alt"></i>
+			<h4>DIF Template example, blank.</h4>
+				<p>Blank template of the Design iteration form.</p>
+			</a>
+			<a class="resource" href="https://docs.google.com/document/d/112wtiEuHfOh8iBhOOJPWYnMmxoXWxNt6I5n3l7AQoAc/edit?usp=sharing" target="_blank">
+			<i class="far fa-file-alt"></i>
+			<h4>Inyenyeri's Clean Cookstove (Kevin's) - Lesson example</h4>
+				<p>Completed example DIF using the Inyenyeri Clean cookstove idea. This was created by Kevin Starr.</p>
+			</a>
+			<a class="resource" href="https://docs.google.com/document/d/1E8iKqObLOZcCHz8sevefJhqLgfCKt7rO-895IAuKueU/edit?usp=sharing" target="_blank">
+			<i class="far fa-file-alt"></i>
+			<h4>Inyenyeri's Clean Cookstove (Ross) - Lesson example</h4>
+				<p>Completed example DIF using the Inyenyeri Clean cookstove idea. This was created by Ross, a member of the Inyenyeri team.</p>
+			</a>
+			<a class="resource" href="https://docs.google.com/spreadsheets/d/1tH7xd1UwTnx0XnmwAtuBTj0I6L1yIy0QT2cprIwjn2s/edit?usp=sharing" target="_blank">
+				<i class="far fa-file-spreadsheet"></i>
+				<h4>3 year financial model - blank</h4>
+				<p>The blank finanical model that Amanda walks you through in this lesson.</p>
+			</a>
 	</div>
 
 </div>
-
-<div class="segments">
 
 	<div class="segment segment_lesson">
 		<h2><span class="no">1</span> Mission.</h2>
@@ -88,12 +86,12 @@
 					<p>Great series of articles from Kevin Starr on social innovation over at the SSI. Read everything, you won’t regret it.</p>
 				</div>
 				<div class="resource">
-					<i class="fas fa-youtube"></i>
+					<i class="fab fa-youtube"></i>
 					<a href="https://www.youtube.com/watch?v=UMEpvxGBkFU?rel=0">Great talk from Kevin at PopTech on lasting impact</a>
 					<p>Runtime 18:04</p>
 				</div>
 				<div class="resource">
-					<i class="fas fa-youtube"></i>
+					<i class="fab fa-youtube"></i>
 					<a href="https://www.youtube.com/watch?v=yOdlW2cKcK4?rel=0">Kevin on designing for happiness at the Skoll World Forum</a>
 					<p>Runtime 1:19:51</p>
 				</div>
@@ -101,11 +99,15 @@
 	</div>
 </div>
 
-<!-- <div class="Teaching guide">
-	<h2>Teaching guide</h2>
-	<div class="youtube" id="B8mqcC6Z-b8"></div>
-	<p>If you’re a teacher who’s teaching lean, Will shares a few ideas from how we uses it with his class.</p>
-</div> -->
+<div class="teaching_guide">
+	<div class="segments" id="teaching">
+		<div class="segment further_reading" id="resources">
+			<h2><span class="no"><i class="far fa-chalkboard-teacher"></i></span>Teaching guide</h2>
+			<p>There is currently no teaching guide for this lesson.</p>
+			<p>If you are interested in one, please contact <a href="mailto:hello@fitzroyacademy.com">hello@fitzroyacademy.com</a></p>
+		</div>
+	</div>
+</div> 
 
 
 
