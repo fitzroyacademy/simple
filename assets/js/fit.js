@@ -16,17 +16,44 @@ $(function() {
     $('.fat_head .fat_device svg path').css('fill', $('.fat_hero h1').css('color'));
   }
 
-  //the dropdown
-  $('[data-ineed]').on('click', function(){
-    if ($(this).hasClass('show'))
-    {
-      $('body').addClass('ineedshow');
-    }
-    else
-    {
-      $('body').removeClass('ineedshow'); 
+
+  // add listener to dropdown
+  var theDropdown = document.getElementById('ineedbutton')
+  theDropdown.addEventListener('shown.bs.dropdown', function () {
+    $('body').addClass('ineedshow');
+  });
+
+  theDropdown.addEventListener('hidden.bs.dropdown', function () {
+    $('body').removeClass('ineedshow');
+  });
+
+  // quick search
+  $('#quicksearch').quicksearch('.all_lessons .intro', {
+    'onAfter': function(e){
+      if ($(this).val().length > 0)
+      {
+        $('#ineedbutton').dropdown('hide');
+        $('body').addClass('ineedshow_search');
+        $('body').removeClass('ineedshow');
+      }
     }
   });
+
+
+  
+
+  
+
+  //List.js search
+  /*
+
+  var listoptions = {
+    'searchClass' : 'js_quicksearch',
+    'listClass'   : 'js_quicksearch_items'
+  };
+
+  var lessonList = new List('js_quicksearch_parent', listoptions);
+  */
 
 });
 

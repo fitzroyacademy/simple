@@ -4402,12 +4402,7 @@ $max_narrow_width: 60rem;
 
 body.ineedshow .fat_head,
 body.ineedshow .fat_hero h1,
-body.ineedshow .all_lessons{}
-
-
-body.ineedshow .fat_head,
-body.ineedshow .fat_hero h1,
-body.ineedshow .all_lessons{opacity: 0.05; transition: all .25s ease-in-out; }
+body.ineedshow .all_lessons{opacity: 0.1; transition: all .25s ease-in-out; }
 
 
 @media (max-width: 900px) {

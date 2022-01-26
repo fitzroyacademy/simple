@@ -9487,7 +9487,7 @@ dl.fat_storyline dd:last-child::after {
 body.ineedshow .fat_head,
 body.ineedshow .fat_hero h1,
 body.ineedshow .all_lessons {
-  opacity: 0.05;
+  opacity: 0.1;
   transition: all 0.25s ease-in-out;
 }
 
