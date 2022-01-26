@@ -2,7 +2,7 @@
 
 	<div class="segment">
 
-		<h1><a href="#">Financial modeling</a> with Amanda Goodman</h1>
+		<h1><a href="/lessons/finance"><strong>Financial modeling</strong> with Amanda Goodman</a></h1>
 
 		<div class="youtube" id="HA_D-AInP7M" data-bg="covers/amandavert.jpg"></div>
 
