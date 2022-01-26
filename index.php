@@ -2,10 +2,10 @@
 
 <div class="fat_hero left halfy" id="top">
 
-	<h1 class="cyan">Online learning for <br>&amp; the social sector.</h1>
+	<h1 class="pink">Online learning for <br>the social sector.</h1>
 
 	<div class="i_need">
-		<div class="dropdown show">
+		<div class="dropdown">
 		  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 		    <i class="fal fa-arrow-down"></i> I need to fix our
 		  </a>
