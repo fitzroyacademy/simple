@@ -2,7 +2,8 @@
 
 	<div class="segment"> <!-- video_playing class for playing mode -->
 
-		<h1><a href="#">Evidence based interventions</a> with Caroline Fiennes</h1>
+		<h1><a href="/lessons/evidence"><strong>Evidence based interventions</strong> with Caroline Fiennes</a></h1>
+
 
 		<div class="youtube" id="XRmOjjbnWMg" data-bg="covers/carolinevert.jpg"></div>
 

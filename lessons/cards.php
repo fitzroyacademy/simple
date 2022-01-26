@@ -134,8 +134,8 @@
 	<div class="segments" id="teaching">
 		<div class="segment further_reading" id="resources">
 			<h2><span class="no"><i class="far fa-chalkboard-teacher"></i></span>Teaching guide</h2>
-			<div class="youtube" id="B8mqcC6Z-b8"></div>
-			<p>If you’re a teacher who’s teaching lean, Will shares a few ideas from how we uses it with his class.</p>
+			<p>There is currently no teaching guide for this lesson.</p>
+			<p>If you are interested in one, please contact <a href="mailto:hello@fitzroyacademy.com">hello@fitzroyacademy.com</a></p>
 		</div>
 	</div>
 </div>

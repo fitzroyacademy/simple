@@ -1,19 +1,8 @@
 <?php include '../assets/templates/site_header.php';?>
 
+<?php include '../assets/templates/intros/impact.php';?>
 
-<div class="intro">
-
-	<h1><a href="#">Design for impact at scale</a> with Kevin Starr of Mulago.</h1>
-
-	<div class="youtube" id="xKhHWC7Agdk"></div>
-
-	<p>This lesson will teach a process to design for lasting impact at scale with <a href="https://www.mulagofoundation.org/">Mulago</a>, using their key tool, the DIF.</p>
-
-	<div class="meta">
-		<p><i class="far fa-play-circle"></i> ~45 minutes over 4 videos</p>
-		<p><i class="far fa-clock"></i> About 3 hour of work to do it solo</p>
-		<p><i class="far fa-users"></i> Run it as a workshop with a small team over 2-3 hours</p>
-	</div>
+<?php include '../assets/templates/lesson_nav.php';?>
 
 	<div class="resources">
 		<h2><span class="no"><i class="far fa-file-alt"></i></span> Lesson resources</h2>
@@ -88,12 +77,12 @@
 					<p>Great series of articles from Kevin Starr on social innovation over at the SSI. Read everything, you won’t regret it.</p>
 				</div>
 				<div class="resource">
-					<i class="fas fa-youtube"></i>
+					<i class="fab fa-youtube"></i>
 					<a href="https://www.youtube.com/watch?v=UMEpvxGBkFU?rel=0">Great talk from Kevin at PopTech on lasting impact</a>
 					<p>Runtime 18:04</p>
 				</div>
 				<div class="resource">
-					<i class="fas fa-youtube"></i>
+					<i class="fab fa-youtube"></i>
 					<a href="https://www.youtube.com/watch?v=yOdlW2cKcK4?rel=0">Kevin on designing for happiness at the Skoll World Forum</a>
 					<p>Runtime 1:19:51</p>
 				</div>
@@ -101,11 +90,15 @@
 	</div>
 </div>
 
-<!-- <div class="Teaching guide">
-	<h2>Teaching guide</h2>
-	<div class="youtube" id="B8mqcC6Z-b8"></div>
-	<p>If you’re a teacher who’s teaching lean, Will shares a few ideas from how we uses it with his class.</p>
-</div> -->
+<div class="teaching_guide">
+	<div class="segments" id="teaching">
+		<div class="segment further_reading" id="resources">
+			<h2><span class="no"><i class="far fa-chalkboard-teacher"></i></span>Teaching guide</h2>
+			<p>There is currently no teaching guide for this lesson.</p>
+			<p>If you are interested in one, please contact <a href="mailto:hello@fitzroyacademy.com">hello@fitzroyacademy.com</a></p>
+		</div>
+	</div>
+</div> 
 
 
 

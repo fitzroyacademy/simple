@@ -42,56 +42,55 @@
 	<div class="segment segment_practical">
 		<h2><span class="no"><i class="fas fa-flask"></i></span> Assumptions and revenue.</h2>
 		<div class="youtube" id="3vNAKFtarkw"></div>
-		<p>Hold up, a little more work to do before we start filling out the canvas: We need to look at our customers, and our problem and dig into all the ways that combo exists. “It really sucks for [customer] when they experience [problem].</p>
+		<p>Will and Amanda work through the first part of the template with you, using their 'Muffin shop' example.</p>
 	</div>
 
 	<div class="segment segment_lesson">
-		<h2><span class="no">3</span> Testing the problem.</h2>
-		<div class="youtube" id="XO_cSktKaDA"></div>
-		<p>Now it’s time to officially start your canvas. You’ll take your customer / problem sentence and run it through a few tests to make it stronger. Then take what you’ve written and fill out your first two boxes: the customer and problem box.</p>
+		<h2><span class="no">2</span> Cost of goods sold.</h2>
+		<div class="youtube" id="MFmKZiAW4TQ"></div>
+		<p>Now that we have some revenue, it's time to work out our costs. We start with how much it costs to sell one of whatever it is you're selling. Depending on the sort of business you are running, these costs could either be a lot, or a little.</p>
+	</div>
+
+	<div class="segment segment_practical">
+		<h2><span class="no"><i class="fas fa-flask"></i></span> Costs of goods sold.</h2>
+		<div class="youtube" id="xi4SExtbCBg"></div>
+		<p>Will and Amanda work through the next part of the template with you, using their 'Muffin shop' example.</p>
 	</div>
 
 	<div class="segment segment_lesson">
-		<h2><span class="no">4</span> Problem solution fit.</h2>
-		<div class="youtube" id="OP_mjxWwU1o"></div>
-		<p>You’ve got a problem, and someone who has that problem, it’s time to start finding a solution to that problem. You break the problem down into a few parts and work out some solutions for each of these problems. This is where you might find your great idea only solves one of those problems and you have the joy of working a whole bunch of new solutions to research.</p>
+		<h2><span class="no">3</span> Operating costs.</h2>
+		<div class="youtube" id="T4zU7h5USjk"></div>
+		<p>Next, we work out what are all the other costs that go into operating your business. Depending on the sort of business you are running, these costs could either be a lot, or a little.</p>
 	</div>
 
-	<div class="segment segment_lesson">
-		<h2><span class="no">5</span> Early adopters & channels</h2>
-		<div class="youtube" id="letoo21qHtY"></div>
-		<p>We’re getting into the canvas now. its time to fill out the ‘Early adopters’ and ‘Channels’ boxes. As Will says ‘It’s working out who we’re going to hang out with for the next 3–5 years while building this business, and where to find them.’</p>
-	</div>
-
-	<div class="segment segment_lesson">
-		<h2><span class="no">6</span> Revenue streams.</h2>
-		<div class="youtube" id="uyetDHxT_R0"></div>
-		<p>Revenue streams is all about working out your ‘rivers of gold.’ It’s important to work out a few different possible ways you can get income for your project. Often there is the first idea you came in with, but thinking through 2 or 3 alternate streams might help you identify some income you didn’t think was possible.</p>
+	<div class="segment segment_practical">
+		<h2><span class="no"><i class="fas fa-flask"></i></span> Operating costs.</h2>
+		<div class="youtube" id="y3UfLirCaX4"></div>
+		<p>Will and Amanda work through the next part of the template with you, using their 'Muffin shop' example.</p>
 	</div>
 	
 	<div class="segment segment_lesson">
-		<h2><span class="no">7</span> Cost structure.</h2>
-		<div class="youtube" id="Cx0lAIw0pIs"></div>
-		<p>Every business has costs: You list all the money coming in, and then all the money going out and if the money coming in is bigger than the money going out, you’ve got an idea that might work. Obviously its all a bit more complex than that, and Will takes you through a few exercises to think about how to best fill out your costs box.</p>
+		<h2><span class="no">4</span> Capital expenses, interest, depreciation, and tax.</h2>
+		<div class="youtube" id="WMQht90Pjdo"></div>
+		<p>In the final section of the model, Amanda helps you pull together the CapEx expenses, interest and depreciation as well as tax. This gets a bit complicated but will help you finish up your model .</p>
 	</div>
 
-	<div class="segment segment_lesson">
-		<h2><span class="no">8</span> Key Metrics.</h2>
-		<div class="youtube" id="P-D12ds30Is"></div>
-		<p>What does success look like and how will you know you’re on the right track? For most ideas, if you’re tracking money you’ll have a pretty sad time for the first few years. Picking something that is important to you and your team will help you stay motivated as your idea grows.</p>
+	<div class="segment segment_practical">
+		<h2><span class="no"><i class="fas fa-flask"></i></span> Capital expenses, interest, depreciation, and tax.</h2>
+		<div class="youtube" id="ZMS9zzKiLyE"></div>
+		<p>Will and Amanda work through the final part of the template with you, using their 'Muffin shop' example.</p>
 	</div>
 
-	<div class="segment segment_lesson">
-		<h2><span class="no">9</span> Unfair advantage.</h2>
-		<div class="youtube" id="TkivEsFCrEo"></div>
-		<p>Life is unfair: That is the unfortunate fact of business. The best way to make sure you have an unfair advantage over others is to start planning for it right from the start. What can you do now, that in a few years will create something that cannot be bought, copied or stolen by another business?</p>
+	<div class="segment segment_practical">
+		<h2><span class="no"><i class="fas fa-flask"></i></span> Experimenting with your model.</h2>
+		<div class="youtube" id="3D82UiSB_qM"></div>
+		<p>Now that your model is complete, it's time to start playing with it. This is the real power of the models - Will takes you through three different scenarios with the muffin shops and runs through the possible financial ramifications.</p>
 	</div>
 
-	<div class="segment segment_lesson">
-		<h2><span class="no">10</span> Unique value proposition</h2>
-		<div class="youtube" id="devw7dBbon8"></div>
-		<p>Finally we bring home your first canvas with the Unique value proposition. the ‘UVP’ is the one sentence that ties all the boxes your canvas together. We write this sentence with respect for the people we’re speaking to, in a way that they understand and gets them excited to help you.</p>
-		<p>And now you’ve finished your first canvas, congratulations. Its time to get to work testing out the areas you’ve totally made up, and replace them with some real evidence of what people actually want.</p>
+	<div class="segment segment_bonus">
+		<h2><span class="no"><i class="fas fa-star"></i></span> EBIT Multiplier.</h2>
+		<div class="youtube" id="vUkN-pwl-Qs"></div>
+		<p>As a bonus, if you're feeling super excited about business finances, Will takes you through how to calculate an EBIT Multipler. This is an important number for valuing a buisness for a sale.</p>
 	</div>
 
 	<div class="segment further_reading" id="reading">
@@ -117,8 +116,8 @@
 	<div class="segments" id="teaching">
 		<div class="segment further_reading" id="resources">
 			<h2><span class="no"><i class="far fa-chalkboard-teacher"></i></span>Teaching guide</h2>
-			<div class="youtube" id="B8mqcC6Z-b8"></div>
-			<p>If you’re a teacher who’s teaching lean, Will shares a few ideas from how we uses it with his class.</p>
+			<p>There is currently no teaching guide for this lesson.</p>
+			<p>If you are interested in one, please contact <a href="mailto:hello@fitzroyacademy.com">hello@fitzroyacademy.com</a></p>
 		</div>
 	</div>
 </div>

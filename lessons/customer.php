@@ -90,12 +90,15 @@
 	</div>
 </div>
 
-<div class="Teaching guide">
-	<h2>Teaching guide</h2>
-	<div class="youtube" id="6m3PxmY1b_g"></div>
-	<p>If you’re a teacher who’s teaching entrepreunership, Will shares a few ideas from how he uses customer discovery interviews with students.</p>
+<div class="teaching_guide">
+	<div class="segments" id="teaching">
+		<div class="segment further_reading" id="resources">
+			<h2><span class="no"><i class="far fa-chalkboard-teacher"></i></span>Teaching guide</h2>
+			<p>There is currently no teaching guide for this lesson.</p>
+			<p>If you are interested in one, please contact <a href="mailto:hello@fitzroyacademy.com">hello@fitzroyacademy.com</a></p>
+		</div>
+	</div>
 </div>
-
 
 
 <?php include '../assets/templates/site_footer.php';?>
