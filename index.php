@@ -1,29 +1,42 @@
 <?php include 'assets/templates/site_header.php';?>
 
-<div class="fat_hero left halfy" id="top">
+<div class="js_quicksearch_parent">
 
-	<h1 class="pink">Online learning for <br>the social sector.</h1>
+	<div class="fat_hero left halfy" id="top">
 
-	<div class="i_need">
+		<h1 class="pink">Online learning for <br>the social sector.</h1>
 
-		<div class="dropdown">
-		  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-		    <i class="fal fa-arrow-down"></i> I need to fix our
-		  </button>
-		  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-		    <li><a class="dropdown-item" href="#">Action</a></li>
-		    <li><a class="dropdown-item" href="#">Another action</a></li>
-		    <li><a class="dropdown-item" href="#">Something else here</a></li>
-		  </ul>
-		</div>
+		<div class="i_need">
 
-	</div> <!-- i_need -->
+			<div class="btn-group">
+			  <button class="btn btn-text to_work_on disabled btn-lg" type="button">
+			    <i class="far fa-arrow-down"></i> I need to work on 
+			  </button>
+			  <button class="btn btn-text dropdown-toggle shadow-none" data-ineed="" type="button" id="ineedbutton" data-bs-toggle="dropdown" aria-expanded="false">
+			    <strong class="pink">literally everything</strong> <i class="fal fa-chevron-down"></i>
+			  </button>
+		    <ul class="dropdown-menu" aria-labelledby="ineed" data-ineedselect="">
+		    	<li>
+		    		<form>
+					    <div class="input-group mb-3">
+							  <input type="text" class="form-control" id="quicksearch" placeholder="Filter lessons..."> 
+							</div>
+					</form>
+		    	</li>
+		      <li><a class="dropdown-item cyan" href="#">our project management issues</a></li>
+		      <li><a class="dropdown-item red" href="#">business and startup stuff</a></li>
+		      <li><a class="dropdown-item purple" href="#">digital and internet fun</a></li>
+		    </ul>
+			</div>
 
-</div>
+			
 
-<div class="all_lessons">
-	<div class="container">
-	
+		</div> <!-- i_need -->
+
+	</div>
+
+	<div class="fat_section all_lessons">
+
 		<?php include 'assets/templates/intros/lean.php';?>
 		<?php include 'assets/templates/intros/finance.php';?>
 		<?php include 'assets/templates/intros/evidence.php';?>
@@ -33,9 +46,8 @@
 		<?php include 'assets/templates/intros/testing.php';?>
 		<?php include 'assets/templates/intros/hire.php';?>
 		<?php include 'assets/templates/intros/behaviour.php';?>
-		
 	</div>
-</div>
 
+</div>
 
 <?php include 'assets/templates/site_footer.php';?>

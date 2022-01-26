@@ -1,10 +1,61 @@
-$( document ).ready(function() {
+$(function() {
 
 
-$('body').scrollspy({ target: '#scrollspy' });
+  $('body').scrollspy({ target: '#scrollspy' });
+
+
+  // play the intros
+  $(".intro .youtube").each(function() {
+      $(this).on('click', function(){
+        $(this).parent('.segment').addClass('video_playing');
+      });
+  });
+
+  // colour the header
+  if ($('.fat_hero h1').length > 0){
+    $('.fat_head .fat_device svg path').css('fill', $('.fat_hero h1').css('color'));
+  }
+
+
+  // add listener to dropdown
+  var theDropdown = document.getElementById('ineedbutton')
+  theDropdown.addEventListener('shown.bs.dropdown', function () {
+    $('body').addClass('ineedshow');
+  });
+
+  theDropdown.addEventListener('hidden.bs.dropdown', function () {
+    $('body').removeClass('ineedshow');
+  });
+
+  // quick search
+  $('#quicksearch').quicksearch('.all_lessons .intro', {
+    'onAfter': function(e){
+      if ($(this).val().length > 0)
+      {
+        $('#ineedbutton').dropdown('hide');
+        $('body').addClass('ineedshow_search');
+        $('body').removeClass('ineedshow');
+      }
+    }
+  });
 
 
   
+
+  
+
+  //List.js search
+  /*
+
+  var listoptions = {
+    'searchClass' : 'js_quicksearch',
+    'listClass'   : 'js_quicksearch_items'
+  };
+
+  var lessonList = new List('js_quicksearch_parent', listoptions);
+  */
+
+});
 
 // embed youtube with JS
 // stealing from https://www.sitepoint.com/faster-youtube-embeds-javascript/
@@ -38,23 +89,3 @@ $(function() {
         });
     });
  });
-
-
-// play the intros
-$(function() {
-    $(".intro .youtube").each(function() {
-        $(this).on('click', function(){
-          $(this).parent('.segment').addClass('video_playing');
-        });
-    });
- });
-
-
-// colour the header
-if ($('.fat_hero h1').length > 0){
-  $('.fat_head .fat_device svg path').css('fill', $('.fat_hero h1').css('color'));
-}
-
-
-
-});

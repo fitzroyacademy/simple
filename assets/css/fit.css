@@ -9156,7 +9156,6 @@ dl.fat_storyline dd:last-child::after {
 
 .intro > .segment,
 .contain,
-.container,
 .segments {
   max-width: 60rem;
   margin: 0 auto;
@@ -9185,7 +9184,8 @@ dl.fat_storyline dd:last-child::after {
   position: relative;
 }
 
-.segment h2 .no {
+.segment h2 .no,
+.all_lessons .intro h1:after {
   color: #d2d7da;
   background: #fff;
   text-align: center;
@@ -9283,7 +9283,7 @@ dl.fat_storyline dd:last-child::after {
 
 .intro, .teaching_guide {
   background: #f5f7f8;
-  padding: 3rem 0;
+  padding: 4rem 0;
 }
 
 .teaching_guide .segment h2 .no {
@@ -9297,9 +9297,8 @@ dl.fat_storyline dd:last-child::after {
 }
 
 .intro .segment {
-  padding-left: 18rem;
-  margin-bottom: 3rem;
-  min-height: 20rem;
+  padding: 1rem 0 0 18rem;
+  min-height: 18rem;
 }
 
 .intro .segment .youtube {
@@ -9403,6 +9402,99 @@ dl.fat_storyline dd:last-child::after {
 
 .resources .resource:hover {
   outline: 1px solid #2793f8;
+}
+
+.all_lessons .intro {
+  background: none;
+  padding: 0;
+}
+
+.all_lessons .intro .segment {
+  margin-left: 0;
+  padding-bottom: 3rem;
+}
+
+.all_lessons {
+  list-style-type: none;
+  counter-reset: css-counter 0;
+}
+
+.all_lessons .intro {
+  counter-increment: css-counter 1;
+}
+
+.all_lessons .intro h1:after {
+  content: counter(css-counter);
+  top: -2rem;
+  left: -1.75rem;
+}
+
+.i_need .btn-group {
+  margin: 0 0 1rem -1rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #464749;
+}
+
+.i_need .btn {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #464749;
+}
+
+.i_need i {
+  color: #b0b4b7;
+}
+
+.i_need .to_work_on {
+  margin-left: -1rem;
+  padding-right: 0;
+}
+
+.i_need .to_work_on i.fa-arrow-down {
+  width: 2rem;
+  margin-right: 1.5rem;
+  display: inline-block;
+}
+
+.i_need .dropdown-toggle::after {
+  display: none;
+}
+
+.i_need .dropdown-toggle i {
+  margin-left: 0.5rem;
+  transition: all 0.25s ease-in-out;
+}
+
+.i_need .dropdown-menu {
+  border: none;
+}
+
+.i_need .dropdown-menu a {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #b0b4b7;
+}
+
+.i_need .dropdown-menu a:hover {
+  background: none;
+}
+
+.i_need .dropdown-toggle.show i {
+  transform: rotate(180deg);
+}
+
+body.ineedshow .fat_head,
+body.ineedshow .fat_hero h1,
+body.ineedshow .all_lessons {
+  opacity: 0.1;
+  transition: all 0.25s ease-in-out;
+}
+
+@media (max-width: 900px) {
+  .i_need .to_work_on {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=fit.css.map */
