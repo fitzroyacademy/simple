@@ -1,10 +1,34 @@
-$( document ).ready(function() {
+$(function() {
 
 
-$('body').scrollspy({ target: '#scrollspy' });
+  $('body').scrollspy({ target: '#scrollspy' });
 
 
-  
+  // play the intros
+  $(".intro .youtube").each(function() {
+      $(this).on('click', function(){
+        $(this).parent('.segment').addClass('video_playing');
+      });
+  });
+
+  // colour the header
+  if ($('.fat_hero h1').length > 0){
+    $('.fat_head .fat_device svg path').css('fill', $('.fat_hero h1').css('color'));
+  }
+
+  //the dropdown
+  $('[data-ineed]').on('click', function(){
+    if ($(this).hasClass('show'))
+    {
+      $('body').addClass('ineedshow');
+    }
+    else
+    {
+      $('body').removeClass('ineedshow'); 
+    }
+  });
+
+});
 
 // embed youtube with JS
 // stealing from https://www.sitepoint.com/faster-youtube-embeds-javascript/
@@ -38,23 +62,3 @@ $(function() {
         });
     });
  });
-
-
-// play the intros
-$(function() {
-    $(".intro .youtube").each(function() {
-        $(this).on('click', function(){
-          $(this).parent('.segment').addClass('video_playing');
-        });
-    });
- });
-
-
-// colour the header
-if ($('.fat_hero h1').length > 0){
-  $('.fat_head .fat_device svg path').css('fill', $('.fat_hero h1').css('color'));
-}
-
-
-
-});

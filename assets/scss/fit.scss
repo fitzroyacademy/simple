@@ -4267,7 +4267,6 @@ $max_narrow_width: 60rem;
 
 .intro > .segment,
 .contain,
-.container,
 .segments{max-width: $max_narrow_width; margin: 0 auto; box-sizing: border-box;}
 
 // this is to make IDs work for links
@@ -4282,7 +4281,8 @@ $max_narrow_width: 60rem;
 // Text stuff
 
 .segment h2 {padding:0 0 2rem; margin: 0; font-size: 2rem; position: relative;}
-.segment h2 .no{color: $text_lightest; background: #fff; text-align: center; display: block; position: absolute; top:-2rem; left: -5rem; width:3.6rem; padding: 2rem 0; }
+.segment h2 .no,
+.all_lessons .intro h1:after{color: $text_lightest; background: #fff; text-align: center; display: block; position: absolute; top:-2rem; left: -5rem; width:3.6rem; padding: 2rem 0; }
 
 .segment h2 .no i{font-size: 80%;}
 .segment p{font-size: 1.2rem;}
@@ -4319,12 +4319,12 @@ $max_narrow_width: 60rem;
 // -----------------------------------------------------------------------------------------
 // Introduction
 
-.intro, .teaching_guide{ background: $bg; padding: 3rem 0;}
+.intro, .teaching_guide{ background: $bg; padding: 4rem 0;}
 
 .teaching_guide .segment h2 .no{background: $bg;}
 .teaching_guide .segment{border-left-color: transparent; padding-top: 0; margin-top: 0;}
 
-.intro .segment {padding-left: 18rem; margin-bottom: 3rem; min-height: 20rem;}
+.intro .segment {padding: 1rem 0 0 18rem; min-height: 18rem;}
 .intro .segment .youtube{ width: 13rem; position: absolute; top:0; left: 3rem; border-radius: 0; height: 18rem; }
 .intro .segment .youtube i{font-size: 2.5rem; margin: -1.25rem 0 0 -1.25rem;}
 
@@ -4363,4 +4363,89 @@ $max_narrow_width: 60rem;
 .resources .resource > h4{font-size: 1.2rem; text-decoration: none; color:$blue; font-weight: normal;}
 .resources .resource > p{font-size: .8rem; color: $text_light;}
 .resources .resource:hover{outline:1px solid $blue;}
+
+
+
+// -----------------------------------------------------------------------------------------
+// new index home page
+.all_lessons .intro{background: none; padding: 0;}
+.all_lessons .intro .segment{margin-left: 0; padding-bottom: 3rem;}
+
+// counter
+.all_lessons {list-style-type: none; counter-reset: css-counter 0;}
+
+.all_lessons .intro{counter-increment: css-counter 1;}
+
+.all_lessons .intro h1:after{content: counter(css-counter); top:-2rem; left: -1.75rem;}
+
+
+// -----------------------------------------------------------------------------------------
+// I need to find dropdown
+
+.i_need .btn-group{margin: 0 0 1rem -1rem; font-size: 2rem; font-weight: bold; color: $brand;}
+.i_need .btn{font-size: 2rem; font-weight: bold; color: $brand;}
+.i_need i{color: $text_lighter;}
+.i_need .to_work_on{margin-left: -1rem; padding-right: 0;}
+.i_need .to_work_on i.fa-arrow-down{width: 2rem; margin-right: 1.5rem; display: inline-block;}
+.i_need .dropdown-toggle::after{display: none;}
+
+// the drop
+.i_need .dropdown-toggle{}
+.i_need .dropdown-toggle i{margin-left: .5rem; transition: all .25s ease-in-out; }
+.i_need .dropdown-menu{border: none;}
+.i_need .dropdown-menu a{font-size: 2rem; font-weight: bold; color: $text_lighter;}
+.i_need .dropdown-menu a:hover{background: none;}
+
+// show it
+.i_need .dropdown-toggle.show i{transform: rotate(180deg);}
+
+
+body.ineedshow .fat_head,
+body.ineedshow .fat_hero h1,
+body.ineedshow .all_lessons{}
+
+
+body.ineedshow .fat_head,
+body.ineedshow .fat_hero h1,
+body.ineedshow .all_lessons{opacity: 0.05; transition: all .25s ease-in-out; }
+
+
+@media (max-width: 900px) {
+	.i_need .to_work_on	{display: none;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
