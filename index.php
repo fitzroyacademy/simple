@@ -5,26 +5,30 @@
 	<h1 class="pink">Online learning for <br>the social sector.</h1>
 
 	<div class="i_need">
-		<div class="dropdown">
-		  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-		    <i class="fal fa-arrow-down"></i> I need to fix our
-		  </a>
 
-		  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-		    <a class="dropdown-item" href="#">Action</a>
-		    <a class="dropdown-item" href="#">Another action</a>
-		    <a class="dropdown-item" href="#">Something else here</a>
-		  </div>
+		<div class="dropdown">
+		  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+		    <i class="fal fa-arrow-down"></i> I need to fix our
+		  </button>
+		  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+		    <li><a class="dropdown-item" href="#">Action</a></li>
+		    <li><a class="dropdown-item" href="#">Another action</a></li>
+		    <li><a class="dropdown-item" href="#">Something else here</a></li>
+		  </ul>
 		</div>
-	</div>
+
+	</div> <!-- i_need -->
 
 </div>
 
 <div class="all_lessons">
+	<div class="container">
 	
-	<?php include 'assets/templates/intros/lean.php';?>
-	<?php include 'assets/templates/intros/finance.php';?>
-	<?php include 'assets/templates/intros/evidence.php';?>
+		<?php include 'assets/templates/intros/lean.php';?>
+		<?php include 'assets/templates/intros/finance.php';?>
+		<?php include 'assets/templates/intros/evidence.php';?>
+		
+	</div>
 
 </div>
 

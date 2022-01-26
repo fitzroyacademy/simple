@@ -3455,10 +3455,10 @@ h1 + .fat_nav{margin-top: 2rem}
 
 .fat_nav .contain{padding: 1rem; max-width: $max_width; margin: 0 auto; display: flex; flex-direction:row; }
 
-.fat_nav a{padding: .5rem 1rem; font-size: 1.3rem; margin: 0 .5rem 0 0; text-decoration: none; border-radius: $border_rad_lg; border-color: transparent; color: $text_lighter;}
+.fat_nav a{padding: .5rem 1rem; font-size: 1.3rem; margin: 0 .5rem 0 0; text-decoration: none; border-radius: $border_rad_lg; border-color: transparent; color: $text_lightest;}
 .fat_nav a.active{background: $bg; border-color: $border_lighter; color: $text_light;}
 
-// first one  gose to the top
+// first one goes to the top
 .fat_nav a.top{padding: .5rem 0; text-align: center; width: 0; overflow: hidden; margin: 0 0 0 -1.5rem; transition: all .25s ease-in-out; opacity: 0;}
 .fat_nav a.top i{margin-right: 0;}
 .fat_nav a.top:not(.active){width: 4rem; margin: 0 1rem 0 0; opacity: 1;}
@@ -4256,8 +4256,11 @@ dl.fat_storyline dd:last-child::after{display: none;}
 
 // Below here is v2 simple mode lol
 
-$max_narrow_width: 768px;
+$max_narrow_width: 60rem;
 
+.fat_nav_lesson{padding: .5rem 0; margin: 0;}
+.fat_nav_lesson .contain{max-width: $max_narrow_width; margin: 0 auto 0; padding: 0; }
+.fat_nav_lesson .contain a.top{margin: 0 .25rem 0 -1.75rem;}
 
 // -----------------------------------------------------------------------------------------
 // intro segments
@@ -4267,17 +4270,19 @@ $max_narrow_width: 768px;
 .container,
 .segments{max-width: $max_narrow_width; margin: 0 auto; box-sizing: border-box;}
 
-.segments{padding: 1rem 0;}
-.segment{padding: 1rem 0 2rem 3rem; margin: 0; border-left: 6px solid $border_lighter; position: relative;}
-.segment:last-child{border-bottom: 0;}
+// this is to make IDs work for links
+.segments{padding: 1rem 0 4rem;}
+
+.segment{padding: 5rem 0 3rem 3rem; margin-top: -5rem; border-left: 6px solid $border_lighter; position: relative;}
+.segment:last-child{padding-bottom: 0;;}
 // .segment iframe{width: 100%;}
 
 
 // -----------------------------------------------------------------------------------------
 // Text stuff
 
-.segment h2 {padding:0 0 2rem; margin: 0; font-size: 2rem;}
-.segment h2 .no{color: $text_lightest; background: #fff; text-align: center; display: block; position: absolute; top:0; left: -2rem; width:3.6rem; padding: 1rem 0; }
+.segment h2 {padding:0 0 2rem; margin: 0; font-size: 2rem; position: relative;}
+.segment h2 .no{color: $text_lightest; background: #fff; text-align: center; display: block; position: absolute; top:-2rem; left: -5rem; width:3.6rem; padding: 2rem 0; }
 
 .segment h2 .no i{font-size: 80%;}
 .segment p{font-size: 1.2rem;}
@@ -4315,7 +4320,9 @@ $max_narrow_width: 768px;
 // Introduction
 
 .intro, .teaching_guide{ background: $bg; padding: 3rem 0;}
+
 .teaching_guide .segment h2 .no{background: $bg;}
+.teaching_guide .segment{border-left-color: transparent; padding-top: 0; margin-top: 0;}
 
 .intro .segment {padding-left: 18rem; margin-bottom: 3rem; min-height: 20rem;}
 .intro .segment .youtube{ width: 13rem; position: absolute; top:0; left: 3rem; border-radius: 0; height: 18rem; }
