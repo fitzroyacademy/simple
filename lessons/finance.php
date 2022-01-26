@@ -72,7 +72,7 @@
 	<div class="segment segment_lesson">
 		<h2><span class="no">4</span> Capital expenses, interest, depreciation, and tax.</h2>
 		<div class="youtube" id="WMQht90Pjdo"></div>
-		<p>In the final section of the model, Amanda helps you pull together the CapEx expenses, interest and depreciation as well as tax. This gets a bit complicated but will help you finish up your model .</p>
+		<p>In the final section of the model, Amanda helps you pull together the CapEx expenses, interest and depreciation as well as tax. This gets a bit complicated but will help you finish up your model.</p>
 	</div>
 
 	<div class="segment segment_practical">
