@@ -10,20 +10,23 @@
 
 			<div class="btn-group">
 			  <button class="btn btn-text to_work_on disabled btn-lg" type="button">
-			    <i class="far fa-arrow-down"></i> I need to work on 
+					
+			    <i class="far fa-arrow-down"></i> 
+			    <span class="ineedtowork" id="ineedtowork">I need to work on </span>
 			  </button>
 			  <button class="btn btn-text dropdown-toggle shadow-none" data-ineed="" type="button" id="ineedbutton" data-bs-toggle="dropdown" aria-expanded="false">
 			    <strong class="pink">literally everything</strong> <i class="fal fa-chevron-down"></i>
 			  </button>
 		    <ul class="dropdown-menu" aria-labelledby="ineed" data-ineedselect="">
-		      <li><a class="dropdown-item cyan" href="#">our project management issues</a></li>
-		      <li><a class="dropdown-item red" href="#">business and startup stuff</a></li>
-		      <li><a class="dropdown-item purple" href="#">digital and internet fun</a></li>
+		      <li><a class="dropdown-item cyan" href="#" data-searchify="project management">our project management issues</a></li>
+		      <li><a class="dropdown-item red" href="#" data-searchify="business">business and startup stuff</a></li>
+		      <li><a class="dropdown-item purple" href="#" data-searchify="digital">digital and internet fun</a></li>
 		    </ul>
 	    	<form class="quicksearch_form">
 			    <div class="input-group mb-3">
 					  <input type="text" class="form-control" id="quicksearch" placeholder="whatever I search for..."> 
 					</div>
+					<a class="x"><i class="far fa-times"></i></a>
 				</form>
 			</div>
 
@@ -44,7 +47,10 @@
 		<?php include 'assets/templates/intros/testing.php';?>
 		<?php include 'assets/templates/intros/hire.php';?>
 		<?php include 'assets/templates/intros/behaviour.php';?>
+		<div class="total_num"> <span></span></div>
+		<a href="/about/michael" class="love"><i class="far fa-heart"></i></a>
 	</div>
+
 
 </div>
 

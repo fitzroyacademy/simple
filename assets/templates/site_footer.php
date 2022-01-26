@@ -11,7 +11,7 @@
         <div class="fat_hero">
           <h1>Hi! 🥰</h1>
           <div class="fat_tease_btns">
-            <a class="btn btn-xl btn-text" href="/"><i class="fal fa-home"></i> Home </a>
+            <a class="btn btn-xl btn-text pink" href="/"><i class="fal fa-list"></i> Lessons </a>
             <a class="btn btn-xl btn-text cyan" href="/about"><i class="fal fa-smile-beam"></i> About</a>              
             <a class="btn btn-xl btn-text green" href="/about/contact"><i class="fal fa-comment-alt-smile"></i> Contact</a>
             <!-- <a class="btn btn-xl btn-text watermelon" href="/courses"><i class="fal fa-play"></i> Courses </a>
