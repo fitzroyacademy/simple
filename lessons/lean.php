@@ -9,12 +9,12 @@
 	<div class="segment segment_resources" id="resources">
 		<h2><span class="no"><i class="far fa-file-alt"></i></span> Lesson resources</h2>
 		<div class="resources">
-			<a class="resource" href="https://docs.google.com/document/d/1ib8g46AdyaRoUDKzZkX-MzCp5WaZTD7akfSg06m04vA/edit?usp=sharing">
+			<a class="resource" href="https://docs.google.com/document/d/1ib8g46AdyaRoUDKzZkX-MzCp5WaZTD7akfSg06m04vA/edit?usp=sharing" target="_blank">
 				<i class="far fa-file-alt"></i>
 				<h4>Lean Canvas template - Blank</h4>
 				<p>Blank lean canvas template to work along with this lesson.</p>
 			</a>
-			<a class="resource" href="https://docs.google.com/document/d/1Od27ZzdX8LTvV3gAdJ5aW40QcFV2ZIDkY2CwYsxKNaE/edit?usp=sharing">
+			<a class="resource" href="https://docs.google.com/document/d/1Od27ZzdX8LTvV3gAdJ5aW40QcFV2ZIDkY2CwYsxKNaE/edit?usp=sharing" target="_blank">
 				<i class="far fa-file-alt"></i>
 				<h4>'Coffee Cart' lean canvas completed example</h4>
 				<p>The completed example that Will works through in this lesson.</p>
