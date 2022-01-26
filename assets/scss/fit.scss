@@ -4285,6 +4285,11 @@ $max_narrow_width: 768px;
 
 .segment img{max-width: 100%; margin-bottom: 1rem;}
 
+
+.segment_practical{border-left-color:lighten($new_cyan, 40%);}
+.segment_practical h2{color: $new_cyan;}
+.segment_practical h2 .no i{color: lighten($new_cyan, 30%);}
+
 // -----------------------------------------------------------------------------------------
 // Youtube!
 
