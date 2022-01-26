@@ -29,6 +29,8 @@
 		<?php include 'assets/templates/intros/evidence.php';?>
 		<?php include 'assets/templates/intros/partner.php';?>
 		<?php include 'assets/templates/intros/impact.php';?>
+		<?php include 'assets/templates/intros/forecast.php';?>
+		<?php include 'assets/templates/intros/testing.php';?>
 		
 	</div>
 </div>
