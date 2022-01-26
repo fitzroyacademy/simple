@@ -1,24 +1,6 @@
 <?php include '../assets/templates/site_header.php';?>
 
-
-<div class="intro">
-
-	<div class="segment"> <!-- video_playing class for playing mode -->
-
-		<h1><a href="#">Lean</a> with Will Dayble</h1>
-
-		<div class="youtube" id="zlJshnVorEg" data-bg="covers/willvert.jpg"></div>
-
-		<p>This lessson is about lean methodology and will help you to quickly sketch out a new idea for a business</p>
-
-		<div class="meta">
-			<p><i class="far fa-play-circle"></i> ~1.5 hours over 10 videos</p>
-			<p><i class="far fa-clock"></i> About 2 hours of work to do it solo</p>
-			<p><i class="far fa-users"></i> Run it as a workshop with a small team over 2-3 hours</p>
-		</div>
-	</div>
-
-</div>
+<?php include '../assets/templates/intros/evidence.php';?>
 
 <?php include '../assets/templates/lesson_nav.php';?>
 
@@ -27,92 +9,55 @@
 	<div class="segment segment_resources" id="resources">
 		<h2><span class="no"><i class="far fa-file-alt"></i></span> Lesson resources</h2>
 		<div class="resources">
-			<a class="resource" href="https://docs.google.com/document/d/1ib8g46AdyaRoUDKzZkX-MzCp5WaZTD7akfSg06m04vA/edit?usp=sharing">
+			<a class="resource" href="https://docs.google.com/document/d/1rOLjn-bGOY2wxny8cm1LXWWHzp2vn1KjWtbn4klE1S4/edit?usp=sharing" target="_blank">
 				<i class="far fa-file-alt"></i>
-				<h4>Lean Canvas template - Blank</h4>
-				<p>Blank lean canvas template to work along with this lesson.</p>
-			</a>
-			<a class="resource" href="https://docs.google.com/document/d/1Od27ZzdX8LTvV3gAdJ5aW40QcFV2ZIDkY2CwYsxKNaE/edit?usp=sharing">
-				<i class="far fa-file-alt"></i>
-				<h4>'Coffee Cart' lean canvas completed example</h4>
-				<p>The completed example that Will works through in this lesson.</p>
+				<h4>Evidence based interventions template - Blank</h4>
+				<p>Blank template to work along with this lesson.</p>
 			</a>
 		</div>
 	</div>
 
 	<div class="segment segment_lesson" id="lesson">
-		<h2><span class="no">1</span> Your first canvas.</h2>
-		<div class="youtube" id="QiWXzo04e6s"></div>
-		<p>We’ll be starting with the VERY basics of your lean canvas. All you need to do is grab a pen, paper and post-it notes while Will takes you through some strategies to get your first canvas finished as fast as possible. Also, you’ll draw a few boxes.</p>
+		<h2><span class="no">1</span> Figure out the important question.</h2>
+		<div class="youtube" id="Nbt8ZCHNsPc"></div>
+		<p>All good inventions start by making sure you are ASKING the right question. Something that's important and that you can get others in your sector to rally around.</p>
 	</div>
 	
 	<div class="segment segment_lesson">
-		<h2><span class="no">2</span> Customers & problems.</h2>
-		<div class="youtube" id="60_v2bNlNe4"></div>
-		<p>Hold up, a little more work to do before we start filling out the canvas: We need to look at our customers, and our problem and dig into all the ways that combo exists. “It really sucks for [customer] when they experience [problem].</p>
+		<h2><span class="no">2</span> Finding existing research.</h2>
+		<div class="youtube" id="YWVhU8ax-sc"></div>
+		<p>Before you begin to do your own work, start by diving into the existing reseach. Making sure you're not doubling up on work that's already been done is vitally important.</p>
 	</div>
 
 	<div class="segment segment_lesson">
-		<h2><span class="no">3</span> Testing the problem.</h2>
-		<div class="youtube" id="XO_cSktKaDA"></div>
-		<p>Now it’s time to officially start your canvas. You’ll take your customer / problem sentence and run it through a few tests to make it stronger. Then take what you’ve written and fill out your first two boxes: the customer and problem box.</p>
+		<h2><span class="no">3</span> Creating a shared research agenda.</h2>
+		<div class="youtube" id="qJ-VWm6uj_M"></div>
+		<p>Now that you have an important question and you know the research that's out there, it's time to get some help. The social sector is always more powerful when groups of people work together towards a common cause. Caroline sets out a method to help you collaborate with others in your sector towards a powerful outcome.</p>
 	</div>
 
 	<div class="segment segment_lesson">
-		<h2><span class="no">4</span> Problem solution fit.</h2>
-		<div class="youtube" id="OP_mjxWwU1o"></div>
-		<p>You’ve got a problem, and someone who has that problem, it’s time to start finding a solution to that problem. You break the problem down into a few parts and work out some solutions for each of these problems. This is where you might find your great idea only solves one of those problems and you have the joy of working a whole bunch of new solutions to research.</p>
-	</div>
-
-	<div class="segment segment_lesson">
-		<h2><span class="no">5</span> Early adopters & channels</h2>
-		<div class="youtube" id="letoo21qHtY"></div>
-		<p>We’re getting into the canvas now. its time to fill out the ‘Early adopters’ and ‘Channels’ boxes. As Will says ‘It’s working out who we’re going to hang out with for the next 3–5 years while building this business, and where to find them.’</p>
-	</div>
-
-	<div class="segment segment_lesson">
-		<h2><span class="no">6</span> Revenue streams.</h2>
-		<div class="youtube" id="uyetDHxT_R0"></div>
-		<p>Revenue streams is all about working out your ‘rivers of gold.’ It’s important to work out a few different possible ways you can get income for your project. Often there is the first idea you came in with, but thinking through 2 or 3 alternate streams might help you identify some income you didn’t think was possible.</p>
-	</div>
-	
-	<div class="segment segment_lesson">
-		<h2><span class="no">7</span> Cost structure.</h2>
-		<div class="youtube" id="Cx0lAIw0pIs"></div>
-		<p>Every business has costs: You list all the money coming in, and then all the money going out and if the money coming in is bigger than the money going out, you’ve got an idea that might work. Obviously its all a bit more complex than that, and Will takes you through a few exercises to think about how to best fill out your costs box.</p>
-	</div>
-
-	<div class="segment segment_lesson">
-		<h2><span class="no">8</span> Key Metrics.</h2>
-		<div class="youtube" id="P-D12ds30Is"></div>
-		<p>What does success look like and how will you know you’re on the right track? For most ideas, if you’re tracking money you’ll have a pretty sad time for the first few years. Picking something that is important to you and your team will help you stay motivated as your idea grows.</p>
-	</div>
-
-	<div class="segment segment_lesson">
-		<h2><span class="no">9</span> Unfair advantage.</h2>
-		<div class="youtube" id="TkivEsFCrEo"></div>
-		<p>Life is unfair: That is the unfortunate fact of business. The best way to make sure you have an unfair advantage over others is to start planning for it right from the start. What can you do now, that in a few years will create something that cannot be bought, copied or stolen by another business?</p>
-	</div>
-
-	<div class="segment segment_lesson">
-		<h2><span class="no">10</span> Unique value proposition</h2>
-		<div class="youtube" id="devw7dBbon8"></div>
-		<p>Finally we bring home your first canvas with the Unique value proposition. the ‘UVP’ is the one sentence that ties all the boxes your canvas together. We write this sentence with respect for the people we’re speaking to, in a way that they understand and gets them excited to help you.</p>
-		<p>And now you’ve finished your first canvas, congratulations. Its time to get to work testing out the areas you’ve totally made up, and replace them with some real evidence of what people actually want.</p>
+		<h2><span class="no">4</span> Contacting researchers.</h2>
+		<div class="youtube" id="uEckNesdvhk"></div>
+		<p>Finally, now that you have people on the same page, it's time to reach out to researchers. Caroline walks you through some practical steps you can take to help kick start the evidence based research around the interventions you want to apply.</p>
 	</div>
 
 	<div class="segment further_reading" id="reading">
 		<h2><span class="no"><i class="fas fa-books"></i></span> Further reading</h2>
 		<div class="resources">
 				<div class="resource">
-					<i class="far fa-file-alt"></i>
-					<a href="https://">Book title</a>
-					<p>Some book</p>
+					<i class="far fa-books"></i>
+					<a href="http://www.jlaguidebook.org/" target="_blank">The James Lind Alliance guidebook</a>
+					<p>The James Lind Alliance guidebook mentioned in part 3 of the lesson.</p>
 				</div>
 				<div class="resource">
-					<i class="far fa-headphones"></i>
-					<a href="https://">Podcast title</a>
-					<p>Some podcast</p>
+					<i class="far fa-browser"></i>
+					<a href="http://idinsight.org/" target="_blank">IDinsight.org</a>
+					<p>IDinsight.org is the research organisation mentioned in part 4, that helps leaders in developing countries use evidence to improve their social impact.</p>
+				</div>
+				<div class="resource">
+					<i class="far fa-browser"></i>
+					<a href="https://giving-evidence.com/" target="_blank">Giving Evidence</a>
+					<p>Learn more about Caroline's work on her site, and make sure check out her videos page.</p>
 				</div>
 		</div>
 
@@ -124,8 +69,8 @@
 	<div class="segments" id="teaching">
 		<div class="segment further_reading" id="resources">
 			<h2><span class="no"><i class="far fa-chalkboard-teacher"></i></span>Teaching guide</h2>
-			<div class="youtube" id="B8mqcC6Z-b8"></div>
-			<p>If you’re a teacher who’s teaching lean, Will shares a few ideas from how we uses it with his class.</p>
+			<p>There is currently no teaching guide for this lesson.</p>
+			<p>If you are interested in one, please contact <a href="mailto:hello@fitzroyacademy.com">hello@fitzroyacademy.com</a></p>
 		</div>
 	</div>
 </div>
