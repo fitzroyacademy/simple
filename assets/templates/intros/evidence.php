@@ -9,9 +9,9 @@
 		<p>This lesson will teach you a method to ask an important question and answer it reliably, to build interventions that actually work.</p>
 
 		<div class="meta">
-			<p><i class="far fa-play-circle"></i> ~1.5 hours over 10 videos</p>
+			<p><i class="far fa-play-circle"></i> ~30 minutes over 4 videos</p>
 			<p><i class="far fa-clock"></i> About 2 hours of work to do it solo</p>
-			<p><i class="far fa-users"></i> Run it as a workshop with a small team over 2-3 hours</p>
+			<p><i class="far fa-users"></i> Run it as a workshop with a small team over 3-4 hours</p>
 		</div>
 	</div>
 
