@@ -6,7 +6,7 @@
 
 		<div class="youtube" id="zlJshnVorEg" data-bg="covers/willvert.jpg"></div>
 
-		<p>This lessson is about lean methodology and will help you to quickly sketch out a new idea for a business</p>
+		<p>This lesson is about lean methodology and will help you to quickly sketch out a new idea for a business.</p>
 
 		<div class="meta">
 			<p><i class="far fa-play-circle"></i> ~1.5 hours over 10 videos</p>
