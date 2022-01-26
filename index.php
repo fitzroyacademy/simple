@@ -31,6 +31,7 @@
 		<?php include 'assets/templates/intros/impact.php';?>
 		<?php include 'assets/templates/intros/forecast.php';?>
 		<?php include 'assets/templates/intros/testing.php';?>
+		<?php include 'assets/templates/intros/hire.php';?>
 		
 	</div>
 </div>
