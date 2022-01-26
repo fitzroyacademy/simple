@@ -1,6 +1,6 @@
 <?php include '../assets/templates/site_header.php';?>
 
-<?php include '../assets/templates/intros/lean.php';?>
+<?php include '../assets/templates/intros/finance.php';?>
 
 <?php include '../assets/templates/lesson_nav.php';?>
 
@@ -8,29 +8,40 @@
 
 	<div class="segment segment_resources" id="resources">
 		<h2><span class="no"><i class="far fa-file-alt"></i></span> Lesson resources</h2>
+		<div class="youtube" id="ILaz-pVhP0o"></div>
 		<div class="resources">
-			<a class="resource" href="https://docs.google.com/document/d/1ib8g46AdyaRoUDKzZkX-MzCp5WaZTD7akfSg06m04vA/edit?usp=sharing">
-				<i class="far fa-file-alt"></i>
-				<h4>Lean Canvas template - Blank</h4>
-				<p>Blank lean canvas template to work along with this lesson.</p>
+			<a class="resource" href="https://docs.google.com/spreadsheets/d/1tH7xd1UwTnx0XnmwAtuBTj0I6L1yIy0QT2cprIwjn2s/edit?usp=sharing" target="_blank">
+				<i class="far fa-file-spreadsheet"></i>
+				<h4>3 year financial model - blank</h4>
+				<p>The blank finanical model that Amanda walks you through in this lesson.</p>
 			</a>
-			<a class="resource" href="https://docs.google.com/document/d/1Od27ZzdX8LTvV3gAdJ5aW40QcFV2ZIDkY2CwYsxKNaE/edit?usp=sharing">
-				<i class="far fa-file-alt"></i>
-				<h4>'Coffee Cart' lean canvas completed example</h4>
-				<p>The completed example that Will works through in this lesson.</p>
+			<a class="resource" href="https://docs.google.com/spreadsheets/d/1GEIU9WmgSc6P7fXKK_L0byu0GyKGcS02cBv8T9vtoDA/edit?usp=sharing" target="_blank">
+				<i class="far fa-file-spreadsheet"></i>
+				<h4>'Cheesecake and Tea shop' financial model - lesson example</h4>
+				<p>One of the three financial models Will experiments with during the lesson.</p>
+			</a>
+			<a class="resource" href="https://docs.google.com/spreadsheets/d/1H2sQJR05Iuaw4ToWrEisFfMXoYRtxqpVNKmigpfsKOM/edit?usp=sharing" target="_blank">
+				<i class="far fa-file-spreadsheet"></i>
+				<h4>'Bulk muffins' financial model - lesson example</h4>
+				<p>One of the three financial models Will experiments with during the lesson.</p>
+			</a>
+			<a class="resource" href="https://docs.google.com/spreadsheets/d/1lMP2BTGaoz7hLX_4W-EQO_QkJ7tTD7zuv6fjdFT-VTk/edit?usp=sharing" target="_blank">
+				<i class="far fa-file-spreadsheet"></i>
+				<h4>'Muffin vending machine' financial model - lesson example</h4>
+				<p>One of the three financial models Will experiments with during the lesson.</p>
 			</a>
 		</div>
 	</div>
 
 	<div class="segment segment_lesson" id="lesson">
-		<h2><span class="no">1</span> Your first canvas.</h2>
-		<div class="youtube" id="QiWXzo04e6s"></div>
-		<p>We’ll be starting with the VERY basics of your lean canvas. All you need to do is grab a pen, paper and post-it notes while Will takes you through some strategies to get your first canvas finished as fast as possible. Also, you’ll draw a few boxes.</p>
+		<h2><span class="no">1</span> Assumptions and revenue.</h2>
+		<div class="youtube" id="fapMLiadZd0"></div>
+		<p>We’ll be starting with the most basic building blocks of a financial model: Some assumptions about your business and the main sources of revenue.</p>
 	</div>
 	
-	<div class="segment segment_lesson">
-		<h2><span class="no">2</span> Customers & problems.</h2>
-		<div class="youtube" id="60_v2bNlNe4"></div>
+	<div class="segment segment_practical">
+		<h2><span class="no"><i class="fas fa-flask"></i></span> Assumptions and revenue.</h2>
+		<div class="youtube" id="3vNAKFtarkw"></div>
 		<p>Hold up, a little more work to do before we start filling out the canvas: We need to look at our customers, and our problem and dig into all the ways that combo exists. “It really sucks for [customer] when they experience [problem].</p>
 	</div>
 
@@ -87,14 +98,14 @@
 		<h2><span class="no"><i class="fas fa-books"></i></span> Further reading</h2>
 		<div class="resources">
 				<div class="resource">
-					<i class="far fa-file-alt"></i>
-					<a href="https://">Book title</a>
-					<p>Some book</p>
+					<i class="far fa-book"></i>
+					<a href="https://www.amazon.com/Financial-Modeling-Business-Owners-Entrepreneurs/dp/1484203712" target="_blank">Financial Modeling for Business Owners and Entrepreneurs</a>
+					<p>Financial Modeling for Business Owners and Entrepreneurs by Tom Y. Sawyer</p>
 				</div>
 				<div class="resource">
-					<i class="far fa-headphones"></i>
-					<a href="https://">Podcast title</a>
-					<p>Some podcast</p>
+					<i class="far fa-book"></i>
+					<a href="https://www.amazon.com/Mastering-Financial-Modeling-Professionals-Building/dp/0071808507" target="_blank">Mastering Financial Modeling: A Professional’s Guide to Building Financial Models in Excel</a>
+					<p>Mastering Financial Modeling: A Professional’s Guide to Building Financial Models in Excel by Eric Soubeiga</p>
 				</div>
 		</div>
 
