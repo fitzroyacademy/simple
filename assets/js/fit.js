@@ -27,20 +27,50 @@ $(function() {
     $('body').removeClass('ineedshow');
   });
 
+  // click an item
+  $('[data-ineedselect] li a').on('click', function(e){
+    console.log($(this).data('searchify'));
+    $('#ineedbutton').dropdown('hide');
+    $('body').addClass('ineedshow_search');
+    $('body').removeClass('ineedshow');
+    $('#quicksearch').val($(this).data('searchify'));
+    $('#quicksearch').focus().keyup();
+  });
+
   // quick search
+  $('#quicksearch').on('click, focus', function(e){
+    $('body').addClass('ineedshow_search');
+  });
+
+  // type in the search
   $('#quicksearch').quicksearch('.all_lessons .intro', {
     'onAfter': function(e){
-      if ($(this).val().length > 0)
+      if (
+        ($(this).val().length > 0)
+      )
       {
         $('#ineedbutton').dropdown('hide');
         $('body').addClass('ineedshow_search');
         $('body').removeClass('ineedshow');
+        $('#ineedtowork').text('lessons found on');
+      }
+      else
+      {
+        // $('body').removeClass('ineedshow_search');
+        // $('#ineedtowork').text('I need to work on');
       }
     }
   });
 
+  // hit escape
+  $(document).keyup(function(e) {
+    if (e.key === "Escape") { // escape key maps to keycode `27`
+      $('body').removeClass('ineedshow_search');
+      $('.all_lessons .intro').attr('style', '');
+      $('#ineedtowork').text('I need to work on');
+    }
+  });
 
-  
 
   
 

@@ -46,6 +46,7 @@ $text_light: #717b81;
 $text_lightish: #8f989d;
 $text_lighter: #b0b4b7;
 $text_lightest: #d2d7da;
+$text_lighterest: #e1e4e6;
 
 $text_subtle: #b0b4b7;
 
@@ -1990,7 +1991,7 @@ p.tagline .tag i{position: absolute; top:.25rem; left: 0;}
 .fit_medium hr.dots:after{display: block; content: '...'; letter-spacing: 2rem; font-size: 2rem; color: $text_light; text-align: center; position: relative; top: -2rem;}
 
 hr.blunt{border-bottom:0.25rem solid $border_light; max-width: 12rem; margin: 2rem auto 4rem;}
-hr.spacer{margin: 1.5rem 0; border:none; margin: 3rem 0;}
+hr.spacer{margin: 1.5rem 0; border:none; margin: 3rem 0; background: none;}
 
 .fit_medium dd,
 .fit_medium dd p{font-size: 1.05rem;}
@@ -3426,7 +3427,7 @@ html.fat_coursebar_active .fat_course > .now h2 .no i{display: none;}
 .fat_hero .watermelon{color: $new_watermelon;}
 .fat_hero .cyan{color: $new_cyan;}
 .fat_hero .green{color: $new_green;}
-
+.fat_hero .pink{color: $new_pink;}
 
 // welcome / home page hero
 .fat_hero.welcome .fat_video{width: 35rem; background: $bg; margin-bottom: 2rem;}
@@ -3521,6 +3522,7 @@ h1 + .fat_nav{margin-top: 2rem}
 // sections in the sales pages
 
 .fat_section{padding: $fat_sidepad/2 $fat_sidepad}
+.fat_section.topless{padding-top: 0 !important;}
 
 .bg{background: $bg;}
 
@@ -3529,7 +3531,7 @@ h1 + .fat_nav{margin-top: 2rem}
 
 .fat_section h2{font-size: 4rem; margin-bottom: 4rem;}
 .fat_section h2 small,
-.fat_hero h1 small{font-size: 1rem; text-transform: uppercase; display: block; color: $text_lighter; letter-spacing: 1px; padding-bottom: 1rem;}
+.fat_hero h1 small{font-size: 1rem; text-transform: uppercase; display: block; color: $text_lighter; letter-spacing: 1px; padding-bottom: 1rem; font-weight: 400;}
 .fat_section h2 small i,
 .fat_hero h1 small i{width: 1rem; margin-right: .5rem;}
 
@@ -4258,6 +4260,10 @@ dl.fat_storyline dd:last-child::after{display: none;}
 
 $max_narrow_width: 60rem;
 
+
+// change hero a bit
+.fat_hero.lesshalfy{min-height: 40vh;}
+
 .fat_nav_lesson{padding: .5rem 0; margin: 0;}
 .fat_nav_lesson .contain{max-width: $max_narrow_width; margin: 0 auto 0; padding: 0; }
 .fat_nav_lesson .contain a.top{margin: 0 .25rem 0 -1.75rem;}
@@ -4282,7 +4288,9 @@ $max_narrow_width: 60rem;
 
 .segment h2 {padding:0 0 2rem; margin: 0; font-size: 2rem; position: relative;}
 .segment h2 .no,
-.all_lessons .intro h1:after{color: $text_lightest; background: #fff; text-align: center; display: block; position: absolute; top:-2rem; left: -5rem; width:3.6rem; padding: 2rem 0; }
+.all_lessons .intro h1:before,
+.all_lessons .love{color: $text_lighterest; background: #fff; text-align: center; display: block; position: absolute; top:-2rem; left: -5rem; width:3.6rem; padding: 2rem 0; }
+.all_lessons .love:hover{color: $new_red;}
 
 .segment h2 .no i{font-size: 80%;}
 .segment p{font-size: 1.2rem;}
@@ -4368,23 +4376,30 @@ $max_narrow_width: 60rem;
 
 // -----------------------------------------------------------------------------------------
 // new index home page
+.all_lessons {position: relative;}
 .all_lessons .intro{background: none; padding: 0;}
 .all_lessons .intro .segment{margin-left: 0; padding-bottom: 3rem;}
 
 // counter
 .all_lessons {list-style-type: none; counter-reset: css-counter 0;}
-
 .all_lessons .intro{counter-increment: css-counter 1;}
+.all_lessons .intro h1:before{content: counter(css-counter); top:-2rem; left: -1.75rem;}
 
-.all_lessons .intro h1:after{content: counter(css-counter); top:-2rem; left: -1.75rem;}
 
+.all_lessons .love{top:unset; bottom:3rem;  font-size: 3rem; left: -1.75rem; padding: 0; color: $text_lightest;}
+.all_lessons .love:hover{}
 
 // -----------------------------------------------------------------------------------------
 // I need to find dropdown
 
+.i_need{position: relative;}
 .i_need .btn-group{margin: 0 0 1rem -1rem; font-size: 2rem; font-weight: bold; color: $brand;}
 .i_need .btn{font-size: 2rem; font-weight: bold; color: $brand;}
 .i_need i{color: $text_lighter;}
+
+.total_num{font-size: 2rem; font-weight: bold; color: $text_light; position: absolute; padding:1rem 0; top:-5.5rem; left: -1rem; height: 4rem; width:3rem; background: #fff; text-align: center;  display: none;}
+.total_num span:before{content: counter(css-counter); display: inline-block; margin-right: .5rem;}
+
 .i_need .to_work_on{margin-left: -1rem; padding-right: 0;}
 .i_need .to_work_on i.fa-arrow-down{width: 2rem; margin-right: 1.5rem; display: inline-block;}
 .i_need .dropdown-toggle::after{display: none;}
@@ -4392,12 +4407,36 @@ $max_narrow_width: 60rem;
 // the drop
 .i_need .dropdown-toggle{}
 .i_need .dropdown-toggle i{margin-left: .5rem; transition: all .25s ease-in-out; }
-.i_need .dropdown-menu{border: none;}
+
+.i_need .dropdown-menu{border: none; }
 .i_need .dropdown-menu a{font-size: 2rem; font-weight: bold; color: $text_lighter;}
-.i_need .dropdown-menu a:hover{background: none;}
+.i_need .dropdown-menu a:hover{background: none; text-decoration: underline;}
 
 // show it
 .i_need .dropdown-toggle.show i{transform: rotate(180deg);}
+
+
+// the search
+.i_need .dropdown-menu{padding-top:45px; background: none;}
+.i_need .quicksearch_form{position: absolute; width: 30rem; z-index: 2000;}
+.i_need .quicksearch_form .form-control{font-size: 2rem; font-weight: bold; border: none;}
+.i_need .quicksearch_form .x{position: absolute; top:6px; right: 6px; z-index: 2100; width: 3rem; height: 3rem; color:$text_lightest; background: transparent; border-radius: $border_rad_sm; display: block; padding:0; text-align: center; text-decoration: none; cursor: pointer; display: none;}
+.i_need .quicksearch_form .x:hover{color: $text_light; background: #fff;}
+
+// search inactive
+body .i_need .quicksearch_form{display: none;}
+
+// search showing in dropdown
+body.ineedshow .i_need .quicksearch_form{display: block; top:57px; left: 322px;}
+
+// search active
+body.ineedshow_search .i_need .quicksearch_form{display: block; top:3px; left: 323px;}
+body.ineedshow_search .i_need .quicksearch_form input{background: $bg;}
+
+body.ineedshow_search .i_need .quicksearch_form .x,
+body.ineedshow_search .total_num{display: block;}
+
+body.ineedshow_search .i_need .dropdown-toggle{display: none;}
 
 
 body.ineedshow .fat_head,
