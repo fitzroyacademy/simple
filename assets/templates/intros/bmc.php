@@ -6,7 +6,7 @@
 
 		<div class="youtube" id="_nJq8rFiaoA" data-bg="covers/issacvert.jpg"></div>
 
-		<p>This lessson teaches you to a business model canvas to think about your nonprofit like a business.</p>
+		<p>This lesson teaches you to a business model canvas to think about your nonprofit like a business.</p>
 
 		<div class="meta">
 		<p><i class="far fa-play-circle"></i> ~1 hour over 10 videos</p>

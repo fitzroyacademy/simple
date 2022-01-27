@@ -2,11 +2,11 @@
 
 	<div class="segment">
 
-		<h1><a href="/lessons/community"><strong>Crowdfunding</strong> with Prashan Paramanathan</a></h1>
+		<h1><a href="/lessons/crowdfunding"><strong>Crowdfunding</strong> with Prashan Paramanathan</a></h1>
 
 		<div class="youtube" id="lmwGrSOb4Ls" data-bg="covers/prashvert.jpg"></div>
 
-		<p>This lessson teaches you how to set up a crowdfunding campaign with a solid comms plan.</p>
+		<p>This lesson teaches you how to set up a crowdfunding campaign with a solid comms plan.</p>
 
 		<div class="meta">
 			<p><i class="far fa-play-circle"></i> ~30 minutes over 7 videos</p>

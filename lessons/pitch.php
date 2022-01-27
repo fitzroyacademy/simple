@@ -1,21 +1,12 @@
 <?php include '../assets/templates/site_header.php';?>
 
+<?php include '../assets/templates/intros/ptich.php';?>
 
-<div class="intro">
+<?php include '../assets/templates/lesson_nav.php';?>
 
-	<h1><a href="#">Pitching for early-stage investment,</a> with Dan Madhaven</h1>
+<div class="segments">
 
-	<div class="youtube" id="Wi5Prd-zy70"></div>
-
-	<p>This lesson takes you through how to craft a compelling pitch for a new project: including a pitch deck and starting a prospect list of the right investors.</p>
-
-	<div class="meta">
-		<p><i class="far fa-play-circle"></i> ~1 hours over 10 videos</p>
-		<p><i class="far fa-clock"></i> About 2 hours of work to do it solo</p>
-		<p><i class="fas fa-users"></i> Run it as a workshop with a small team over 2-3 hours</p>
-	</div>
-
-	<div class="resources">
+	<div class="segment segment_resources" id="resources">
 		<h2><span class="no"><i class="far fa-file-alt"></i></span> Lesson resources</h2>
 		<div class="youtube" id="-ywQCdFYHdk"></div>
 		<a class="resource" href="https://docs.google.com/document/d/1gqb99aLlzAMrvCAFNnzZNE4PTCvTo-kADiJnH3W8J8E/edit?usp=sharing">
@@ -37,11 +28,7 @@
 		</div>
 	</div>
 
-</div>
-
-<div class="segments">
-
-	<div class="segment segment_lesson">
+	<div class="segment segment_lesson" id="lesson">
 		<h2><span class="no">1</span> Define your problem.</h2>
 		<div data-youtube="hS0nyORTHTU"></div>
 		<p>Before even opening a slide deck, it's important do define your problem: What are you solving, for whom? What right do you have to solve it, how will you solve it and what potenial damage might you do?</p>
@@ -107,7 +94,7 @@
 		<p>Practice makes perfect. An extra video showing how Will uses the pitch deck and his laptop to practice his pitch deck, to insure he nails it when the time is right. Plus the truth behind the electric car retrofit company and why it's probably not something you should try.</p>
 	</div>
 
-	<div class="segment further_reading">
+	<div class="segment further_reading" id="reading">
 		<h2><span class="no"><i class="fas fa-books"></i></span> Further reading</h2>
 		<div class="resources">
 				<div class="resource">

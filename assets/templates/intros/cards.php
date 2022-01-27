@@ -6,7 +6,7 @@
 
 		<div class="youtube" id="ABTUXmwFMnA" data-bg="covers/josievert.jpg"></div>
 
-		<p>This lessson teaches you a process called UX card sorting: A method to workshop with real users, and re-organise the contents of a website.</p>
+		<p>This lesson teaches you a process called UX card sorting: A method to workshop with real users, and re-organise the contents of a website.</p>
 
 		<div class="meta">
 			<p><i class="far fa-play-circle"></i> ~40 minutes over 5 videos</p>

@@ -1,21 +1,12 @@
 <?php include '../assets/templates/site_header.php';?>
 
+<?php include '../assets/templates/intros/ideas.php';?>
 
-<div class="intro">
+<?php include '../assets/templates/lesson_nav.php';?>
 
-	<h1><a href="#">How to have good ideas,</a> with Judah Pollack</h1>
+<div class="segments">
 
-	<div class="youtube" id="suKckegB48U"></div>
-
-	<p>A grab-bag of activities that unlock creativity, even when you're feeling uncreative.</p>
-
-	<div class="meta">
-		<p><i class="far fa-play-circle"></i> ~1 hours over 11 videos</p>
-		<p><i class="far fa-clock"></i> About 2 hours of work to do it solo</p>
-		<p><i class="fas fa-users"></i> Run it as a workshop with a small team over 2-3 hours</p>
-	</div>
-
-	<div class="resources">
+	<div class="segment segment_resources" id="resources">
 		<h2><span class="no"><i class="far fa-file-alt"></i></span> Lesson resources</h2>
 		<div class="youtube" id="9lJK1M6tD6U"></div>
 		<div class="resource">
@@ -25,11 +16,7 @@
 		</div>
 	</div>
 
-</div>
-
-<div class="segments">
-
-	<div class="segment segment_lesson">
+	<div class="segment segment_lesson" id="lesson">
 		<h2><span class="no">1</span> Drawing without words.</h2>
 		<div class="youtube" id="tXUevnM5XF0"></div>
 		<p>Drawing without words is useful when you’re in a rut. Using drawings instead of words is a great way to get out of your own way and form some new ideas.</p>
@@ -191,17 +178,21 @@
 
 	</div>
 
-	<div class="segment further_reading">
-		<h2><span class="no"><i class="fas fa-books"></i></span> Further reading</h2>
-		<div class="resources">
-				<div class="resource">
+	<div class="segment further_reading" id="reading">
+			<h2><span class="no"><i class="fas fa-books"></i></span> Further reading</h2>
+			<div class="resources">
+					<a class="resource" href="https://" target="_blank">
 					<i class="far fa-book"></i>
-					<a href="https://https://www.penguinrandomhouse.com/books/316054/the-net-and-the-butterfly-by-olivia-fox-cabane-and-judah-pollack/" target="_blank">The Net and the Butterfly by Olivia Fox Cabane and Judah  Pollack</a>
-					<p>Read more about Judah's research into breakthrough thinking.</p> 
-				</div>
+					<h4>Book title</h4>
+					<p>Some book.</p>
+				</a>
+				<a class="resource" href="https://" target="_blank">
+					<i class="far fa-headphones"></i>
+					<h4>Podcast title</h4>
+					<p>Podcast title.</p>
+				</a>
+			</div>
 		</div>
-
-	</div>
 </div>
 
 <div class="teaching_guide">

@@ -51,21 +51,25 @@
 		<?php include 'assets/templates/intros/crm.php';?>
 		<?php include 'assets/templates/intros/crowdfunding.php';?>
 		<?php include 'assets/templates/intros/customer.php';?>
-
+		<?php include 'assets/templates/intros/empathy.php';?>
 		<?php include 'assets/templates/intros/evidence.php';?>
 		<?php include 'assets/templates/intros/finance.php';?>
 		<?php include 'assets/templates/intros/forecast.php';?>
 		<?php include 'assets/templates/intros/hire.php';?>
-
-		<?php include 'assets/templates/intros/insight.php';?>
-
-		<?php include 'assets/templates/intros/partner.php';?>
+		<?php include 'assets/templates/intros/ideas.php';?>
 		<?php include 'assets/templates/intros/impact.php';?>
+		<?php include 'assets/templates/intros/insight.php';?>
+		<?php include 'assets/templates/intros/performance.php';?>
+		<?php include 'assets/templates/intros/pitch.php';?>
+		<?php include 'assets/templates/intros/lean.php';?>
+		<?php include 'assets/templates/intros/outcomes.php';?>
+		<?php include 'assets/templates/intros/partner.php';?>
+
 
 		<?php include 'assets/templates/intros/testing.php';?>
 
-		<?php include 'assets/templates/intros/lean.php';?>
-		<?php include 'assets/templates/intros/outcomes.php';?>
+
+
 
 
 
