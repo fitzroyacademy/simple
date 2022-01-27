@@ -1,21 +1,12 @@
 <?php include '../assets/templates/site_header.php';?>
 
+<?php include '../assets/templates/intros/website.php';?>
 
-<div class="intro">
+<?php include '../assets/templates/lesson_nav.php';?>
 
-	<h1><a href="#">One-page websites</a> with Will Dayble.</h1>
+<div class="segments">
 
-	<div class="youtube" id="77rK23C-lDA"></div>
-
-	<p>This lesson will teach to make a simple website that will stick the landing.</p>
-
-	<div class="meta">
-		<p><i class="far fa-play-circle"></i> ~30 minutes over 4 videos</p>
-		<p><i class="far fa-clock"></i> About 3 hour of work to do it solo</p>
-		<p><i class="far fa-users"></i> Run it as a workshop with a small team over 2-3 hours</p>
-	</div>
-
-	<div class="resources">
+	<div class="segment segment_resources" id="resources">
 		<h2><span class="no"><i class="far fa-file-alt"></i></span> Lesson resources</h2>
 		<div class="resource">
 			<i class="far fa-file-alt"></i><a href="https://docs.google.com/document/d/13bsVt6-Hg1QE6RrfpKSzdhiG8h1ttBauj6lzg-Ar55w/edit?usp=sharing">One page site template - Blank.</a>
@@ -23,11 +14,7 @@
 		</div>
 	</div>
 
-</div>
-
-<div class="segments">
-
-	<div class="segment segment_lesson">
+	<div class="segment segment_lesson" id="lesson">
 		<h2><span class="no">1</span> Premise & Audience.</h2>
 		<div class="youtube" id="pBXF2ldBeSA"></div>
 		<p>To start, using the template, Will helps us work out the two most important features of a new website: the premise (What one thing is this website about? and the audience (Who are they, where do they hang out and what do they care about?) </p>
@@ -51,7 +38,7 @@
 		<p>Finally, now that we're confident on the messaging of the site, it's time to get stuck into building out the actual site.</p>
 	</div>
 
-	<div class="segment further_reading">
+	<div class="segment further_reading" id="reading">
 		<h2><span class="no"><i class="fas fa-books"></i></span> Further reading</h2>
 		<div class="resources">
 				<div class="resource">

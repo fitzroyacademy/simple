@@ -59,25 +59,18 @@
 		<?php include 'assets/templates/intros/ideas.php';?>
 		<?php include 'assets/templates/intros/impact.php';?>
 		<?php include 'assets/templates/intros/insight.php';?>
-		<?php include 'assets/templates/intros/performance.php';?>
-		<?php include 'assets/templates/intros/pitch.php';?>
+
 		<?php include 'assets/templates/intros/lean.php';?>
 		<?php include 'assets/templates/intros/outcomes.php';?>
 		<?php include 'assets/templates/intros/partner.php';?>
-
-
-		<?php include 'assets/templates/intros/testing.php';?>
-
-
-
-
-
-
+		<?php include 'assets/templates/intros/performance.php';?>
+		<?php include 'assets/templates/intros/pitch.php';?>
 		<?php include 'assets/templates/intros/sales.php';?>
 		<?php include 'assets/templates/intros/scope.php';?>
 		<?php include 'assets/templates/intros/social.php';?>
 		<?php include 'assets/templates/intros/testing.php';?>
-
+		<?php include 'assets/templates/intros/video.php';?>
+		<?php include 'assets/templates/intros/website.php';?>
 
 		<div class="total_num"> <span></span></div>
 		<a href="/about/michael" class="love"><i class="far fa-heart"></i></a>

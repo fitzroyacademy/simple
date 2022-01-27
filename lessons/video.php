@@ -1,25 +1,12 @@
 <?php include '../assets/templates/site_header.php';?>
 
+<?php include '../assets/templates/intros/video.php';?>
 
-<div class="intro">
+<?php include '../assets/templates/lesson_nav.php';?>
 
-	<div class="container">
+<div class="segments">
 
-		<h1><a href="#">Video lessons</a> with Avraham Vofsi</h1>
-
-		<div class="youtube" id="FMoKi98LLQY"></div>
-
-		<p>This lesson is about how to plan and create video lessons, focusing on the structuring and planning process. </p>
-		<p>Creating good structure for a video lesson is the most important aspect to creating quality engaging video teaching.
-In many ways it’s more important than your gear, your presentations or your editing skills. Nailing this means better teaching with less work. NB: This is not a list of hacks. You’ll probably still need to practice a bunch and make all the classics mistakes.
-</p>
-
-		<div class="meta">
-			<p><i class="far fa-clock"></i> About 2-3 hours of work to do it solo</p>
-			<p><i class="far fa-users"></i> Run it as a workshop with a small team over 4-5 hours</p>
-		</div>
-
-		<div class="resources">
+		<div class="segment segment_resources" id="resources">
 			<h2><span class="no"><i class="far fa-file-alt"></i></span> Lesson resources</h2>
 			<div class="resource">
 				<i class="far fa-file-alt"></i>
@@ -31,19 +18,16 @@ In many ways it’s more important than your gear, your presentations or your ed
 				<a href="https://docs.google.com/document/d/1CYz0imn6EMGsgVrupSzXN73gACQlr4rBp6VY2Zy1Q1s/edit?usp=sharing">Lesson plan - Lean canvas</a>
 				<p>A completed example of how the lesson plan looks filled out.</p>
 			</div>
+			<p>Creating good structure for a video lesson is the most important aspect to creating quality engaging video teaching.
+				In many ways it’s more important than your gear, your presentations or your editing skills. Nailing this means better teaching with less work. NB: This is not a list of hacks. You’ll probably still need to practice a bunch and make all the classics mistakes.</p>
 			<h2>Before jumping into structuring the video there are 2 things you want to have ready to go:</h2>
 			<ul>
 				<li>The activity you want the students to do in order to cement the knowledge.</li>
 				<li>A “finished” example of the activity — This will help immensely as you write your video as you won’t need to scrabble to find an example.</li>
 			</ul>
 		</div>
-	</div>
 
-</div>
-
-<div class="segments">
-
-	<div class="segment segment_lesson">
+	<div class="segment segment_lesson" id="lesson">
 		<h2><span class="no">1</span> Challenge.</h2>
 		<div class="image"><img src="/assets/images/lessons/video/studentjourney_challenge.jpeg" alt="StudentJourney_challenge" /></div>
 		<p>Here’s where we are going to start all our video lectures — What is the challenge faced by students. Tempting as it is to explain all their short comings to them, we actually want to talk about the challenge from their <i>point of view.</i></p>
