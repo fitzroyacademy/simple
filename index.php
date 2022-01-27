@@ -47,6 +47,11 @@
 		<?php include 'assets/templates/intros/testing.php';?>
 		<?php include 'assets/templates/intros/hire.php';?>
 		<?php include 'assets/templates/intros/behaviour.php';?>
+		<?php include 'assets/templates/intros/insight.php';?>
+		<?php include 'assets/templates/intros/scope.php';?>
+		<?php include 'assets/templates/intros/sales.php';?>
+		<?php include 'assets/templates/intros/testing.php';?>
+		<?php include 'assets/templates/intros/customer.php';?>
 		<div class="total_num"> <span></span></div>
 		<a href="/about/michael" class="love"><i class="far fa-heart"></i></a>
 	</div>
