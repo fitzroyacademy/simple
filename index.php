@@ -55,6 +55,7 @@
 		<?php include 'assets/templates/intros/sales.php';?>
 		<?php include 'assets/templates/intros/testing.php';?>
 		<?php include 'assets/templates/intros/customer.php';?>
+		<?php include 'assets/templates/intros/campaign.php';?>
 		<div class="total_num"> <span></span></div>
 		<a href="/about/michael" class="love"><i class="far fa-heart"></i></a>
 	</div>
