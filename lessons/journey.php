@@ -1,6 +1,6 @@
 <?php include '../assets/templates/site_header.php';?>
 
-<?php include '../assets/templates/intros/campaign.php';?>
+<?php include '../assets/templates/intros/journey.php';?>
 
 <?php include '../assets/templates/lesson_nav.php';?>
 
@@ -13,7 +13,7 @@
 			<a class="resource" href="https://docs.google.com/document/d/1poKmE074RaVRGv5QOeLq0LSu595VVbMmJ5-RJhe09YM/edit?usp=sharing" target="_blank">
 				<i class="far fa-file-alt"></i>
 				<h4>Public campaign template - blank</h4>
-				<p>The blank template that Gautham leads you through to plan your own public campaign.</p>
+				<p>The blank template that Gautham leads you through to plan your own public campaign..</p>
 			</a>
 			<a class="resource" href="https://docs.google.com/document/d/1V-BdFkh1Ow1NQfspQm0goOewFpGrapmhLZNSehoFk-s/edit?usp=sharing" target="_blank">
 				<i class="far fa-file-alt"></i>
@@ -26,7 +26,7 @@
 	<div class="segment segment_lesson" id="lesson">
 		<h2><span class="no">1</span> Impact statement and goal.</h2>
 		<div class="youtube" id="7fo24Vw6GpU"></div>
-		<p>First you'll need to be clear on what is the impact and goal of your campaign. To do this, Gautam shows how to craft a useful impact statement and link it to some specific goals for the campaign.</p>
+		<p>First we need to be clear on what is the impact and goal of your campaign. To do this, Gautam shows how to craft a useful impact statement and link it to some specific goals for the campaign.</p>
 	</div>
 	
 	<div class="segment segment_practical">
@@ -38,7 +38,7 @@
 	<div class="segment segment_lesson">
 		<h2><span class="no">2</span> Key facts and insights.</h2>
 		<div class="youtube" id="X4IsOgxhMUQ"></div>
-		<p>Second, you need to do your research. This step is all about digging for information. Gautam shows you what sort of insights and facts will be useful to have ready for your campaign.</p>
+		<p>Second, we need to do rour research. This step is all about digging for information. Gautam shows your what sort of insights and facts will be useful to have ready for your campaign.</p>
 	</div>
 
 	<div class="segment segment_practical">
@@ -98,7 +98,7 @@
 	<div class="segment segment_lesson">
 		<h2><span class="no">7</span> Launching the campaign.</h2>
 		<div class="youtube" id="Cu2Ud5Is_Ac"></div>
-		<p>Finally, you're ready: it's time to launch your big campaign. Gautam shows you what to think about to make sure everything is done when it needs to be, and to keep your momentum going. </p>
+		<p>Finally, you're ready: it's time to launch your big campaign. Gautam shows you what to think about to make sure everything is done when it needs to be, and to keep your momentum going.</p>
 	</div>
 
 	<div class="segment segment_practical">
