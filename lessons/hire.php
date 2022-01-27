@@ -92,22 +92,21 @@
 		<p>Finally, you've had some interviews and it's time to make a decision. Layla shows you how to inform the successful canidate, as well as the unsuccessful candidates.</p>
 	</div>
 
-<div class="segment further_reading" id="reading">
-		<h2><span class="no"><i class="fas fa-books"></i></span> Further reading</h2>
-		<div class="resources">
-				<div class="resource">
-					<i class="far fa-file-alt"></i>
-					<a href="https://">Book title</a>
-					<p>Some book</p>
-				</div>
-				<div class="resource">
+	<div class="segment further_reading" id="reading">
+			<h2><span class="no"><i class="fas fa-books"></i></span> Further reading</h2>
+			<div class="resources">
+					<a class="resource" href="https://" target="_blank">
+					<i class="far fa-book"></i>
+					<h4>Book title</h4>
+					<p>Some book.</p>
+				</a>
+				<a class="resource" href="https://" target="_blank">
 					<i class="far fa-headphones"></i>
-					<a href="https://">Podcast title</a>
-					<p>Some podcast</p>
-				</div>
+					<h4>Podcast title</h4>
+					<p>Podcast title.</p>
+				</a>
+			</div>
 		</div>
-</div>
-
 
 <div class="teaching_guide">
 	<div class="segments" id="teaching">
