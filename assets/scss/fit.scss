@@ -4383,7 +4383,7 @@ $max_narrow_width: 60rem;
 // counter
 .all_lessons {list-style-type: none; counter-reset: css-counter 0;}
 .all_lessons .intro{counter-increment: css-counter 1;}
-.all_lessons .intro h1:before{content: counter(css-counter); top:-2rem; left: -1.75rem;}
+.all_lessons .intro h1:before{content: counter(css-counter); top:-1rem; left: -1.75rem;}
 
 
 .all_lessons .love{top:unset; bottom:3rem;  font-size: 3rem; left: -1.75rem; padding: 0; color: $text_lightest;}
@@ -4409,8 +4409,8 @@ $max_narrow_width: 60rem;
 .i_need .dropdown-toggle i{margin-left: .5rem; transition: all .25s ease-in-out; }
 
 .i_need .dropdown-menu{border: none; }
-.i_need .dropdown-menu a{font-size: 2rem; font-weight: bold; color: $text_lighter;}
-.i_need .dropdown-menu a:hover{background: none; text-decoration: underline;}
+.i_need .dropdown-menu a{font-size: 2rem; font-weight: bold; color: $text_lighter;transition: all .25s ease-in-out; }
+.i_need .dropdown-menu a:hover{background: none; text-decoration: underline; transform: scale(1.05); }
 
 // show it
 .i_need .dropdown-toggle.show i{transform: rotate(180deg);}
@@ -4419,7 +4419,9 @@ $max_narrow_width: 60rem;
 // the search
 .i_need .dropdown-menu{padding-top:45px; background: none;}
 .i_need .quicksearch_form{position: absolute; width: 30rem; z-index: 2000;}
-.i_need .quicksearch_form .form-control{font-size: 2rem; font-weight: bold; border: none;}
+.i_need .quicksearch_form .form-control{font-size: 2rem; font-weight: bold; border: none; color: $text;}
+.i_need .quicksearch_form .form-control:hover{background: $bg; color: $text_light;}
+.i_need .quicksearch_form i.fa-search{color: $text_lighter; font-size: 1.8rem; position: absolute; top:20px; right: 20px; z-index: 2050;}
 .i_need .quicksearch_form .x{position: absolute; top:6px; right: 6px; z-index: 2100; width: 3rem; height: 3rem; color:$text_lightest; background: transparent; border-radius: $border_rad_sm; display: block; padding:0; text-align: center; text-decoration: none; cursor: pointer; display: none;}
 .i_need .quicksearch_form .x:hover{color: $text_light; background: #fff;}
 
@@ -4430,12 +4432,14 @@ body .i_need .quicksearch_form{display: none;}
 body.ineedshow .i_need .quicksearch_form{display: block; top:57px; left: 322px;}
 
 // search active
+
 body.ineedshow_search .i_need .quicksearch_form{display: block; top:3px; left: 323px;}
 body.ineedshow_search .i_need .quicksearch_form input{background: $bg;}
 
 body.ineedshow_search .i_need .quicksearch_form .x,
 body.ineedshow_search .total_num{display: block;}
 
+body.ineedshow_search .i_need .quicksearch_form .fa-search,
 body.ineedshow_search .i_need .dropdown-toggle{display: none;}
 
 

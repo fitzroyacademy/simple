@@ -19,13 +19,16 @@
 			  </button>
 		    <ul class="dropdown-menu" aria-labelledby="ineed" data-ineedselect="">
 		      <li><a class="dropdown-item cyan" href="#" data-searchify="project management">our project management issues</a></li>
-		      <li><a class="dropdown-item red" href="#" data-searchify="business">business and startup stuff</a></li>
-		      <li><a class="dropdown-item purple" href="#" data-searchify="digital">digital and internet fun</a></li>
+		      <li><a class="dropdown-item red" href="#" data-searchify="business">business and strategy stuff</a></li>
+		      <li><a class="dropdown-item purple" href="#" data-searchify="digital">digital / internets</a></li>
+					<li><a class="dropdown-item green" href="#" data-searchify="digital">designing and measuring impact</a></li>
+		      <li><a class="dropdown-item apricot" href="#" data-searchify="digital">the way we fall in love</a></li>
 		    </ul>
 	    	<form class="quicksearch_form">
 			    <div class="input-group mb-3">
-					  <input type="text" class="form-control" id="quicksearch" placeholder="whatever I search for..."> 
+					  <input type="text" class="form-control" id="quicksearch" placeholder="whatever I search for here..."> 
 					</div>
+					<i class="fal fa-search"></i>
 					<a class="x"><i class="far fa-times"></i></a>
 				</form>
 			</div>
