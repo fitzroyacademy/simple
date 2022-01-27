@@ -2,9 +2,9 @@
 
 	<div class="segment">
 
-		<h1><a href="/lessons/crm"><strong>Community Integration</strong> with Jenny Schetcher</a></h1>
+		<h1><a href="/lessons/crm"><strong>How to choose a CRM</strong> with Clare Carmody</a></h1>
 
-		<div class="youtube" id="youtube" data-bg="covers/clarevert2.jpg"></div>
+		<div class="youtube" id="SlBVl8sobXA" data-bg="covers/clarevert2.jpg"></div>
 
 		<p>This lesson will teach you all about CRMs: Gathering requirements, testing workflows, and finding the right CRM for your organisation.</p>
 

@@ -41,7 +41,6 @@
 
 	<div class="fat_section all_lessons">
 
-		<?php include 'assets/templates/intros/lean.php';?>
 		<?php include 'assets/templates/intros/agile.php';?>
 		<?php include 'assets/templates/intros/barrier.php';?>
 		<?php include 'assets/templates/intros/behaviour.php';?>
@@ -50,22 +49,32 @@
 		<?php include 'assets/templates/intros/cards.php';?>
 		<?php include 'assets/templates/intros/community.php';?>
 		<?php include 'assets/templates/intros/crm.php';?>
+		<?php include 'assets/templates/intros/crowdfunding.php';?>
+		<?php include 'assets/templates/intros/customer.php';?>
 
-		<?php include 'assets/templates/intros/finance.php';?>
 		<?php include 'assets/templates/intros/evidence.php';?>
+		<?php include 'assets/templates/intros/finance.php';?>
+		<?php include 'assets/templates/intros/forecast.php';?>
+		<?php include 'assets/templates/intros/hire.php';?>
+
+		<?php include 'assets/templates/intros/insight.php';?>
+
 		<?php include 'assets/templates/intros/partner.php';?>
 		<?php include 'assets/templates/intros/impact.php';?>
-		<?php include 'assets/templates/intros/forecast.php';?>
-		<?php include 'assets/templates/intros/testing.php';?>
-		<?php include 'assets/templates/intros/hire.php';?>
-		<?php include 'assets/templates/intros/insight.php';?>
-		<?php include 'assets/templates/intros/scope.php';?>
-		<?php include 'assets/templates/intros/sales.php';?>
 
-		<?php include 'assets/templates/intros/customer.php';?>
-		<?php include 'assets/templates/intros/social.php';?>
-		<?php include 'assets/templates/intros/outcomes.php';?>
 		<?php include 'assets/templates/intros/testing.php';?>
+
+		<?php include 'assets/templates/intros/lean.php';?>
+		<?php include 'assets/templates/intros/outcomes.php';?>
+
+
+
+		<?php include 'assets/templates/intros/sales.php';?>
+		<?php include 'assets/templates/intros/scope.php';?>
+		<?php include 'assets/templates/intros/social.php';?>
+		<?php include 'assets/templates/intros/testing.php';?>
+
+
 		<div class="total_num"> <span></span></div>
 		<a href="/about/michael" class="love"><i class="far fa-heart"></i></a>
 	</div>

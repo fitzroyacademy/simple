@@ -1,21 +1,12 @@
 <?php include '../assets/templates/site_header.php';?>
 
+<?php include '../assets/templates/intros/crm.php';?>
 
-<div class="intro">
+<?php include '../assets/templates/lesson_nav.php';?>
 
-	<h1><a href="#">Customer discovery interviews</a> with Victoria Cullen.</h1>
+<div class="segments">
 
-	<div class="youtube" id="SlBVl8sobXA"></div>
-
-	<p>This lesson will teach you all about CRMs: Gathering requirements, testing workflows, and finding the right CRM for your organisation.</p>
-
-	<div class="meta">
-		<p><i class="far fa-play-circle"></i> ~30 minutes over 5 videos</p>
-		<p><i class="far fa-clock"></i> About 2 hour of work to do it solo</p>
-		<p><i class="far fa-users"></i> Run it as a workshop with a small team over 2-3 hours</p>
-	</div>
-
-	<div class="resources">
+	<div class="segment segment_resources" id="resources">
 		<h2><span class="no"><i class="far fa-file-alt"></i></span> Lesson resources</h2>
 		<div class="resource">
 			<i class="far fa-file-spreadsheet"></i><a href="https://docs.google.com/spreadsheets/d/1ea-sKLW2o0rdwzna-3Z5O8OltO2DuCS8DIz4cMkDysA/edit?usp=sharing">Page layout template - Blank.</a>
@@ -43,11 +34,7 @@
 		</div>
 	</div>
 
-</div>
-
-<div class="segments">
-
-	<div class="segment segment_lesson">
+	<div class="segment segment_lesson" id="lesson">
 		<h2><span class="no">1</span> Your most important contact.</h2>
 		<div class="youtube" id="D-E96TJBiyQ"></div>
 		<p>To start, Clare introduces to the basics of what sort of information is required from people who interact with your organiztion.</p>
@@ -72,12 +59,12 @@
 	</div>
 
 	<div class="segment segment_practical">
-		h2><span class="no"><i class="fas fa-flask"></i></span> Trying CRMs</h2>
-		<div class="youtube" id="bBuL_chxXFE"></div>
+		<h2><span class="no"><i class="fas fa-flask"></i></span> Trying CRMs</h2>
+		<div class="youtube" id="OmeHKqzslY4"></div>
 		<p>As a bonus, Will plays around with various different CRMs to see what's possible in each, and how they compare to his requriements.</p>
 	</div>	
 
-	<div class="segment further_reading">
+	<div class="segment further_reading" id="reading">
 		<h2><span class="no"><i class="fas fa-books"></i></span> Further reading</h2>
 		<div class="resources">
 				<div class="resource">

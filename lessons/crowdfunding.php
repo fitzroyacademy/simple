@@ -1,24 +1,6 @@
 <?php include '../assets/templates/site_header.php';?>
 
-
-<div class="intro">
-
-	<div class="segment"> <!-- video_playing class for playing mode -->
-
-		<h1><a href="#">Crowdfunding</a> with Prashan Paramanathan</h1>
-
-		<div class="youtube" id="lmwGrSOb4Ls" data-bg="covers/prashvert.jpg"></div>
-
-		<p>This lessson teaches you how to set up a crowdfunding campaign with a solid comms plan.</p>
-
-		<div class="meta">
-			<p><i class="far fa-play-circle"></i> ~30 minutes over 7 videos</p>
-			<p><i class="far fa-clock"></i> About 2 hours of work to do it solo</p>
-			<p><i class="far fa-users"></i> Run it as a workshop with a small team over 3-4 hours</p>
-		</div>
-	</div>
-
-</div>
+<?php include '../assets/templates/intros/crowdfunding.php';?>
 
 <?php include '../assets/templates/lesson_nav.php';?>
 
