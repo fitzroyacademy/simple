@@ -1,4 +1,4 @@
-<div class="intro" data-tags="financial, business">
+<div class="intro" data-tags="financial, business, entrepreneurship">
 
 	<div class="segment">
 
