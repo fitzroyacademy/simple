@@ -49,7 +49,8 @@
 		<?php include 'assets/templates/intros/campaign.php';?>
 		<?php include 'assets/templates/intros/cards.php';?>
 		<?php include 'assets/templates/intros/community.php';?>
-		
+		<?php include 'assets/templates/intros/crm.php';?>
+
 		<?php include 'assets/templates/intros/finance.php';?>
 		<?php include 'assets/templates/intros/evidence.php';?>
 		<?php include 'assets/templates/intros/partner.php';?>
