@@ -20,48 +20,48 @@
 	<div class="segment segment_lesson" id="lesson">
 		<h2><span class="no">1</span> Ideation.</h2>
 		<div class="youtube" id="fjl7kStk7DA"></div>
-		<p>We’ll be starting with the most basic building blocks of a financial model: Some assumptions about your business and the main sources of revenue.</p>
+		<p>In order to properly scope an app, we need to get all the different ideas out of our head and onto some paper. Will shows you a brainstorming excersice to help make sure you've gotten your great idea out.</p>
 	</div>
 	
 
 	<div class="segment segment_lesson">
 		<h2><span class="no">2</span> Important stuff first.</h2>
 		<div class="youtube" id="YQYCYik3z_k"></div>
-		<p>Now that we have some revenue, it's time to work out our costs. We start with how much it costs to sell one of whatever it is you're selling. Depending on the sort of business you are running, these costs could either be a lot, or a little.</p>
+		<p>Now that you have a lot of ideas, it's time to make some order. Will shows you how to prioritise your different ideas to make sure you're starting with what's most important..</p>
 	</div>
 
 	<div class="segment segment_lesson">
 		<h2><span class="no">3</span> User experience with a journey map.</h2>
 		<div class="youtube" id="9Vq8mVLRvAE"></div>
-		<p>Next, we work out what are all the other costs that go into operating your business. Depending on the sort of business you are running, these costs could either be a lot, or a little.</p>
+		<p>Next, you'll spend some time getting out of your own head, and into the heads of the people who will be using your app. Will takes you through a process to map out someones experience using your app.</p>
 	</div>
 	
 	<div class="segment segment_lesson">
 		<h2><span class="no">4</span> Uncovering the hidden functionality.</h2>
 		<div class="youtube" id="1aRklM4Kc5M"></div>
-		<p>In the final section of the model, Amanda helps you pull together the CapEx expenses, interest and depreciation as well as tax. This gets a bit complicated but will help you finish up your model.</p>
+		<p>The trick with apps is that they are ALWAYS more complicated than they seem, and there is always more functionality that is needed. Will shows you how to make sure you've thought through all the different things that are needed to make your app work.</p>
 	</div>
 
 	<div class="segment segment_lesson">
 		<h2><span class="no">5</span> Cut it down to size.</h2>
 		<div class="youtube" id="JxXkX6z-WL0"></div>
-		<p>In the final section of the model, Amanda helps you pull together the CapEx expenses, interest and depreciation as well as tax. This gets a bit complicated but will help you finish up your model.</p>
+		<p>Finally, now that you've accidently enlarged your project far beyond the original scope, Will helps you to cut it back down to the most important and achievable elements.</p>
 	</div>
 
 
-	<<div class="segment further_reading" id="reading">
+	<div class="segment further_reading" id="reading">
 		<h2><span class="no"><i class="fas fa-books"></i></span> Further reading</h2>
 		<div class="resources">
-				<div class="resource">
-					<i class="far fa-file-alt"></i>
-					<a href="https://">Book title</a>
-					<p>Some book</p>
-				</div>
-				<div class="resource">
-					<i class="far fa-headphones"></i>
-					<a href="https://">Podcast title</a>
-					<p>Some podcast</p>
-				</div>
+				<a class="resource" href="https://" target="_blank">
+				<i class="far fa-book"></i>
+				<h4>Book title</h4>
+				<p>Some book.</p>
+			</a>
+			<a class="resource" href="https://" target="_blank">
+				<i class="far fa-headphones"></i>
+				<h4>Podcast title</h4>
+				<p>Podcast title.</p>
+			</a>
 		</div>
 	</div>
 </div>

@@ -1,8 +1,8 @@
-<div class="intro" data-tags="lean, business">
+<div class="intro" data-tags="lean, business, entrepreneurship">
 
 	<div class="segment">
 
-		<h1><a href="/lessons/lean"><strong>Hiring / Team formation</strong> with Layla Foord</a></h1>
+		<h1><a href="/lessons/hire"><strong>Hiring / Team formation</strong> with Layla Foord</a></h1>
 
 		<div class="youtube" id="LmzdouCovWU" data-bg="covers/laylavert.jpg"></div>
 

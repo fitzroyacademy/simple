@@ -1,4 +1,4 @@
-<div class="intro" data-tags="lean, business">
+<div class="intro" data-tags="lean, business, digital, website">
 
 	<div class="segment">
 
