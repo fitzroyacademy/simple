@@ -1,24 +1,6 @@
 <?php include '../assets/templates/site_header.php';?>
 
-
-<div class="intro">
-
-	<div class="segment"> <!-- video_playing class for playing mode -->
-
-		<h1><a href="#">Business model canvas</a> with Issac Jeffries</h1>
-
-		<div class="youtube" id="_nJq8rFiaoA" data-bg="covers/issacvert.jpg"></div>
-
-		<p>This lessson teaches you to a business model canvas to think about your nonprofit like a business.</p>
-
-		<div class="meta">
-			<p><i class="far fa-play-circle"></i> ~1 hour over 10 videos</p>
-			<p><i class="far fa-clock"></i> About 1 hours of work to do it solo</p>
-			<p><i class="far fa-users"></i> Run it as a workshop with a small team over 2-3 hours</p>
-		</div>
-	</div>
-
-</div>
+<?php include '../assets/templates/intros/bmc.php';?>
 
 <?php include '../assets/templates/lesson_nav.php';?>
 

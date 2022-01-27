@@ -1,24 +1,6 @@
 <?php include '../assets/templates/site_header.php';?>
 
-
-<div class="intro">
-
-	<div class="segment"> <!-- video_playing class for playing mode -->
-
-		<h1><a href="#">Community Integration</a> with Jenny Schetcher.</h1>
-
-		<div class="youtube" id="t1GYZn_mq5g" data-bg="covers/jennyvert.jpg"></div>
-
-		<p>This lessson teaches you how to be humble, listen, and communicate with a community you work with.</p>
-
-		<div class="meta">
-			<p><i class="far fa-play-circle"></i> ~30 minutes over 3 videos</p>
-			<p><i class="far fa-clock"></i> About 1 hours of work to do it solo</p>
-			<p><i class="far fa-users"></i> Run it as a workshop with a small team over 2-3 hours</p>
-		</div>
-	</div>
-
-</div>
+<?php include '../assets/templates/intros/community.php';?>
 
 <?php include '../assets/templates/lesson_nav.php';?>
 

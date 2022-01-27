@@ -1,24 +1,6 @@
 <?php include '../assets/templates/site_header.php';?>
 
-
-<div class="intro">
-
-	<div class="segment"> <!-- video_playing class for playing mode -->
-
-		<h1><a href="#">Barrier mapping</a> with Ari Johnson</h1>
-
-		<div class="youtube" id="4HMfaKGUjZk" data-bg="covers/arivert.jpg"></div>
-
-		<p>This lessson teaches you a method of interview deep-reading to help you uncover all the barriers facing the people you interact with.</p>
-
-		<div class="meta">
-			<p><i class="far fa-play-circle"></i> ~50 minutes over 8 videos</p>
-			<p><i class="far fa-clock"></i> About 3 hours of work to do it solo</p>
-			<p><i class="far fa-users"></i> Run it as a workshop with a small team over 6-8 hours</p>
-		</div>
-	</div>
-
-</div>
+<?php include '../assets/templates/intros/barrier.php';?>
 
 <?php include '../assets/templates/lesson_nav.php';?>
 

@@ -1,24 +1,6 @@
 <?php include '../assets/templates/site_header.php';?>
 
-
-<div class="intro">
-
-	<div class="segment"> <!-- video_playing class for playing mode -->
-
-		<h1><a href="#">Card sorting</a> with Josie Ryder</h1>
-
-		<div class="youtube" id="ABTUXmwFMnA" data-bg="covers/josievert.jpg"></div>
-
-		<p>This lessson teaches you a process called UX card sorting: A method to workshop with real users, and re-organise the contents of a website.</p>
-
-		<div class="meta">
-			<p><i class="far fa-play-circle"></i> ~40 minutes over 5 videos</p>
-			<p><i class="far fa-clock"></i> About 1 hours of work to do it solo</p>
-			<p><i class="far fa-users"></i> Run it as a workshop with a small team over 2-3 hours</p>
-		</div>
-	</div>
-
-</div>
+<?php include '../assets/templates/intros/cards.php';?>
 
 <?php include '../assets/templates/lesson_nav.php';?>
 

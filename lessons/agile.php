@@ -1,24 +1,6 @@
 <?php include '../assets/templates/site_header.php';?>
 
-
-<div class="intro">
-
-	<div class="segment"> <!-- video_playing class for playing mode -->
-
-		<h1><a href="#">Agile</a> with Clare Carmody</h1>
-
-		<div class="youtube" id="xKhHWC7Agdk" data-bg="covers/clarevert.jpg"></div>
-
-		<p>This lesson will teach you the tools and methods to make your first Agile project work.</p>
-
-		<div class="meta">
-			<p><i class="far fa-play-circle"></i> ~50 minutes over 5 videos</p>
-			<p><i class="far fa-clock"></i> About 1 hour of work to do it solo</p>
-			<p><i class="far fa-users"></i> Run it as a workshop with a small team over 2-3 hours</p>
-		</div>
-	</div>
-
-</div>
+<?php include '../assets/templates/intros/agile.php';?>
 
 <?php include '../assets/templates/lesson_nav.php';?>
 

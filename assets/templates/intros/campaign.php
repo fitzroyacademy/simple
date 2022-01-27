@@ -4,7 +4,7 @@
 
 		<h1><a href="/lessons/campaign"><strong>Public campaigning</strong> with Gautam Raju</a></h1>
 
-		<div class="youtube" id="UwiIv25HlrE" data-bg="covers/gauthamvert.jpg"></div>
+		<div class="youtube" id="UwiIv25HlrE" data-bg="covers/gautamvert.jpg"></div>
 
 		<p>This lesson will teach you how to a campaign, build a movement and make change happen at a local level, with Gautam Raju of Purpose.</p>
 
