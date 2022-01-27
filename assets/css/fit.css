@@ -9448,7 +9448,7 @@ dl.fat_storyline dd:last-child::after {
 
 .all_lessons .intro h1:before {
   content: counter(css-counter);
-  top: -2rem;
+  top: -1rem;
   left: -1.75rem;
 }
 
@@ -9531,11 +9531,13 @@ dl.fat_storyline dd:last-child::after {
   font-size: 2rem;
   font-weight: bold;
   color: #b0b4b7;
+  transition: all 0.25s ease-in-out;
 }
 
 .i_need .dropdown-menu a:hover {
   background: none;
   text-decoration: underline;
+  transform: scale(1.05);
 }
 
 .i_need .dropdown-toggle.show i {
@@ -9557,6 +9559,21 @@ dl.fat_storyline dd:last-child::after {
   font-size: 2rem;
   font-weight: bold;
   border: none;
+  color: #4f5153;
+}
+
+.i_need .quicksearch_form .form-control:hover {
+  background: #f5f7f8;
+  color: #717b81;
+}
+
+.i_need .quicksearch_form i.fa-search {
+  color: #b0b4b7;
+  font-size: 1.8rem;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 2050;
 }
 
 .i_need .quicksearch_form .x {
@@ -9607,6 +9624,7 @@ body.ineedshow_search .total_num {
   display: block;
 }
 
+body.ineedshow_search .i_need .quicksearch_form .fa-search,
 body.ineedshow_search .i_need .dropdown-toggle {
   display: none;
 }
