@@ -86,11 +86,11 @@
 	<div class="segment further_reading" id="reading">
 		<h2><span class="no"><i class="fas fa-books"></i></span> Further reading</h2>
 		<div class="resources">
-				<div class="resource">
-					<i class="far fa-browser"></i>
-					<a href="https://www.slideshare.net/MelissaNg5/hacking-ux-product-design-thinking-for-techies" target="_blank">Hacking UX product design thinking for techies.</a>
-					<p>Mel's done an awesome slideshare on UX product design thinking for techies, which is super in depth and a great next step if you wanna go deeper on this stuff.</p>
-				</div>
+			<a class="resource" href="https://docs.google.com/document/d/1Ix9RlCiHi-TZoFA-1CLdvuSWryXJ_fnKu3HGD6CsFV8/edit?usp=sharing" target="_blank">
+				<i class="far fa-browser"></i>
+				<h4>Hacking UX product design thinking for techies.</h4>
+				<p>Mel's done an awesome slideshare on UX product design thinking for techies, which is super in depth and a great next step if you wanna go deeper on this stuff.</p>
+			</a>
 		</div>
 
 	</div>

@@ -13,22 +13,17 @@
 			<a class="resource" href="https://docs.google.com/document/d/1rts69HXxJvNV6C9XpyQwzieaOuPqSf3W62LOP3IhnRQ/edit?usp=sharing" target="_blank">
 			<i class="far fa-file-alt"></i>
 			<h4>DIF Template example, blank.</h4>
-				<p>Blank template of the Design iteration form.</p>
+			<p>Blank template of the Design iteration form.</p>
 			</a>
 			<a class="resource" href="https://docs.google.com/document/d/112wtiEuHfOh8iBhOOJPWYnMmxoXWxNt6I5n3l7AQoAc/edit?usp=sharing" target="_blank">
 			<i class="far fa-file-alt"></i>
 			<h4>Inyenyeri's Clean Cookstove (Kevin's) - Lesson example</h4>
-				<p>Completed example DIF using the Inyenyeri Clean cookstove idea. This was created by Kevin Starr.</p>
+			<p>Completed example DIF using the Inyenyeri Clean cookstove idea. This was created by Kevin Starr.</p>
 			</a>
 			<a class="resource" href="https://docs.google.com/document/d/1E8iKqObLOZcCHz8sevefJhqLgfCKt7rO-895IAuKueU/edit?usp=sharing" target="_blank">
 			<i class="far fa-file-alt"></i>
 			<h4>Inyenyeri's Clean Cookstove (Ross) - Lesson example</h4>
-				<p>Completed example DIF using the Inyenyeri Clean cookstove idea. This was created by Ross, a member of the Inyenyeri team.</p>
-			</a>
-			<a class="resource" href="https://docs.google.com/spreadsheets/d/1tH7xd1UwTnx0XnmwAtuBTj0I6L1yIy0QT2cprIwjn2s/edit?usp=sharing" target="_blank">
-				<i class="far fa-file-spreadsheet"></i>
-				<h4>3 year financial model - blank</h4>
-				<p>The blank finanical model that Amanda walks you through in this lesson.</p>
+			<p>Completed example DIF using the Inyenyeri Clean cookstove idea. This was created by Ross, a member of the Inyenyeri team.</p>
 			</a>
 	</div>
 
@@ -80,21 +75,21 @@
 	<div class="segment further_reading">
 		<h2><span class="no"><i class="fas fa-books"></i></span> Further reading</h2>
 		<div class="resources">
-				<div class="resource">
-					<i class="fas fa-browser"></i>
-					<a href="https://ssir.org/bios/kevin_starr">Stanford Social innovation review, Kevin Starr</a>
-					<p>Great series of articles from Kevin Starr on social innovation over at the SSI. Read everything, you won’t regret it.</p>
-				</div>
-				<div class="resource">
-					<i class="fab fa-youtube"></i>
-					<a href="https://www.youtube.com/watch?v=UMEpvxGBkFU?rel=0">Great talk from Kevin at PopTech on lasting impact</a>
-					<p>Runtime 18:04</p>
-				</div>
-				<div class="resource">
-					<i class="fab fa-youtube"></i>
-					<a href="https://www.youtube.com/watch?v=yOdlW2cKcK4?rel=0">Kevin on designing for happiness at the Skoll World Forum</a>
-					<p>Runtime 1:19:51</p>
-				</div>
+			<a class="resource" href="https://ssir.org/bios/kevin_starr" target="_blank">
+				<i class="far fa-browser"></i>
+				<h4>Stanford Social innovation review, Kevin Starr.</h4>
+				<p>Great series of articles from Kevin Starr on social innovation over at the SSI. Read everything, you won’t regret it.</p>
+			</a>
+			<a class="resource" href="https://www.youtube.com/watch?v=UMEpvxGBkFU" target="_blank">
+				<i class="fab fa-youtube"></i>
+				<h4>Kevin Starr: Lasting Impact</h4>
+				<p>Great talk from Kevin at PopTech on lasting impact. Runtime 18:04</p>
+			</a>
+			<a class="resource" href="https://www.youtube.com/watch?v=yOdlW2cKcK4" target="_blank">
+				<i class="fab fa-youtube"></i>
+				<h4>Kevin Starr: Fighting Poverty, Designing for Happiness</h4>
+				<p>Kevin on designing for happiness at the 2015 Skoll World Forum. Runtime 1:19:51</p>
+			</a>
 		</div>
 	</div>
 </div>

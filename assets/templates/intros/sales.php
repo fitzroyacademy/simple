@@ -2,9 +2,9 @@
 
 	<div class="segment">
 
-		<h1><a href="/lessons/scope"><strong>How to sell when you hate selling</strong> with Will Richardson</a></h1>
+		<h1><a href="/lessons/sales"><strong>How to sell when you hate selling</strong> with Will Richardson</a></h1>
 
-		<div class="youtube" id="iaTQR29nqPA" data-bg="covers/willrvert.jpg"></div>
+		<div class="youtube" id="L-GRInwzAgY" data-bg="covers/willrvert.jpg"></div>
 
 		<p>This lesson will teach you a method to help you sell your products. Sales is about treating people well, and thinking of relationships as long term friendships.</p>
 

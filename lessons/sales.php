@@ -52,7 +52,7 @@
 		<div class="youtube" id="4TRHFhivQOg"></div>
 		<p>Finally, now that you've met a few people and you've got your pipeline going, Will shows you some useful routines to keep your contacts happy!</p>
 	</div>
-
+ 
 	<<div class="segment further_reading" id="reading">
 		<h2><span class="no"><i class="fas fa-books"></i></span> Further reading</h2>
 		<div class="resources">

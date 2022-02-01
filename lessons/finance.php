@@ -96,18 +96,17 @@
 	<div class="segment further_reading" id="reading">
 		<h2><span class="no"><i class="fas fa-books"></i></span> Further reading</h2>
 		<div class="resources">
-				<div class="resource">
-					<i class="far fa-book"></i>
-					<a href="https://www.amazon.com/Financial-Modeling-Business-Owners-Entrepreneurs/dp/1484203712" target="_blank">Financial Modeling for Business Owners and Entrepreneurs</a>
-					<p>Financial Modeling for Business Owners and Entrepreneurs by Tom Y. Sawyer</p>
-				</div>
-				<div class="resource">
-					<i class="far fa-book"></i>
-					<a href="https://www.amazon.com/Mastering-Financial-Modeling-Professionals-Building/dp/0071808507" target="_blank">Mastering Financial Modeling: A Professional’s Guide to Building Financial Models in Excel</a>
-					<p>Mastering Financial Modeling: A Professional’s Guide to Building Financial Models in Excel by Eric Soubeiga</p>
-				</div>
+			<a class="resource" href="https://www.amazon.com/Financial-Modeling-Business-Owners-Entrepreneurs/dp/1484203712" target="_blank">
+				<i class="far fa-book"></i>
+				<h4>Financial Modeling for Business Owners and Entrepreneurs by Tom Y. Sawyer</h4>
+				<p>Developing Excel Models to Raise Capital, Increase Cash Flow, Improve Operations, Plan Projects, and Make Decisions.</p>
+			</a>
+			<a class="resource" href="https://www.amazon.com/Mastering-Financial-Modeling-Professionals-Building/dp/0071808507" target="_blank">
+				<i class="far fa-book"></i>
+				<h4>Mastering Financial Modeling by Eric Soubeiga</h4>
+				<p>A Professional’s Guide to Building Financial Models in Excel.</p>
+			</a>
 		</div>
-
 	</div>
 </div>
 

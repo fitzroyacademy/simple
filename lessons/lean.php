@@ -86,7 +86,7 @@
 	<div class="segment further_reading" id="reading">
 		<h2><span class="no"><i class="fas fa-books"></i></span> Further reading</h2>
 		<div class="resources">
-				<a class="resource" href="https://" target="_blank">
+			<a class="resource" href="https://" target="_blank">
 				<i class="far fa-book"></i>
 				<h4>Book title</h4>
 				<p>Some book.</p>

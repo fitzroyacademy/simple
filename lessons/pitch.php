@@ -1,6 +1,6 @@
 <?php include '../assets/templates/site_header.php';?>
 
-<?php include '../assets/templates/intros/ptich.php';?>
+<?php include '../assets/templates/intros/pitch.php';?>
 
 <?php include '../assets/templates/lesson_nav.php';?>
 
@@ -9,28 +9,28 @@
 	<div class="segment segment_resources" id="resources">
 		<h2><span class="no"><i class="far fa-file-alt"></i></span> Lesson resources</h2>
 		<div class="youtube" id="-ywQCdFYHdk"></div>
-		<a class="resource" href="https://docs.google.com/document/d/1gqb99aLlzAMrvCAFNnzZNE4PTCvTo-kADiJnH3W8J8E/edit?usp=sharing">
-			<i class="far fa-file-alt"></i>
-			<h4> Blank Early Stage Investment template</h4>
-			<p>The blank template to help you start thinking about your pitch as you work through the lesson.</p>
-		</a>
-
-		<div class="resource">
-			<i class="fas fa-presentation"></i>
-			<a href="https://docs.google.com/presentation/d/1-YEQiyfnI6IurqADt-eDyytiFpw43Zg-pVfzquEaoPY/edit?usp=sharing"> Blank Pitch deck template</a>
-			<p>The blank slide deck for you to start structuring your pitch.</p>
-		</div>
-
-		<div class="resource">
-			<i class="fab fa-trello"></i>
-			<a href="https://trello.com/b/XzhgPvNF/example-prospect-list-fitzroy-academy-template"> Blank Prospect list example</a>
-			<p>An example of how to use an online Kanban board as a way to track your prospects.</p>
+		<div class="resources">
+			<a class="resource" href="https://docs.google.com/document/d/1gqb99aLlzAMrvCAFNnzZNE4PTCvTo-kADiJnH3W8J8E/edit?usp=sharing">
+				<i class="far fa-file-alt"></i>
+				<h4>Early Stage Investment template - blank</h4>
+				<p>The blank template to help you start thinking about your pitch as you work through the lesson.</p>
+			</a>
+			<a class="resource" href="https://docs.google.com/presentation/d/1-YEQiyfnI6IurqADt-eDyytiFpw43Zg-pVfzquEaoPY/edit?usp=sharing" target="_blank">
+				<i class="far fa-presentation"></i>
+				<h4>Pitch deck template - blank</h4>
+				<p>The blank slide deck for you to start structuring your pitch.</p>
+			</a>
+			<a class="resource" href="https://trello.com/b/XzhgPvNF/example-prospect-list-fitzroy-academy-template" target="_blank">
+				<i class="fab fa-trello"></i>
+				<h4>Prospect list example - blank</h4>
+				<p>An example of how to use an online Kanban board as a way to track your prospects.</p>
+			</a>
 		</div>
 	</div>
 
 	<div class="segment segment_lesson" id="lesson">
 		<h2><span class="no">1</span> Define your problem.</h2>
-		<div data-youtube="hS0nyORTHTU"></div>
+		<div class="youtube" id="hS0nyORTHTU"></div>
 		<p>Before even opening a slide deck, it's important do define your problem: What are you solving, for whom? What right do you have to solve it, how will you solve it and what potenial damage might you do?</p>
 	</div>
 	
@@ -66,7 +66,7 @@
 	
 	<div class="segment segment_lesson">
 		<h2><span class="no">4</span> The pitch deck, financials.</h2>
-		<div class="youtube" id="MNm8kSJ7xMo" title="YouTube  video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<div class="youtube" id="MNm8kSJ7xMo"></div>
 		<p>In someways the most important part of the slide deck: The finanicals. Investors have seen a million hockey stick graphs of profits. The importance here is about the spectifics of your project and realistic targets.</p>
 	</div>
 
@@ -97,18 +97,20 @@
 	<div class="segment further_reading" id="reading">
 		<h2><span class="no"><i class="fas fa-books"></i></span> Further reading</h2>
 		<div class="resources">
-				<div class="resource">
-					<i class="fas fa-presentation"></i>
-					<a href="https://https://docs.google.com/presentation/d/15CoomN7wxhnzzD62fqdLbDQ3D4tq5hPcE7S3NVZidvU/edit?usp=sharing" target="_blank"> Square Peg's deck template</a>
-					<p>Square Peg's deck template is a template for a more standard startup venture capital deck.</p> 
-				</div>
-				<div class="resource">
-					<i class="fas fa-browser"></i>
-					<a href="https://https://medium.com/square-peg-capital/slides-to-put-in-your-pitch-deck-f648c3832b81?mc_cid=3e05e09440&mc_eid=621dd02193" target="_blank"> Square Peg's accompanying article</a>
-					<p>A great article on pitch deck's by Imogen to accompany Square Peg's template.</p>
-				</div>
-		</div>
 
+			<a class="resource" href="https://https://docs.google.com/presentation/d/15CoomN7wxhnzzD62fqdLbDQ3D4tq5hPcE7S3NVZidvU/edit?usp=sharing">
+				<i class="far fa-presentation"></i>
+				<h4>Square Peg's deck template</h4>
+				<p>Square Peg's deck template is a template for a more standard startup venture capital deck.</p>
+			</a>
+
+			<a class="resource" href="https://https://docs.google.com/presentation/d/15CoomN7wxhnzzD62fqdLbDQ3D4tq5hPcE7S3NVZidvU/edit?usp=sharing">
+				<i class="far fa-browser"></i>
+				<h4>Square Peg's accompanying article</h4>
+				<p>A great article on pitch deck's by Imogen to accompany Square Peg's template.</p>
+			</a>
+
+		</div>
 	</div>
 </div>
 

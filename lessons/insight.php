@@ -38,7 +38,7 @@
 	<div class="segment segment_lesson">
 		<h2><span class="no">2</span> Customers.</h2>
 		<div class="youtube" id="eu6SKziUReg"></div>
-		<p>Now that we have some touchpoints, you'll need to define your customer: Who are they, what do they want, and how do they find you.</p>
+		<p>Now that we have some touchpoints, you'll need to go find some real customers to speak too. Vic helps you find them and reach out.</p>
 	</div>
 
 	<div class="segment segment_practical">
@@ -50,7 +50,7 @@
 	<div class="segment segment_lesson">
 		<h2><span class="no">3</span> Filling in the map.</h2>
 		<div class="youtube" id="XUVbT99ADkw"></div>
-		<p>Next, you'll fill in the map using the experiences of your real customers.</p>
+		<p>Next, using the map as your guide, talk to your customers about each of these touch points: what they do they feel at each step of their journey.</p>
 	</div>
 
 	<div class="segment segment_practical">

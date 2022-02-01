@@ -44,23 +44,22 @@
 	<div class="segment further_reading" id="reading">
 		<h2><span class="no"><i class="fas fa-books"></i></span> Further reading</h2>
 		<div class="resources">
-				<div class="resource">
-					<i class="far fa-books"></i>
-					<a href="http://www.jlaguidebook.org/" target="_blank">The James Lind Alliance guidebook</a>
-					<p>The James Lind Alliance guidebook mentioned in part 3 of the lesson.</p>
-				</div>
-				<div class="resource">
-					<i class="far fa-browser"></i>
-					<a href="http://idinsight.org/" target="_blank">IDinsight.org</a>
-					<p>IDinsight.org is the research organisation mentioned in part 4, that helps leaders in developing countries use evidence to improve their social impact.</p>
-				</div>
-				<div class="resource">
-					<i class="far fa-browser"></i>
-					<a href="https://giving-evidence.com/" target="_blank">Giving Evidence</a>
-					<p>Learn more about Caroline's work on her site, and make sure check out her videos page.</p>
-				</div>
+			<a class="resource" href="http://www.jlaguidebook.org/" target="_blank">
+				<i class="far fa-book"></i>
+				<h4>The James Lind Alliance guidebook</h4>
+				<p>The James Lind Alliance guidebook mentioned in part 3 of the lesson.</p>
+			</a>
+			<a class="resource" href="http://idinsight.org/" target="_blank">
+				<i class="far fa-browser"></i>
+				<h4>IDinsight.org</h4>
+				<p>IDinsight.org is the research organisation mentioned in part 4, that helps leaders in developing countries use evidence to improve their social impact.</p>
+			</a>
+			<a class="resource" href="https://giving-evidence.com/" target="_blank">
+				<i class="far fa-browser"></i>
+				<h4>Giving Evidence</h4>
+				<p>Learn more about Caroline's work on her site, and make sure check out her videos page.</p>
+			</a>
 		</div>
-
 	</div>
 </div>
 

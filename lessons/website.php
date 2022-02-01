@@ -8,9 +8,12 @@
 
 	<div class="segment segment_resources" id="resources">
 		<h2><span class="no"><i class="far fa-file-alt"></i></span> Lesson resources</h2>
-		<div class="resource">
-			<i class="far fa-file-alt"></i><a href="https://docs.google.com/document/d/13bsVt6-Hg1QE6RrfpKSzdhiG8h1ttBauj6lzg-Ar55w/edit?usp=sharing">One page site template - Blank.</a>
-			<p>The blank template used by Will in the lesson.</p>
+		<div class="resources">
+		<a class="resource" href="https://docs.google.com/document/d/13bsVt6-Hg1QE6RrfpKSzdhiG8h1ttBauj6lzg-Ar55w/edit?usp=sharing" target="_blank">
+				<i class="far fa-file-alt"></i>
+				<h4>One page site template - Blank.</h4>
+				<p>The blank template used by Will in the lesson to help you plan your website</p>
+			</a>
 		</div>
 	</div>
 
@@ -41,26 +44,26 @@
 	<div class="segment further_reading" id="reading">
 		<h2><span class="no"><i class="fas fa-books"></i></span> Further reading</h2>
 		<div class="resources">
-				<div class="resource">
-					<i class="fas fa-browser"></i>
-					<a href="https://www.squarespace.com/">Squarespace</a>
-					<p>In this lesson, Will trys out squarespace as a possible platform to make his one-page site.</p>
-				</div>
-				<div class="resource">
-					<i class="fas fa-browser"></i>
-					<a href="https://www.strikingly.com/">Strikingly</a>
-					<p>Will also tries out strikingly to make his site.</p>
-				</div>
-				<div class="resource">
-					<i class="fas fa-browser"></i>
-					<a href="https://pixeltogether.com/">Pixel together</a>
-					<p>Pixel together is another possible website platform.</p>
-				</div>
-				<div class="resource">
-					<i class="fas fa-browser"></i>
-					<a href="https://www.google.com.au/search?q=one+page+website+maker">Google</a>
-					<p>or just Google it, there's a ton of these things out there and they are always making more!</p>
-				</div>
+			<a class="resource" href="https://www.squarespace.com/" target="_blank">
+				<i class="far fa-browser"></i>
+				<h4>Squarespace</h4>
+				<p>In this lesson, Will trys out squarespace as a possible platform to make his one-page site.</p>
+			</a>
+			<a class="resource" href="https://www.strikingly.com/" target="_blank">
+				<i class="far fa-browser"></i>
+				<h4>Strikingly</h4>
+				<p>Will also tries out strikingly to make his site.</p>
+			</a>
+			<a class="resource" href="https://pixeltogether.com/" target="_blank">
+				<i class="far fa-browser"></i>
+				<h4>Pixel together</h4>
+				<p>Pixel together is another possible website platform.</p>
+			</a>
+			<a class="resource" href="https://www.google.com.au/search?q=one+page+website+maker" target="_blank">
+				<i class="far fa-browser"></i>
+				<h4>Google</h4>
+				<p>or just Google it, there's a ton of these things out there and they are always making more!</p>
+			</a>
 		</div>
 	</div>
 </div>

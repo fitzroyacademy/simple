@@ -8,23 +8,27 @@
 
 		<div class="segment segment_resources" id="resources">
 			<h2><span class="no"><i class="far fa-file-alt"></i></span> Lesson resources</h2>
-			<div class="resource">
-				<i class="far fa-file-alt"></i>
-				<a href="https://docs.google.com/document/d/1gx2A2sO1ZlVn7xfoPeEQXHSG2DyfskcqLp2qqon2Dn4/edit?usp=sharing">Lesson plan - Blank</a>
-				<p>This is the full lesson planning template to help structure the video learning you want to do.</p>
+			<div class="resources">
+				<a class="resource" href="https://docs.google.com/document/d/1gx2A2sO1ZlVn7xfoPeEQXHSG2DyfskcqLp2qqon2Dn4/edit?usp=sharing" target="_blank">
+					<i class="far fa-file-alt"></i>
+					<h4>Lesson plan - Blank</h4>
+					<p>This is the full lesson planning template to help structure the video learning you want to do.</p>
+				</a>
+				<a class="resource" href="https://docs.google.com/document/d/1CYz0imn6EMGsgVrupSzXN73gACQlr4rBp6VY2Zy1Q1s/edit?usp=sharing" target="_blank">
+					<i class="far fa-file-alt"></i>
+					<h4>Lean canvas lesson plan - Lesson example.</h4>
+					<p>A completed example of how the lesson plan looks filled out.</p>
+				</a>
+
+				<p>Creating good structure for a video lesson is the most important aspect to creating quality engaging video teaching.
+					In many ways it’s more important than your gear, your presentations or your editing skills. Nailing this means better teaching with less work. NB: This is not a list of hacks. You’ll probably still need to practice a bunch and make all the classics mistakes.</p>
+
+				<h2>Before jumping into structuring the video there are 2 things you want to have ready to go:</h2>
+				<ul>
+					<li>The activity you want the students to do in order to cement the knowledge.</li>
+					<li>A “finished” example of the activity — This will help immensely as you write your video as you won’t need to scrabble to find an example.</li>
+				</ul>
 			</div>
-			<div class="resource">
-				<i class="far fa-file-alt"></i>
-				<a href="https://docs.google.com/document/d/1CYz0imn6EMGsgVrupSzXN73gACQlr4rBp6VY2Zy1Q1s/edit?usp=sharing">Lesson plan - Lean canvas</a>
-				<p>A completed example of how the lesson plan looks filled out.</p>
-			</div>
-			<p>Creating good structure for a video lesson is the most important aspect to creating quality engaging video teaching.
-				In many ways it’s more important than your gear, your presentations or your editing skills. Nailing this means better teaching with less work. NB: This is not a list of hacks. You’ll probably still need to practice a bunch and make all the classics mistakes.</p>
-			<h2>Before jumping into structuring the video there are 2 things you want to have ready to go:</h2>
-			<ul>
-				<li>The activity you want the students to do in order to cement the knowledge.</li>
-				<li>A “finished” example of the activity — This will help immensely as you write your video as you won’t need to scrabble to find an example.</li>
-			</ul>
 		</div>
 
 	<div class="segment segment_lesson" id="lesson">
@@ -118,15 +122,10 @@
 	<div class="segment further_reading" id="reading">
 		<h2><span class="no"><i class="fas fa-books"></i></span> Further reading</h2>
 		<div class="resources">
-				<a class="resource" href="https://" target="_blank">
+				<a class="resource" href="https://www.amazon.com.au/Save-Cat-Last-Screenwriting-Youll/dp/1932907009" target="_blank">
 				<i class="far fa-book"></i>
-				<h4>Book title</h4>
-				<p>Some book.</p>
-			</a>
-			<a class="resource" href="https://" target="_blank">
-				<i class="far fa-headphones"></i>
-				<h4>Podcast title</h4>
-				<p>Podcast title.</p>
+				<h4>Save the cat by Blake Snyder</h4>
+				<p>Save the cat is one of the most popular and widely used books on creating movie scripts in Hollywood. If the story structure part of this lesson is interesting to you, giving this a read will surely inspire you to work out how to make your lessons even more engaging to your students.</p>
 			</a>
 		</div>
 	</div>

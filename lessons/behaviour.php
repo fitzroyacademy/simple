@@ -50,38 +50,37 @@
 	<div class="segment further_reading" id="reading">
 		<h2><span class="no"><i class="fas fa-books"></i></span> Further reading</h2>
 		<div class="resources">
-				<div class="resource">
-					<i class="far fa-book"></i>
-					<a href="https://www.amazon.com.au/Switch-Chip-Heath/dp/0385528752" target="_blank">Switch</a>
-					<p>Switch by Chip Heath</p>
-				</div>
-				<div class="resource">
-					<i class="far fa-book"></i>
-					<a href="https://www.amazon.com.au/Nudge-Improving-Decisions-Health-Happiness-ebook/dp/B009KERBQI/ref=sr_1_1?" target="_blank">Nudge</a>
-					<p>Nudge: Improving Decisions About Health, Wealth and Happiness by by Richard H Thaler and Cass R Sunstein</p>
-				</div>
-				<div class="resource">
-					<i class="far fa-book"></i>
-					<a href="https://www.amazon.com.au/Predictably-Irrational-Hidden-Forces-Decisions-ebook/dp/B002RI9QJE/ref=sr_1_1" target="_blank">Predictably Irrational</a>
-					<p>Predictably Irrational: The Hidden Forces that Shape Our Decisions by Dan Ariely</p>
-				</div>
-				<div class="resource">
-					<i class="far fa-book"></i>
-					<a href="https://www.amazon.com.au/Influence-Psychology-Persuasion-Business-Essentials-ebook/dp/B002BD2UUC/" target="_blank">Influence</a>
-					<p>Influence: Psychology of Persuasion by Robert B. Cialdini PhD</p>
-				</div>
-				<div class="resource">
-					<i class="far fa-book"></i>
-					<a href="https://www.amazon.com.au/Thinking-Fast-Slow-Daniel-Kahneman-ebook/dp/B005MJFA2W/" target="_blank">Thinking, Fast and Slow</a>
-					<p>Thinking, Fast and Slow by Daniel Kahneman</p>
-				</div>
-				<div class="resource">
-					<i class="far fa-book"></i>
-					<a href="https://www.amazon.com.au/Last-Mile-Behavioral-Rotman-UTP-Publishing-ebook/dp/B013KO6BY6/" target="_blank">The Last Mile</a>
-					<p>The Last Mile: Creating Social and Economic Value from Behavioral Insights by Dilip Soman</p>
-				</div>
+			<a class="resource" href="https://www.amazon.com.au/Switch-Chip-Heath/dp/0385528752" target="_blank">
+				<i class="far fa-book"></i>
+				<h4>Switch by Chip Heath</h4>
+				<p>How to change things when change is hard</p>
+			</a>
+			<a class="resource" href="https://www.amazon.com.au/Nudge-Improving-Decisions-Health-Happiness-ebook/dp/B009KERBQI/ref=sr_1_1?" target="_blank">
+				<i class="far fa-book"></i>
+				<h4>Nudge by Richard H Thaler and Cass R Sunstein</h4>
+				<p>Improving Decisions About Health, Wealth and Happiness</p>
+			</a>
+			<a class="resource" href="https://www.amazon.com.au/Predictably-Irrational-Hidden-Forces-Decisions-ebook/dp/B002RI9QJE/ref=sr_1_1" target="_blank">
+				<i class="far fa-book"></i>
+				<h4>Predictably Irrational by Dan Ariely</h4>
+				<p>The Hidden Forces that Shape Our Decisions </p>
+			</a>
+			<a class="resource" href="https://www.amazon.com.au/Influence-Psychology-Persuasion-Business-Essentials-ebook/dp/B002BD2UUC/" target="_blank">
+				<i class="far fa-book"></i>
+				<h4>Influence by Robert B. Cialdini PhD</h4>
+				<p>Psychology of Persuasion.</p>
+			</a>
+			<a class="resource" href="https://www.amazon.com.au/Thinking-Fast-Slow-Daniel-Kahneman-ebook/dp/B005MJFA2W/" target="_blank">
+				<i class="far fa-book"></i>
+				<h4>Thinking, Fast and Slow by Daniel Kahneman</h4>
+				<p>The blank behaviour change worksheet to work along with this lesson.</p>
+			</a>
+			<a class="resource" href="https://www.amazon.com.au/Last-Mile-Behavioral-Rotman-UTP-Publishing-ebook/dp/B013KO6BY6/" target="_blank">
+				<i class="far fa-book"></i>
+				<h4>The Last Mile by Dilip Soman</h4>
+				<p>Creating Social and Economic Value from Behavioral Insights</p>
+			</a>
 		</div>
-
 	</div>
 </div>
 

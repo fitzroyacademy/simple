@@ -8,17 +8,22 @@
 
 	<div class="segment segment_resources" id="resources">
 		<h2><span class="no"><i class="far fa-file-alt"></i></span> Lesson resources</h2>
-		<div class="resource">
-			<i class="far fa-file-alt"></i><a href="https://docs.google.com/document/d/1iyllT32_EjtVH_TmtPVNp4VZ6aVfWAU0enVGwq89mBM/edit?usp=sharing" target="_blank">Agile rituals reference sheet.</a>
-			<p>A quick recap of the important Agile rituals, and how to run them.</p>
-		</div>
-		<div class="resource">
-			<i class="fab fa-trello"></i><a href="https://trello.com/b/NTRHQ3iH/example-reuniting-refugees-website" target="_blank">'Reuniting refugee families' Trello board</a>
-			<p>A fictional example online kanban board showing the tasks needed to create a website for a charity helping reunite refugee families.</p>
-		</div>
-		<div class="resource">
-			<i class="fab fa-trello"></i><a href="https://trello.com/b/5kDnFFeV/example-agile-board-charity-event" target="_blank">'Reuniting refugee families' Trello board</a>
-			<p>A second example project using Trello, this time for planning a charity event.</p>
+		<div class="resources">
+			<a class="resource" href="https://docs.google.com/document/d/1iyllT32_EjtVH_TmtPVNp4VZ6aVfWAU0enVGwq89mBM/edit?usp=sharing" target="_blank">
+				<i class="far fa-file-alt"></i>
+				<h4>Agile rituals reference sheet</h4>
+				<p>A quick recap of the important Agile rituals, and how to run them.</p>
+			</a>
+			<a class="resource" href="https://trello.com/b/NTRHQ3iH/example-reuniting-refugees-website" target="_blank">
+				<i class="fab fa-trello"></i>
+				<h4>'Reuniting refugee families' new website  - Trello board</h4>
+				<p>A fictional example online kanban board showing the tasks needed to create a website for a charity helping reunite refugee families.</p>
+			</a>
+			<a class="resource" href="https://trello.com/b/5kDnFFeV/example-agile-board-charity-event" target="_blank">
+				<i class="fab fa-trello"></i>
+				<h4>'Reuniting refugee families' charity event - Trello board</h4>
+				<p>A second example project using Trello, this time for planning a charity event.</p>
+			</a>
 		</div>
 	</div>
 
@@ -107,23 +112,20 @@
 	<div class="segment further_reading" id="reading">
 		<h2><span class="no"><i class="fas fa-books"></i></span> Further reading</h2>
 		<div class="resources">
-				<div class="resource">
-					<i class="fas fa-browser"></i>
-					<a href="https://medium.com/@devsociety_/good-cheap-fast-pick-two-and-how-ngos-can-play-the-triangle-like-a-pro-20d1380884a8" target="_blank">Good/Fast/Cheap project management triangle article</a>
-					<p>An article explaining how the project management triangle works, as Clare references in ‘Scoping the project’</p>
-				</div>
-				<div class="resource">
-					<i class="fas fa-browser"></i>
-					<a href="https://agilemanifesto.org/principles.html" target="_blank">Principles behind the Agile Manifesto.</a>
-					<p>The original explanation of the principles behind Agile, from the creators of agile.</p>
-				</div>
-				<div class="resource">
-					<i class="fas fa-book"></i>
-					<a href="https://www.amazon.com/Scrum-Doing-Twice-Work-Half/dp/038534645X" target="_blank">Scrum: The Art of Doing Twice the Work in Half the Time.</a>
-					<p>The Ultimate book guide to working Agile if you’re excited to dive deep.</p>
-				</div>
+				<a class="resource" href="https://medium.com/@devsociety_/good-cheap-fast-pick-two-and-how-ngos-can-play-the-triangle-like-a-pro-20d1380884a8" target="_blank">
+				<i class="fas fa-browser"></i>
+				<h4>Good/Fast/Cheap project management triangle article</h4>
+				<p>An article explaining how the project management triangle works, as Clare references in ‘Scoping the project’</p>
+			</a><a class="resource" href="https://agilemanifesto.org/principles.html" target="_blank">
+				<i class="fas fa-browser"></i>
+				<h4>Principles behind the Agile Manifesto.</h4>
+				<p>The original explanation of the principles behind Agile, from the creators of agile.</p>
+			</a><a class="resource" href="https://www.amazon.com/Scrum-Doing-Twice-Work-Half/dp/038534645X" target="_blank">
+				<i class="fas fa-book"></i>
+				<h4>Scrum: The Art of Doing Twice the Work in Half the Time.</h4>
+				<p>The Ultimate book guide to working Agile if you’re excited to dive deep.</p>
+			</a>
 		</div>
-
 	</div>
 </div>
 

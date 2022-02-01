@@ -8,29 +8,37 @@
 
 	<div class="segment segment_resources" id="resources">
 		<h2><span class="no"><i class="far fa-file-alt"></i></span> Lesson resources</h2>
-		<div class="resource">
-			<i class="far fa-file-spreadsheet"></i><a href="https://docs.google.com/spreadsheets/d/1ea-sKLW2o0rdwzna-3Z5O8OltO2DuCS8DIz4cMkDysA/edit?usp=sharing">Page layout template - Blank.</a>
-			<p>The first template for this lesson, the page layout template to help you workout what information you’ll want to collect.</p>
-		</div>
-		<div class="resource">
-			<i class="far fa-file-image"></i><a href="https://docs.google.com/drawings/d/189og5YYOiIEDh6nW4jCYTE7svx30XpULZupCZxV5hmc/edit?usp=sharing">CRM workflow template - Blank.</a>
-			<p>The second template is the CRM workflow template to help you map out what workflow you’ll need for your CRM.</p>
-		</div>
-		<div class="resource">
-			<i class="far fa-file-alt"></i><a href="https://docs.google.com/document/d/1SgB-b9ZFdfjRZXfsehrXv15hWb4FuKAshbKoJuzt35Q/edit?usp=sharing">CRM requirements template - Blank.</a>
-			<p>Finally, the template you’ll use to work out what requirements you need when looking for a CRM.</p>
-		</div>
-		<div class="resource">
-			<i class="far fa-file-spreadsheet"></i><a href="https://docs.google.com/spreadsheets/d/1wEQKSPBKE8r4O05GcFNrGzm5NAuwCQ4LQ1FWjJVj0nc/edit?usp=sharing">Page layout template - Clare's page layout.</a>
-			<p>Clare’s example page layout that she works through in this lesson.</p>
-		</div>
-		<div class="resource">
-			<i class="far fa-file-image"></i><a href="hhttps://docs.google.com/drawings/d/1e3-Hf3aSzZ8MWQ39lx_BFL8QziWipGTXm9q5KLJs2_E/edit?usp=sharing">CRM workflow template - Clare's CRM workflow.</a>
-			<p>Clare’s example CRM workflow that she works through in this lesson.</p>
-		</div>
-		<div class="resource">
-			<i class="far fa-file-alt"></i><a href="https://docs.google.com/document/d/1j11nyvkb7rijcrXAhqPzt3tQ5OTWp9fttBcMF93yn7A/edit?usp=sharing">CRM requirements template - Clare's CRM requirements.</a>
-			<p>Clare’s example CRM requirements that she works through in this lesson.</p>
+		<div class="resources">
+			<a class="resource" href="https://docs.google.com/spreadsheets/d/1ea-sKLW2o0rdwzna-3Z5O8OltO2DuCS8DIz4cMkDysA/edit?usp=sharing" target="_blank">
+				<i class="far fa-file-spreadsheet"></i>
+				<h4>Page layout template - Blank.</h4>
+				<p>The first template for this lesson, the page layout template to help you workout what information you’ll want to collect.</p>
+			</a>
+			<a class="resource" href="https://docs.google.com/drawings/d/189og5YYOiIEDh6nW4jCYTE7svx30XpULZupCZxV5hmc/edit?usp=sharing" target="_blank">
+				<i class="far fa-file-image"></i>
+				<h4>CRM workflow template - Blank.</h4>
+				<p>The second template is the CRM workflow template to help you map out what workflow you’ll need for your CRM.</p>
+			</a>
+			<a class="resource" href="https://docs.google.com/document/d/1SgB-b9ZFdfjRZXfsehrXv15hWb4FuKAshbKoJuzt35Q/edit?usp=sharing" target="_blank">
+				<i class="far fa-file-alt"></i>
+				<h4>CRM requirements template - Blank.</h4>
+				<p>Thirdly, the template you’ll use to work out what requirements you need when looking for a CRM.</p>
+			</a>
+			<a class="resource" href="https://docs.google.com/spreadsheets/d/1wEQKSPBKE8r4O05GcFNrGzm5NAuwCQ4LQ1FWjJVj0nc/edit?usp=sharing" target="_blank">
+				<i class="far fa-file-spreadsheet"></i>
+				<h4>Clare's page layout - Lesson example.</h4>
+				<p>Clare’s example page layout that she works through in this lesson.</p>
+			</a>
+			<a class="resource" href="https://docs.google.com/drawings/d/1e3-Hf3aSzZ8MWQ39lx_BFL8QziWipGTXm9q5KLJs2_E/edit?usp=sharing" target="_blank">
+				<i class="far fa-file-image"></i>
+				<h4>Clare's CRM workflow - Lesson example.</h4>
+				<p>Clare’s example CRM workflow that she works through in this lesson.</p>
+			</a>
+			<a class="resource" href="https://docs.google.com/document/d/1j11nyvkb7rijcrXAhqPzt3tQ5OTWp9fttBcMF93yn7A/edit?usp=sharing" target="_blank">
+				<i class="far fa-file-alt"></i>
+				<h4>Clare's CRM requirements - Lesson example.</h4>
+				<p>Clare’s example CRM requirements that she works through in this lesson.</p>
+			</a>
 		</div>
 	</div>
 
@@ -67,11 +75,11 @@
 	<div class="segment further_reading" id="reading">
 		<h2><span class="no"><i class="fas fa-books"></i></span> Further reading</h2>
 		<div class="resources">
-				<div class="resource">
-					<i class="fas fa-browser"></i>
-					<a href="https://digitaltransformation.org.au/guides/information-systems">Digital transformation - Information Systems</a>
-					<p>This is guides for understanding what a CRM is and what it does. In particular read the guides in the basic section.</p>
-				</div>
+				<a class="resource" href="https://docs.google.com/drawings/d/189og5YYOiIEDh6nW4jCYTE7svx30XpULZupCZxV5hmc/edit?usp=sharing" target="_blank">
+				<i class="far fa-browser"></i>
+				<h4>Digital transformation - Information Systems.</h4>
+				<p>This is a guide for understanding what a CRM is and what it does. In particular, Clare recommends reading all the guides in the basic section</p>
+			</a>
 		</div>
 	</div>
 </div>
@@ -85,7 +93,6 @@
 		</div>
 	</div>
 </div>
-
 
 
 <?php include '../assets/templates/site_footer.php';?>
