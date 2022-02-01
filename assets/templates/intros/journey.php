@@ -4,7 +4,7 @@
 
 		<h1><a href="/lessons/journey"><strong>Journey mapping</strong> with Ben Tollady</a></h1>
 
-		<div class="youtube" id="HA_D-AInP7M" data-bg="covers/benvert.jpg"></div>
+		<div class="youtube" id="hUymhal-l3w" data-bg="covers/benvert.jpg"></div>
 
 		<p>This lesson will teach you how to map out the practical and emotional journey a user takes through a website..</p>
 

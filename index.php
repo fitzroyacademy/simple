@@ -59,7 +59,7 @@
 		<?php include 'assets/templates/intros/ideas.php';?>
 		<?php include 'assets/templates/intros/impact.php';?>
 		<?php include 'assets/templates/intros/insight.php';?>
-
+		<?php include 'assets/templates/intros/journey.php';?>
 		<?php include 'assets/templates/intros/lean.php';?>
 		<?php include 'assets/templates/intros/outcomes.php';?>
 		<?php include 'assets/templates/intros/partner.php';?>
