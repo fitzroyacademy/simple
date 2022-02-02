@@ -4,7 +4,7 @@
 
 	<div class="fat_hero left halfy lesshalfy" id="top">
 
-		<h1 class="pink">Online learning for <br>the social sector.</h1>
+		<h1 class="pink">Video lessons for <br>social sector folks.</h1>
 
 		<div class="i_need">
 
@@ -12,29 +12,27 @@
 			  <button class="btn btn-text to_work_on disabled btn-lg" type="button">
 					
 			    <i class="far fa-arrow-down"></i> 
-			    <span class="ineedtowork" id="ineedtowork">I need to work on </span>
+			    	<span class="workon">I need to work on</span>
+			    	<span class="lessonsfound">Lessons found on</span>
 			  </button>
 			  <button class="btn btn-text dropdown-toggle shadow-none" data-ineed="" type="button" id="ineedbutton" data-bs-toggle="dropdown" aria-expanded="false">
 			    <strong class="pink">literally everything</strong> <i class="fal fa-chevron-down"></i>
 			  </button>
 		    <ul class="dropdown-menu" aria-labelledby="ineed" data-ineedselect="">
-		      <li><a class="dropdown-item cyan" href="#" data-searchify="project management">our project management issues</a></li>
-		      <li><a class="dropdown-item red" href="#" data-searchify="business">business and strategy stuff</a></li>
-		      <li><a class="dropdown-item purple" href="#" data-searchify="digital">digital / internets</a></li>
-					<li><a class="dropdown-item green" href="#" data-searchify="digital">designing and measuring impact</a></li>
+		      <li><a class="dropdown-item cyan" href="#" data-searchify="project management">project management issues</a></li>
+		      <li><a class="dropdown-item red" href="#" data-searchify="business">business &amp; strategy</a></li>
+					<li><a class="dropdown-item green" href="#" data-searchify="digital">designing &amp; measuring impact</a></li>
+		      <li><a class="dropdown-item purple" href="#" data-searchify="digital">digital + the internet!</a></li>					
 		      <li><a class="dropdown-item apricot" href="#" data-searchify="digital">the way we fall in love</a></li>
 		    </ul>
 	    	<form class="quicksearch_form">
 			    <div class="input-group mb-3">
-					  <input type="text" class="form-control" id="quicksearch" placeholder="whatever I search for here..."> 
+					  <input type="text" class="form-control" id="quicksearch" placeholder="whatever I search for..."> 
 					</div>
 					<i class="fal fa-search"></i>
-					<a class="x"><i class="far fa-times"></i></a>
+					<a class="x" id="x"><i class="far fa-times"></i></a>
 				</form>
 			</div>
-
-			
-
 		</div> <!-- i_need -->
 
 	</div>
@@ -71,6 +69,7 @@
 		<?php include 'assets/templates/intros/testing.php';?>
 		<?php include 'assets/templates/intros/video.php';?>
 		<?php include 'assets/templates/intros/website.php';?>
+		<?php include 'assets/templates/intros/love.php';?>
 
 		<div class="total_num"> <span></span></div>
 		<a href="/about/michael" class="love"><i class="far fa-heart"></i></a>
@@ -80,22 +79,3 @@
 </div>
 
 <?php include 'assets/templates/site_footer.php';?>
-
-<!-- 
-todo:
-
-- put it on a server somewhere
-- fix JS on homepage
-- fix logo somehow
-- fix heart placement
-- fix counter of lessons
-- make cards smaller on small screen
-- do a teaching guide for Lean
-- icon placement on links
-- left border
-- make video more clickable
-- intro: play with MM:SS
-- intro MM:SS on video
-- look through the "time needed" icons
-- 
- -->

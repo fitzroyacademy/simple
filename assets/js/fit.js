@@ -52,7 +52,7 @@ $(function() {
         $('#ineedbutton').dropdown('hide');
         $('body').addClass('ineedshow_search');
         $('body').removeClass('ineedshow');
-        $('#ineedtowork').text('lessons found on');
+
       }
       else
       {
@@ -67,8 +67,12 @@ $(function() {
     if (e.key === "Escape") { // escape key maps to keycode `27`
       $('body').removeClass('ineedshow_search');
       $('.all_lessons .intro').attr('style', '');
-      $('#ineedtowork').text('I need to work on');
     }
+  });
+
+  $('#x').on('click', function(e){
+    $('body').removeClass('ineedshow_search');
+    $('.all_lessons .intro').attr('style', '');
   });
 
 

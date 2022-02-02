@@ -1,4 +1,4 @@
-<div class="intro" data-tags="project management">
+<div class="intro">
 
 	<div class="segment">
 
@@ -10,8 +10,13 @@
 
 		<div class="meta">
 			<p><i class="far fa-play-circle"></i> ~50 minutes over 5 videos</p>
-			<p><i class="far fa-clock"></i> About 1 hour of work to do it solo</p>
-			<p><i class="far fa-users"></i> Run it as a workshop with a small team over 2-3 hours</p>
+			<p><i class="far fa-clock"></i> ~1 hour of work solo, or half a day as a team</p>
+			<p class="tags">
+				<i class="far fa-tag"></i>
+				<a class="tag">lean</a>
+				<a class="tag">business</a>
+				<a class="tag">entrepreneurship</a>
+			</p>		
 		</div>
 	</div>
 

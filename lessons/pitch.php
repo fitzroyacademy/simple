@@ -116,7 +116,7 @@
 
 <div class="teaching_guide">
 	<div class="segments" id="teaching">
-		<div class="segment further_reading" id="resources">
+		<div class="segment" id="resources">
 			<h2><span class="no"><i class="far fa-chalkboard-teacher"></i></span>Teaching guide</h2>
 			<p>There is currently no teaching guide for this lesson.</p>
 			<p>If you are interested in one, please contact <a href="mailto:hello@fitzroyacademy.com">hello@fitzroyacademy.com</a></p>

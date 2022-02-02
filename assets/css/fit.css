@@ -9009,7 +9009,7 @@ dl.fat_storyline dd:last-child::after {
   }
 
   .fat_hero h1 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   .fat_section h2 {
@@ -9048,10 +9048,6 @@ dl.fat_storyline dd:last-child::after {
   }
 }
 @media (max-width: 575px) {
-  body {
-    padding-top: 7rem;
-  }
-
   .fat_nav .contain {
     padding: 1rem;
   }
@@ -9181,12 +9177,28 @@ dl.fat_storyline dd:last-child::after {
 .segment {
   padding: 5rem 0 3rem 3rem;
   margin-top: -5rem;
-  border-left: 6px solid #eff1f1;
   position: relative;
+}
+
+.segment:first-child {
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .segment:last-child {
   padding-bottom: 0;
+}
+
+.segment:after {
+  position: absolute;
+  top: 5rem;
+  left: 0;
+  bottom: 0;
+  display: block;
+  content: "";
+  width: 6px;
+  background: #f5f7f8;
+  z-index: 4000;
 }
 
 .segment h2 {
@@ -9194,6 +9206,7 @@ dl.fat_storyline dd:last-child::after {
   margin: 0;
   font-size: 2rem;
   position: relative;
+  z-index: 5000;
 }
 
 .segment h2 .no,
@@ -9206,7 +9219,8 @@ dl.fat_storyline dd:last-child::after {
   position: absolute;
   top: -2rem;
   left: -5rem;
-  width: 3.6rem;
+  width: 4rem;
+  margin-left: 3px;
   padding: 2rem 0;
 }
 
@@ -9227,8 +9241,8 @@ dl.fat_storyline dd:last-child::after {
   margin-bottom: 1rem;
 }
 
-.segment_practical {
-  border-left-color: #e2f6ff;
+.segment_practical:after {
+  background: #e2f6ff;
 }
 
 .segment_practical h2 {
@@ -9239,8 +9253,8 @@ dl.fat_storyline dd:last-child::after {
   color: #afe6ff;
 }
 
-.segment_bonus {
-  border-left-color: #fdf2d8;
+.segment_bonus:after {
+  background: #fdf2d8;
 }
 
 .segment_bonus h2 {
@@ -9258,6 +9272,7 @@ dl.fat_storyline dd:last-child::after {
   outline-offset: -1px;
   border-radius: 0.2rem;
   margin-bottom: 1.5rem;
+  width: 100%;
 }
 
 .youtube:after {
@@ -9298,7 +9313,8 @@ dl.fat_storyline dd:last-child::after {
   bottom: 0;
 }
 
-.intro, .teaching_guide {
+.intro,
+.teaching_guide {
   background: #f5f7f8;
   padding: 4rem 0;
 }
@@ -9325,6 +9341,7 @@ dl.fat_storyline dd:last-child::after {
   top: 0;
   left: 3rem;
   border-radius: 0;
+  background-size: cover;
 }
 
 .intro .segment .youtube i {
@@ -9352,25 +9369,54 @@ dl.fat_storyline dd:last-child::after {
   font-size: 1.4rem;
 }
 
+.intro .tags {
+  margin: -0.75rem 0 0.5rem;
+}
+
+.intro .tags .tag {
+  background: #cbd0d2;
+  border-radius: 9999em;
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.1rem 0.55rem;
+  font-size: 0.7rem;
+}
+
+.intro .tags .tag:hover {
+  background: #2793f8;
+  cursor: pointer;
+}
+
 .intro .segment > p {
   max-width: 30rem;
 }
 
+.intro h1 a:hover {
+  color: #4f5153;
+}
+
 .intro h1 a:hover strong {
-  border-bottom: 3px solid #b0b4b7;
+  border-bottom: 3px solid #cbd0d2;
+  color: #F42069;
 }
 
 .intro .meta p {
   font-size: 0.9rem;
   color: #717b81;
   margin: 0;
-  padding: 0 0 0.5rem;
+  padding: 0 0 0.5rem 2rem;
+  position: relative;
 }
 
 .intro .meta p i {
-  margin-right: 0.5rem;
   width: 1.5rem;
   text-align: center;
+  position: absolute;
+  top: 0.25rem;
+  left: 0;
+  font-size: 1rem;
+  color: #b0b4b7;
 }
 
 .intro .segment > .button {
@@ -9466,7 +9512,7 @@ dl.fat_storyline dd:last-child::after {
 .all_lessons .intro h1:before {
   content: counter(css-counter);
   top: -1rem;
-  left: -1.75rem;
+  left: -2rem;
 }
 
 .all_lessons .love {
@@ -9480,10 +9526,11 @@ dl.fat_storyline dd:last-child::after {
 
 .i_need {
   position: relative;
+  min-height: 3rem;
 }
 
 .i_need .btn-group {
-  margin: 0 0 1rem -1rem;
+  margin: 0;
   font-size: 2rem;
   font-weight: bold;
   color: #464749;
@@ -9505,7 +9552,7 @@ dl.fat_storyline dd:last-child::after {
   color: #717b81;
   position: absolute;
   padding: 1rem 0;
-  top: -5.5rem;
+  top: -4.5rem;
   left: -1rem;
   height: 4rem;
   width: 3rem;
@@ -9523,12 +9570,15 @@ dl.fat_storyline dd:last-child::after {
 .i_need .to_work_on {
   margin-left: -1rem;
   padding-right: 0;
+  padding-left: 4rem;
 }
 
 .i_need .to_work_on i.fa-arrow-down {
+  position: absolute;
+  top: 1rem;
+  left: 0;
   width: 2rem;
-  margin-right: 1.5rem;
-  display: inline-block;
+  text-align: center;
 }
 
 .i_need .dropdown-toggle::after {
@@ -9620,10 +9670,26 @@ body .i_need .quicksearch_form {
   display: none;
 }
 
+body .i_need .to_work_on .lessonsfound {
+  display: none;
+}
+
+body .i_need .btn-to_work_on .workon {
+  display: block;
+}
+
 body.ineedshow .i_need .quicksearch_form {
   display: block;
   top: 57px;
-  left: 322px;
+  left: 306px;
+}
+
+body.ineedshow_search .i_need .to_work_on .lessonsfound {
+  display: block;
+}
+
+body.ineedshow_search .i_need .to_work_on .workon {
+  display: none;
 }
 
 body.ineedshow_search .i_need .quicksearch_form {
@@ -9653,9 +9719,74 @@ body.ineedshow .all_lessons {
   transition: all 0.25s ease-in-out;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .i_need .to_work_on {
     display: none;
+  }
+
+  .i_need .btn-group {
+    width: 100%;
+  }
+
+  #ineedbutton {
+    margin-left: -1rem;
+    text-align: left;
+  }
+
+  body .i_need .quicksearch_form {
+    width: 100%;
+  }
+
+  body .i_need .quicksearch_form,
+body.ineedshow .i_need .quicksearch_form,
+body.ineedshow_search .i_need .quicksearch_form {
+    left: -12px;
+  }
+
+  .fat_hero.lesshalfy {
+    min-height: 0;
+    padding-top: 2rem;
+  }
+
+  .segment {
+    margin: 0;
+    padding: 1rem;
+  }
+
+  .segment h2 {
+    padding-left: 2rem;
+  }
+
+  .segment h2 .no {
+    background: transparent;
+    width: 3rem;
+    left: -1rem;
+  }
+}
+@media (max-width: 575px) {
+  .fat_head {
+    height: 5rem;
+  }
+
+  .fat_device {
+    top: 1rem;
+    left: 1rem;
+  }
+
+  .intro .segment {
+    padding: 0 0 0 6rem;
+    min-height: 0;
+  }
+
+  .intro .segment .youtube {
+    width: 4rem;
+    height: 5rem;
+    left: 1rem;
+  }
+
+  .intro,
+.teaching_guide {
+    padding: 1rem 0;
   }
 }
 
