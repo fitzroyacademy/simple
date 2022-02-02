@@ -6,7 +6,7 @@
 
 		<div class="youtube" id="lmwGrSOb4Ls" data-bg="covers/prashvert.jpg"></div>
 
-		<p>This lesson teaches you how to set up a crowdfunding campaign with a solid comms plan.</p>
+		<p>Set up a crowdfunding campaign with a solid communication plan to make sure you start strong, keep momentum up and get to all the goals you're after.</p>
 
 		<div class="meta">
 			<p><i class="far fa-play-circle"></i> ~30 minutes over 7 videos</p>

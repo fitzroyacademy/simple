@@ -6,7 +6,7 @@
 
 		<div class="youtube" id="HA_D-AInP7M" data-bg="covers/amandavert.jpg"></div>
 
-		<p>This lesson will teach you how to lay out a 3-year financial model for a business, with revenue, costs and cash flow.</p>
+		<p>Conquer your fears of finances by laying out a 3-year financial model for a business, with revenue, costs and cash flow.</p>
 
 		<div class="meta">
 			<p><i class="far fa-play-circle"></i> ~30 minutes over 4 videos</p>

@@ -6,7 +6,7 @@
 
 		<div class="youtube" id="_nJq8rFiaoA" data-bg="covers/issacvert.jpg"></div>
 
-		<p>This lesson teaches you to a business model canvas to think about your nonprofit like a business.</p>
+		<p>Use a Business Model Canvas to think about your nonprofit like a business, to start stragizing your move towards social enterprise.</p>
 
 		<div class="meta">
 		<p><i class="far fa-play-circle"></i> ~1 hour over 10 videos</p>

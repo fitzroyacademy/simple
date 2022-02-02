@@ -6,7 +6,7 @@
 
 		<div class="youtube" id="iFvr7xCmKhs" data-bg="covers/caitlynkristinavert.jpg"></div>
 
-		<p>This lesson teaches about user experience using this simple user testing framework.</p>
+		<p>Learn about your user's experiences using this simple user testing framework.</p>
 
 		<div class="meta">
 			<p><i class="far fa-play-circle"></i> ~10 minutes over 4 videos</p>

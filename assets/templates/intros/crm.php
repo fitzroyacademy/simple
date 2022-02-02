@@ -6,7 +6,7 @@
 
 		<div class="youtube" id="SlBVl8sobXA" data-bg="covers/clarevert2.jpg"></div>
 
-		<p>This lesson will teach you all about CRMs: Gathering requirements, testing workflows, and finding the right CRM for your organisation.</p>
+		<p>Customer relationship managers are an important tool for any organisation: Gather your unique requirements, test your workflows, and find the right CRM.</p>
 
 		<div class="meta">
 		<p><i class="far fa-play-circle"></i> ~30 minutes over 5 videos</p>

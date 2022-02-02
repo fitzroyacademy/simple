@@ -6,7 +6,7 @@
 
 		<div class="youtube" id="JioiWN7-ZIk" data-bg="covers/taylorvert.jpg"></div>
 
-		<p>This lesson will teach you to build a model to forecast your month-by-month financial growth.</p>
+		<p>Make spreadhseets your friend by building a model to forecast your month-by-month financial growth, and strategise how to get there.</p>
 
 		<div class="meta">
 			<p><i class="far fa-play-circle"></i> ~30 minutes over 6 videos</p>

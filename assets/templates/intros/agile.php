@@ -1,4 +1,4 @@
-<div class="intro" data-tags="social impact">
+<div class="intro" data-tags="project management">
 
 	<div class="segment">
 
@@ -6,7 +6,7 @@
 
 		<div class="youtube" id="xKhHWC7Agdk" data-bg="covers/clarevert.jpg"></div>
 
-		<p>This lesson will teach you the tools and methods to make your first Agile project work.</p>
+		<p>The tools, methods and practices for one of the world's most popular project management workflows: Agile.</p>
 
 		<div class="meta">
 			<p><i class="far fa-play-circle"></i> ~50 minutes over 5 videos</p>

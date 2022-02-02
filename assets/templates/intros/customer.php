@@ -6,7 +6,7 @@
 
 		<div class="youtube" id="7KW3OeZ_pSM" data-bg="covers/vicvert.jpg"></div>
 
-		<p>This lesson will teach a process to build a product by interviewing customers, and conquer social anxiety.</p>
+		<p>Build a new product or service by interviewing real customers and conquer your social anxiety while you do it.</p>
 
 		<div class="meta">
 			<p><i class="far fa-play-circle"></i> ~25 minutes over 4 videos</p>

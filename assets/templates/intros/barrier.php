@@ -6,7 +6,7 @@
 
 		<div class="youtube" id="4HMfaKGUjZk" data-bg="covers/arivert.jpg"></div>
 
-		<p>This lesson teaches you a method of interview deep-reading to help you uncover all the barriers facing the people you interact with.</p>
+		<p>Interview with care, and deep-read the results to help you uncover all the barriers facing the people you interact with.</p>
 
 		<div class="meta">
 			<p><i class="far fa-play-circle"></i> ~50 minutes over 8 videos</p>

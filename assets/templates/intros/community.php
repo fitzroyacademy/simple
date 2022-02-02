@@ -6,7 +6,7 @@
 
 		<div class="youtube" id="t1GYZn_mq5g" data-bg="covers/jennyvert.jpg"></div>
 
-		<p>This lesson teaches you how to be humble, listen, and communicate with a community you work with.</p>
+		<p>Before doing work in communities, understand your position as outsiders, listen effectively in interviews, and communicate with a community you work with.</p>
 
 		<div class="meta">
 			<p><i class="far fa-play-circle"></i> ~30 minutes over 3 videos</p>

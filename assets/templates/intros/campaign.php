@@ -6,7 +6,7 @@
 
 		<div class="youtube" id="UwiIv25HlrE" data-bg="covers/gautamvert.jpg"></div>
 
-		<p>This lesson will teach you how to a campaign, build a movement and make change happen at a local level, with Gautam Raju of Purpose.</p>
+		<p>Design a campaign, build a movement and make change happen at a local level.</p>
 
 		<div class="meta">
 			<p><i class="far fa-play-circle"></i> ~50 minutes over 7 videos</p>

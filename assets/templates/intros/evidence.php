@@ -7,7 +7,7 @@
 
 		<div class="youtube" id="XRmOjjbnWMg" data-bg="covers/carolinevert.jpg"></div>
 
-		<p>This lesson will teach you a method to ask an important question and answer it reliably, to build interventions that actually work.</p>
+		<p>In order to build interventions that actually work, you must ask an important question and answer it reliably, using the best research available.</p>
 
 		<div class="meta">
 			<p><i class="far fa-play-circle"></i> ~30 minutes over 4 videos</p>
