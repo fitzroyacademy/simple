@@ -210,8 +210,8 @@ $nav_right_width_max: 25rem;
 $container_wide: 70rem;
 $medium_width: 40rem;
 $large_width: 60rem;
-$large_margin: ($large_width - $medium_width) / 2;
-$larger_margin: ($container_wide - $medium_width) / 2;
+$large_margin: calc(($large_width - $medium_width) / 2);
+$larger_margin: calc(($container_wide - $medium_width) / 2);
 $rare_width: 15rem;
 
 
@@ -3081,9 +3081,10 @@ dfn i:hover{color: $blue; opacity: 1;}
 
 .btn-xl{font-size: 1.6rem; padding: .75rem 1.5rem;}
 
-.fat_head{z-index: 6000; position: absolute; top:2rem; left: 2rem; right: 2rem;}
+// .fat_head{z-index: 6000; position: absolute; top:2rem; left: 2rem; right: 2rem;}
+.fat_head{z-index: 6000; position: relative;height: 6rem;}
 
-.fat_device{width: 2rem; height: 4rem; display: block; position: absolute; top:0; left: 0;}
+.fat_device{width: 2rem; height: 4rem; display: block; position: absolute; top:2rem; left: 2rem;}
 .fat_device svg > path{fill-rule: evenodd; fill: $black;}
 
 .fat_device:hover svg > path{fill:$watermelon_vibrant;}
@@ -3521,7 +3522,7 @@ h1 + .fat_nav{margin-top: 2rem}
 // ------------------------------------------------------------------------------------
 // sections in the sales pages
 
-.fat_section{padding: $fat_sidepad/2 $fat_sidepad}
+.fat_section{padding: calc($fat_sidepad/2) $fat_sidepad}
 .fat_section.topless{padding-top: 0 !important;}
 
 .bg{background: $bg;}
@@ -4164,8 +4165,8 @@ dl.fat_storyline dd:last-child::after{display: none;}
 
 	// sections
 	.fat_hero.halfy,
-	.fat_nav .contain{padding: 0 $fat_sidepad/2}
-	.fat_section:not(.fat_pic_grid){padding: $fat_sidepad/2}
+	.fat_nav .contain{padding: 0 calc($fat_sidepad/2)}
+	.fat_section:not(.fat_pic_grid){padding: calc($fat_sidepad/2)}
 	.fat_hero h1{font-size: 4rem;}
 	.fat_section h2{font-size: 3rem; margin-bottom: 2rem;}
 
@@ -4293,7 +4294,7 @@ $max_narrow_width: 60rem;
 .all_lessons .love:hover{color: $new_red;}
 
 .segment h2 .no i{font-size: 80%;}
-.segment p{font-size: 1.2rem;}
+.segment p{font-size: 1.1rem;}
 
 
 .segment img{max-width: 100%; margin-bottom: 1rem;}
@@ -4332,19 +4333,21 @@ $max_narrow_width: 60rem;
 .teaching_guide .segment h2 .no{background: $bg;}
 .teaching_guide .segment{border-left-color: transparent; padding-top: 0; margin-top: 0;}
 
-.intro .segment {padding: 1rem 0 0 18rem; min-height: 18rem;}
-.intro .segment .youtube{ width: 13rem; position: absolute; top:0; left: 3rem; border-radius: 0; height: 18rem; }
+.intro .segment {padding: 1rem 0 0 17rem; min-height: 15rem;}
+.intro .segment .youtube{ width: 12rem; height: 15rem; position: absolute; top:0; left: 3rem; border-radius: 0;}
 .intro .segment .youtube i{font-size: 2.5rem; margin: -1.25rem 0 0 -1.25rem;}
 
-.intro h1{font-size: 2rem; color: $text_lighter; padding-bottom: 1rem;}
+.intro h1{font-size: 1.75rem; color: $text_lighter; padding-bottom: 1rem; margin: 0;}
 .intro h1 a{text-decoration: none; color: inherit;}
 .intro h1 strong{color: $brand;}
 .intro h2{font-size: 1.4rem;}
 
+.intro .segment > p {max-width: 30rem;}
+
 .intro h1 a:hover{}
 .intro h1 a:hover strong{border-bottom: 3px solid $text_lighter;}
 
-.intro .meta p{font-size: 1rem; color: $text_light;}
+.intro .meta p{font-size: .9rem; color: $text_light; margin: 0; padding: 0 0 .5rem;}
 .intro .meta p i{margin-right: .5rem; width: 1.5rem; text-align: center;}
 
 // .segment > * {display: none;}
@@ -4367,10 +4370,12 @@ $max_narrow_width: 60rem;
 .resources{}
 .resources h2{padding-bottom: 0;}
 .resources .resource{background: $bg_light; margin: .5rem 0; border-radius: $border_rad_sm; padding: 1rem 1.5rem 1rem 4rem; position: relative; display: block; text-decoration: none;}
-.resources .resource > i{position: absolute; top:1rem; left: 1.5rem; width: 2rem; font-size: 2rem; color: $text_lighter;}
-.resources .resource > h4{font-size: 1.2rem; text-decoration: none; color:$blue; font-weight: normal;}
-.resources .resource > p{font-size: .8rem; color: $text_light;}
+.resources .resource > i{position: absolute; top:1rem; left: 1.25rem; width: 2rem; font-size: 2rem; color: $text_lighter;}
+.resources .resource > h4{font-size: 1.2rem; text-decoration: none; color:$blue; font-weight: normal; margin: 0; padding: 0 0 .5rem;}
+.resources .resource > p{font-size: .8rem; color: $text_light; padding: 0; margin: 0;}
 .resources .resource:hover{outline:1px solid $blue;}
+.resources .resource:hover h4{text-decoration: underline;}
+.resources .resource:hover i{color: $blue;}
 
 
 
