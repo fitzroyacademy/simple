@@ -1,4 +1,4 @@
-<div class="intro" data-tags="lean, business">
+<div class="intro">
 
 	<div class="segment">
 
@@ -6,12 +6,17 @@
 
 		<div class="youtube" id="iaTQR29nqPA" data-bg="covers/willvert3.jpg"></div>
 
-		<p>This lesson will teach you how to sketch out the goals, users, objects and interfaces in a new web or mobile app.</p>
+		<p>Sketch out the goals, users, objects and interfaces, everything you need to design a new web or mobile app.</p>
 
 		<div class="meta">
 			<p><i class="far fa-play-circle"></i> ~30 minutes over 5 videos</p>
 			<p><i class="far fa-clock"></i> About 2 hours of work to do it solo</p>
-			<p><i class="far fa-users"></i> Run it as a workshop with a small team over 2-3 hours</p>
+			<p class="tags">
+				<i class="far fa-tag"></i>
+				<a class="tag">digital</a>
+				<a class="tag">planning</a>
+				<a class="tag">website</a>
+			</p>
 		</div>
 	</div>
 

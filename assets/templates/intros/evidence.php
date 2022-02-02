@@ -1,4 +1,4 @@
-<div class="intro" data-tags="social impact, change">
+<div class="intro">
 
 	<div class="segment"> <!-- video_playing class for playing mode -->
 
@@ -12,7 +12,12 @@
 		<div class="meta">
 			<p><i class="far fa-play-circle"></i> ~30 minutes over 4 videos</p>
 			<p><i class="far fa-clock"></i> About 2 hours of work to do it solo</p>
-			<p><i class="far fa-users"></i> Run it as a workshop with a small team over 3-4 hours</p>
+			<p class="tags">
+				<i class="far fa-tag"></i>
+				<a class="tag">impact</a>
+				<a class="tag">interventions</a>
+				<a class="tag">measurement</a>
+			</p>
 		</div>
 	</div>
 

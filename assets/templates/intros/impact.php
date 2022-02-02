@@ -6,12 +6,17 @@
 
 		<div class="youtube" id="bg5z-J8Digs" data-bg="covers/kevinvert.jpg"></div>
 
-		<p>This lesson will teach a process to design for lasting impact at scale with <a href="https://www.mulagofoundation.org/">Mulago</a>, using their key tool, the DIF.</p>
+		<p>Design an intervention that will have lasting impact at scale.</p>
 
 		<div class="meta">
 			<p><i class="far fa-play-circle"></i> ~45 minutes over 4 videos</p>
 			<p><i class="far fa-clock"></i> About 3 hour of work to do it solo</p>
-			<p><i class="far fa-users"></i> Run it as a workshop with a small team over 2-3 hours</p>
+			<p class="tags">
+				<i class="far fa-tag"></i>
+				<a class="tag">planning</a>
+				<a class="tag">design</a>
+				<a class="tag">impact</a>
+			</p>
 		</div>
 	</div>
 
