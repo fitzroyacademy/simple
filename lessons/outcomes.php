@@ -52,6 +52,12 @@
 		<p>Ok, you've gotten some outputs, now be clear about the outcomes that these have led too.</p>
 	</div>
 
+	<div class="segment segment_lesson">
+		<h2><span class="no">6</span> Choosing outcomes.</h2>
+		<div class="youtube" id="_M-AxkxFFno"></div>
+		<p>Finally, now that you've worked your way through an entire program, assuming that you don't want to change everything about your program, it's time to communicate your success to others. Bessi helps you use the report to formulate different messages for different audiences.</p>
+	</div>
+
 	<div class="segment further_reading" id="reading">
 		<h2><span class="no"><i class="fas fa-books"></i></span> Further reading</h2>
 		<div class="resources">
