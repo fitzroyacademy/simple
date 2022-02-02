@@ -4283,7 +4283,7 @@ $max_narrow_width: 60rem;
 .segment:last-child{padding-bottom: 0;}
 
 .segment:after,
-.all_lessons .love:after{position: absolute; top:5rem; left: 0; bottom:0; display: block; content: ''; width: 6px; background: $bg; z-index: 4000;}
+.all_lessons .love:after{position: absolute; top:5rem; left: 0; bottom:0; display: block; content: ''; width: 6px; background: $bg; z-index: 3000;}
 
 .all_lessons .love:after{background:linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,200,200,1) 100%); height: 6rem; top:-6.5rem; margin-left: -2px; left: 2rem; border-radius: 0 0 9rem 9rem}
 
@@ -4291,7 +4291,7 @@ $max_narrow_width: 60rem;
 // -----------------------------------------------------------------------------------------
 // Text stuff
 
-.segment h2 {padding:0 0 2rem; margin: 0; font-size: 2rem; position: relative; z-index: 5000;}
+.segment h2 {padding:0 0 2rem; margin: 0; font-size: 2rem; position: relative; z-index: 4000;}
 .segment h2 .no,
 .all_lessons .intro h1:before,
 .all_lessons .love{color: $text_lighterest; background: #fff; text-align: center; display: block; position: absolute; top:-2rem; left: -5rem; width:4rem; margin-left: 3px; padding: 2rem 0; }
@@ -4323,13 +4323,13 @@ $max_narrow_width: 60rem;
 // -----------------------------------------------------------------------------------------
 // Youtube!
 
-.youtube{background-size:cover; position: relative;  outline:1px solid #fff; outline-offset: -1px; border-radius: $border_rad_sm; margin-bottom: 1.5rem; width: 100%;}
+.youtube{background-size:cover; position: relative; outline:1px solid #fff; outline-offset: -1px; border-radius: $border_rad_sm; margin-bottom: 1.5rem; width: 100%; }
 .youtube:after{padding-top: $ratio_169; display: block; content: '';}
 
 .youtube i{font-size: 6rem; color: #fff; position: absolute; top:50%; left: 50%; margin: -3rem 0 0 -3rem; text-shadow: 0 0 10px rgba(0,0,0,0.1); transition: all .2s ease-in-out;}
 
 // hover
-.youtube:hover{cursor: pointer;}
+.youtube:hover{cursor: pointer; outline-color: $bg_dark;}
 .youtube:hover::after{background: rgba(0,0,0,0.01);}
 .youtube:hover i{transform: scale(1.1); text-shadow: 0 0 15px rgba(0,0,0,0.05);}
 
@@ -4559,12 +4559,12 @@ body.ineedshow .all_lessons{opacity: 0.1; transition: all .25s ease-in-out; }
 // - put it on a server somewhere ...
 // - fix JS on homepage ✅
 // - fix logo somehow ✅
-// - fix heart placement
-// - fix counter of lessons
+// - fix heart placement ✅
+// - fix counter of lessons ✅
 // - make cards smaller on small screen ✅
 // - do a teaching guide for Lean
-// - icon placement on links 
-// - left border
+// - icon placement on links ✅
+// - left border 
 // - make video more clickable
 // - intro: play with MM:SS
 // - intro MM:SS on video

@@ -9199,7 +9199,7 @@ dl.fat_storyline dd:last-child::after {
   content: "";
   width: 6px;
   background: #f5f7f8;
-  z-index: 4000;
+  z-index: 3000;
 }
 
 .all_lessons .love:after {
@@ -9216,7 +9216,7 @@ dl.fat_storyline dd:last-child::after {
   margin: 0;
   font-size: 2rem;
   position: relative;
-  z-index: 5000;
+  z-index: 4000;
 }
 
 .segment h2 .no,
@@ -9304,6 +9304,7 @@ dl.fat_storyline dd:last-child::after {
 
 .youtube:hover {
   cursor: pointer;
+  outline-color: #f1f4f5;
 }
 
 .youtube:hover::after {

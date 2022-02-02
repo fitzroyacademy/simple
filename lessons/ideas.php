@@ -48,7 +48,7 @@
 
 	<div class="segment segment_lesson">
 		<h2><span class="no">2</span> Quiet / loud brainstorming.</h2>
-		<<div class="youtube" id="pjAyj3yto6A"></div>
+		<div class="youtube" id="pjAyj3yto6A"></div>
 		<p>Quiet / loud brainstorming is a way to get better ideas from a group of people who need to brainstorm. The activity moves through quiet and loud phases to allow people of all sorts to particiapte more fully in the conversation.</p>
 		<h3>You will need:</h3>
 		<ul>
