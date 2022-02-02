@@ -9189,7 +9189,8 @@ dl.fat_storyline dd:last-child::after {
   padding-bottom: 0;
 }
 
-.segment:after {
+.segment:after,
+.all_lessons .love:after {
   position: absolute;
   top: 5rem;
   left: 0;
@@ -9199,6 +9200,15 @@ dl.fat_storyline dd:last-child::after {
   width: 6px;
   background: #f5f7f8;
   z-index: 4000;
+}
+
+.all_lessons .love:after {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #ffc8c8 100%);
+  height: 6rem;
+  top: -6.5rem;
+  margin-left: -2px;
+  left: 2rem;
+  border-radius: 0 0 9rem 9rem;
 }
 
 .segment h2 {
@@ -9331,7 +9341,7 @@ dl.fat_storyline dd:last-child::after {
 
 .intro .segment {
   padding: 1rem 0 0 17rem;
-  min-height: 15rem;
+  min-height: 17rem;
 }
 
 .intro .segment .youtube {
@@ -9488,6 +9498,7 @@ dl.fat_storyline dd:last-child::after {
 
 .all_lessons {
   position: relative;
+  padding-bottom: 8rem;
 }
 
 .all_lessons .intro {
@@ -9498,6 +9509,10 @@ dl.fat_storyline dd:last-child::after {
 .all_lessons .intro .segment {
   margin-left: 0;
   padding-bottom: 3rem;
+}
+
+.all_lessons .relativ {
+  position: relative;
 }
 
 .all_lessons {
@@ -9517,9 +9532,10 @@ dl.fat_storyline dd:last-child::after {
 
 .all_lessons .love {
   top: unset;
-  bottom: 3rem;
+  bottom: -5rem;
   font-size: 3rem;
-  left: -1.75rem;
+  left: -2rem;
+  margin-left: 3px;
   padding: 0;
   color: #d2d7da;
 }
@@ -9719,7 +9735,22 @@ body.ineedshow .all_lessons {
   transition: all 0.25s ease-in-out;
 }
 
+@media (max-width: 1450px) {
+  .all_lessons .love,
+.total_num {
+    left: 5rem;
+  }
+}
 @media (max-width: 1000px) {
+  .total_num,
+body.ineedshow_search .total_num {
+    display: none;
+  }
+
+  .all_lessons .love {
+    left: -2rem;
+  }
+
   .i_need .to_work_on {
     display: none;
   }

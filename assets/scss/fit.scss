@@ -4282,7 +4282,10 @@ $max_narrow_width: 60rem;
 .segment:first-child{margin-top: 0; padding-top: 0;}
 .segment:last-child{padding-bottom: 0;}
 
-.segment:after{position: absolute; top:5rem; left: 0; bottom:0; display: block; content: ''; width: 6px; background: $bg; z-index: 4000;}
+.segment:after,
+.all_lessons .love:after{position: absolute; top:5rem; left: 0; bottom:0; display: block; content: ''; width: 6px; background: $bg; z-index: 4000;}
+
+.all_lessons .love:after{background:linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,200,200,1) 100%); height: 6rem; top:-6.5rem; margin-left: -2px; left: 2rem; border-radius: 0 0 9rem 9rem}
 
 
 // -----------------------------------------------------------------------------------------
@@ -4343,7 +4346,7 @@ $max_narrow_width: 60rem;
 .teaching_guide .segment h2 .no{background: $bg;}
 .teaching_guide .segment{border-left-color: transparent; padding-top: 0; margin-top: 0;}
 
-.intro .segment {padding: 1rem 0 0 17rem; min-height: 15rem;}
+.intro .segment {padding: 1rem 0 0 17rem; min-height: 17rem;}
 .intro .segment .youtube{ width: 12rem; height: 15rem; position: absolute; top:0; left: 3rem; border-radius: 0; background-size: cover;}
 .intro .segment .youtube i{font-size: 2.5rem; margin: -1.25rem 0 0 -1.25rem;}
 
@@ -4395,9 +4398,12 @@ $max_narrow_width: 60rem;
 
 // -----------------------------------------------------------------------------------------
 // new index home page
-.all_lessons {position: relative;}
+.all_lessons {position: relative; padding-bottom: 8rem;}
 .all_lessons .intro{background: none; padding: 0;}
 .all_lessons .intro .segment{margin-left: 0; padding-bottom: 3rem;}
+
+// love and money
+.all_lessons .relativ{position: relative;}
 
 // counter
 .all_lessons {list-style-type: none; counter-reset: css-counter 0;}
@@ -4405,9 +4411,8 @@ $max_narrow_width: 60rem;
 .all_lessons .intro h1:before{content: counter(css-counter); top:-1rem; left: -2rem;}
 
 
-.all_lessons .love{top:unset; bottom:3rem;  font-size: 3rem; left: -1.75rem; padding: 0; color: $text_lightest;}
+.all_lessons .love{top:unset; bottom:-5rem; font-size: 3rem; left: -2rem; margin-left: 3px; padding: 0; color: $text_lightest;}
 .all_lessons .love:hover{}
-
 // -----------------------------------------------------------------------------------------
 // I need to find dropdown
 
@@ -4470,8 +4475,17 @@ body.ineedshow .fat_head,
 body.ineedshow .fat_hero h1,
 body.ineedshow .all_lessons{opacity: 0.1; transition: all .25s ease-in-out; }
 
+@media (max-width: 1450px) {
+	.all_lessons .love,
+	.total_num{left: 5rem;}
+}
 
 @media (max-width: 1000px) {
+
+	.total_num,
+	body.ineedshow_search .total_num{display: none;}
+	.all_lessons .love{left: -2rem;}
+
 	.i_need .to_work_on	{display: none;}
 	.i_need .btn-group{width: 100%;}
 	#ineedbutton{margin-left: -1rem; text-align: left;}

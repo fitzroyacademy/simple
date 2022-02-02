@@ -70,9 +70,11 @@
 		<?php include 'assets/templates/intros/video.php';?>
 		<?php include 'assets/templates/intros/website.php';?>
 		<?php include 'assets/templates/intros/love.php';?>
-
 		<div class="total_num"> <span></span></div>
-		<a href="/about/michael" class="love"><i class="far fa-heart"></i></a>
+		<div class="relativ">
+			<a href="/about/michael" class="love"><i class="far fa-heart"></i></a>
+		</div>
+
 	</div>
 
 
