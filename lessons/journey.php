@@ -36,17 +36,27 @@
 	</div>
 
 	<div class="segment further_reading" id="reading">
-		<h2><span class="no"><i class="fas fa-books"></i></span> Further reading</h2>
+		<h2><span class="no"><i class="fas fa-book"></i></span> Further reading</h2>
 		<div class="resources">
-				<a class="resource" href="https://" target="_blank">
-				<i class="far fa-book"></i>
-				<h4>Book title</h4>
-				<p>Some book.</p>
+			<a class="resource" href="https://uxmastery.com/ux-marks-the-spot-mapping-the-user-experience/" target="_blank">
+				<i class="far fa-browers"></i>
+				<h4>‘UX’ Marks the Spot: Mapping the User Experience</h4>
+				<p> Another good introduction to experience mapping article, from my good friend Luke at UX Mastery. Check out the rest of the site for even more great UX articles, tips and resources.</p>
 			</a>
-			<a class="resource" href="https://" target="_blank">
-				<i class="far fa-headphones"></i>
-				<h4>Podcast title</h4>
-				<p>Podcast title.</p>
+			<a class="resource" href="uxmatters.com/mt/archives/2011/09/the-value-of-customer-journey-maps-a-ux-designers-personal-journey.php" target="_blank">
+				<i class="far fa-browser"></i>
+				<h4>The Value of Customer Journey Maps: A UX Designer’s Personal Journey</h4>
+				<p>A really nice article explaining "...the virtues of customer journey maps, the necessary ingredients that make them an intelligent deliverable that encourages conversation and collaboration, and the role they can play in effecting real change in large organisations."</p>
+			</a>
+			<a class="resource" href="https://www.smashingmagazine.com/2015/01/all-about-customer-journey-mapping/" target="_blank">
+				<i class="far fa-book"></i>
+				<h4>All You Need To Know About Customer Journey Mapping </h4>
+				<p>Another nice introduction to journey mapping.</p>
+			</a>
+			<a class="resource" href="https://www.oreilly.com/library/view/mapping-experiences/9781491923528/" target="_blank">
+				<i class="far fa-book"></i>
+				<h4>Mapping Experiences</h4>
+				<p>The "Complete Guide to Creating Value through Journeys, Blueprints, and Diagrams" from O'Reilly.</p>
 			</a>
 		</div>
 	</div>
