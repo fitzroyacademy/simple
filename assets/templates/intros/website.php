@@ -1,4 +1,4 @@
-<div class="intro" data-tags="website, UX, digital">
+<div class="intro">
 
 	<div class="segment">
 
@@ -6,12 +6,17 @@
 
 		<div class="youtube" id="77rK23C-lDA" data-bg="covers/willvert3.jpg"></div>
 
-		<p>This lesson will teach to make a simple website that will stick the landing.</p>
+		<p>Make a simple website that will resounage with your audience and inpsirement to take action.</p>
 
 		<div class="meta">
 			<p><i class="far fa-play-circle"></i> ~30 minutes over 4 videos</p>
 			<p><i class="far fa-clock"></i> About 3 hour of work to do it solo</p>
-			<p><i class="far fa-users"></i> Run it as a workshop with a small team over 2-3 hours</p>
+			<p class="tags">
+				<i class="far fa-tag"></i>
+				<a class="tag">digital</a>
+				<a class="tag">user experience</a>
+				<a class="tag">website</a>
+			</p>
 		</div>
 	</div>
 

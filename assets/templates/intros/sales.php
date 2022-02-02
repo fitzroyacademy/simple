@@ -1,4 +1,4 @@
-<div class="intro" data-tags="entrepreneurship, business">
+<div class="intro">
 
 	<div class="segment">
 
@@ -6,12 +6,17 @@
 
 		<div class="youtube" id="L-GRInwzAgY" data-bg="covers/willrvert.jpg"></div>
 
-		<p>This lesson will teach you a method to help you sell your products. Sales is about treating people well, and thinking of relationships as long term friendships.</p>
+		<p>Learn to sell your products by caring: Sales is about treating people well, and thinking of relationships as long term friendships.</p>
 
 		<div class="meta">
 			<p><i class="far fa-play-circle"></i> ~30 minutes over 5 videos</p>
 			<p><i class="far fa-clock"></i> About 2 hours of work to do it solo</p>
-			<p><i class="far fa-users"></i> Run it as a workshop with a small team over 2-3 hours</p>
+			<p class="tags">
+				<i class="far fa-tag"></i>
+				<a class="tag">money</a>
+				<a class="tag">pitching</a>
+				<a class="tag">entrepreneurship</a>
+			</p>
 		</div>
 	</div>
 

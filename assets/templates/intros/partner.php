@@ -1,4 +1,4 @@
-<div class="intro" data-tags="lean, business">
+<div class="intro">
 
 	<div class="segment">
 
@@ -6,13 +6,17 @@
 
 		<div class="youtube" id="DwXtvNbFqSI" data-bg="covers/simonvert.jpg"></div>
 
-		<p>This lesson will teach you to scope out a partnership and be sure you're putting money where it makes the most impact.
-</p>
+		<p>Scope out a new partnership to provide impact for your business and be sure you're putting money where it makes the most impact.</p>
 
 		<div class="meta">
 			<p><i class="far fa-play-circle"></i> ~30 minutes over 5 videos</p>
 			<p><i class="far fa-clock"></i> About 2 hours of work to do it solo</p>
-			<p><i class="far fa-users"></i> Run it as a workshop with a small team over 2-3 hours</p>
+			<p class="tags">
+				<i class="far fa-tag"></i>
+				<a class="tag">planning</a>
+				<a class="tag">design</a>
+				<a class="tag">impact</a>
+			</p>
 		</div>
 	</div>
 

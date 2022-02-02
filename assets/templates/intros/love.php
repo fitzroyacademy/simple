@@ -1,4 +1,4 @@
-<div class="intro" data-tags="website, UX, digital">
+<div class="intro">
 
 	<div class="segment">
 
@@ -11,7 +11,12 @@
 		<div class="meta">
 			<p><i class="far fa-heart"></i> We believe in you.</p>
 			<p><i class="far fa-clock"></i> Soon as you're ready.</p>
-			<p><i class="far fa-users"></i> Alone or together, I guess? You do you!</p>
+			<p class="tags">
+				<i class="far fa-tag"></i>
+				<a class="tag">belief</a>
+				<a class="tag">love</a>
+				<a class="tag">good vibes</a>
+			</p>	
 		</div>
 	</div>
 
