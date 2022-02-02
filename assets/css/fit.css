@@ -6323,10 +6323,8 @@ dfn i:hover {
 
 .fat_head {
   z-index: 6000;
-  position: absolute;
-  top: 2rem;
-  left: 2rem;
-  right: 2rem;
+  position: relative;
+  height: 6rem;
 }
 
 .fat_device {
@@ -6334,8 +6332,8 @@ dfn i:hover {
   height: 4rem;
   display: block;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 2rem;
+  left: 2rem;
 }
 
 .fat_device svg > path {
@@ -9221,7 +9219,7 @@ dl.fat_storyline dd:last-child::after {
 }
 
 .segment p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .segment img {
@@ -9316,17 +9314,17 @@ dl.fat_storyline dd:last-child::after {
 }
 
 .intro .segment {
-  padding: 1rem 0 0 18rem;
-  min-height: 18rem;
+  padding: 1rem 0 0 17rem;
+  min-height: 15rem;
 }
 
 .intro .segment .youtube {
-  width: 13rem;
+  width: 12rem;
+  height: 15rem;
   position: absolute;
   top: 0;
   left: 3rem;
   border-radius: 0;
-  height: 18rem;
 }
 
 .intro .segment .youtube i {
@@ -9335,9 +9333,10 @@ dl.fat_storyline dd:last-child::after {
 }
 
 .intro h1 {
-  font-size: 2rem;
+  font-size: 1.75rem;
   color: #b0b4b7;
   padding-bottom: 1rem;
+  margin: 0;
 }
 
 .intro h1 a {
@@ -9353,13 +9352,19 @@ dl.fat_storyline dd:last-child::after {
   font-size: 1.4rem;
 }
 
+.intro .segment > p {
+  max-width: 30rem;
+}
+
 .intro h1 a:hover strong {
   border-bottom: 3px solid #b0b4b7;
 }
 
 .intro .meta p {
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: #717b81;
+  margin: 0;
+  padding: 0 0 0.5rem;
 }
 
 .intro .meta p i {
@@ -9401,7 +9406,7 @@ dl.fat_storyline dd:last-child::after {
 .resources .resource > i {
   position: absolute;
   top: 1rem;
-  left: 1.5rem;
+  left: 1.25rem;
   width: 2rem;
   font-size: 2rem;
   color: #b0b4b7;
@@ -9412,15 +9417,27 @@ dl.fat_storyline dd:last-child::after {
   text-decoration: none;
   color: #2793f8;
   font-weight: normal;
+  margin: 0;
+  padding: 0 0 0.5rem;
 }
 
 .resources .resource > p {
   font-size: 0.8rem;
   color: #717b81;
+  padding: 0;
+  margin: 0;
 }
 
 .resources .resource:hover {
   outline: 1px solid #2793f8;
+}
+
+.resources .resource:hover h4 {
+  text-decoration: underline;
+}
+
+.resources .resource:hover i {
+  color: #2793f8;
 }
 
 .all_lessons {

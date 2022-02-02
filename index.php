@@ -80,3 +80,22 @@
 </div>
 
 <?php include 'assets/templates/site_footer.php';?>
+
+<!-- 
+todo:
+
+- put it on a server somewhere
+- fix JS on homepage
+- fix logo somehow
+- fix heart placement
+- fix counter of lessons
+- make cards smaller on small screen
+- do a teaching guide for Lean
+- icon placement on links
+- left border
+- make video more clickable
+- intro: play with MM:SS
+- intro MM:SS on video
+- look through the "time needed" icons
+- 
+ -->
