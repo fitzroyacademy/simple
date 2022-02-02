@@ -9,11 +9,13 @@
 	<div class="segment segment_resources" id="resources">
 		<h2><span class="no"><i class="far fa-file-alt"></i></span> Lesson resources</h2>
 		<div class="youtube" id="9lJK1M6tD6U"></div>
+		<div class="resources">
 		<a class="resource" href="https://docs.google.com/document/d/1rQkOtFhmFFHzEizFJXpdvU4M1YGez5jIsXUHWpKyif4/edit?usp=sharing" target="_blank">
 				<i class="far fa-file-alt"></i>
-				<h4>Good ideas activities reference sheet</h4>
+				<h4>Good ideas activities reference sheet.</h4>
 				<p>A reference sheet for you to use to help when you are running the activities that Judah leads you through yourself.</p>
 			</a>
+		</div>
 	</div>
 
 	<div class="segment segment_lesson" id="lesson">
