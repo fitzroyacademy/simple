@@ -1,4 +1,4 @@
-<div class="intro" data-tags="lean, business, entrepreneurship">
+<div class="intro">
 
 	<div class="segment">
 

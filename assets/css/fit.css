@@ -9369,12 +9369,36 @@ dl.fat_storyline dd:last-child::after {
   font-size: 1.4rem;
 }
 
+.intro .tags {
+  margin: -0.75rem 0 0.5rem;
+}
+
+.intro .tags .tag {
+  background: #cbd0d2;
+  border-radius: 9999em;
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.1rem 0.55rem;
+  font-size: 0.7rem;
+}
+
+.intro .tags .tag:hover {
+  background: #2793f8;
+  cursor: pointer;
+}
+
 .intro .segment > p {
   max-width: 30rem;
 }
 
+.intro h1 a:hover {
+  color: #4f5153;
+}
+
 .intro h1 a:hover strong {
-  border-bottom: 3px solid #b0b4b7;
+  border-bottom: 3px solid #cbd0d2;
+  color: #F42069;
 }
 
 .intro .meta p {

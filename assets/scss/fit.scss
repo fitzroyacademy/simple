@@ -4,6 +4,7 @@ $bg: #f5f7f8;
 $bg_grey: #f7f7f7;
 $bg_light: #f7f9fa;
 $bg_dark: #f1f4f5;
+$bg_darker: #cbd0d2;
 $bg_blue: #ebf0f1;
 
 $bg_green: #e3f5b6;
@@ -4351,10 +4352,14 @@ $max_narrow_width: 60rem;
 .intro h1 strong{color: $brand;}
 .intro h2{font-size: 1.4rem;}
 
+.intro .tags{margin: -.75rem 0 .5rem;}
+.intro .tags .tag{background: $bg_darker; border-radius:$border_rad_r; color: #fff; display: inline-block; text-decoration: none; padding: .1rem .55rem; font-size: .7rem;}
+.intro .tags .tag:hover{background: $blue; cursor: pointer;}
+
 .intro .segment > p {max-width: 30rem;}
 
-.intro h1 a:hover{}
-.intro h1 a:hover strong{border-bottom: 3px solid $text_lighter;}
+.intro h1 a:hover{color: $text;}
+.intro h1 a:hover strong{border-bottom: 3px solid $bg_darker; color: $pink;}
 
 .intro .meta p{font-size: .9rem; color: $text_light; margin: 0; padding: 0 0 .5rem 2rem; position: relative;}
 .intro .meta p i{width: 1.5rem; text-align: center; position: absolute; top:.25rem; left: 0; font-size: 1rem; color: $text_lighter;}
@@ -4537,14 +4542,14 @@ body.ineedshow .all_lessons{opacity: 0.1; transition: all .25s ease-in-out; }
 
 // todo:
 
-// - put it on a server somewhere
-// - fix JS on homepage
-// - fix logo somehow
+// - put it on a server somewhere ...
+// - fix JS on homepage ✅
+// - fix logo somehow ✅
 // - fix heart placement
 // - fix counter of lessons
-// - make cards smaller on small screen
+// - make cards smaller on small screen ✅
 // - do a teaching guide for Lean
-// - icon placement on links
+// - icon placement on links 
 // - left border
 // - make video more clickable
 // - intro: play with MM:SS
