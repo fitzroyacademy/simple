@@ -19,12 +19,12 @@
 			    <strong class="pink">literally everything</strong> <i class="fal fa-chevron-down"></i>
 			  </button>
 		    <ul class="dropdown-menu" aria-labelledby="ineed" data-ineedselect="">
-		      <li><a class="dropdown-item cyan" href="#" data-searchify="planning">making a plan to win</a></li>
-		      <li><a class="dropdown-item watermelon" href="#" data-searchify="business">business &amp; strategy</a></li>
+					<li><a class="dropdown-item green" href="#" data-searchify="impact">designing for impact</a></li>		    	
+		      <li><a class="dropdown-item cyan" href="#" data-searchify="planning">planning to win</a></li>
+		      <li><a class="dropdown-item apricot" href="#" data-searchify="business">business &amp; strategy</a></li>
 		      <li><a class="dropdown-item red" href="#" data-searchify="money">making money</a></li>
-					<li><a class="dropdown-item green" href="#" data-searchify="impact">designing &amp; measuring impact</a></li>
-		      <li><a class="dropdown-item purple" href="#" data-searchify="digital">digital + the internet!</a></li>					
-		      <li><a class="dropdown-item apricot" href="#" data-searchify="love">the way we fall in love</a></li>
+		      <li><a class="dropdown-item purple" href="#" data-searchify="digital">digital + the internet</a></li>					
+		      <li><a class="dropdown-item pink" href="#" data-searchify="love">the way we fall in love</a></li>
 		    </ul>
 	    	<form class="quicksearch_form">
 			    <div class="input-group mb-3">

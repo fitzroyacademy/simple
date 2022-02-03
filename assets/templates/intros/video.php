@@ -13,9 +13,9 @@
 			<p><i class="far fa-users"></i> Run it as a workshop with a small team over 4-5 hours</p>
 			<p class="tags">
 				<i class="far fa-tag"></i>
-				<a class="tag">digital</a>
-				<a class="tag">learning</a>
-				<a class="tag">education</a>
+				<a class="tag"><em>tag: </em>digital</a>
+				<a class="tag"><em>tag: </em>learning</a>
+				<a class="tag"><em>tag: </em>education</a>
 			</p>
 		</div>
 	</div>

@@ -4359,6 +4359,8 @@ $max_narrow_width: 60rem;
 .intro .tags .tag{background: $bg_darker; border-radius:$border_rad_r; color: #fff; display: inline-block; text-decoration: none; padding: .1rem .55rem; font-size: .7rem;}
 .intro .tags .tag:hover{background: $blue; cursor: pointer;}
 
+.intro .tags .tag em{display: none;}
+
 .intro .segment > p {max-width: 30rem;}
 
 .intro h1 a:hover{color: $text;}

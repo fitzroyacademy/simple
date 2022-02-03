@@ -9399,6 +9399,10 @@ dl.fat_storyline dd:last-child::after {
   cursor: pointer;
 }
 
+.intro .tags .tag em {
+  display: none;
+}
+
 .intro .segment > p {
   max-width: 30rem;
 }

@@ -17,6 +17,18 @@ $(function() {
   }
 
 
+
+  // The function that fills out the form automagically:
+
+  var formMagic = function(tag){
+    console.log(tag);
+    $('#ineedbutton').dropdown('hide');
+    $('body').addClass('ineedshow_search');
+    $('body').removeClass('ineedshow');
+    $('#quicksearch').val(tag);
+    $('#quicksearch').focus().keyup();
+  }
+
   // add listener to dropdown
   var theDropdown = document.getElementById('ineedbutton')
   theDropdown.addEventListener('shown.bs.dropdown', function () {
@@ -29,12 +41,7 @@ $(function() {
 
   // click an item
   $('[data-ineedselect] li a').on('click', function(e){
-    console.log($(this).data('searchify'));
-    $('#ineedbutton').dropdown('hide');
-    $('body').addClass('ineedshow_search');
-    $('body').removeClass('ineedshow');
-    $('#quicksearch').val($(this).data('searchify'));
-    $('#quicksearch').focus().keyup();
+    formMagic($(this).data('searchify'));
   });
 
   // quick search
@@ -75,7 +82,11 @@ $(function() {
     $('.all_lessons .intro').attr('style', '');
   });
 
+  $('.intro .tags .tag').on('click', function(e){
+    formMagic($(this).text());
+  });
 
+  
   
 
   //List.js search

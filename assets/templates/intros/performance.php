@@ -13,9 +13,9 @@
 			<p><i class="far fa-clock"></i> About 1 hour of work to do it solo</p>
 			<p class="tags">
 				<i class="far fa-tag"></i>
-				<a class="tag">money</a>
-				<a class="tag">pitching</a>
-				<a class="tag">social enterprise</a>
+				<a class="tag"><em>tag: </em>money</a>
+				<a class="tag"><em>tag: </em>pitching</a>
+				<a class="tag"><em>tag: </em>social enterprise</a>
 			</p>
 		</div>
 	</div>

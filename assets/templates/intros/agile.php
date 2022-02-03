@@ -13,9 +13,9 @@
 			<p><i class="far fa-clock"></i> ~1 hour of work solo, or half a day as a team</p>
 			<p class="tags">
 				<i class="far fa-tag"></i>
-				<a class="tag">planning</a>
-				<a class="tag">business</a>
-				<a class="tag">entrepreneurship</a>
+				<a class="tag"><em>tag: </em>planning</a>
+				<a class="tag"><em>tag: </em>business</a>
+				<a class="tag"><em>tag: </em>entrepreneurship</a>
 			</p>		
 		</div>
 	</div>

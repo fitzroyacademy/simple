@@ -13,9 +13,9 @@
 			<p><i class="far fa-clock"></i> Soon as you're ready.</p>
 			<p class="tags">
 				<i class="far fa-tag"></i>
-				<a class="tag">belief</a>
-				<a class="tag">love</a>
-				<a class="tag">good vibes</a>
+				<a class="tag"><em>tag: </em>belief</a>
+				<a class="tag"><em>tag: </em>love</a>
+				<a class="tag"><em>tag: </em>good vibes</a>
 			</p>	
 		</div>
 	</div>
