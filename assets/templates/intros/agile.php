@@ -4,7 +4,9 @@
 
 		<h1><a href="/lessons/agile"><strong>Agile</strong> with Clare Carmody</a></h1>
 
-		<div class="youtube" id="xKhHWC7Agdk" data-bg="covers/clarevert.jpg"></div>
+		<div class="youtube" id="xKhHWC7Agdk" data-bg="covers/clarevert.jpg">
+			<div class="time"><em>Play trailer - </em><strong>1:46</strong></div>
+		</div>
 
 		<p>The tools, methods and practices for one of the world's most popular project management workflows: Agile.</p>
 

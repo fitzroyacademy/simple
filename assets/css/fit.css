@@ -9302,26 +9302,59 @@ dl.fat_storyline dd:last-child::after {
   transition: all 0.2s ease-in-out;
 }
 
-.youtube:hover {
-  cursor: pointer;
-  outline-color: #f1f4f5;
-}
-
-.youtube:hover::after {
-  background: rgba(0, 0, 0, 0.01);
-}
-
-.youtube:hover i {
-  transform: scale(1.1);
-  text-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
-}
-
 .youtube iframe {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
+}
+
+.youtube .time {
+  background: rgba(0, 0, 0, 0.6);
+  display: block;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  padding: 2px 6px;
+  color: #fff;
+  font-size: 0.7rem;
+  opacity: 0.6;
+  word-wrap: none;
+}
+
+.youtube .time em,
+.youtube .time strong {
+  font-weight: 400;
+  font-style: normal;
+}
+
+.youtube .time em {
+  display: none;
+}
+
+.youtube:hover {
+  cursor: pointer;
+  outline-color: #f1f4f5;
+}
+
+.youtube:hover::after {
+  background: rgba(0, 0, 0, 0.02);
+}
+
+.youtube:hover i {
+  transform: scale(1.1);
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.youtube:hover .time {
+  background: rgba(0, 0, 0, 0.9);
+  opacity: 1;
+}
+
+.youtube:hover .time em {
+  display: inline;
 }
 
 .intro,
@@ -9372,6 +9405,12 @@ dl.fat_storyline dd:last-child::after {
   color: inherit;
 }
 
+.intro h1 a .fa-arrow-right {
+  font-size: 1.1rem;
+  margin-left: 0.5rem;
+  color: #d2d7da;
+}
+
 .intro h1 strong {
   color: #464749;
 }
@@ -9413,7 +9452,7 @@ dl.fat_storyline dd:last-child::after {
 
 .intro h1 a:hover strong {
   border-bottom: 3px solid #cbd0d2;
-  color: #F42069;
+  color: #ff0bba;
 }
 
 .intro .meta p {
@@ -9439,11 +9478,11 @@ dl.fat_storyline dd:last-child::after {
 }
 
 .intro .segment.video_playing {
-  padding-left: 35rem;
+  padding-left: 28rem;
 }
 
 .intro .segment.video_playing .youtube {
-  width: 30rem;
+  width: 26.5rem;
 }
 
 .intro .segment.video_playing .meta {
