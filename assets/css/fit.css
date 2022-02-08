@@ -6323,8 +6323,7 @@ dfn i:hover {
 
 .fat_head {
   z-index: 6000;
-  position: relative;
-  height: 6rem;
+  position: fixed;
 }
 
 .fat_device {
@@ -9808,6 +9807,15 @@ body.ineedshow .all_lessons {
     left: 5rem;
   }
 }
+@media (max-width: 1200px) {
+  .fat_head {
+    position: absolute;
+  }
+
+  body > .intro {
+    padding-top: 8rem;
+  }
+}
 @media (max-width: 1000px) {
   .total_num,
 body.ineedshow_search .total_num {
@@ -9887,6 +9895,16 @@ body.ineedshow_search .i_need .quicksearch_form {
     padding: 1rem 0;
   }
 }
+.hackyanchorspanker {
+  width: 10px;
+  height: 10px;
+  background: #0f0;
+  display: block;
+  position: absolute;
+  top: 0rem;
+  left: 0;
+}
+
 .teaching_guide {
   display: none !important;
 }

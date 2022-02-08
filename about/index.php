@@ -21,7 +21,8 @@
 
 
 
-<div class="fat_section topless" id="about">
+<div class="fat_section topless">
+	<a id="about" class="hackyanchorspanker"></a>
 
 	<blockquote class="fat_quote left fattest">
 		<!-- <span class="ldquo">&ldquo;</span> -->
@@ -114,21 +115,21 @@
 		<hr class="blunt">
 
 		<h2 class="purple">
-			<small><i class="fal fa-users"></i> Plus our friends</small>
-			Teachers &amp; geeks
+			<small><i class="fal fa-users"></i> Teachers &amp; geeks</small>
+			Them what did the work:
 		</h2>
 
 		<div class="row">
-		  <div class="col-6 col-sm-4 col-md-2 oof">
+		  <div class="col-6 col-sm-2 col-md oof">
 		    <div class="fit_picture">
 		      <img src="/assets/images/faces/leo.jpg" alt="image">
 		      <small class="caption">
 		        <span class="flag flag-icon-background flag-icon-au"></span>
-		        Leo, video 
+		        Rami, video 
 		      </small>
 		    </div>
 		  </div>
-		  <div class="col-6 col-sm-4 col-md-2 oof">
+		  <div class="col-6 col-sm-2 col-md oof">
 		    <div class="fit_picture">
 		      <img src="/assets/images/faces/clare.jpg" alt="image">
 		      <small class="caption">
@@ -137,7 +138,7 @@
 		      </small>
 		    </div>
 		  </div>
-		  <div class="col-6 col-sm-4 col-md-2 oof">
+		  <div class="col-6 col-sm-2 col-md oof">
 		    <div class="fit_picture">
 		      <img src="/assets/images/faces/michelle.jpg" alt="image">
 		      <small class="caption">
@@ -146,7 +147,7 @@
 		      </small>
 		    </div>
 		  </div>
-		  <div class="col-6 col-sm-4 col-md-2 oof">
+		  <div class="col-6 col-sm-2 col-md oof">
 		    <div class="fit_picture">
 		      <img src="/assets/images/faces/reid.jpg" alt="image">
 		      <small class="caption">
@@ -155,7 +156,7 @@
 		      </small>
 		    </div>
 		  </div>
-		  <div class="col-6 col-sm-4 col-md-2 oof">
+		  <div class="col-6 col-sm-2 col-md oof">
 		    <div class="fit_picture">
 		      <img src="/assets/images/faces/maciej.jpg" alt="image">
 		      <small class="caption">
@@ -164,7 +165,7 @@
 		      </small>
 		    </div>
 		  </div>
-		  <div class="col-6 col-sm-4 col-md-2 oof">
+		  <div class="col-6 col-sm-2 col-md oof">
 		    <div class="fit_picture">
 		      <img src="/assets/images/faces/eve.jpg" alt="image">
 		      <small class="caption">
@@ -173,7 +174,7 @@
 		      </small>
 		    </div>
 		  </div>
-		  <div class="col-6 col-sm-4 col-md-2 oof">
+		  <div class="col-6 col-sm-2 col-md oof">
 		    <div class="fit_picture">
 		      <img src="/assets/images/faces/nicky.jpg" alt="image">
 		      <small class="caption">
@@ -182,7 +183,7 @@
 		      </small>
 		    </div>
 		  </div>
-		  <div class="col-6 col-sm-4 col-md-2 oof">
+		  <div class="col-6 col-sm-2 col-md oof">
 		    <div class="fit_picture">
 		      <img src="/assets/images/faces/will.jpg" alt="image">
 		      <small class="caption">

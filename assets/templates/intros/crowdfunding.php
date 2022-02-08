@@ -17,6 +17,7 @@
 				<a class="tag"><em>tag: </em>marketing</a>
 				<a class="tag"><em>tag: </em>planning</a>
 			</p>
+		</div>
 	</div>
 	
 </div>

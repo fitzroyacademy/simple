@@ -3083,7 +3083,7 @@ dfn i:hover{color: $blue; opacity: 1;}
 .btn-xl{font-size: 1.6rem; padding: .75rem 1.5rem;}
 
 // .fat_head{z-index: 6000; position: absolute; top:2rem; left: 2rem; right: 2rem;}
-.fat_head{z-index: 6000; position: relative;height: 6rem;}
+.fat_head{z-index: 6000; position: fixed;}
 
 .fat_device{width: 2rem; height: 4rem; display: block; position: absolute; top:2rem; left: 2rem;}
 .fat_device svg > path{fill-rule: evenodd; fill: $black;}
@@ -4499,6 +4499,11 @@ body.ineedshow .all_lessons{opacity: 0.1; transition: all .25s ease-in-out; }
 	.total_num{left: 5rem;}
 }
 
+@media (max-width: 1200px) {
+	.fat_head{position: absolute;}
+	body > .intro{padding-top: 8rem;}
+}
+
 @media (max-width: 1000px) {
 
 	.total_num,
@@ -4542,7 +4547,8 @@ body.ineedshow .all_lessons{opacity: 0.1; transition: all .25s ease-in-out; }
 
 
 
-
+// LOL
+.hackyanchorspanker{width: 10px; height: 10px; background: #0f0; display: block; position: absolute; top:0rem; left: 0;}
 
 
 // Hide some stuff for now
