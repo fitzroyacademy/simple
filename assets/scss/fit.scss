@@ -4297,11 +4297,20 @@ $max_narrow_width: 60rem;
 .all_lessons .love{color: $text_lighterest; background: #fff; text-align: center; display: block; position: absolute; top:-2rem; left: -5rem; width:4rem; margin-left: 3px; padding: 2rem 0; }
 .all_lessons .love:hover{color: $new_red;}
 
+.segment h2 a,
+.segment h2 .no a i{color: inherit;}
+
 .segment h2 .no i{font-size: 80%;}
 .segment p{font-size: 1.1rem;}
 
 
 .segment img{max-width: 100%; margin-bottom: 1rem;}
+
+// the love for mike
+.segment.segment_heart{margin-top: -2rem; padding-bottom: 0;}
+.segment.segment_heart h2 a{text-decoration: none; color: $text_lightest;}
+.segment.segment_heart h2 a:hover{color: $text_light;}
+.segment.segment_heart h2 a:hover i{color: $red;}
 
 
 // wacky segment types:
@@ -4510,7 +4519,7 @@ body.ineedshow .all_lessons{opacity: 0.1; transition: all .25s ease-in-out; }
 
 
 	.segment{margin: 0; padding: 1rem;}
-	.segment h2{padding-left: 2rem;}
+	.segment h2{padding-left: 2.5rem;}
 	.segment h2 .no{background: transparent; width: 3rem; left: -1rem;}
 }
 
@@ -4534,6 +4543,10 @@ body.ineedshow .all_lessons{opacity: 0.1; transition: all .25s ease-in-out; }
 
 
 
+
+
+// Hide some stuff for now
+.teaching_guide{display: none !important;}
 
 
 

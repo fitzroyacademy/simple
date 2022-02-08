@@ -9238,6 +9238,11 @@ dl.fat_storyline dd:last-child::after {
   color: #f72555;
 }
 
+.segment h2 a,
+.segment h2 .no a i {
+  color: inherit;
+}
+
 .segment h2 .no i {
   font-size: 80%;
 }
@@ -9249,6 +9254,24 @@ dl.fat_storyline dd:last-child::after {
 .segment img {
   max-width: 100%;
   margin-bottom: 1rem;
+}
+
+.segment.segment_heart {
+  margin-top: -2rem;
+  padding-bottom: 0;
+}
+
+.segment.segment_heart h2 a {
+  text-decoration: none;
+  color: #d2d7da;
+}
+
+.segment.segment_heart h2 a:hover {
+  color: #717b81;
+}
+
+.segment.segment_heart h2 a:hover i {
+  color: #e8151f;
 }
 
 .segment_practical:after {
@@ -9829,7 +9852,7 @@ body.ineedshow_search .i_need .quicksearch_form {
   }
 
   .segment h2 {
-    padding-left: 2rem;
+    padding-left: 2.5rem;
   }
 
   .segment h2 .no {
@@ -9863,6 +9886,9 @@ body.ineedshow_search .i_need .quicksearch_form {
 .teaching_guide {
     padding: 1rem 0;
   }
+}
+.teaching_guide {
+  display: none !important;
 }
 
 /*# sourceMappingURL=fit.css.map */

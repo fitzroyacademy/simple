@@ -1,0 +1,10 @@
+      <h3>However, what we do should be illegal.</h3>
+      <p>In retrospect, we are a little embarrassed at how entrepreneurial we were at the beginning of all this whole online education shtick.</p>
+      <p>It seems a big call to say it, but after we spending time in alt-ed, we are more and more convinced that alt-ed just shouldn't exist.</p>
+      <p>In Finland, it's <a href="https://www.quora.com/Why-does-Finland-prohibit-the-establishment-of-private-schools" target="_blank">illegal to fund</a> private schools.</p>
+      <p>There's nothing wrong with interesting alternative education models, tech, products, videos and ideas. But we need good education policy that ensures access and inclusion is universal. After being a part of the online education world, we think that <a href="https://medium.com/fitzroy-academy/learn-online-not-alone-671508b0dc79" target="_blank">the internet cannot democratise education</a>.</p>
+      <p>Through Covid-19, families around the world have learnt that online can never replace great in person learning. We're appreciating our teachers more, but not enough.</p>
+      <p>Globally, we are yet to make the necessary structural changes to how education fits within our society more broadly. We also <a href="https://www.bbc.com/future/article/20171219-the-hidden-judgements-holding-people-back" target="_blank">blame education</a> for problems it can never solve. It's impossible for any individual to 'self-teach' their way around poor policy decisions. The upstream issues can never be solved by downstream education.</p>
+      <p>But there is hope.</p> 
+      <p>Citizen-driven organisations are on the rise, and folks are realising that we can't entrepeneur our way past policy problems that have and will only ever be solved through collective action and power.</p>
+      <p>If you're a teacher, thank you. If you're a grass roots organiser, double thank you. Together we can get it done. :)</p>

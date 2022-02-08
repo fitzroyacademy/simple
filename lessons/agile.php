@@ -139,6 +139,5 @@
 	</div>
 </div>
 
+<?php include '../assets/templates/lesson_footer.php';?>
 <?php include '../assets/templates/site_footer.php';?>
-
-
