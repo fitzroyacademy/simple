@@ -25,6 +25,8 @@ $(function() {
       window.location = '/#' + $(this).text();
     }
 
+    formMagic($(this).text());
+
   });
 
 
