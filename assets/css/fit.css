@@ -9477,6 +9477,10 @@ dl.fat_storyline dd:last-child::after {
   color: #ff0bba;
 }
 
+.intro .btn {
+  margin-bottom: 1rem;
+}
+
 .intro .meta p {
   font-size: 0.9rem;
   color: #717b81;
@@ -9499,6 +9503,10 @@ dl.fat_storyline dd:last-child::after {
   display: none;
 }
 
+.intro .segment .btn {
+  display: none;
+}
+
 .intro .segment.video_playing {
   padding-left: 32rem;
 }
@@ -9511,9 +9519,21 @@ dl.fat_storyline dd:last-child::after {
   display: none;
 }
 
+.intro .segment.video_playing .btn {
+  display: inline-block;
+}
+
+body > .intro .segment.video_playing .btn {
+  display: none;
+}
+
+body > .intro .segment.video_playing .meta {
+  display: block;
+}
+
 @media (max-width: 850px) {
   .intro .segment.video_playing {
-    padding: 0 1rem 0 3rem;
+    padding: 1rem 1rem 0 3rem;
   }
 
   .intro .segment.video_playing .youtube {
@@ -9825,12 +9845,14 @@ body.ineedshow .all_lessons {
   }
 }
 @media (max-width: 1200px) {
-  .fat_head {
-    position: absolute;
+  body {
+    padding-top: 6rem;
   }
 
-  body > .intro {
-    padding-top: 8rem;
+  .fat_head {
+    position: absolute;
+    top: 0;
+    left: 0;
   }
 }
 @media (max-width: 1000px) {

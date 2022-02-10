@@ -4383,24 +4383,32 @@ $max_narrow_width: 60rem;
 .intro h1 a:hover{color: $text;}
 .intro h1 a:hover strong{border-bottom: 3px solid $bg_darker; color: $new_pink;}
 
+.intro .btn{margin-bottom: 1rem;}
+
 .intro .meta p{font-size: .9rem; color: $text_light; margin: 0; padding: 0 0 .5rem 2rem; position: relative;}
 .intro .meta p i{width: 1.5rem; text-align: center; position: absolute; top:.25rem; left: 0; font-size: 1rem; color: $text_lighter;}
 
 // .segment > * {display: none;}
 // .segment h2 {display: block;}
 
-
 .intro .segment > .button{display: none;}
+.intro .segment .btn{display: none;}
 
 // This adds video_playing class via JS for playing mode
-
 .intro .segment.video_playing{padding-left: 32rem;}
 .intro .segment.video_playing .youtube{width: 26.5rem;}
 .intro .segment.video_playing .meta{display: none;}
 
+.intro .segment.video_playing .btn{display: inline-block;}
+
+
+// hide again on the playing page
+body > .intro .segment.video_playing .btn{display: none;}
+body > .intro .segment.video_playing .meta{display: block;}
+
 @media (max-width: 850px) {
 
-	.intro .segment.video_playing{padding: 0 1rem 0 3rem;}
+	.intro .segment.video_playing{padding: 1rem 1rem 0 3rem;}
 	.intro .segment.video_playing .youtube{position: relative; height: auto; width: auto; left: 0; top: 0;}
 	.intro .segment.video_playing .meta{padding-top: 1rem;}
 
@@ -4508,8 +4516,8 @@ body.ineedshow .all_lessons{opacity: 0.1; transition: all .25s ease-in-out; }
 }
 
 @media (max-width: 1200px) {
-	.fat_head{position: absolute;}
-	body > .intro{padding-top: 8rem;}
+	body{padding-top: 6rem;}
+	.fat_head{position: absolute; top:0; left: 0;}
 }
 
 @media (max-width: 1000px) {
