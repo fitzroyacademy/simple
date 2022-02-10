@@ -6331,8 +6331,8 @@ dfn i:hover {
   height: 4rem;
   display: block;
   position: absolute;
-  top: 2rem;
-  left: 2rem;
+  top: 1rem;
+  left: 1rem;
 }
 
 .fat_device svg > path {
@@ -9499,6 +9499,14 @@ dl.fat_storyline dd:last-child::after {
   color: #b0b4b7;
 }
 
+.intro .meta p a {
+  color: inherit;
+}
+
+.intro .meta p a:hover {
+  color: #ff0bba;
+}
+
 .intro .segment > .button {
   display: none;
 }
@@ -9937,7 +9945,6 @@ body.ineedshow_search .i_need .quicksearch_form {
 .hackyanchorspanker {
   width: 10px;
   height: 10px;
-  background: #0f0;
   display: block;
   position: absolute;
   top: 0rem;

@@ -15,6 +15,7 @@
 		<div class="meta">
 			<p><i class="far fa-play-circle"></i> ~50 minutes over 5 videos</p>
 			<p><i class="far fa-clock"></i> ~1 hour of work solo, or half a day as a team</p>
+			<p><i class="far fa-globe"></i> <a href="https://www.wurundjeri.com.au/" target="_blank">Wuwundjeri land, Kulin nation</a></p>
 			<p class="tags">
 				<i class="far fa-tag"></i>
 				<a class="tag"><em>tag: </em>planning</a>
