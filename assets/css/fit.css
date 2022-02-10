@@ -8641,7 +8641,7 @@ body .fat_pic_grid.threeup .portrait .landscape .play small {
   border-radius: 0.6rem;
   background: #fff;
   max-width: 50rem;
-  margin: 5rem auto 3rem;
+  margin: 0 auto 3rem;
 }
 
 .fat_whitejab h3 {
@@ -9501,10 +9501,16 @@ dl.fat_storyline dd:last-child::after {
 
 .intro .meta p a {
   color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid #d2d7da;
 }
 
 .intro .meta p a:hover {
   color: #ff0bba;
+}
+
+.intro .meta p:nth-child(2) {
+  display: none;
 }
 
 .intro .segment > .button {
@@ -9529,6 +9535,10 @@ dl.fat_storyline dd:last-child::after {
 
 .intro .segment.video_playing .btn {
   display: inline-block;
+}
+
+body > .intro .meta p:nth-child(2) {
+  display: block;
 }
 
 body > .intro .segment.video_playing .btn {
@@ -9953,6 +9963,54 @@ body.ineedshow_search .i_need .quicksearch_form {
 
 .teaching_guide {
   display: none !important;
+}
+
+.acknowledge {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f5f7f8;
+  z-index: 1000;
+}
+
+.acknowledge:after {
+  padding-top: 56.25%;
+  display: block;
+  content: "";
+}
+
+.acknowledge iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1100;
+}
+
+.acknowledge .respek {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 2rem 2rem 1rem;
+  z-index: 1200;
+  position: relative;
+  border-radius: 0.4rem;
+  text-align: center;
+  margin: 3rem 1rem;
+}
+
+.acknowledge .respek {
+  font-size: 1.3rem;
+  font-style: italic;
+  font-family: "Merriweather", serif;
+  padding-bottom: 1rem;
+  color: #fff;
+}
+
+.acknowledge .respek a {
+  color: inherit;
 }
 
 /*# sourceMappingURL=fit.css.map */

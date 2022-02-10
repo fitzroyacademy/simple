@@ -10,6 +10,7 @@
 	<div class="contain">
 		<a href="#top" class="list-group-item top"><i class="fal fa-arrow-up"></i></a>
 		<a href="#about" class="cyan list-group-item"><i class="fal fa-users"></i> <span class="txt">About</span></a>
+		<a href="#acknowledge" class="apricot list-group-item"><i class="fal fa-globe"></i> <span class="txt">First up</span></a>
 		<a href="#thanks" class="pink list-group-item"><i class="fal fa-heart"></i> <span class="txt">Thanks!</span></a>
 		<a href="#contact" class="green list-group-item"><i class="fal fa-comments"></i> <span class="txt">Contact</span></a>
 <!-- 		
@@ -32,6 +33,17 @@
 			<p>Most lessons are 30 to 60 minutes of video, with templates and worksheets. Each should take you a few hours to do well. They work really well as workshops in a small group!</p>
 		</div>
 	</blockquote>
+
+</div>
+
+<div class="acknowledge" id="acknowledge">
+
+	<iframe id="vimeoplayer" src="//player.vimeo.com/video/585181560?api=1&amp;background=1"></iframe>
+	<div class="respek">
+		<p>We acknowledge the traditional owners of the lands upon which we work.</p>
+		<p>In our home country, like most, that sovereignty was never ceded.</p>
+		<p>Love and respect to mobs like <a href="https://dilinduwa.com.au/">Dilin Duwa</a>, <a href="https://indigenousx.com.au/">IndigenousX</a> and <a href="https://www.seedmob.org.au/">SEED</a>. <i class="fal fa-heart"></i></p>
+	</div>
 
 </div>
 
