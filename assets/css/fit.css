@@ -9453,11 +9453,13 @@ dl.fat_storyline dd:last-child::after {
   text-decoration: none;
   padding: 0.1rem 0.55rem;
   font-size: 0.7rem;
+  border: 1px solid transparent;
 }
 
 .intro .tags .tag:hover {
-  background: #2793f8;
+  background: #fff;
   cursor: pointer;
+  border-color: #d2d7da;
 }
 
 .intro .tags .tag em {

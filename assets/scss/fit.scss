@@ -4373,8 +4373,8 @@ $max_narrow_width: 60rem;
 .intro h2{font-size: 1.4rem;}
 
 .intro .tags{margin: -.75rem 0 .5rem;}
-.intro .tags .tag{background: $bg_darker; border-radius:$border_rad_r; color: #fff; display: inline-block; text-decoration: none; padding: .1rem .55rem; font-size: .7rem;}
-.intro .tags .tag:hover{background: $blue; cursor: pointer;}
+.intro .tags .tag{background: $bg_darker; border-radius:$border_rad_r; color: #fff; display: inline-block; text-decoration: none; padding: .1rem .55rem; font-size: .7rem; border: 1px solid transparent;}
+.intro .tags .tag:hover{background: #fff; cursor: pointer;border-color: $text_lightest;}
 
 .intro .tags .tag em{display: none;}
 
