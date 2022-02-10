@@ -9500,7 +9500,7 @@ dl.fat_storyline dd:last-child::after {
 }
 
 .intro .segment.video_playing {
-  padding-left: 28rem;
+  padding-left: 32rem;
 }
 
 .intro .segment.video_playing .youtube {
@@ -9511,6 +9511,23 @@ dl.fat_storyline dd:last-child::after {
   display: none;
 }
 
+@media (max-width: 850px) {
+  .intro .segment.video_playing {
+    padding: 0 1rem 0 3rem;
+  }
+
+  .intro .segment.video_playing .youtube {
+    position: relative;
+    height: auto;
+    width: auto;
+    left: 0;
+    top: 0;
+  }
+
+  .intro .segment.video_playing .meta {
+    padding-top: 1rem;
+  }
+}
 .resources h2 {
   padding-bottom: 0;
 }

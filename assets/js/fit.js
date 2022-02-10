@@ -147,7 +147,8 @@ $(function() {
             var iframe_url = "https://www.youtube.com/embed/" + this.id + "?autoplay=1&autohide=1&modestbranding=1&showinfo=0&control=0";
             if ($(this).data('params')) iframe_url+='&'+$(this).data('params')      
             // The height and width of the iFrame should be the same as parent
-            var iframe = $('<iframe/>', {'frameborder': '0', 'src': iframe_url, 'width': $(this).width(), 'height': $(this).height() })
+            // var iframe = $('<iframe/>', {'frameborder': '0', 'src': iframe_url, 'width': $(this).width(), 'height': $(this).height() })
+            var iframe = $('<iframe/>', {'frameborder': '0', 'src': iframe_url, 'width': '100%', 'height': '100%' })
     
             // Replace the YouTube thumbnail with YouTube HTML5 Player
             $(this).empty().append(iframe);

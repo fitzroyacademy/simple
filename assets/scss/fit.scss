@@ -4394,9 +4394,17 @@ $max_narrow_width: 60rem;
 
 // This adds video_playing class via JS for playing mode
 
-.intro .segment.video_playing{padding-left: 28rem;}
+.intro .segment.video_playing{padding-left: 32rem;}
 .intro .segment.video_playing .youtube{width: 26.5rem;}
 .intro .segment.video_playing .meta{display: none;}
+
+@media (max-width: 850px) {
+
+	.intro .segment.video_playing{padding: 0 1rem 0 3rem;}
+	.intro .segment.video_playing .youtube{position: relative; height: auto; width: auto; left: 0; top: 0;}
+	.intro .segment.video_playing .meta{padding-top: 1rem;}
+
+}
 
 
 
