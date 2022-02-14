@@ -48,3 +48,13 @@ Do it pretty stricty in this order:
 ## Other things:
 
 Use `<!-- todo -->` to mark things we need to fix. (command + ? on Sublime for comments)
+
+
+## Updating the live website:
+
+* Make sure you have `git push` for your latest changes
+* Go to https://earl.serversaurus.com.au:2083/
+* Login with the right user/pass
+* Find 'terminal' (open in safari / FF if it doesn't work)
+* `cd public_html` <-- get into the right directory
+* `git pull` <-- pulls the latest version from git to the site
