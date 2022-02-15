@@ -2,11 +2,11 @@
 
 	<div class="segment">
 
-		<h1><a href="https://www.ecosia.org/search?q=how%20to%20fall%20in%20love" target="_blank"><strong>How to fall in love</strong> on the internet</a></h1>
+		<h1><a href="https://www.ecosia.org/search?q=how%20to%20fall%20in%20love" target="_blank"><strong>How to fall in love</strong></a></h1>
 
 		<div class="youtube" id="CX-Qr8iNqm0" data-bg="covers/love.jpg"></div>
 
-		<p>We have no answers here, this one is up to you.</p>
+		<p>Look, we don't really know how any of this works. But we hope you find what you're looking for. </p>
 
 		<div class="meta">
 			<p><i class="far fa-heart"></i> We believe in you.</p>
