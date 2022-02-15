@@ -4,7 +4,9 @@
 
 		<h1><a href="/lessons/empathy"><strong>Empathy Mapping</strong> with Caitlyn Cook and Kristina Aagaard</a></h1>
 
-		<div class="youtube" id="iFvr7xCmKhs" data-bg="covers/caitlynkristinavert.jpg"></div>
+		<div class="youtube" id="iFvr7xCmKhs" data-bg="covers/caitlynkristinavert.jpg">
+			<div class="time"><em>Play trailer - </em><strong>1:18</strong></div>
+		</div>
 
 		<p>Learn about your user's experiences using this simple user testing framework.</p>
 
