@@ -4224,6 +4224,9 @@ hr.spacer {
   border-radius: 1rem;
   background: #fff;
   padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .fit_partner_logos .tile h4 {
@@ -7223,7 +7226,7 @@ h1 + .fat_nav {
 
 .fat_nav .contain {
   padding: 1rem;
-  max-width: 80rem;
+  max-width: 60rem;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
@@ -8968,20 +8971,15 @@ dl.fat_storyline dd:last-child::after {
     padding: 0 4rem;
   }
 
-  .fat_section:not(.fat_pic_grid) {
-    padding-top: 6rem;
-  }
-
   .fat_quote.left {
     margin-left: -2rem;
   }
-}
-@media (min-width: 1450px) {
+
   .fat_hero,
 .fat_hero.halfy,
 .fat_nav .contain,
 .fat_section:not(.fat_pic_grid) {
-    max-width: 80rem;
+    max-width: 60rem;
     margin-left: auto;
     margin-right: auto;
     padding-left: 0;
@@ -9858,12 +9856,6 @@ body.ineedshow .all_lessons {
   transition: all 0.25s ease-in-out;
 }
 
-@media (max-width: 1450px) {
-  .all_lessons .love,
-.total_num {
-    left: 5rem;
-  }
-}
 @media (max-width: 1200px) {
   body {
     padding-top: 6rem;
@@ -9947,6 +9939,58 @@ body.ineedshow_search .i_need .quicksearch_form {
     width: 4rem;
     height: 5rem;
     left: 1rem;
+  }
+
+  .intro .segment h1 {
+    min-height: 6rem;
+  }
+
+  .intro .segment > p,
+.intro .segment .btn,
+.intro .segment .meta {
+    margin-left: -5rem;
+  }
+
+  .all_lessons {
+    padding-left: 0 !important;
+  }
+
+  .all_lessons .intro {
+    min-height: none;
+    border-bottom: 3px solid #f5f7f8;
+    margin-bottom: 2rem;
+  }
+
+  .all_lessons .intro .segment {
+    padding-bottom: 1rem;
+  }
+
+  .intro .segment.video_playing {
+    padding: 1rem;
+  }
+
+  .intro .segment.video_playing > p,
+.intro .segment.video_playing .btn,
+.intro .segment.video_playing .meta {
+    margin-left: 0;
+  }
+
+  .youtube .time {
+    display: none;
+  }
+
+  .all_lessons .intro h1:before {
+    position: relative;
+    display: inline-block;
+    left: 0;
+    top: 0;
+    width: auto;
+    margin: 0 0.5rem 0 0;
+    padding: 0;
+  }
+
+  .intro .segment:after {
+    display: none;
   }
 
   .intro,
