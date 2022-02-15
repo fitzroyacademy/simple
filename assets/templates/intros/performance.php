@@ -4,7 +4,9 @@
 
 		<h1><a href="/lessons/performance"><strong>Art of performance</strong> with Maria Franco</a></h1>
 
-		<div class="youtube" id="HovolNuT87s" data-bg="covers/mariavert.jpg"></div>
+		<div class="youtube" id="HovolNuT87s" data-bg="covers/mariavert.jpg">
+			<div class="time"><em>Play trailer - </em><strong>1:25</strong></div>
+		</div>
 
 		<p>Prepare, rehearse and deliver the best presentation of your life.</p>
 

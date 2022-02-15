@@ -5,9 +5,13 @@
 		<h1><a href="/lessons/evidence"><strong>Evidence based interventions</strong> with Caroline Fiennes</a></h1>
 
 
-		<div class="youtube" id="XRmOjjbnWMg" data-bg="covers/carolinevert.jpg"></div>
+		<div class="youtube" id="XRmOjjbnWMg" data-bg="covers/carolinevert.jpg">
+			<div class="time"><em>Play trailer - </em><strong>1:29</strong></div>
+		</div>
 
 		<p>In order to build interventions that actually work, you must ask an important question and answer it reliably, using the best research available.</p>
+
+		<a href="/lessons/evidence" class="btn btn-outline-secondary">Watch lesson <i class="fal fa-arrow-right"></i></a>
 
 		<div class="meta">
 			<p><i class="far fa-play-circle"></i> ~30 minutes over 4 videos</p>

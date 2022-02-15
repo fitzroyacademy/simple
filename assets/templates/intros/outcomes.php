@@ -4,9 +4,13 @@
 
 		<h1><a href="/lessons/outcomes"><strong>Social outcomes reporting</strong> with Bessie Graham</a></h1>
 
-		<div class="youtube" id="nDL-iqNDSJ4" data-bg="covers/bessievert.jpg"></div>
+		<div class="youtube" id="nDL-iqNDSJ4" data-bg="covers/bessievert.jpg">
+			<div class="time"><em>Play trailer - </em><strong>1:24</strong></div>
+		</div>
 
 		<p>Create a report that shows the social outcomes on a program: The money, activities and social impact.</p>
+
+		<a href="/lessons/ourcomes" class="btn btn-outline-secondary">Watch lesson <i class="fal fa-arrow-right"></i></a>
 
 		<div class="meta">
 			<p><i class="far fa-play-circle"></i> ~20 minutes over 6 videos</p>

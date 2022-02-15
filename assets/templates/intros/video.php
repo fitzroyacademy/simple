@@ -4,7 +4,9 @@
 
 		<h1><a href="/lessons/video"><strong>Video lessons</strong> with Avraham Vofsi</a></h1>
 
-		<div class="youtube" id="FMoKi98LLQY" data-bg="covers/leovert.jpg"></div>
+		<div class="youtube" id="FMoKi98LLQY" data-bg="covers/leovert.jpg">
+			<div class="time"><em>Play trailer - </em><strong>1:37</strong></div>
+		</div>
 
 		<p>Plan and create video lessons by focusing on the structure and the emotional journey of your students.</p>
 

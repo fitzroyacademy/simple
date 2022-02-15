@@ -4,7 +4,9 @@
 
 		<h1><a href="/lessons/social"><strong>Social media marketing</strong> with Maddie Snow</a></h1>
 
-		<div class="youtube" id="FJ7lsXn3ejE" data-bg="covers/maddievert.jpg"></div>
+		<div class="youtube" id="FJ7lsXn3ejE" data-bg="covers/maddievert.jpg">
+			<div class="time"><em>Play trailer - </em><strong>1:06</strong></div>
+		</div>
 
 		<p>Design a killer social media campaign by finding your voice and creating content that resonates.</p>
 

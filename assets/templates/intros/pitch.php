@@ -4,7 +4,9 @@
 
 		<h1><a href="/lessons/pitch"><strong>Pitching for early-stage investment</strong> with Dan Madhaven</a></h1>
 
-		<div class="youtube" id="Wi5Prd-zy70" data-bg="covers/danvert.jpg"></div>
+		<div class="youtube" id="Wi5Prd-zy70" data-bg="covers/danvert.jpg">
+			<div class="time"><em>Play trailer - </em><strong>1:38</strong></div>
+		</div>
 
 		<p>Craft a compelling pitch for a new project: including a pitch deck and starting a prospect list of the right investors.</p>
 

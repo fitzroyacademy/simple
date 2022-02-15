@@ -4,7 +4,9 @@
 
 		<h1><a href="/lessons/insight"><strong>Insight mapping</strong> with Victoria Cullen.</a></h1>
 
-		<div class="youtube" id="s2hbd90hs0I" data-bg="covers/vicvert2.jpg"></div>
+		<div class="youtube" id="s2hbd90hs0I" data-bg="covers/vicvert2.jpg">
+			<div class="time"><em>Play trailer - </em><strong>1:02</strong></div>
+		</div>
 
 		<p>Map out how customers experience your service, interview them to draw out insights and improve your offerings.</p>
 

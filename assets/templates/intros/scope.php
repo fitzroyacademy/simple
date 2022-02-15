@@ -4,7 +4,9 @@
 
 		<h1><a href="/lessons/scope"><strong>How to scope an app</strong> with Will Dayble</a></h1>
 
-		<div class="youtube" id="iaTQR29nqPA" data-bg="covers/willvert3.jpg"></div>
+		<div class="youtube" id="iaTQR29nqPA" data-bg="covers/willvert3.jpg">
+			<div class="time"><em>Play trailer - </em><strong>0:59</strong></div>
+		</div>
 
 		<p>Sketch out the goals, users, objects and interfaces, everything you need to design a new web or mobile app.</p>
 

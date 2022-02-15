@@ -4,9 +4,13 @@
 
 		<h1><a href="/lessons/forecast"><strong>Growth forecasting</strong> with Taylor Davidson</a></h1>
 
-		<div class="youtube" id="JioiWN7-ZIk" data-bg="covers/taylorvert.jpg"></div>
+		<div class="youtube" id="JioiWN7-ZIk" data-bg="covers/taylorvert.jpg">
+			<div class="time"><em>Play trailer - </em><strong>1:23</strong></div>
+		</div>
 
 		<p>Make spreadhseets your friend by building a model to forecast your month-by-month financial growth, and strategise how to get there.</p>
+
+		<a href="/lessons/forecast" class="btn btn-outline-secondary">Watch lesson <i class="fal fa-arrow-right"></i></a>
 
 		<div class="meta">
 			<p><i class="far fa-play-circle"></i> ~30 minutes over 6 videos</p>

@@ -4,9 +4,13 @@
 
 		<h1><a href="/lessons/ideas"><strong>How to have good ideas</strong> with Judah Pollack</a></h1>
 
-		<div class="youtube" id="suKckegB48U" data-bg="covers/judahvert.jpg"></div>
+		<div class="youtube" id="suKckegB48U" data-bg="covers/judahvert.jpg">
+			<div class="time"><em>Play trailer - </em><strong>1:13</strong></div>
+		</div>
 
 		<p>A grab-bag of activities that unlock creativity, even when you're feeling uncreative.</p>
+
+		<a href="/lessons/ideas" class="btn btn-outline-secondary">Watch lesson <i class="fal fa-arrow-right"></i></a>
 
 		<div class="meta">
 			<p><i class="far fa-play-circle"></i> ~1 hours over 11 videos</p>
