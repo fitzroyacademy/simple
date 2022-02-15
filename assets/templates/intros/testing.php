@@ -11,6 +11,7 @@
 		<div class="meta">
 			<p><i class="far fa-play-circle"></i> ~30 minutes over 5 videos</p>
 			<p><i class="far fa-clock"></i> About 2 hours of work to do it solo</p>
+			<p><i class="far fa-globe"></i> London, England</a></p>
 			<p class="tags">
 				<i class="far fa-tag"></i>
 				<a class="tag"><em>tag: </em>digital</a>

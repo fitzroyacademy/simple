@@ -6,11 +6,14 @@
 
 		<div class="youtube" id="hUymhal-l3w" data-bg="covers/benvert.jpg"></div>
 
-		<p>Map out the practical and emotional journey a user takes on your website in order to create a bette experience for them.</p>
+		<p>Map out the practical and emotional journey a user takes on your website in order to create a better experience for them.</p>
+
+		<a href="/lessons/journey" class="btn btn-outline-secondary">Watch lesson <i class="fal fa-arrow-right"></i></a>
 
 		<div class="meta">
 			<p><i class="far fa-play-circle"></i> ~10 minutes over 4 videos</p>
 			<p><i class="far fa-clock"></i> About 1 hours of work to do it solo</p>
+			<p><i class="far fa-globe"></i> <a href="https://www.wurundjeri.com.au/" target="_blank">Wuwundjeri land, Kulin nation</a></p>
 			<p class="tags">
 				<i class="far fa-tag"></i>
 				<a class="tag"><em>tag: </em>digital</a>

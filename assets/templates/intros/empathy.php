@@ -11,6 +11,7 @@
 		<div class="meta">
 			<p><i class="far fa-play-circle"></i> ~10 minutes over 4 videos</p>
 			<p><i class="far fa-clock"></i> About 1 hours of work to do it solo</p>
+			<p><i class="far fa-globe"></i> <a href="https://www.wurundjeri.com.au/" target="_blank">Wuwundjeri land, Kulin nation</a></p>
 			<p class="tags">
 				<i class="far fa-tag"></i>
 				<a class="tag"><em>tag: </em>digital</a>
