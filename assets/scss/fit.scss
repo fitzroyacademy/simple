@@ -4300,8 +4300,13 @@ $max_narrow_width: 60rem;
 .segment h2 .no i{font-size: 80%;}
 .segment p{font-size: 1.1rem;}
 
+.segment h3{font-size: 1.5rem; padding-top: 2rem;}
 
-.segment img{max-width: 100%; margin-bottom: 1rem;}
+.segment blockquote{font-family: 'Merriweather', serif;}
+.segment blockquote p{font-size: 1.3rem; font-style: italic; border-left: 3px solid $bg; padding-left: 1rem;}
+
+.segment .image{margin: 1rem 1rem 2rem;}
+.segment .image img{max-width: 100%;} 
 
 // the love for mike
 .segment.segment_heart{margin-top: -2rem; padding-bottom: 0;}

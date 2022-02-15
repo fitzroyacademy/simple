@@ -9248,9 +9248,28 @@ dl.fat_storyline dd:last-child::after {
   font-size: 1.1rem;
 }
 
-.segment img {
+.segment h3 {
+  font-size: 1.5rem;
+  padding-top: 2rem;
+}
+
+.segment blockquote {
+  font-family: "Merriweather", serif;
+}
+
+.segment blockquote p {
+  font-size: 1.3rem;
+  font-style: italic;
+  border-left: 3px solid #f5f7f8;
+  padding-left: 1rem;
+}
+
+.segment .image {
+  margin: 1rem 1rem 2rem;
+}
+
+.segment .image img {
   max-width: 100%;
-  margin-bottom: 1rem;
 }
 
 .segment.segment_heart {

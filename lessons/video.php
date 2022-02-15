@@ -23,7 +23,7 @@
 				<p>Creating good structure for a video lesson is the most important aspect to creating quality engaging video teaching.
 					In many ways it’s more important than your gear, your presentations or your editing skills. Nailing this means better teaching with less work. NB: This is not a list of hacks. You’ll probably still need to practice a bunch and make all the classics mistakes.</p>
 
-				<h2>Before jumping into structuring the video there are 2 things you want to have ready to go:</h2>
+				<h4>Before jumping into structuring the video there are 2 things you want to have ready to go:</h4>
 				<ul>
 					<li>The activity you want the students to do in order to cement the knowledge.</li>
 					<li>A “finished” example of the activity — This will help immensely as you write your video as you won’t need to scrabble to find an example.</li>
@@ -45,11 +45,11 @@
 		<p>Next we want to let the students know how we’re going to solve their problem.</p>
 		<h3>How we’ll tackle their challenge</h3>
 		<p>In broad strokes; what are you going to teach the students that will solve the challenge you just outlined for them? It can stay pretty high level and general, as we’ll be digging into the specifics next. Right now, its about setting up the expectations for the student that they’re going have their issues solved by this video.</p>
-		<h3>Resources</h3>
+		<h4>Resources</h4>
 		<p>What the student requires to do this activity properly. These can be supplies or pre-requisites.</p>
-		<h3>“in this video we are doing X”</h3>
+		<blockquote><p>“in this video we are doing X”</p></blockquote>
 		<p>This is the only ‘line’ I’m giving you to say exactly. We want to be explicate for the students so they know that they’re in the right place.</p>
-		<p>“In this video we’re going to fill out all the questions on page 10” Great, now I (the student) know I’m in the right place.</p>
+		<blockquote><p>“In this video we’re going to fill out all the questions on page 10” Great, now I (the student) know I’m in the right place.</p></blockquote>
 		<p><i>Side note:</i> I often see videos where people start with this. Their heart is in the right place, they want to get to the point quickly. Personally I feel its more useful after you’ve laid out some of the more squishy stuff first.</p>
 	</div>
 
