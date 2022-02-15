@@ -28,9 +28,9 @@
 	<blockquote class="fat_quote left fattest">
 		<!-- <span class="ldquo">&ldquo;</span> -->
 		<div class="friend active">
-			<p>Free online lessons about design, business, digital and impact, by and for social sector folks.</p>
+			<p>Free online lessons about design, business, digital and impact. By and for social sector folks.</p>
 			<p>This is a project by <a href="https://willdayble.com" target="_blank">Will</a> and <a href="https://oilportraits.org/" target="_blank">Avraham</a>, built with many collaborators and partners since 2014.</p>
-			<p>Most lessons are 30 to 60 minutes of video, with templates and worksheets. Each should take you a few hours to do well. They work really well as workshops in a small group!</p>
+			<p>Most lessons are 30 to 60 minutes of video, with templates and worksheets. Each should take you a few hours to do well. They also work really well as workshops in small groups or classes!</p>
 		</div>
 	</blockquote>
 
@@ -41,7 +41,7 @@
 	<iframe id="vimeoplayer" src="//player.vimeo.com/video/585181560?api=1&amp;background=1"></iframe>
 	<div class="respek">
 		<p>We acknowledge the traditional owners of the lands upon which we work.</p>
-		<p>In our home country, like most, that sovereignty was never ceded.</p>
+		<p>In our home country, like most, sovereignty was never ceded.</p>
 		<p>Love and respect to mobs like <a href="https://dilinduwa.com.au/">Dilin Duwa</a>, <a href="https://indigenousx.com.au/">IndigenousX</a> and <a href="https://www.seedmob.org.au/">SEED</a>. <i class="fal fa-heart"></i></p>
 	</div>
 
@@ -231,12 +231,11 @@
 				<p><strong>Fast facts</strong> on our video production:</p>
 				<ul>
 				  <li>It can take 100-200 hours of work to make a 30 minute lesson.</li>
-				  <li>Our camera gear fits in one pelican case.</li>
 				  <li>So far we've filmed in Melbourne, Sydney, London, Denpasar, San Francisco, Phnom Penh, Siem Reap, and Puerto Galera.</li>
 				  <li>We've produced 1300+ minutes of content, not counting the work we've helped others create. That's something like 6+ months of continuous learning if you used it weekly the way it&rsquo;s designed.</li>
 				</ul>
-				<p>Weirdly, we don&rsquo;t track minutes watched. We don't think it's a useful metric. But we know that many thousands of people have watched the work we've helped make ove the years, and that's quite satisfying.</p>
-				<p><a href="http://www.oilportraits.org/">Rami</a> does most of the heavy lifting on video, and the amazing <a href="https://www.filmsbyeve.com/" target="_blank">Eve Byers</a> (alumni, we miss you) created many of our videos. They're award winning film makers and artists in their own right.</p>
+				<p>We don&rsquo;t track minutes watched as we don't think it's a useful metric. But we know that many thousands of people have watched the work we've helped make ove the years, and that's quite satisfying.</p>
+				<p><a href="http://www.oilportraits.org/">Rami</a> does most of the heavy lifting on video, and the amazing <a href="https://www.filmsbyeve.com/" target="_blank">Eve Byers</a> created many of our videos. They're award winning film makers and artists in their own right.</p>
 			</div>
 
 			<div class="col-md-4 offset-md-1">
