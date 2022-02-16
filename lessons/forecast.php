@@ -68,20 +68,14 @@
 	<div class="segment further_reading" id="reading">
 		<h2><span class="no"><i class="fas fa-books"></i></span> Further reading</h2>
 		<div class="resources">
-				<a class="resource" href="https://" target="_blank">
-				<i class="far fa-book"></i>
-				<h4>Book title</h4>
-				<p>Some book.</p>
-			</a>
-			<a class="resource" href="https://" target="_blank">
-				<i class="far fa-headphones"></i>
-				<h4>Podcast title</h4>
-				<p>Podcast title.</p>
+				<a class="resource" href="https://foresight.is/" target="_blank">
+				<i class="far fa-browser"></i>
+				<h4>Keep learning at Foresight.is</h4>
+				<p>Forecast anything with Taylor's full catelogue of lessons on financial modeling and forecasting.</p>
 			</a>
 		</div>
 	</div>
 </div>
-
 
 <div class="teaching_guide">
 	<div class="segments" id="teaching">
