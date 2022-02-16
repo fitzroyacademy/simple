@@ -13,10 +13,6 @@
 		<a href="#acknowledge" class="apricot list-group-item"><i class="fal fa-globe"></i> <span class="txt">First up</span></a>
 		<a href="#thanks" class="pink list-group-item"><i class="fal fa-heart"></i> <span class="txt">Thanks!</span></a>
 		<a href="#contact" class="green list-group-item"><i class="fal fa-comments"></i> <span class="txt">Contact</span></a>
-<!-- 		
-		<a href="#people" class="purple list-group-item"><i class="fal fa-users"></i> <span class="txt">People</span></a>
-
- -->
 	</div>
 </div>
 
@@ -78,49 +74,48 @@
 		</h2>
 			
 		<div class="row fit_partner_logos">
+			<div class="col-md-4">
+        <div class="tile">
+          <a href="https://www.dilinduwa.com.au" target="_blank">
+            <img src="/assets/images/partners/dilinduwa/logo.jpg" alt="logo">
+          </a>
+        </div>
+      </div> 
       <div class="col-md-4">
       	<div class="tile">
-      		<a target="_blank" href="https://exchange.telstra.com.au/foundation-about-us">
-		        <img src="/assets/images/partners/telstra/telstra_logo.png" alt="image">
+      		<a target="_blank" href="https://mulagofoundation.org/" target="_blank">
+		        <img src="/assets/images/partners/mulago/mulago_logo.jpg" alt="logo">
+	        </a>
+				</div>
+      </div>
+      <div class="col-md-4">
+      	<div class="tile">
+      		<a target="_blank" href="https://exchange.telstra.com.au/foundation-about-us" target="_blank">
+		        <img src="/assets/images/partners/telstra/telstra_logo.png" alt="logo">
 		      </a>
 	      </div>
       </div>
       <div class="col-md-4">
       	<div class="tile">
-      		<a target="_blank" href="https://mulagofoundation.org/">
-		        <img src="/assets/images/partners/mulago/mulago_logo.jpg" alt="image">
-	        </a>
-				</div>
-      </div>
-
-      <div class="col-md-4">
-      	<div class="tile">
-      		<a target="_blank" href="https://www.firetree.org/">
-		        <img src="/assets/images/partners/firetree/logo.jpg" alt="image">
+      		<a target="_blank" href="https://www.firetree.org/" target="_blank">
+		        <img src="/assets/images/partners/firetree/logo.jpg" alt="logo">
 		      </a>
       	</div>
       </div>
       <div class="col-md-4">
       	<div class="tile">
-      		<a href="https://www.sheinvestments.com">
-		        <img src="/assets/images/partners/she/logo.jpg" alt="image">
+      		<a href="https://www.sheinvestments.com" target="_blank">
+		        <img src="/assets/images/partners/she/logo.jpg" alt="logo">
 		      </a>
         </div>
       </div>
       <div class="col-md-4">
         <div class="tile">
-          <a href="https://www.education.vic.gov.au/about/programs/learningdev/techschools/Pages/default.aspx">
-            <img src="/assets/images/partners/det/det_logo.jpg" alt="image">
+          <a href="https://www.education.vic.gov.au/about/programs/learningdev/techschools/Pages/default.aspx" target="_blank">
+            <img src="/assets/images/partners/det/det_logo.jpg" alt="logo">
           </a>
         </div>
       </div>
-      <div class="col-md-4">
-        <div class="tile">
-          <a href="https://www.griffith.edu.au/griffith-business-school/yunus-centre">
-            <img src="/assets/images/partners/griffith/logo.png" alt="image">
-          </a>
-        </div>
-      </div>                
     </div>
 
 
@@ -128,7 +123,7 @@
 
 		<h2 class="purple">
 			<small><i class="fal fa-users"></i> Teachers &amp; geeks</small>
-			Them what did the work:
+			Some nice people:
 		</h2>
 
 		<div class="row">
@@ -326,7 +321,6 @@
 		<div class="friend active">
 			<p><i class="fal fa-envelope"></i>&nbsp; <a href="mailto:hello@fitzroyacademy.com">hello@fitzroyacademy.com</a></p>
 			<p>Consider joining Will at the <a href="https://ccl.org.au/" target="_blank">Citizen's Climate Lobby</a> to work on climate policy, or support <a href="https://oilportraits.org/" target="_blank">Rami's art!</a></p>
-			<cite>- Much love, Will and Avraham.</cite>
 		</div>
 	</blockquote>
 

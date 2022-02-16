@@ -10,6 +10,8 @@
 
 		<p>Learn about your user's experiences using this simple user testing framework.</p>
 
+		<a href="/lessons/empathy" class="btn btn-outline-secondary">Watch lesson <i class="fal fa-arrow-right"></i></a>
+
 		<div class="meta">
 			<p><i class="far fa-play-circle"></i> ~10 minutes over 4 videos</p>
 			<p><i class="far fa-clock"></i> About 1 hours of work to do it solo</p>

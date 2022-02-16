@@ -2116,7 +2116,7 @@ $square_size: 22rem;
 .fit_partner_logos .tile{height: 11rem;}
 .fit_partner_logos img{max-height: 5rem; max-width: 15rem; margin:1.5rem; width: auto;}
 
-.fit_partner_logos .tile{border-radius: 1rem; background: #fff; padding:1.5rem;}
+.fit_partner_logos .tile{border-radius: 1rem; background: #fff; padding:1.5rem; display: flex; justify-content: center; align-items: center;}
 .fit_partner_logos .tile h4{font-size: 1.5rem;}
 
 .fit_medium .fit_summary_icons dd{padding-bottom: 1rem;}
@@ -3066,7 +3066,7 @@ $black: #1c1f20;
 
 $fat_sidepad: 6rem;
 
-$max_width: 80rem;
+$max_width: 60rem;
 
 html.section-play .fit_debug{display: none;}
 
@@ -4142,12 +4142,8 @@ dl.fat_storyline dd:last-child::after{display: none;}
 
 @media (min-width: 1140px) {
 	.fat_nav {position: sticky; padding: 0 4rem;}
-	.fat_section:not(.fat_pic_grid){padding-top: 6rem;}
 
 	.fat_quote.left{margin-left: -2rem;}
-}
-
-@media (min-width: 1450px) {
 
 	// sizing:
 	.fat_hero,
@@ -4156,6 +4152,7 @@ dl.fat_storyline dd:last-child::after{display: none;}
 	.fat_section:not(.fat_pic_grid){max-width: $max_width; margin-left: auto; margin-right: auto; padding-left: 0; padding-right: 0;}
 
 	.fat_section:not(.fat_pic_grid){padding-top: 8rem; padding-bottom: 8rem;}
+
 }
 
 
@@ -4303,8 +4300,13 @@ $max_narrow_width: 60rem;
 .segment h2 .no i{font-size: 80%;}
 .segment p{font-size: 1.1rem;}
 
+.segment h3{font-size: 1.5rem; padding-top: 2rem;}
 
-.segment img{max-width: 100%; margin-bottom: 1rem;}
+.segment blockquote{font-family: 'Merriweather', serif;}
+.segment blockquote p{font-size: 1.3rem; font-style: italic; border-left: 3px solid $bg; padding-left: 1rem;}
+
+.segment .image{margin: 1rem 1rem 2rem;}
+.segment .image img{max-width: 100%;} 
 
 // the love for mike
 .segment.segment_heart{margin-top: -2rem; padding-bottom: 0;}
@@ -4516,10 +4518,12 @@ body.ineedshow .fat_head,
 body.ineedshow .fat_hero h1,
 body.ineedshow .all_lessons{opacity: 0.1; transition: all .25s ease-in-out; }
 
-@media (max-width: 1450px) {
-	.all_lessons .love,
-	.total_num{left: 5rem;}
-}
+
+// why is this broke?
+// @media (max-width: 1450px) {
+// 	.all_lessons .love,
+// 	.total_num{left: 5rem;}
+// }
 
 @media (max-width: 1200px) {
 	body{padding-top: 6rem;}
@@ -4561,6 +4565,23 @@ body.ineedshow .all_lessons{opacity: 0.1; transition: all .25s ease-in-out; }
 	// youchoob
 	.intro .segment {padding:0 0 0 6rem; min-height: 0;}
 	.intro .segment .youtube{width: 4rem; height: 5rem; left: 1rem;}
+	.intro .segment h1{min-height: 6rem;}
+	.intro .segment > p,
+	.intro .segment .btn,
+	.intro .segment .meta{margin-left: -5rem;}
+	.all_lessons{padding-left: 0 !important;}
+	.all_lessons .intro {min-height: none; border-bottom:3px solid $bg; margin-bottom: 2rem;}
+	.all_lessons .intro .segment{padding-bottom: 1rem;}
+
+	.intro .segment.video_playing{padding: 1rem;}
+	.intro .segment.video_playing > p,
+	.intro .segment.video_playing .btn,
+	.intro .segment.video_playing .meta{margin-left: 0;}
+
+	.youtube .time{display: none;}
+
+	.all_lessons .intro h1:before{position: relative; display: inline-block; left: 0; top: 0; width: auto; margin: 0 .5rem 0 0; padding: 0;}
+	.intro .segment:after{display: none;}
 
 	.intro, 
 	.teaching_guide{padding: 1rem 0;}
@@ -4627,12 +4648,12 @@ body.ineedshow .all_lessons{opacity: 0.1; transition: all .25s ease-in-out; }
 // - left border 
 // - make video more clickable ✅
 // - intro: play with MM:SS
-// - look through the "time needed" icons
-// - Fix prash's lesson
+// - look through the "time needed" icons ✅
+// - Fix prash's lesson ✅
 
 
 // rami noticed:
 
-// - F is close on laptop screen
-// - heart is broke ""
+// - F is close on laptop screen ✅
+// - heart is broke "" ✅
 // 
