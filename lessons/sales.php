@@ -56,6 +56,10 @@
 	<<div class="segment further_reading" id="reading">
 		<h2><span class="no"><i class="fas fa-books"></i></span> Further reading</h2>
 		<div class="resources">
+			<a class="resource" href="https://www.alberts.co/news-and-views/reflections-on-the-last-decade-of-early-stage-impact-investing/" target="_blank">
+				<i class="far fa-browser"></i>
+				<h4>Reflections on the last decade of early stage impact investing.</h4>
+			</a>
 			<a class="resource" href="https://www.amazon.com/Give-Take-Helping-Others-Success/dp/0143124986" target="_blank">
 				<i class="far fa-book"></i>
 				<h4>Give and Take by Adam Grant.</h4>

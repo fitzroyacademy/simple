@@ -8,7 +8,7 @@
 			<div class="time"><em>Play trailer - </em><strong>1:23</strong></div>
 		</div>
 
-		<p>Make spreadhseets your friend by building a model to forecast your month-by-month financial growth, and strategise how to get there.</p>
+		<p>Make spreadsheets your friend by building a model to forecast your month-by-month financial growth, and strategise how to get there.</p>
 
 		<a href="/lessons/forecast" class="btn btn-outline-secondary">Watch lesson <i class="fal fa-arrow-right"></i></a>
 
