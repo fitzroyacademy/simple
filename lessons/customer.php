@@ -9,12 +9,12 @@
 	<div class="segment segment_resources" id="resources">
 		<h2><span class="no"><i class="far fa-file-alt"></i></span> Lesson resources</h2>
 		<div class="resources">
-			<a class="resource" href="https://docs.google.com/spreadsheets/d/1tH7xd1UwTnx0XnmwAtuBTj0I6L1yIy0QT2cprIwjn2s/edit?usp=sharing" target="_blank">
+			<a class="resource" href="https://docs.google.com/document/d/1GX1iJX7GjnkksTRbtJUzaJkFhKvBcT_OQXcKDs_M9C0/edit" target="_blank">
 				<i class="far fa-file-alt"></i>
 				<h4>Customer interview template - Blank</h4>
 				<p>The blank template used by Vic in the lesson.</p>
 			</a>
-			<a class="resource" href="https://docs.google.com/spreadsheets/d/1GEIU9WmgSc6P7fXKK_L0byu0GyKGcS02cBv8T9vtoDA/edit?usp=sharing" target="_blank">
+			<a class="resource" href="https://docs.google.com/document/d/1bbtBDVyZv9EAGHPn_H0OUxjNJ-UKZRTSsXQzoFy5EM0/edit" target="_blank">
 				<i class="far fa-file-spreadsheet"></i>
 				<h4>'Garage sale app' customer interviews - Lesson example</h4>
 				<p>Fictional example of an interview as research for a garage sale app.</p>
