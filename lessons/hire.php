@@ -15,7 +15,7 @@
 				<h4>Skills matrix template - Blank.</h4>
 				<p>The blank skills matrix template to help you sort out the activities that need to be done in your team, and your skills with them.</p>
 			</a>
-			<a class="resource" href="https://docs.google.com/spreadsheets/d/1GEIU9WmgSc6P7fXKK_L0byu0GyKGcS02cBv8T9vtoDA/edit?usp=sharing" target="_blank">
+			<a class="resource" href="https://docs.google.com/document/d/1-A-aexxfVNm6gCAgj4Y4wsgwWVbJ7-bNA5o24lkVTYo/edit" target="_blank">
 				<i class="far fa-file-spreadsheet"></i>
 				<h4>Position description template - Blank.</h4>
 				<p>The blank position description template to help you find the right candidates to interview.</p>
@@ -25,12 +25,12 @@
 				<h4>Canidate tracking board - lesson example</h4>
 				<p>Using trello, this is a board that you can use to keep track of the candidates that come in and interview for a job.</p>
 			</a>
-			<a class="resource" href="https://docs.google.com/spreadsheets/d/1H2sQJR05Iuaw4ToWrEisFfMXoYRtxqpVNKmigpfsKOM/edit?usp=sharing" target="_blank">
+			<a class="resource" href="https://docs.google.com/spreadsheets/d/1LoO5PbcpIdjoLfS2sN_bMyy1fyFqWSTearunp8CLf4A/edit#gid=1210259697" target="_blank">
 				<i class="far fa-file-spreadsheet"></i>
 				<h4>'Event and marketing position' skills matrix - lesson example.</h4>
 				<p>The completed skills matrix that Will takes you through in this lesson.</p>
 			</a>
-			<a class="resource" href="https://docs.google.com/spreadsheets/d/1lMP2BTGaoz7hLX_4W-EQO_QkJ7tTD7zuv6fjdFT-VTk/edit?usp=sharing" target="_blank">
+			<a class="resource" href="https://docs.google.com/document/d/1hf0-dGfoJ7UjHhnvb0PZPGP94D-AOJEWnKrR26hBNOI/edit" target="_blank">
 				<i class="far fa-file-spreadsheet"></i>
 				<h4>'Event and marketing' position description - lesson example.</h4>
 				<p>The completed position description that Will takes you through in this lesson.</p>
@@ -92,21 +92,7 @@
 		<p>Finally, you've had some interviews and it's time to make a decision. Layla shows you how to inform the successful canidate, as well as the unsuccessful candidates.</p>
 	</div>
 
-	<div class="segment further_reading" id="reading">
-			<h2><span class="no"><i class="fas fa-books"></i></span> Further reading</h2>
-			<div class="resources">
-					<a class="resource" href="https://" target="_blank">
-					<i class="far fa-book"></i>
-					<h4>Book title</h4>
-					<p>Some book.</p>
-				</a>
-				<a class="resource" href="https://" target="_blank">
-					<i class="far fa-headphones"></i>
-					<h4>Podcast title</h4>
-					<p>Podcast title.</p>
-				</a>
-			</div>
-		</div>
+</div>
 
 <div class="teaching_guide">
 	<div class="segments" id="teaching">
